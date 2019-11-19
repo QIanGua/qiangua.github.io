@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pyhsics on 采采流水</title>
+    <link>https://qiangua.github.io/categories/pyhsics/</link>
+    <description>Recent content in Pyhsics on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/categories/pyhsics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HEOM and Linear Response</title>
+      <link>https://qiangua.github.io/post/2018/02/25/heom-and-linear-response/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/02/25/heom-and-linear-response/</guid>
+      <description>Keywords
+Hamiltonian:
+SBM + Bath(Ohimc/Subohmic) + Force $$ H_{tot}(t) = \hat{H}_0 - F(t)\hat{B}_1, $$
+Eg: $$ F(t) = \lambda e^{-t}, $$
+Response function: $$ R^{(1)}(t_1) = \frac{i}{\hbar}\langle[\hat{A}(t_1),\hat{B}1]\rangle{eq}, $$</description>
+    </item>
+    
+    <item>
+      <title>Linear response theory</title>
+      <link>https://qiangua.github.io/post/2018/02/25/linear-response-theory/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/02/25/linear-response-theory/</guid>
+      <description> Linear response theory [TOC]
+Classical linear response theory Response function
+Correlation funtion
+###Onsager&amp;rsquo;s hypothesis
+涨落耗散定理
+###Kubo formula
+Quantum linear response theory </description>
+    </item>
+    
+  </channel>
+</rss>

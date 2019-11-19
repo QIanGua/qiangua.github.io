@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tool on 采采流水</title>
+    <link>https://qiangua.github.io/tags/tool/</link>
+    <description>Recent content in tool on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get data from the figure</title>
+      <link>https://qiangua.github.io/post/2018/04/11/get-data-from-the-figure/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/04/11/get-data-from-the-figure/</guid>
+      <description>Get data from the figure in the paper Target ：Get data from the figure in paper
+Method: Using some practical softwares(only in Windows), including Get data, Photoshop(or Paint 🎨 )
+Process:
+ Capture the figure from the paper Use PS to erase the irrelevant lines(as clear as possible &amp;amp; save the figure) Open the Get data Graph digitalization Input your revised figure in step 2 Set the scale from the operation in the menu Use auto trace line, digitize area or point capture mode to get the data Use reorder tool to put the data in the order  A useful link to download the get data software : http://www.</description>
+    </item>
+    
+    <item>
+      <title>软件选择标准</title>
+      <link>https://qiangua.github.io/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</link>
+      <pubDate>Tue, 28 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</guid>
+      <description> Draft『Updating』 [TOC]
+状态栏  显示当前文件路径 显示行号  语法高亮 自动备份 文件导出 其它  全屏 快捷键可自定義 帮助文件 自定义配色 外表，结构，功能，稳定性 批量處理 軟件交互 外觀簡潔，條理清晰  </description>
+    </item>
+    
+    <item>
+      <title>利器清单</title>
+      <link>https://qiangua.github.io/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</link>
+      <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</guid>
+      <description>利器清单 [TOC]
+ 斑斑疏影， 尽是法身；
+皎皎月华， 无非般若。
+你内心肯定有着某种火焰，能把你和其他人区别开来。
+ 效率提升  Everything —— 文件快速搜索 Listary —— 软件快速启动 Clover —— 文件标签页 Phraseexpress —— 快捷输入常用语句 Autohotkey —— 包罗万象，比如设置快捷键 Chrome &amp;amp; Firefox —— 支持Vim 浏览， Chrome典雅， Firefox自由度更大 Zotero —— 文献管理、搜集 WGestures —— 鼠标手势 Snipaste —— 好用的截图贴图软件 Total Commander—— 多功能文件管理器  写作  Typora —— 极简优雅的Markdown编辑器，支持Tex，即时预览。本文就是用完成的。 TeXmacs —— 主要用来写数学公式较多的笔记，也是一个神器，插入表格、图片都小菜一碟。 LaTex —— 用来写比较正式的Paper，也写过挺多的实验报告。用Texiteasy 或 Emacs 的Auctex 来写比较快。  编程  Sublime ——平时编程的主力，配色、插件、快捷键用起来很舒服。 Emacs—— 大名鼎鼎，不用过多介绍了吧。 主要用Orgmode 和 Auctex。 Mathematica—— 符号公式推导，专业必备，帮助文档很好。 Matlab—— 用来做一些计算量小程序，可视化效果很好。 Python—— 近年来很火，刚自学不久，还不太熟。  画图  Origin—— 据说是SCI 画图必备 Python—— Matplotlib Graphviz—— 适用于画各种流程图  其它  f.</description>
+    </item>
+    
+  </channel>
+</rss>

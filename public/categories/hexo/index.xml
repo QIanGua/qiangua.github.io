@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HEXO on 采采流水</title>
+    <link>https://qiangua.github.io/categories/hexo/</link>
+    <description>Recent content in HEXO on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/categories/hexo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hexo写作话题</title>
+      <link>https://qiangua.github.io/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</guid>
+      <description> Topics 1.Physics 2. LaTex 3. Pandoc  如何转为中文pdf  4. Git/GitHub 版本控制
+5. Mathematics 6. Languages 7. Writing 8. Emacs  Org-mode (中文问题解决方法) 已初步解决（xelatex+utf8）  9. 博客美化  配色 字体 分类样式  </description>
+    </item>
+    
+  </channel>
+</rss>

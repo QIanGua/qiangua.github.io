@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>修图 on 采采流水</title>
+    <link>https://qiangua.github.io/tags/%E4%BF%AE%E5%9B%BE/</link>
+    <description>Recent content in 修图 on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/%E4%BF%AE%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修图简记</title>
+      <link>https://qiangua.github.io/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</guid>
+      <description> Origin 画图格式备忘 [TOC]
+1. 大小 size 长宽比： 指的是边框的比例。
+ 对于2(or 4)张图并列情况  长：143.604 mm
+宽：144.963 mm
+ 对于8张图并列情况  长：143.604 mm
+宽：120 mm
+2. 边框粗细 设为 6
+3. 字体及大小 字体用默认的 Arial
+title 大小： 53
+legend： 45
+4. 间距  两幅图的间距 6 个网格(Ai 里) tick 到 下边框的距离 设为 -15  5. 基本原则  Ai 里所有eps都要嵌入进去，保持图的独立性 图文分开处理，先调整图，最后在加入 title及其它注释 注意图的比例情况，相互之间的间距，前后要统一  </description>
+    </item>
+    
+  </channel>
+</rss>

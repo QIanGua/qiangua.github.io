@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on 采采流水</title>
+    <link>https://qiangua.github.io/tags/note/</link>
+    <description>Recent content in Note on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Find in terminal</title>
+      <link>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</guid>
+      <description> Find files from terminal [TOC]
+Tools basic commonds find 目录搜索
+grep 文本搜索
+Efficient commonds fzf
+rg(ripgrep):
+&amp;gt; rg &#39;word&#39;  fd
+&amp;gt; fd &#39;file&#39;  Find files Find Word in Files </description>
+    </item>
+    
+    <item>
+      <title>A Short Summary of Recent Calculation</title>
+      <link>https://qiangua.github.io/post/2019/08/23/a-short-summary-of-recent-calculation/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2019/08/23/a-short-summary-of-recent-calculation/</guid>
+      <description>Time correlation function In this calculation, the bath spectrum used include Ohmic bath with exponential cutoff funciton and the Debye bath.
+Temperature high temperature, $\beta=0.25$ low temperature,$\beta=10,50$ $\beta=1/k_BT=0.25,1,5,10,50$
+Scaling limit $\omega_c/\Delta=0.25,2,2.5,5$
+Debye Spectrum The imaginary part of C(t) can be replaced by a single exponential function
+$$C_I(t)=-\lambda\omega_c \exp(-\omega_c t).$$
+Meanwhile, this need us to fit the real part more carefully.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Quantum Optimal Control</title>
+      <link>https://qiangua.github.io/post/2019/08/20/notes-of-quantum-optimal-control/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
+      <description>Notes of Quantum Optimal Control The system Hamiltonian: $$ H = \Delta_p(t)|e\rangle\langle e| + \frac{1}{2}[\Omega_p(t)|e\rangle\langle 0 |+\Omega_s(t)|e\rangle\langle 1| + h.c.], $$
+Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),
+\Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),
+\Omega_s(t) = \Omega(t)\cos(\alpha)\sin(\theta/2)e^{-i\phi},
+\Omega(t) = \Omega_0 \sin^2(\pi t/\tau).
+\alpha=0,\theta=\pi/2,\phi=0
+\tau=tmax=100 ns,\Omega_0\tau=4\pi $$
+$\alpha=0,\theta=\pi/2,\phi=0$
+$\tau=tmax=100 ns,\Omega_0\tau=4\pi$
+$dt=0.5 ns$
+Pulse 2 $$ \Delta_p(t) = 0,
+\Omega_p(t) = \Omega(t)\cos(\theta(t)),
+\Omega_s(t) = \Omega(t)\cos(\theta(t)),\</description>
+    </item>
+    
+    <item>
+      <title>博客迁移</title>
+      <link>https://qiangua.github.io/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
+      <description>博客迁移 值本命年到来之际，咬牙换了台电脑，从此也进入 MBP 的领地了，用起来非常舒心。 趁着还没开学，使劲折腾了一番，今晚把 hexo 也同步到新的 Mac 上了，从此可以愉快的 hexo 了。</description>
+    </item>
+    
+    <item>
+      <title>读书笔记2——《西方文化的衰落》</title>
+      <link>https://qiangua.github.io/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
+      <description>随笔  当你的生活越来越波澜不惊之时，当心！你要确保你没落入“常人的生活”，免得重蹈伊凡伊里奇的覆辙。
+​ ——采采流水
+ 经历 [update 2019.06.14] 最初接触到『西衰』这本书还是在大学时候听司强老师介绍的，他当时描述说在朋友那里看到这本书一下子就被吸引住了，我也一下子就来了兴趣。拿到书后，第一反应是书的翻译真有文采呀，好奇英文原文该是如何？</description>
+    </item>
+    
+    <item>
+      <title>读书笔记1——《西方文化的衰落》</title>
+      <link>https://qiangua.github.io/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
+      <description> 读书笔记1——《西方文化的衰落》  一时间她们陶醉在与对方天长地久的激情中， 未几， 在蝇头般的压力下， 她们的山盟海誓立刻改变了对象。其实她们爱的是被爱的感觉， 并不是对方那个人；她们爱的是激情本身，对方那个人无非是一个随意的启动装置。那些销魂爱语是一堆无意义的泡沫。法国心理学家拉罗什富科0在他1678年的作品《箴言集》(Maxims)中曾写到：“爱，犹如火焰，需要不断煽动；一旦停止希望，或停止担忧，爱就寿终正寝了。”
+ </description>
+    </item>
+    
+  </channel>
+</rss>

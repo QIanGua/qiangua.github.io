@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plot on 采采流水</title>
+    <link>https://qiangua.github.io/tags/plot/</link>
+    <description>Recent content in plot on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ways of Plotting</title>
+      <link>https://qiangua.github.io/post/2018/06/06/ways-of-plotting/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/06/06/ways-of-plotting/</guid>
+      <description>Ways of Plotting 作图 根据类型划分
+函数类型 有明确的解析表达式，或者数据对。
+先得到明确的数据集，即 $(x_i,y_i)$ . Dat 文件
+可以先用 Mathematica、Matlab，最后用 Origin、Plot2，Gnuplot
+流程图的画可以考虑用 Graphviz 来画，当然用思维导图会快一点 MindNode 。
+示意图 通用的 PPT， Mac 上用 OminiGraffe。Tex 的 tikz 也是个不错的选择，不过有门槛。
+基本元素，变换方式，
+信息流
+配色 配色是个非常重要的环节。平时需要收集一些悦目的色系。
+用颜色突出重点元素。
+分类清楚，颜色分明悦目，标记恰当
+导出 一般至少要支持 eps 格式。</description>
+    </item>
+    
+    <item>
+      <title>Flow Plot</title>
+      <link>https://qiangua.github.io/post/2017/11/03/flow-plot/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/11/03/flow-plot/</guid>
+      <description>st=&amp;gt;start: Start op=&amp;gt;operation: Your Operation cond=&amp;gt;condition: Yes or No? e=&amp;gt;end st-&amp;gt;op-&amp;gt;cond cond(yes)-&amp;gt;e cond(no)-&amp;gt;op  graph LR A[Hard edge] --&amp;gt;B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two]  </description>
+    </item>
+    
+  </channel>
+</rss>

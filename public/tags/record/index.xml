@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>record on 采采流水</title>
+    <link>https://qiangua.github.io/tags/record/</link>
+    <description>Recent content in record on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/record/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>520日記</title>
+      <link>https://qiangua.github.io/post/2018/05/20/520%E6%97%A5%E8%A8%98/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/05/20/520%E6%97%A5%E8%A8%98/</guid>
+      <description>Plot2 畫圖 Mac 生态里没有了 Origin， 另寻了一个数据画图工具 Plot2 ，下面是一个简单测试。
+主要界面 如圖：
+
+
+注意 Buffer 的概念，每個數據表格都在一個 Buffer 裡。
+效果测试圖：
+
+
+幾個法律概念 法人： 法律上擬定的人，與自然人相對的概念。 通常是代表組織，非指特定的個人。
+法人代表： 法人的授權代表，取決於法人的授權。 對於大學來講，通常是校長。
+法定代表人：《民法通則》規定“依據法律或者法人組織章程規定，代表法人行使職權的負責人，是法人的法定達標人。” 代表人的行為超出法人授予的權力範圍，法人就可能為其承擔責任。</description>
+    </item>
+    
+    <item>
+      <title>Records Related with My Mac</title>
+      <link>https://qiangua.github.io/post/2018/05/12/records-related-with-my-mac/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2018/05/12/records-related-with-my-mac/</guid>
+      <description>Records of Mac APPs Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
+ %右⇧ =&amp;gt; Capuslock
+Capuslock =&amp;gt; Ctrl
+ ## 编程环境
+1. Fortran  brew instal. gcc
+ gfortran XX.f90 -0 xx
+./XX
+  2. Python  Anaconda
+ 3. 命令行配置 ####iTterm2
+zsh oh-my-zsh 好用插件：
+ osx  ofd ：在命令行中可以打开 FInder 并进入当前目录
+cdf：在命令行中快速跳转到 Finder 已经打开的目录
+Buile Texmacs with Cmake on Mac OS 4. 浏览器 快速定位到搜索栏：⌘+L 或 ⌘+⌥+F</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Vim 修炼成长记录 - 采采流水</title>
+    <meta property="og:title" content="Vim 修炼成长记录 - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="参考书籍《Vim 实用技巧》
+[&amp;hellip;] 理想的操作是“用一键移动，另一键执行”
+执行——重复——回退
+“. 范式”
+使每个可撤销模块对应一次思考过程
+构造可重复的修改
+标记跳回：m{},``
+[&amp;hellip;] 使移动可重复
+「f、；」
+[&amp;hellip;] “&#43;y 复制到系统剪贴板
+”&#43;p 从系统剪贴板粘贴
+[&amp;hellip;] 「f,b,a,i」
+[&amp;hellip;] 思路1，先 &amp;hellip;">
+      <meta property="og:description" content="参考书籍《Vim 实用技巧》
+[&amp;hellip;] 理想的操作是“用一键移动，另一键执行”
+执行——重复——回退
+“. 范式”
+使每个可撤销模块对应一次思考过程
+构造可重复的修改
+标记跳回：m{},``
+[&amp;hellip;] 使移动可重复
+「f、；」
+[&amp;hellip;] “&#43;y 复制到系统剪贴板
+”&#43;p 从系统剪贴板粘贴
+[&amp;hellip;] 「f,b,a,i」
+[&amp;hellip;] 思路1，先 &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Vim 修炼成长记录</h1>
+
+<h3>
+  2018-05-11</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="vim-修炼成长记录">Vim 修炼成长记录</h2>
+
+<p><strong>参考书籍《Vim 实用技巧》</strong></p>
+
+<h2 id="基本存活技能">基本存活技能</h2>
+
+<h3 id="输入">输入</h3>
+
+<h3 id="操作">操作</h3>
+
+<h3 id="退出">退出</h3>
+
+<h2 id="问题式驱动">问题式驱动</h2>
+
+<p>理想的操作是“用一键移动，另一键执行”</p>
+
+<p><strong>执行——重复——回退</strong></p>
+
+<p><strong>“. 范式”</strong></p>
+
+<p>使每个可撤销模块对应一次思考过程</p>
+
+<p>构造可重复的修改</p>
+
+<p>标记跳回：m{},``</p>
+
+<h3 id="快速移动">快速移动</h3>
+
+<p>使移动可重复</p>
+
+<p>「<strong>f</strong>、<strong>；</strong>」</p>
+
+<h3 id="复制粘贴">复制粘贴</h3>
+
+<blockquote>
+<p><strong>“+y</strong> 复制到系统剪贴板</p>
+
+<p><strong>”+p 从系统剪贴板粘贴</strong></p>
+</blockquote>
+
+<h3 id="同行操作">同行操作</h3>
+
+<p>「<strong>f,b,a,i</strong>」</p>
+
+<h3 id="多行操作">多行操作</h3>
+
+<h3 id="搜索操作">搜索操作</h3>
+
+<h3 id="查找替换">查找替换</h3>
+
+<h3 id="多标签">多标签</h3>
+
+<h2 id="交换">交换</h2>
+
+<h3 id="行交换">行交换</h3>
+
+<p><strong>思路1，先删除再复制。实际就是用寄存器来当转运站</strong></p>
+
+<blockquote>
+<p>yyp</p>
+</blockquote>
+
+<p>同理还有词交换，字母交换，句子交换等。同样的道理是：</p>
+
+<p><strong>现选中目标A，然后删除，标记位置 ‘mm’ 方便返回，再选中目标B ‘vne&rsquo;，再粘贴覆盖，然后返回标记位置‘ `m ’， 粘贴P。</strong></p>
+
+<p>其他还有类似</p>
+
+<p>t，m 等用法对于<strong>跨行交换</strong>会快一些。</p>
+
+<p>####　大小写</p>
+
+<blockquote>
+<p>gu、gU</p>
+</blockquote>
+
+<p>可以作用在 字母、单词、段落上。</p>
+
+<blockquote>
+<p>gU2l, gU2w, gU2p</p>
+</blockquote>
+
+<p>连续两次调用表示作用在当前行</p>
+
+<blockquote>
+<p>&rsquo;&gt;&gt;&lsquo;, &lsquo;dd&rsquo;, &lsquo;yy&rsquo;,&lsquo;gUU&rsquo;</p>
+</blockquote>
+
+<h3 id="退出插入模式">退出插入模式</h3>
+
+<pre><code>normap kj &lt;esc&gt;
+</code></pre>
+
+<h3 id="注释-commentor">注释 commentor</h3>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

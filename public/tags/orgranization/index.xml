@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>orgranization on 采采流水</title>
+    <link>https://qiangua.github.io/tags/orgranization/</link>
+    <description>Recent content in orgranization on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/orgranization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>数据处理备忘录</title>
+      <link>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+      <description> 数据操作[Updating] Matlab 遍历文件夹读取数据 主要处理的是ASCII的dat文件，使用dlmread来读取。
+一个小型Matlab脚本样例：
+% data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list namelist=dir([address,&#39;*.dat&#39;]); % write in the data matrix rowsize= 100000 colsize= 2 data=zeros(rowsize,colsize); dim = length(namelist); for i=1:dim filename=[address,namelist(i).name]; temp=dlmread(filename,&#39;&#39;,[0 1 rowsize-1 2]); data(:,i)=temp(:,1)-temp(:,2); end time_array=dlmread(filename,&#39;&#39;,[0 0 rowsize-1 0]); plot(time_array,data(:,1:dim))  Matlab批量拟合 之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，
+故此重新找一些可以进行批量拟合的方法。一个是尝试使用Python来完成， 这肯定是可以做的事情。另一个就是使用
+matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matlab开始吧。废话少说，上代码：
+% multi-fitting % prediction the converge data hier=[6:9]&#39;; cutoff_order = hier(end)+1; dim_up=length(data); pred_arr=zeros(dim_up,1); for posi = 1:dim_up if(mod(posi,1000)==0) posi/dim_up end temp = data(posi,:)&#39;; f=fit(hier,temp,&#39;exp2&#39;,&#39;Robust&#39;, &#39;LAR&#39;); pred_arr(posi,1)= f(cutoff_order); end  </description>
+    </item>
+    
+    <item>
+      <title>文件整理术</title>
+      <link>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
+      <description> 文件整理术[TODO] 粗略的设想 群分类思想
+系统论交互
+文件类型——软件 （一一对应）
+整合：使用库功能来整合不同类型的文件，一个库即一个Project
+必须容易查询——命名原则
+文件树分枝结构
+临时文件的处理方式
+软件辅助使系统高效运转
+流程 收集——存储——处理——备份——查找
+收集：
+ 网络下载——浏览器 QQ或Wechat——下载位置 程序/软件生成——xshell、Matlab、Origin etc  存储：
+ 硬盘(C、D、E) 移动硬盘 U盘  处理：
+ 画图——To origin 分析——Matlab、Excel、Mathematica 压缩——右键7z 比较合并——TC  备份：
+ 坚果云 移动硬盘 网盘 Git 版本管理  搜索：
+ 文件存储位置
+ 文件名及关键词@
+ Everything@搜索语法
+  目录结构[Important] graph LR A[根目录Bin] --&amp;gt;A1(其它) A --&amp;gt; A2(科研) A2--&amp;gt; A2B(课题) A2B --&amp;gt;A2B1(子问题) A2B1--&amp;gt;A2B1C(文件夹分类) A2B1C--&amp;gt;A2B1C1(数据) A2B1C--&amp;gt;A2B1C2(程序) A2B1C--&amp;gt;A2B1C3(图片) A2B1C--&amp;gt;A2B1C4(笔记) C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two]  </description>
+    </item>
+    
+  </channel>
+</rss>

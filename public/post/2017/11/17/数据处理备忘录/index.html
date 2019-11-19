@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>数据处理备忘录 - 采采流水</title>
+    <meta property="og:title" content="数据处理备忘录 - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="主要处理的是ASCII的dat文件，使用dlmread来读取。
+一个小型Matlab脚本样例：
+% data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list &amp;hellip;">
+      <meta property="og:description" content="主要处理的是ASCII的dat文件，使用dlmread来读取。
+一个小型Matlab脚本样例：
+% data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>数据处理备忘录</h1>
+
+<h3>
+  2017-11-17</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="数据操作-updating">数据操作[Updating]</h1>
+
+<h2 id="matlab-遍历文件夹读取数据">Matlab 遍历文件夹读取数据</h2>
+
+<p>主要处理的是ASCII的dat文件，使用dlmread来读取。</p>
+
+<p>一个小型Matlab脚本样例：</p>
+
+<pre><code class="language-matlab">% data format [time rho11 rho22 .....]
+% file address
+address='E:\desk\alpha0.6_calculation\converge\';
+
+% file name list
+namelist=dir([address,'*.dat']);
+
+% write in the data matrix
+rowsize= 100000
+colsize= 2
+data=zeros(rowsize,colsize);
+
+dim = length(namelist);
+for i=1:dim
+   filename=[address,namelist(i).name];
+   temp=dlmread(filename,'',[0 1 rowsize-1 2]);
+   data(:,i)=temp(:,1)-temp(:,2);
+end
+
+
+time_array=dlmread(filename,'',[0 0 rowsize-1 0]);
+plot(time_array,data(:,1:dim))
+</code></pre>
+
+<h2 id="matlab批量拟合">Matlab批量拟合</h2>
+
+<p>之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，</p>
+
+<p>故此重新找一些可以进行批量拟合的方法。一个是尝试使用Python来完成， 这肯定是可以做的事情。另一个就是使用</p>
+
+<p>matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matlab开始吧。废话少说，上代码：</p>
+
+<pre><code class="language-matlab">% multi-fitting
+% prediction the converge data
+
+hier=[6:9]';
+cutoff_order = hier(end)+1;
+
+dim_up=length(data);
+pred_arr=zeros(dim_up,1);
+
+
+for posi = 1:dim_up
+    if(mod(posi,1000)==0)
+	  posi/dim_up
+    end
+    temp = data(posi,:)';
+    f=fit(hier,temp,'exp2','Robust', 'LAR');
+    pred_arr(posi,1)= f(cutoff_order);
+end
+</code></pre>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

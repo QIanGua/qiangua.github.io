@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>量子力学常见对易关系 - 采采流水</title>
+    <meta property="og:title" content="量子力学常见对易关系 - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="#量子力学常见对易关系及其证明
+标签（空格分隔）： Quantum Comumutor
+本文框架[TOC]
+[TOC]
+[&amp;hellip;] ##1. 基本对易关系 $$ \begin{equation} [X{\alpha},P{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+$$ \begin{equation} &amp;hellip;">
+      <meta property="og:description" content="#量子力学常见对易关系及其证明
+标签（空格分隔）： Quantum Comumutor
+本文框架[TOC]
+[TOC]
+[&amp;hellip;] ##1. 基本对易关系 $$ \begin{equation} [X{\alpha},P{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+$$ \begin{equation} &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>量子力学常见对易关系</h1>
+
+<h3>
+  2015-09-16</h3>
+<hr>
+
+
+      </header>
+
+
+
+<p>#量子力学常见对易关系及其证明</p>
+
+<p>标签（空格分隔）：  Quantum Comumutor</p>
+
+<p>本文框架<code>[TOC]</code></p>
+
+<p>[TOC]</p>
+
+<hr />
+
+<p>##1. 基本对易关系
+$$
+\begin{equation}
+[X<em>{\alpha},P</em>{\beta}]=i\hbar
+\label{eq:1}
+\end{equation}
+$$</p>
+
+<p>$$
+\begin{equation}
+[AB,C]=A[B,C]+[A,C]B
+\end{equation}
+$$</p>
+
+<p>$$
+\begin{align}
+[A,f(B)]&amp;=\frac{\partial f}{\partial B}[A,B]<br />
+[f(A),B]&amp;=-\frac{\partial f}{\partial A}[A,B]
+\label{eq:2}
+\end{align}
+$$
+根据\eqref{eq:2}可推出
+$$
+\begin{align}
+[X,f(P)]&amp;=-i\hbar\frac{\partial f}{\partial P}<br />
+[f(X),P]&amp;=i\hbar\frac{\partial f}{\partial X}<br />
+[A,B^n]&amp;=n B^{n-1} [A,B]
+\label{eq:3}
+\end{align}
+$$</p>
+
+<p>##2. 常见力学量的对易关系
+- <strong>角动量   （$J,J^2$）</strong>
+- <strong>升降算符 （$J_{\pm},a^+,a$）</strong>
+- <strong>自旋算符  ($\sigma_x,\sigma_y,\sigma_z$)</strong></p>
+
+<p><strong>角动量</strong>：
+$$
+\begin{align<em>}
+[J<em>{\alpha},X</em>{\beta}]&amp;=i\hbar\varepsilon<em>{\alpha\beta\gamma}X</em>{\gamma}<br />
+[J<em>{\alpha},P</em>{\beta}]&amp;=i\hbar\varepsilon<em>{\alpha\beta\gamma}P</em>{\gamma}<br />
+[J^{2},J_{\alpha}]&amp;=0<br />
+\end{align</em>}
+$$
+<strong>下面证明</strong>：
+$$
+\begin{align<em>}
+[J<em>{z},J</em>{\pm}]&amp;=[J<em>{z},J</em>{x}\pm i J<em>{y}]<br />
+               &amp;=[J</em>{z},J<em>{x}]+[J</em>{z},\pm i J<em>{y}]<br />
+               &amp;=i\hbar J</em>{y}\pm i[J<em>{z}, J</em>{y}] <br />
+               &amp;=i\hbar J<em>{y}\pm i(-i\hbar J</em>{x}) <br />
+               &amp;=i\hbar J<em>{y}\pm\hbar J</em>{x} <br />
+               &amp;=\pm\hbar J_{\pm}
+\end{align</em>}
+$$</p>
+
+<p><strong>升降算符</strong>：</p>
+
+<p>谐振子的哈密顿量为：
+$$
+\begin{align<em>}
+H=\hbar \omega(\frac{1}{2}+a^+a)<br />
+\end{align</em>}
+$$</p>
+
+<p>$$
+\begin{align<em>}
+a|n\rangle&amp;=\sqrt{n}|n-1\rangle<br />
+a^+|n\rangle&amp;=\sqrt{n+1}|n+1\rangle
+\end{align</em>}
+\eqref{eq:1}
+$$</p>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

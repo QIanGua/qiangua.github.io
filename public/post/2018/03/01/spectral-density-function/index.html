@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Spectral Density Function - 采采流水</title>
+    <meta property="og:title" content="Spectral Density Function - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="[TOC]
+[&amp;hellip;] 谐振子热库的关联函数： $$ C(t) = \frac{1}{\pi} \int_0^{\infty} J(\omega)\left[ \coth \frac{\beta\omega}{2}\cos \omega t - i \sin \omega t\right] \, d\omega, $$ 谱密度函数： $$ J(\omega) = &amp;hellip;">
+      <meta property="og:description" content="[TOC]
+[&amp;hellip;] 谐振子热库的关联函数： $$ C(t) = \frac{1}{\pi} \int_0^{\infty} J(\omega)\left[ \coth \frac{\beta\omega}{2}\cos \omega t - i \sin \omega t\right] \, d\omega, $$ 谱密度函数： $$ J(\omega) = &amp;hellip;">
+      
+    
+
+    
+    
+    <meta name="twitter:image" content="https://ws3.sinaimg.cn/large/006tNc79gy1foy8l76ou0j311z0e775i.jpg">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Spectral Density Function</h1>
+
+<h3>
+  2018-03-01</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="谱函数截断-之-关联函数图像">谱函数截断 之 关联函数图像</h1>
+
+<p>[TOC]</p>
+
+<h2 id="1-简明定义">1.简明定义</h2>
+
+<p>谐振子热库的关联函数：
+$$
+C(t) = \frac{1}{\pi} \int_0^{\infty} J(\omega)\left[ \coth \frac{\beta\omega}{2}\cos \omega t - i \sin \omega t\right] \, d\omega,
+$$
+谱密度函数：
+$$
+J(\omega) = \frac{\pi}{2}\sum_j \frac{c_j^2}{\omega_j}\delta(\omega-\omega_j).
+$$
+这里我们只关注其指数形式：
+$$
+ J(\omega)=\frac{\pi}{2}\alpha\omega^s\omega_c^{1-s}f(\frac{\omega}{\omega_c}),
+$$
+$f(\omega/\omega_c)$ 是截断函数，因为高频部分必然会衰减趋于零。</p>
+
+<h2 id="2-两种截断方式">2. 两种截断方式</h2>
+
+<p>针对谱函数做两种截断处理。</p>
+
+<h3 id="2-1-有理分式截断">2.1 有理分式截断</h3>
+
+<p>$$
+f(x=\frac{\omega}{\omega_c})=\frac{1}{(1+x^2)^{-2}}
+$$</p>
+
+<h3 id="2-2-指数衰减截断">2.2 指数衰减截断</h3>
+
+<p>$$
+f(x=\frac{\omega}{\omega_c})=\mathcal{e}^{-x}
+$$</p>
+
+<h2 id="3-函数图像">3. 函数图像</h2>
+
+<p>还是先用 <strong>Mathematica</strong> 画出来看看，最后用 <strong>Origin</strong> 画细致一点。</p>
+
+<p>需要先对 $\alpha$ 赋值。</p>
+
+<p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1foy8l76ou0j311z0e775i.jpg" alt="" /></p>
+
+<p>红线表示 Rational fraction cutoff</p>
+
+<p>蓝线表示 Exponential cutoff</p>
+
+<p>实线表示实部</p>
+
+<p>点线表示虚部</p>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

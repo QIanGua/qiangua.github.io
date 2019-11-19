@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>efficiency on 采采流水</title>
+    <link>https://qiangua.github.io/categories/efficiency/</link>
+    <description>Recent content in efficiency on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/categories/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Find in terminal</title>
+      <link>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</guid>
+      <description> Find files from terminal [TOC]
+Tools basic commonds find 目录搜索
+grep 文本搜索
+Efficient commonds fzf
+rg(ripgrep):
+&amp;gt; rg &#39;word&#39;  fd
+&amp;gt; fd &#39;file&#39;  Find files Find Word in Files </description>
+    </item>
+    
+  </channel>
+</rss>

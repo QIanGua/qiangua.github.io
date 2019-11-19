@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>LaTex $E=mc^{2}$ - 采采流水</title>
+    <meta property="og:title" content="LaTex $E=mc^{2}$ - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="$$ E=mc^{2} $$
+$$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} &#43; \frac{\partial^2 u}{\partial y^2} &#43; \frac{\partial^2 u}{\partial z^2}\right) $$
+[&amp;hellip;] $$ &amp;hellip;">
+      <meta property="og:description" content="$$ E=mc^{2} $$
+$$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} &#43; \frac{\partial^2 u}{\partial y^2} &#43; \frac{\partial^2 u}{\partial z^2}\right) $$
+[&amp;hellip;] $$ &amp;hellip;">
+      
+    
+
+    
+    
+    <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/26717-98a37c956d1e4c40.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>LaTex $E=mc^{2}$</h1>
+
+<h3>
+  2016-09-07</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="problem">Problem</h1>
+
+<hr />
+
+<h1 id="质能公式">质能公式</h1>
+
+<p>$$ E=mc^{2} $$</p>
+
+<p>$$
+\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
+$$</p>
+
+<h1 id="proof">Proof</h1>
+
+<p>$$
+e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y
+$$</p>
+
+<h1 id="solution">Solution</h1>
+
+<p>$$
+\begin{align<em>}
+e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma<em>z\phi}
+&amp;=e^{i\sigma</em>{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])<br />
+&amp;=\sigma<em>y+e^{i\sigma</em>{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]<br />
+&amp;=\sigma<em>y+e^{i\sigma</em>{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]<br />
+&amp;=\sigma<em>y-i sin(\phi) e^{i\sigma</em>{z}\phi}[\sigma_y,\sigma_z]<br />
+&amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y<br />
+&amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)<br />
+&amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y<br />
+&amp;=e^{2i\sigma_z\phi}\sigma_y
+\end{align</em>}
+$$</p>
+
+<p>$$
+\begin{align<em>}
+x &amp;= \sqrt{4^2-1^2} <br />
+  &amp;= \sqrt{15}.
+  \end{align</em>}$$
+$$</p>
+
+<p>$$
+\begin{align}
+\dot{x} &amp; = &amp; \sigma(y-x) \<br />
+\dot{y} &amp; = &amp;\rho x - y - xz \<br />
+\dot{z} &amp; = &amp;-\beta z + xy
+\end{align}
+$$
+$$
+\begin{align}
+\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \<br />
+\nabla\cdot\vec{B} &amp;=&amp; 0 \<br />
+\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \<br />
+\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+\end{align}
+$$</p>
+
+<p><strong>Useful formulas</strong>
+$$
+\begin{align}
+\hat{A}\hat{B}\hat{C}&amp;=\hat{A}(\hat{C}\hat{B}+[\hat{B},\hat{C}])\<br />
+\hat{I}&amp;=e^{i\sigma_z\phi}e^{-i\sigma_z\phi}\<br />
+e^{i\sigma_z\phi}&amp;=cos(\sigma_z\phi)+isin(\sigma_z\phi)\<br />
+                 &amp;=cos(\phi)+i\sigma_zsin(\phi)\<br />
+[\sigma_i,\sigma_j]&amp;=i\varepsilon_{ijk}\sigma_k\<br />
+\sigma_i\sigma<em>j&amp;=i\varepsilon</em>{ijk}\sigma_k
+\end{align}
+$$</p>
+
+<h1 id="插图测试">插图测试</h1>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/26717-98a37c956d1e4c40.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></p>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>文件整理术 - 采采流水</title>
+    <meta property="og:title" content="文件整理术 - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="群分类思想
+系统论交互
+文件类型——软件 （一一对应）
+整合：使用库功能来整合不同类型的文件，一个库即一个Project
+必须容易查询——命名原则
+文件树分枝结构
+临时文件的处理方式
+软件辅助使系统高效运转
+[&amp;hellip;] 收集——存储——处理——备份——查找
+收集：
+[&amp;hellip;] 存储：
+[&amp;hellip;] 处理：
+[&amp;hellip;] 备份：
+[&amp;hellip;] 搜索： &amp;hellip;">
+      <meta property="og:description" content="群分类思想
+系统论交互
+文件类型——软件 （一一对应）
+整合：使用库功能来整合不同类型的文件，一个库即一个Project
+必须容易查询——命名原则
+文件树分枝结构
+临时文件的处理方式
+软件辅助使系统高效运转
+[&amp;hellip;] 收集——存储——处理——备份——查找
+收集：
+[&amp;hellip;] 存储：
+[&amp;hellip;] 处理：
+[&amp;hellip;] 备份：
+[&amp;hellip;] 搜索： &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>文件整理术</h1>
+
+<h3>
+  2017-11-16</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="文件整理术-todo">文件整理术[TODO]</h1>
+
+<h2 id="粗略的设想">粗略的设想</h2>
+
+<p>群分类思想</p>
+
+<p>系统论交互</p>
+
+<p>文件类型——软件 （一一对应）</p>
+
+<p>整合：使用库功能来整合不同类型的文件，一个库即一个Project</p>
+
+<p>必须容易查询——命名原则</p>
+
+<p>文件树分枝结构</p>
+
+<p>临时文件的处理方式</p>
+
+<p>软件辅助使系统高效运转</p>
+
+<h2 id="流程">流程</h2>
+
+<p>收集——存储——处理——备份——查找</p>
+
+<p><strong>收集：</strong></p>
+
+<ol>
+<li>网络下载——浏览器</li>
+<li>QQ或Wechat——下载位置</li>
+<li>程序/软件生成——xshell、Matlab、Origin etc</li>
+</ol>
+
+<p><strong>存储：</strong></p>
+
+<ol>
+<li>硬盘(C、D、E)</li>
+<li>移动硬盘</li>
+<li>U盘</li>
+</ol>
+
+<p><strong>处理：</strong></p>
+
+<ol>
+<li>画图——To origin</li>
+<li>分析——Matlab、Excel、Mathematica</li>
+<li>压缩——右键7z</li>
+<li>比较合并——TC</li>
+</ol>
+
+<p><strong>备份：</strong></p>
+
+<ol>
+<li>坚果云</li>
+<li>移动硬盘</li>
+<li>网盘</li>
+<li>Git 版本管理</li>
+</ol>
+
+<p><strong>搜索：</strong></p>
+
+<ol>
+<li><p>文件存储位置</p></li>
+
+<li><p>文件名及关键词@</p></li>
+
+<li><p>Everything@搜索语法</p></li>
+</ol>
+
+<h2 id="目录结构-important">目录结构[Important]</h2>
+
+<pre><code class="language-mermaid">graph LR
+    A[根目录Bin] --&gt;A1(其它)
+    A --&gt; A2(科研) 
+          A2--&gt; A2B(课题)
+                A2B --&gt;A2B1(子问题)
+                       A2B1--&gt;A2B1C(文件夹分类)
+                              A2B1C--&gt;A2B1C1(数据)
+                              A2B1C--&gt;A2B1C2(程序)
+                              A2B1C--&gt;A2B1C3(图片)
+                              A2B1C--&gt;A2B1C4(笔记)
+                              
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+</code></pre>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

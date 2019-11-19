@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on 采采流水</title>
+    <link>https://qiangua.github.io/categories/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hexo文章简单加密访问测试</title>
+      <link>https://qiangua.github.io/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</guid>
+      <description>Private test Hello！ This is my private blog.</description>
+    </item>
+    
+  </channel>
+</rss>

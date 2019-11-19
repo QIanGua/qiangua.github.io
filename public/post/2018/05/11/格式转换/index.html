@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>格式转换 - 采采流水</title>
+    <meta property="og:title" content="格式转换 - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="用 LaTex 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。
+[&amp;hellip;] 我不论在 **Windows **还是 Mac 的 Tex 文件上用的都是 UTF8 编码，这也是目前比较现代的做法，可是导师那边用的是 GBK 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。
+[&amp;hellip;] 在 Mac 上可以直接利用 Shell 命令 iconv 来完成转 &amp;hellip;">
+      <meta property="og:description" content="用 LaTex 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。
+[&amp;hellip;] 我不论在 **Windows **还是 Mac 的 Tex 文件上用的都是 UTF8 编码，这也是目前比较现代的做法，可是导师那边用的是 GBK 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。
+[&amp;hellip;] 在 Mac 上可以直接利用 Shell 命令 iconv 来完成转 &amp;hellip;">
+      
+    
+
+    
+    
+    <meta name="twitter:image" content="https://ws3.sinaimg.cn/large/006tNc79gy1frreh7tfvsj31kw0fnwfb.jpg">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>格式转换</h1>
+
+<h3>
+  2018-05-11</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="格式转换">格式转换</h1>
+
+<p>用 <strong>LaTex</strong> 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。</p>
+
+<h2 id="缘起">缘起</h2>
+
+<p>我不论在 **Windows **还是 <strong>Mac</strong> 的 <strong>Tex</strong> 文件上用的都是 <strong>UTF8</strong> 编码，这也是目前比较现代的做法，可是导师那边用的是 <strong>GBK</strong> 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>在 <strong>Mac</strong> 上可以直接利用 Shell 命令 <strong>iconv</strong>  来完成转换。e.g. 打开 <strong>iTerm2</strong> 进入目标文件夹</p>
+
+<blockquote>
+<p>iconv -c -f utf-8 -t GBK  utf8.tex &gt;gbk.tex</p>
+</blockquote>
+
+<p>同理可以将 <strong>GBK</strong> 转换成 <strong>UTF8</strong>，</p>
+
+<blockquote>
+<p>iconv -c -f GBK -t utf-8 gbk.tex &gt;utf8.tex</p>
+</blockquote>
+
+<p>为了保险起见可以附加 <strong>“-c”</strong> 来跳过不能识别的编码。</p>
+
+<p>Over! 撤退</p>
+
+<p>为了以后方便，可以考虑写个自动化命令。</p>
+
+<h2 id="进一步处理">进一步处理</h2>
+
+<p>由于这是一个长期要做的事情，所以不能每次都麻烦在命令行里输入来转换。为此，考虑利用 <strong>Auomator</strong> 来写个service 放在右键，算是高效一点吧。</p>
+
+<p>为此，直接上手 <strong>Google</strong>。学习修改后写出来的 <strong>Code</strong> 如下。直接放个截图就能说明结果。</p>
+
+<p><center></p>
+
+<p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1frreh7tfvsj31kw0fnwfb.jpg" alt="Build Convertion Service with Automator" /></p>
+
+<p><center/></p>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Metropolis-Hasting algorithm - 采采流水</title>
+    <meta property="og:title" content="Metropolis-Hasting algorithm - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="[TOC]
+[&amp;hellip;] 由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：
+$$ p(E_j)=\frac{\exp(-\beta &amp;hellip;">
+      <meta property="og:description" content="[TOC]
+[&amp;hellip;] 由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：
+$$ p(E_j)=\frac{\exp(-\beta &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Metropolis-Hasting algorithm</h1>
+
+<h3>采采流水
+  /  2017-10-03</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="metropolis-hasting-algorithm">Metropolis-Hasting algorithm</h1>
+
+<p>[TOC]</p>
+
+<h2 id="0-预备知识">0. 预备知识</h2>
+
+<h2 id="1-monte-carlo-simulation">1.Monte carlo simulation</h2>
+
+<h2 id="2-metropolis-hasting-algorithm">2. Metropolis-Hasting algorithm</h2>
+
+<p>由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：</p>
+
+<p>$$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$</p>
+
+<p>Metropolis 算法就是基於此實現抽樣的一個有效算法。</p>
+
+<blockquote>
+<p><strong>Metropolois-Hasting Algorithm</strong></p>
+
+<hr />
+
+<p>Initialize $x^{(0)}$ randomly</p>
+
+<p><strong>for</strong> i=0 to N-1 do</p>
+
+<p>​       Sample $u\sim U[0,1]$</p>
+
+<p>​       Sample $x^*\sim U[0,1]$</p>
+
+<p>​       <strong>if</strong>  $u&lt;A(x^\ast,x^{(i-1)})=min\left{1,\frac{p(x^\ast)q(x^{(i)}|x^\ast)}{p(x^{(i)})q(x^{(i)})}\right}$ <strong>then</strong></p>
+
+<p>​           $x^{(i+1)}=x^\ast$</p>
+
+<p>​      <strong>else</strong></p>
+
+<p>​           $x^{(i+1)}=x^{(i)}$</p>
+
+<p>​     <strong>end if</strong></p>
+
+<p><strong>end for</strong></p>
+
+<hr />
+</blockquote>
+
+<h2 id="3-application"><strong>3</strong>. Application</h2>
+
+<h3 id="3-1-two-dimension-ising-model">3.1 Two-Dimension Ising model</h3>
+
+<p>为了避免臃肿，还是单独另起一篇吧&gt;smile&lt;。</p>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

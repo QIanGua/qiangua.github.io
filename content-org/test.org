@@ -1,0 +1,39 @@
+#+hugo_base_dir: ~/Code/Github/blog-hugo
+#+hugo_section: post
+#+hugo_auto_set_lastmod: t
+#+author: 
+#+hugo_custom_front_matter: :author "Qiangua"
+#+hugo_code_fence: nil
+
+* Emacs
+All posts in here will have the category set to /emacs/
+** DONE Writing Hugo blog in Org                                              :org:
+CLOSED: [2019-11-19 Tue 02:10]
+:PROPERTIES:
+:EXPORT_FILE_NAME: writing-hugo-blog-in-org-subtree-export
+:EXPORT_DATE: 2019-11-19
+:END:
+- State "DONE"       from "TODO"       [2019-11-19 Tue 02:10]
+*** Heading 
+ This post will be exported ad =content/posts/writing-hugo-blog-in-org-subtree-export.md=.
+*** Code fragment
+#+BEGIN_SRC latex
+  \#+BEGIN_SRC latex
+    f=ma
+  \#+END_SRC
+#+END_SRC
+*** Math formula
+**** Inline math
+This is a inline math formula $f=ma$.
+**** Online math
+This is a online math formula,
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+
+$$ S = k_{B}T\log\Omega $$
+*** Insert figures 
+With the assistance of =org-download=, it's convient to insert a figure in org file, e.g.
+#+DOWNLOADED: https://images.unsplash.com/photo-1574003887216-5d32ce5f22fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80 @ 2019-11-19 15:26:30
+[[file:Emacs/photo-1574003887216-5d32ce5f22fa_2019-11-19_15-26-30.jpeg]]

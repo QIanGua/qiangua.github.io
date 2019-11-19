@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Autosave program - 采采流水</title>
+    <meta property="og:title" content="Autosave program - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="目的：
+为 目前的 HEOM Fortran 程序增加自动保存功能， 防止屡次出现因天河维护而导致几天辛辛苦苦跑的程序挂掉。为了使它具有较大的通用性，最好将它维护成一个 MODULE。
+[&amp;hellip;] TODO list:
+[&amp;hellip;] (1) Input AUTO_save.MODULE
+(2) 读入开关
+IF(flag==1) THEN
+​ Input normally
+ELSE &amp;hellip;">
+      <meta property="og:description" content="目的：
+为 目前的 HEOM Fortran 程序增加自动保存功能， 防止屡次出现因天河维护而导致几天辛辛苦苦跑的程序挂掉。为了使它具有较大的通用性，最好将它维护成一个 MODULE。
+[&amp;hellip;] TODO list:
+[&amp;hellip;] (1) Input AUTO_save.MODULE
+(2) 读入开关
+IF(flag==1) THEN
+​ Input normally
+ELSE &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Autosave program</h1>
+
+<h3>
+  2017-10-23</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="自动保存功能">自动保存功能</h1>
+
+<blockquote>
+<p><strong>目的</strong>：</p>
+
+<p>为 目前的 HEOM Fortran 程序增加自动保存功能， 防止屡次出现因天河维护而导致几天辛辛苦苦跑的程序挂掉。为了使它具有较大的通用性，最好将它维护成一个 MODULE。</p>
+</blockquote>
+
+<h2 id="列出一些关键点">列出一些关键点</h2>
+
+<p><strong>TODO list:</strong></p>
+
+<ol>
+<li>每隔一段时间将 ADO/Connect_list 数组保存进DAT文件,将循环变量写进文件名</li>
+<li>输入部分, 设置一个开关区别正常和断掉时的读写来源</li>
+<li>输出部分</li>
+<li>初始情况</li>
+<li>续跑要从之前保存好的DAT文件读取，而且循环变量也要随之改变</li>
+<li>看一下读写文件的语法，弄清覆盖和续写</li>
+</ol>
+
+<blockquote>
+<p>(1) Input AUTO_save.MODULE</p>
+
+<p>(2) 读入开关</p>
+
+<p>IF(flag==1) THEN</p>
+
+<p>​    Input normally</p>
+
+<p>ELSE</p>
+
+<p>Input from the autosave dat file</p>
+
+<p>ENDIF</p>
+
+<p>(3)  每个一定步长保存一次</p>
+
+<p>IF(MOD(itime, )==0) THEN</p>
+
+<p>CAll save()</p>
+
+<p>ENDIF</p>
+</blockquote>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

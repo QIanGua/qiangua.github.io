@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum on 采采流水</title>
+    <link>https://qiangua.github.io/tags/quantum/</link>
+    <description>Recent content in Quantum on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiangua.github.io/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formula test</title>
+      <link>https://qiangua.github.io/post/2017/09/27/formula-test/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2017/09/27/formula-test/</guid>
+      <description>质能公式 \[ E=mc^{2} \]
+\[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
+Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
+插图测试 </description>
+    </item>
+    
+    <item>
+      <title>LaTex $E=mc^{2}$</title>
+      <link>https://qiangua.github.io/post/2016/09/07/latex-emc2/</link>
+      <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2016/09/07/latex-emc2/</guid>
+      <description>Problem 质能公式 $$ E=mc^{2} $$
+$$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
+Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$
+Solution $$ \begin{align} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigmaz\phi} &amp;amp;=e^{i\sigma{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])
+&amp;amp;=\sigmay+e^{i\sigma{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]
+&amp;amp;=\sigmay+e^{i\sigma{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]
+&amp;amp;=\sigmay-i sin(\phi) e^{i\sigma{z}\phi}[\sigma_y,\sigma_z]
+&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y
+&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)
+&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y
+&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align} $$
+$$ \begin{align} x &amp;amp;= \sqrt{4^2-1^2} &amp;amp;= \sqrt{15}. \end{align}$$ $$
+$$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \
+\dot{y} &amp;amp; = &amp;amp;\rho x - y - xz \</description>
+    </item>
+    
+    <item>
+      <title>量子力学常见对易关系</title>
+      <link>https://qiangua.github.io/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</link>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.github.io/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
+      <description>#量子力学常见对易关系及其证明
+标签（空格分隔）： Quantum Comumutor
+本文框架[TOC]
+[TOC]
+##1. 基本对易关系 $$ \begin{equation} [X{\alpha},P{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+$$ \begin{equation} [AB,C]=A[B,C]+[A,C]B \end{equation} $$
+$$ \begin{align} [A,f(B)]&amp;amp;=\frac{\partial f}{\partial B}[A,B]
+[f(A),B]&amp;amp;=-\frac{\partial f}{\partial A}[A,B] \label{eq:2} \end{align} $$ 根据\eqref{eq:2}可推出 $$ \begin{align} [X,f(P)]&amp;amp;=-i\hbar\frac{\partial f}{\partial P}
+[f(X),P]&amp;amp;=i\hbar\frac{\partial f}{\partial X}
+[A,B^n]&amp;amp;=n B^{n-1} [A,B] \label{eq:3} \end{align} $$
+##2. 常见力学量的对易关系 - 角动量 （$J,J^2$） - 升降算符 （$J_{\pm},a^+,a$） - 自旋算符 ($\sigma_x,\sigma_y,\sigma_z$)
+角动量： $$ \begin{align} [J{\alpha},X{\beta}]&amp;amp;=i\hbar\varepsilon{\alpha\beta\gamma}X{\gamma}
+[J{\alpha},P{\beta}]&amp;amp;=i\hbar\varepsilon{\alpha\beta\gamma}P{\gamma}
+[J^{2},J_{\alpha}]&amp;amp;=0
+\end{align} $$ 下面证明： $$ \begin{align} [J{z},J{\pm}]&amp;amp;=[J{z},J{x}\pm i J{y}]</description>
+    </item>
+    
+  </channel>
+</rss>
