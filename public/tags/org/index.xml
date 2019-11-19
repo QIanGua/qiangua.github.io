@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>org on 采采流水</title>
-    <link>https://qiangua.github.io/tags/org/</link>
+    <link>https://qiangua.me/tags/org/</link>
     <description>Recent content in org on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Nov 2019 02:10:00 +0800</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Writing Hugo blog in Org</title>
-      <link>https://qiangua.github.io/post/2019/11/19/writing-hugo-blog-in-org/</link>
+      <link>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</link>
       <pubDate>Tue, 19 Nov 2019 02:10:00 +0800</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/11/19/writing-hugo-blog-in-org/</guid>
+      <guid>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</guid>
       <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported ad content/posts/writing-hugo-blog-in-org-subtree-export.md.
 Code fragment \#+BEGIN_SRC latex f=ma \#+END_SRC Math formula Inline math This is a inline math formula \(f=ma\).
 Online math This is a online math formula,

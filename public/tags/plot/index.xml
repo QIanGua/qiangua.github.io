@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plot on 采采流水</title>
-    <link>https://qiangua.github.io/tags/plot/</link>
+    <link>https://qiangua.me/tags/plot/</link>
     <description>Recent content in plot on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/plot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ways of Plotting</title>
-      <link>https://qiangua.github.io/post/2018/06/06/ways-of-plotting/</link>
+      <link>https://qiangua.me/post/2018/06/06/ways-of-plotting/</link>
       <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/06/06/ways-of-plotting/</guid>
+      <guid>https://qiangua.me/post/2018/06/06/ways-of-plotting/</guid>
       <description>Ways of Plotting 作图 根据类型划分
 函数类型 有明确的解析表达式，或者数据对。
 先得到明确的数据集，即 $(x_i,y_i)$ . Dat 文件
@@ -33,10 +33,10 @@
     
     <item>
       <title>Flow Plot</title>
-      <link>https://qiangua.github.io/post/2017/11/03/flow-plot/</link>
+      <link>https://qiangua.me/post/2017/11/03/flow-plot/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/03/flow-plot/</guid>
+      <guid>https://qiangua.me/post/2017/11/03/flow-plot/</guid>
       <description>st=&amp;gt;start: Start op=&amp;gt;operation: Your Operation cond=&amp;gt;condition: Yes or No? e=&amp;gt;end st-&amp;gt;op-&amp;gt;cond cond(yes)-&amp;gt;e cond(no)-&amp;gt;op  graph LR A[Hard edge] --&amp;gt;B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two]  </description>
     </item>
     

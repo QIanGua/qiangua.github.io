@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on 采采流水</title>
-    <link>https://qiangua.github.io/tags/git/</link>
+    <link>https://qiangua.me/tags/git/</link>
     <description>Recent content in git on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>论文与版本管理</title>
-      <link>https://qiangua.github.io/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
+      <link>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
       <description> 论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。
 eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / 坚果云 里。
  tips  给每一个成熟的版本添加一个 tag

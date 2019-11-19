@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latex on 采采流水</title>
-    <link>https://qiangua.github.io/tags/latex/</link>
+    <link>https://qiangua.me/tags/latex/</link>
     <description>Recent content in latex on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LaTeX  排版记录</title>
-      <link>https://qiangua.github.io/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</guid>
       <description>LaTeX 排版记录 第一次帮同学做了一次 LaTeX 排版书籍，过程中技能方面会有一些提升，这里做一个简要记录。
  文档结构  中文的话最好用 ctexbook 类型。
  主文件  保持结构清晰，包引用、格式设置分别用各自 tex 文件负责，然后 \input
@@ -26,10 +26,10 @@
     
     <item>
       <title>LaTexTools 实用操作记录</title>
-      <link>https://qiangua.github.io/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
       <description> LaTexTools 实用操作记录 LaTexTools 是 Sublime 的一个插件，顾名思义是用来辅助写 LaTex 文件的。本文就简单介绍一下如何使用 LaTexTools 来提高论文写作效率。当然最好亲自去看原文档说明。这里只记录自己最常用的功能。
 快捷键：
 Ctrl+l, e: 插入环境
@@ -41,10 +41,10 @@ Tips： 使用 Tab 键来跳转光标位置。
     
     <item>
       <title>Formula test</title>
-      <link>https://qiangua.github.io/post/2017/09/27/formula-test/</link>
+      <link>https://qiangua.me/post/2017/09/27/formula-test/</link>
       <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/27/formula-test/</guid>
+      <guid>https://qiangua.me/post/2017/09/27/formula-test/</guid>
       <description>质能公式 \[ E=mc^{2} \]
 \[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
 Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
@@ -53,10 +53,10 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
     
     <item>
       <title>LaTex $E=mc^{2}$</title>
-      <link>https://qiangua.github.io/post/2016/09/07/latex-emc2/</link>
+      <link>https://qiangua.me/post/2016/09/07/latex-emc2/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/09/07/latex-emc2/</guid>
+      <guid>https://qiangua.me/post/2016/09/07/latex-emc2/</guid>
       <description>Problem 质能公式 $$ E=mc^{2} $$
 $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
 Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$

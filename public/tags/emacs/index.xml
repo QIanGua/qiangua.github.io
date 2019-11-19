@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emacs on 采采流水</title>
-    <link>https://qiangua.github.io/tags/emacs/</link>
+    <link>https://qiangua.me/tags/emacs/</link>
     <description>Recent content in emacs on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AUCTEX 简明教程</title>
-      <link>https://qiangua.github.io/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</link>
+      <link>https://qiangua.me/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://qiangua.me/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</guid>
       <description>AUCTEX 简明教程 最近开始写论文了，毫无疑问要用 LaTeX 呀。最近可能会更新一些使用LaTeX
 Workflow ， 主要是编辑器和一些趁手的工具吧。 还好我机智，大二就开始自学
 LaTeX 了，现在也算是一个熟练工了吧。

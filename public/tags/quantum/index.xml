@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantum on 采采流水</title>
-    <link>https://qiangua.github.io/tags/quantum/</link>
+    <link>https://qiangua.me/tags/quantum/</link>
     <description>Recent content in Quantum on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Formula test</title>
-      <link>https://qiangua.github.io/post/2017/09/27/formula-test/</link>
+      <link>https://qiangua.me/post/2017/09/27/formula-test/</link>
       <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/27/formula-test/</guid>
+      <guid>https://qiangua.me/post/2017/09/27/formula-test/</guid>
       <description>质能公式 \[ E=mc^{2} \]
 \[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
 Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
@@ -25,10 +25,10 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
     
     <item>
       <title>LaTex $E=mc^{2}$</title>
-      <link>https://qiangua.github.io/post/2016/09/07/latex-emc2/</link>
+      <link>https://qiangua.me/post/2016/09/07/latex-emc2/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/09/07/latex-emc2/</guid>
+      <guid>https://qiangua.me/post/2016/09/07/latex-emc2/</guid>
       <description>Problem 质能公式 $$ E=mc^{2} $$
 $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
 Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$
@@ -47,10 +47,10 @@ $$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \
     
     <item>
       <title>量子力学常见对易关系</title>
-      <link>https://qiangua.github.io/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</link>
+      <link>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</link>
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
+      <guid>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
       <description>#量子力学常见对易关系及其证明
 标签（空格分隔）： Quantum Comumutor
 本文框架[TOC]

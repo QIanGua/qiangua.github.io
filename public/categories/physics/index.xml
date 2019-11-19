@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Physics on 采采流水</title>
-    <link>https://qiangua.github.io/categories/physics/</link>
+    <link>https://qiangua.me/categories/physics/</link>
     <description>Recent content in Physics on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/categories/physics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Short Summary of Recent Calculation</title>
-      <link>https://qiangua.github.io/post/2019/08/23/a-short-summary-of-recent-calculation/</link>
+      <link>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</link>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/08/23/a-short-summary-of-recent-calculation/</guid>
+      <guid>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</guid>
       <description>Time correlation function In this calculation, the bath spectrum used include Ohmic bath with exponential cutoff funciton and the Debye bath.
 Temperature high temperature, $\beta=0.25$ low temperature,$\beta=10,50$ $\beta=1/k_BT=0.25,1,5,10,50$
 Scaling limit $\omega_c/\Delta=0.25,2,2.5,5$
@@ -27,10 +27,10 @@ Meanwhile, this need us to fit the real part more carefully.</description>
     
     <item>
       <title>Notes of Quantum Optimal Control</title>
-      <link>https://qiangua.github.io/post/2019/08/20/notes-of-quantum-optimal-control/</link>
+      <link>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
+      <guid>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
       <description>Notes of Quantum Optimal Control The system Hamiltonian: $$ H = \Delta_p(t)|e\rangle\langle e| + \frac{1}{2}[\Omega_p(t)|e\rangle\langle 0 |+\Omega_s(t)|e\rangle\langle 1| + h.c.], $$
 Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),
 \Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),
@@ -48,10 +48,10 @@ Pulse 2 $$ \Delta_p(t) = 0,
     
     <item>
       <title>量子计算管窥</title>
-      <link>https://qiangua.github.io/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
+      <link>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
+      <guid>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
       <description>量子计算管窥 组成这个“世界”的运动无数的复杂排列有点像是天神们所下的一盘伟大的国际象棋，我们则是这盘棋的观众。我们不知道弈棋的规则，所有能做的事就是观看这场比赛。当然，假如我们观看了足够长的时间，总归能看出几条规则来 \(\cdots\cdots\) 如果我们知道了这些规则，就认为『理解』了世界。
 什么是『计算』？ 『计算』是一种机械化的信息处理方式。计算过程需要物理实体来承载，所谓机械化指的是计算结果不依赖于计算载体，你可以用手指算，可以用算盘，可以用计算机。阿兰・图灵深得计算本质，提出了图灵机的构想来作为通用计算模型。整个计算的历史堪称一部惊心动魄的史诗，各种人物不时从历史长河中的涌现。这里要提一下，19世纪查尔斯・巴贝奇制造的『差分机』，其它暂且不表。
 经典计算 比特是目前通用的最小信息单位。1比特有两种可能状态，通常用0，1来编码，比如可以用0来代表硬币向下，1代表向上。两个经典比特共有 \(2^2=4\) 种可能状态\(\{00,01,10,11\}\)，但实际两个给定的比特只能表示出其中的一种。物理上可以用高电压、低电压来实现 0，1两种状态的表示。
@@ -71,10 +71,10 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
     
     <item>
       <title>The simulation of two dimension Ising model</title>
-      <link>https://qiangua.github.io/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
+      <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
+      <guid>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
       <description>The simulation of 2D Ising model [TOC]
  Ising model on a square lattice **Update: 2018/1/16 ** Begin:2017/10/5
  1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。
@@ -89,10 +89,10 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
     
     <item>
       <title>Metropolis-Hasting algorithm</title>
-      <link>https://qiangua.github.io/post/2017/10/03/metropolis-hasting-algorithm/</link>
+      <link>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/03/metropolis-hasting-algorithm/</guid>
+      <guid>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</guid>
       <description>Metropolis-Hasting algorithm [TOC]
 0. 预备知识 1.Monte carlo simulation 2. Metropolis-Hasting algorithm 由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：
 $$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$
@@ -113,10 +113,10 @@ end for
     
     <item>
       <title>色彩的结构解析</title>
-      <link>https://qiangua.github.io/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</link>
+      <link>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
+      <guid>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
       <description> 色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
 1. 色彩游戏 2. 色彩的结构 线性空间
 2.1 颜色的数字表示 色度学 3. 有趣的节点 </description>
@@ -124,10 +124,10 @@ end for
     
     <item>
       <title>熵与能量</title>
-      <link>https://qiangua.github.io/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</link>
+      <link>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
+      <guid>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
       <description>熵与能量  “We are most likely to observe the most probable state”
  \[ S = k_b\ln\Omega \]
 熵最大：

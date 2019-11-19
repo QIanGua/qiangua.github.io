@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>script on 采采流水</title>
-    <link>https://qiangua.github.io/categories/script/</link>
+    <link>https://qiangua.me/categories/script/</link>
     <description>Recent content in script on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/categories/script/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/categories/script/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Script Snippet to Go Through A Directory</title>
-      <link>https://qiangua.github.io/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</link>
+      <link>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</guid>
+      <guid>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</guid>
       <description>In order to avoid repeat operations, I need to write a script to do the repeated word. Here is a snippet using in Matlab. This post is just as a backup.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Code Name: % Coder: Author % date: 2019-10-09 %C-t % description: % Input module: % Output data: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% clear; clc; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Setting the File Path %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% path=&#39;.../date_initial/&#39;; dir_dat = dir(strcat(path,&#39;*.dat&#39;)); % cd to save directory cd(&#39;.../date_final&#39;); % number of files file_number = length(dir_dat); % name list of files with string type file_name_arr = string ( {dir_dat.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monte carlo on 采采流水</title>
-    <link>https://qiangua.github.io/tags/monte-carlo/</link>
+    <link>https://qiangua.me/tags/monte-carlo/</link>
     <description>Recent content in Monte carlo on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The simulation of two dimension Ising model</title>
-      <link>https://qiangua.github.io/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
+      <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
+      <guid>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
       <description>The simulation of 2D Ising model [TOC]
  Ising model on a square lattice **Update: 2018/1/16 ** Begin:2017/10/5
  1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。

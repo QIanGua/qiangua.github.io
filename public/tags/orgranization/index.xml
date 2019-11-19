@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>orgranization on 采采流水</title>
-    <link>https://qiangua.github.io/tags/orgranization/</link>
+    <link>https://qiangua.me/tags/orgranization/</link>
     <description>Recent content in orgranization on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/orgranization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/orgranization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>数据处理备忘录</title>
-      <link>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
       <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
       <description> 数据操作[Updating] Matlab 遍历文件夹读取数据 主要处理的是ASCII的dat文件，使用dlmread来读取。
 一个小型Matlab脚本样例：
 % data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list namelist=dir([address,&#39;*.dat&#39;]); % write in the data matrix rowsize= 100000 colsize= 2 data=zeros(rowsize,colsize); dim = length(namelist); for i=1:dim filename=[address,namelist(i).name]; temp=dlmread(filename,&#39;&#39;,[0 1 rowsize-1 2]); data(:,i)=temp(:,1)-temp(:,2); end time_array=dlmread(filename,&#39;&#39;,[0 0 rowsize-1 0]); plot(time_array,data(:,1:dim))  Matlab批量拟合 之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，
@@ -27,10 +27,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>文件整理术</title>
-      <link>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
+      <link>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
+      <guid>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
       <description> 文件整理术[TODO] 粗略的设想 群分类思想
 系统论交互
 文件类型——软件 （一一对应）

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>summary on 采采流水</title>
-    <link>https://qiangua.github.io/categories/summary/</link>
+    <link>https://qiangua.me/categories/summary/</link>
     <description>Recent content in summary on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/categories/summary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>博客迁移</title>
-      <link>https://qiangua.github.io/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
+      <link>https://qiangua.me/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
+      <guid>https://qiangua.me/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
       <description>博客迁移 值本命年到来之际，咬牙换了台电脑，从此也进入 MBP 的领地了，用起来非常舒心。 趁着还没开学，使劲折腾了一番，今晚把 hexo 也同步到新的 Mac 上了，从此可以愉快的 hexo 了。</description>
     </item>
     
     <item>
       <title>数据处理备忘录</title>
-      <link>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
       <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
       <description> 数据操作[Updating] Matlab 遍历文件夹读取数据 主要处理的是ASCII的dat文件，使用dlmread来读取。
 一个小型Matlab脚本样例：
 % data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list namelist=dir([address,&#39;*.dat&#39;]); % write in the data matrix rowsize= 100000 colsize= 2 data=zeros(rowsize,colsize); dim = length(namelist); for i=1:dim filename=[address,namelist(i).name]; temp=dlmread(filename,&#39;&#39;,[0 1 rowsize-1 2]); data(:,i)=temp(:,1)-temp(:,2); end time_array=dlmread(filename,&#39;&#39;,[0 0 rowsize-1 0]); plot(time_array,data(:,1:dim))  Matlab批量拟合 之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，
@@ -36,10 +36,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>文件整理术</title>
-      <link>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
+      <link>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
+      <guid>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
       <description> 文件整理术[TODO] 粗略的设想 群分类思想
 系统论交互
 文件类型——软件 （一一对应）
@@ -62,10 +62,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>重要的思想</title>
-      <link>https://qiangua.github.io/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</link>
+      <link>https://qiangua.me/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</guid>
+      <guid>https://qiangua.me/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</guid>
       <description>学术思想  从复杂的非线性情形获取线性的信息。eg:同调论、K理论
  等效的思想。 提供看待对象的不同视角，针对问题选择容易的进行操作。
   eg：Onsager&amp;rsquo;s hypothesis

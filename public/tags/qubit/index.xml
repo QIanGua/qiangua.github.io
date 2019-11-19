@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qubit on 采采流水</title>
-    <link>https://qiangua.github.io/tags/qubit/</link>
+    <link>https://qiangua.me/tags/qubit/</link>
     <description>Recent content in Qubit on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/qubit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/qubit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>量子计算管窥</title>
-      <link>https://qiangua.github.io/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
+      <link>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
+      <guid>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
       <description>量子计算管窥 组成这个“世界”的运动无数的复杂排列有点像是天神们所下的一盘伟大的国际象棋，我们则是这盘棋的观众。我们不知道弈棋的规则，所有能做的事就是观看这场比赛。当然，假如我们观看了足够长的时间，总归能看出几条规则来 \(\cdots\cdots\) 如果我们知道了这些规则，就认为『理解』了世界。
 什么是『计算』？ 『计算』是一种机械化的信息处理方式。计算过程需要物理实体来承载，所谓机械化指的是计算结果不依赖于计算载体，你可以用手指算，可以用算盘，可以用计算机。阿兰・图灵深得计算本质，提出了图灵机的构想来作为通用计算模型。整个计算的历史堪称一部惊心动魄的史诗，各种人物不时从历史长河中的涌现。这里要提一下，19世纪查尔斯・巴贝奇制造的『差分机』，其它暂且不表。
 经典计算 比特是目前通用的最小信息单位。1比特有两种可能状态，通常用0，1来编码，比如可以用0来代表硬币向下，1代表向上。两个经典比特共有 \(2^2=4\) 种可能状态\(\{00,01,10,11\}\)，但实际两个给定的比特只能表示出其中的一种。物理上可以用高电压、低电压来实现 0，1两种状态的表示。

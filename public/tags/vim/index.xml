@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on 采采流水</title>
-    <link>https://qiangua.github.io/tags/vim/</link>
+    <link>https://qiangua.me/tags/vim/</link>
     <description>Recent content in Vim on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vim 修炼成长记录</title>
-      <link>https://qiangua.github.io/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</guid>
       <description> Vim 修炼成长记录 参考书籍《Vim 实用技巧》
 基本存活技能 输入 操作 退出 问题式驱动 理想的操作是“用一键移动，另一键执行”
 执行——重复——回退

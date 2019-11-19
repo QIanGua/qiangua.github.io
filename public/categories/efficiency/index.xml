@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>efficiency on 采采流水</title>
-    <link>https://qiangua.github.io/categories/efficiency/</link>
+    <link>https://qiangua.me/categories/efficiency/</link>
     <description>Recent content in efficiency on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/categories/efficiency/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/categories/efficiency/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Find in terminal</title>
-      <link>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</link>
+      <link>https://qiangua.me/post/2019/09/09/find-in-terminal/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</guid>
+      <guid>https://qiangua.me/post/2019/09/09/find-in-terminal/</guid>
       <description> Find files from terminal [TOC]
 Tools basic commonds find 目录搜索
 grep 文本搜索

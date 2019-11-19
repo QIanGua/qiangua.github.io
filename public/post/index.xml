@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 采采流水</title>
-    <link>https://qiangua.github.io/post/</link>
+    <link>https://qiangua.me/post/</link>
     <description>Recent content in Posts on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Nov 2019 02:10:00 +0800</lastBuildDate>
     
-	<atom:link href="https://qiangua.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiangua.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Writing Hugo blog in Org</title>
-      <link>https://qiangua.github.io/post/2019/11/19/writing-hugo-blog-in-org/</link>
+      <link>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</link>
       <pubDate>Tue, 19 Nov 2019 02:10:00 +0800</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/11/19/writing-hugo-blog-in-org/</guid>
+      <guid>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</guid>
       <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported ad content/posts/writing-hugo-blog-in-org-subtree-export.md.
 Code fragment \#+BEGIN_SRC latex f=ma \#+END_SRC Math formula Inline math This is a inline math formula \(f=ma\).
 Online math This is a online math formula,
@@ -27,10 +27,10 @@ Insert figures With the assistance of org-download, it&amp;rsquo;s convient to i
     
     <item>
       <title>我的爷爷——记忆闪回</title>
-      <link>https://qiangua.github.io/post/2019/10/11/%E6%88%91%E7%9A%84%E7%88%B7%E7%88%B7%E8%AE%B0%E5%BF%86%E9%97%AA%E5%9B%9E/</link>
+      <link>https://qiangua.me/post/2019/10/11/%E6%88%91%E7%9A%84%E7%88%B7%E7%88%B7%E8%AE%B0%E5%BF%86%E9%97%AA%E5%9B%9E/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/10/11/%E6%88%91%E7%9A%84%E7%88%B7%E7%88%B7%E8%AE%B0%E5%BF%86%E9%97%AA%E5%9B%9E/</guid>
+      <guid>https://qiangua.me/post/2019/10/11/%E6%88%91%E7%9A%84%E7%88%B7%E7%88%B7%E8%AE%B0%E5%BF%86%E9%97%AA%E5%9B%9E/</guid>
       <description>一直以来，我都算是沉默型性格，很少去追忆过往的记忆。其实我内心感情还是挺敏感的，能观察到很小的细节。 昨天听完了阿郎《21世纪伟大电影》的最后一集，这集讲述的电影是《我是布莱克》，一部闪烁着现实高光的伟大电影。 晚上忙完回去后就在线找到资源开始欣赏，比较触动我的是第二天我开始想起了我那逝去多年的爷爷。也许是因为布莱克和爷爷 有许多相似的特点吧。
 记忆中的爷爷也像布莱克一样，除了电脑不会之外，也是生活中的能工巧匠。他会一些木匠活，有专门的家伙事。爷爷还会专职修车、补鞋， 有专门的钉鞋裁线机。
 我想我是最能理解爷爷的孙子吧，爷爷那慢箱子的古书我基本是都有读过一遍的。印象中有《说岳全传》、《三侠五义》、《薛仁贵征冬》、《薛丁山征西》。。。。。 记忆里，夏天，雨时，蚊虫飞，在那个矮小的屋里，我会在床上津津有味的看着您那一箱藏书，有时忘记站在床上就头就碰到屋顶了，强装着说不痛，我头硬着呢。 可怜我竟然记不全了哪都。还有一罐算命的铜钱，记得每次我都能摇出比较好好的卦。您离开后的一段时间内，放在旧屋里的那箱古书也随之不翼而飞，奶奶心中不平， 怨那偷书贼，多希望是您不舍得它们把它们带走了呀。
@@ -39,30 +39,30 @@ Insert figures With the assistance of org-download, it&amp;rsquo;s convient to i
     
     <item>
       <title>Fitting Function of Susceptibility</title>
-      <link>https://qiangua.github.io/post/2019/10/10/fitting-function-of-susceptibility/</link>
+      <link>https://qiangua.me/post/2019/10/10/fitting-function-of-susceptibility/</link>
       <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/10/10/fitting-function-of-susceptibility/</guid>
+      <guid>https://qiangua.me/post/2019/10/10/fitting-function-of-susceptibility/</guid>
       <description> Ref 1 Using the result of oscillator $$ Im \chi(\omega) = a \frac{\gamma \omega}{ (\omega^2 - \omega_0^2)^2 + \gamma^2\omega^2 }. $$
 Ref 2 </description>
     </item>
     
     <item>
       <title>A Script Snippet to Go Through A Directory</title>
-      <link>https://qiangua.github.io/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</link>
+      <link>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</guid>
+      <guid>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</guid>
       <description>In order to avoid repeat operations, I need to write a script to do the repeated word. Here is a snippet using in Matlab. This post is just as a backup.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Code Name: % Coder: Author % date: 2019-10-09 %C-t % description: % Input module: % Output data: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% clear; clc; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Setting the File Path %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% path=&#39;.../date_initial/&#39;; dir_dat = dir(strcat(path,&#39;*.dat&#39;)); % cd to save directory cd(&#39;.../date_final&#39;); % number of files file_number = length(dir_dat); % name list of files with string type file_name_arr = string ( {dir_dat.</description>
     </item>
     
     <item>
       <title>Find in terminal</title>
-      <link>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</link>
+      <link>https://qiangua.me/post/2019/09/09/find-in-terminal/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/09/09/find-in-terminal/</guid>
+      <guid>https://qiangua.me/post/2019/09/09/find-in-terminal/</guid>
       <description> Find files from terminal [TOC]
 Tools basic commonds find 目录搜索
 grep 文本搜索
@@ -74,10 +74,10 @@ rg(ripgrep):
     
     <item>
       <title>A Short Summary of Recent Calculation</title>
-      <link>https://qiangua.github.io/post/2019/08/23/a-short-summary-of-recent-calculation/</link>
+      <link>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</link>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/08/23/a-short-summary-of-recent-calculation/</guid>
+      <guid>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</guid>
       <description>Time correlation function In this calculation, the bath spectrum used include Ohmic bath with exponential cutoff funciton and the Debye bath.
 Temperature high temperature, $\beta=0.25$ low temperature,$\beta=10,50$ $\beta=1/k_BT=0.25,1,5,10,50$
 Scaling limit $\omega_c/\Delta=0.25,2,2.5,5$
@@ -88,10 +88,10 @@ Meanwhile, this need us to fit the real part more carefully.</description>
     
     <item>
       <title>Notes of Quantum Optimal Control</title>
-      <link>https://qiangua.github.io/post/2019/08/20/notes-of-quantum-optimal-control/</link>
+      <link>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
+      <guid>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
       <description>Notes of Quantum Optimal Control The system Hamiltonian: $$ H = \Delta_p(t)|e\rangle\langle e| + \frac{1}{2}[\Omega_p(t)|e\rangle\langle 0 |+\Omega_s(t)|e\rangle\langle 1| + h.c.], $$
 Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),
 \Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),
@@ -109,10 +109,10 @@ Pulse 2 $$ \Delta_p(t) = 0,
     
     <item>
       <title>趁昼长夜短，收拾好平生故事，落草为寇</title>
-      <link>https://qiangua.github.io/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</link>
+      <link>https://qiangua.me/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</guid>
+      <guid>https://qiangua.me/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</guid>
       <description> 趁昼长夜短，收拾好平生故事，落草为寇  今天听阿郎老师讲到了2004年的爱情电影《美丽心灵中的永恒阳光》，又意译为《暖暖内含光》。阿郎老师讲述地分外动人。爱情剧如今层出不穷，各种类型题材都有涉及，可以说是最大的俗套剧。此前最喜欢爱情电影是无疑是爱在三部曲了，而《暖暖》无疑又玩出了新高度，通过记忆删除的情节，追溯到了近乎爱情的本源。
 故事基本剧情是男女互相有些不满，一次冲动的女主去记忆清除公司删除了所有关于男主的记忆。男主发现后也气愤地去让同一家公司帮他删除关于女主的记忆。随着记忆删除程序的启动，男主开始了对女主的回忆。随着记忆逐渐地被删除，男主才意识到那些是他最美好的记忆，他后悔了。可是清除程序一旦开始便不可逆转。随着记忆徐徐展开，男主带着女主在記憶里努力逃离记忆被清除的命运，遗憾最终失败了。好在编剧最后又给了男女主重逢的机会，才展现出一丝美丽心灵的永恒阳光。
 一点感想是对于男女双方，有些事情不能做、有些伤人的话不能说，正如《海边的曼彻斯特》、《阿黛尓的生活》所表现的那样，有些伤害一旦造成就是无法弥补的。男女主明明都是各自人生中的重要部分，却还冲动地采取记忆清楚这种无法挽救的行动，令人唏嘘。阿郎老师讲到『这也是爱情的残酷之处，你变得重要，不是因为你是你，而是因为你成了我的一部分；不想忘记你，不是因为你是我的，而是因为你可能成为别人的』。
@@ -131,10 +131,10 @@ Pulse 2 $$ \Delta_p(t) = 0,
     
     <item>
       <title>日文学习记录</title>
-      <link>https://qiangua.github.io/post/2019/06/17/%E6%97%A5%E6%96%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2019/06/17/%E6%97%A5%E6%96%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/06/17/%E6%97%A5%E6%96%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2019/06/17/%E6%97%A5%E6%96%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
       <description> 五十音學習 😀 update:2019.07.24
 😀 update:2019.07.16
 😀 update:2019.07.14
@@ -163,10 +163,10 @@ Pulse 2 $$ \Delta_p(t) = 0,
     
     <item>
       <title>量子计算管窥</title>
-      <link>https://qiangua.github.io/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
+      <link>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
+      <guid>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
       <description>量子计算管窥 组成这个“世界”的运动无数的复杂排列有点像是天神们所下的一盘伟大的国际象棋，我们则是这盘棋的观众。我们不知道弈棋的规则，所有能做的事就是观看这场比赛。当然，假如我们观看了足够长的时间，总归能看出几条规则来 \(\cdots\cdots\) 如果我们知道了这些规则，就认为『理解』了世界。
 什么是『计算』？ 『计算』是一种机械化的信息处理方式。计算过程需要物理实体来承载，所谓机械化指的是计算结果不依赖于计算载体，你可以用手指算，可以用算盘，可以用计算机。阿兰・图灵深得计算本质，提出了图灵机的构想来作为通用计算模型。整个计算的历史堪称一部惊心动魄的史诗，各种人物不时从历史长河中的涌现。这里要提一下，19世纪查尔斯・巴贝奇制造的『差分机』，其它暂且不表。
 经典计算 比特是目前通用的最小信息单位。1比特有两种可能状态，通常用0，1来编码，比如可以用0来代表硬币向下，1代表向上。两个经典比特共有 \(2^2=4\) 种可能状态\(\{00,01,10,11\}\)，但实际两个给定的比特只能表示出其中的一种。物理上可以用高电压、低电压来实现 0，1两种状态的表示。
@@ -186,10 +186,10 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
     
     <item>
       <title>RSS 简明消息订阅</title>
-      <link>https://qiangua.github.io/post/2019/05/20/rss-%E7%AE%80%E6%98%8E%E6%B6%88%E6%81%AF%E8%AE%A2%E9%98%85/</link>
+      <link>https://qiangua.me/post/2019/05/20/rss-%E7%AE%80%E6%98%8E%E6%B6%88%E6%81%AF%E8%AE%A2%E9%98%85/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/05/20/rss-%E7%AE%80%E6%98%8E%E6%B6%88%E6%81%AF%E8%AE%A2%E9%98%85/</guid>
+      <guid>https://qiangua.me/post/2019/05/20/rss-%E7%AE%80%E6%98%8E%E6%B6%88%E6%81%AF%E8%AE%A2%E9%98%85/</guid>
       <description> 🐧 RSS 简明消息订阅 记录一下业余时间第一次参与的一个开源项目过程，仅仅是为了更方便的去获取信息。
 🐝 缘起 从大学时算是养成了浏览博客的习惯，也在那时起接触到了『RSS』聚合阅读的方式。与我而言，RSS 能让我更方便地去管理阅读信息源，更方便地去打造个人的主动信息获取系统，而不是一味地去被动接受各种APP上所谓的算法推荐信息。如何去获取信息源的 RSS 就成了一个需要解决的问题，一般而言成熟的博客系统都会提供 RSS 订阅，可是一些其它网站并不会提供 RSS 订阅，毕竟这是一件小众的事情，不会带给它流量。为此也出现了各种制作 RSS 的方式，这里不再一一多提，只介绍一种目前接触到的较为通用的方法──RSSHub。RSSHub 是托管在GitHub上的一个开源项目，口号是『万物皆可 RSS』。
 🐝 经过 RSSHub 项目基本上是用 JavaScipt 语言来工作的，我从来也没学过这门语言，所以一开始也并没有打算加入的计划。期间也看到了这个项目逐渐壮大起来，有了订阅各种大学教务系统的板块。我也顺势萌生了订阅物理系网消息的念头，免得漏掉各种信息。于是乎就甩开袖子干。先在网上快速学了基本的 JavaScript 语法，还顺便学了点浏览器查看网页源码的技能。抱着实用主义的态度，先从项目里别人的代码学起来，读懂基本的逻辑功能。
@@ -202,10 +202,10 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
     
     <item>
       <title>短期计划</title>
-      <link>https://qiangua.github.io/post/2019/05/19/%E7%9F%AD%E6%9C%9F%E8%AE%A1%E5%88%92/</link>
+      <link>https://qiangua.me/post/2019/05/19/%E7%9F%AD%E6%9C%9F%E8%AE%A1%E5%88%92/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/05/19/%E7%9F%AD%E6%9C%9F%E8%AE%A1%E5%88%92/</guid>
+      <guid>https://qiangua.me/post/2019/05/19/%E7%9F%AD%E6%9C%9F%E8%AE%A1%E5%88%92/</guid>
       <description>[TOC]
 🐝 Stay hungry &amp;amp; foolish 📝 大量去阅读文献，同时坚持写文献笔记，尽量将笔记电子化提升效率
 📝 坚持去读一些无用的书，纯粹是由兴趣驱使
@@ -217,48 +217,48 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
     
     <item>
       <title>Basical softwares</title>
-      <link>https://qiangua.github.io/post/2019/04/15/basical-softwares/</link>
+      <link>https://qiangua.me/post/2019/04/15/basical-softwares/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/04/15/basical-softwares/</guid>
+      <guid>https://qiangua.me/post/2019/04/15/basical-softwares/</guid>
       <description> Softwares on Windows  Matlab &amp;amp; Mathematica TexLive &amp;amp; WinEdt 10.2 Adobe Illustrator OriginLab Pro Adobe Acrobat Xmanger ( include Xshell and Xftp ) Geek Unistall Bandzip  Personal favoriate softwares  Listary ( Lanch apps elegantly ) Everthing ( Search files fastly ) WGestures ( Modern mouse gestures for Windows ) Snipaste ( Capture screen as a picture and paste it on screen ) Sublime ( Code editor ) Zotero ( Reference managment ) Squirrel/小狼毫/中州韵 ( Input source ) or Google Input Inkscape ( draw figure ) RStudio ( R editor) Google Earth  </description>
     </item>
     
     <item>
       <title>知耻后勇</title>
-      <link>https://qiangua.github.io/post/2019/01/29/%E7%9F%A5%E8%80%BB%E5%90%8E%E5%8B%87/</link>
+      <link>https://qiangua.me/post/2019/01/29/%E7%9F%A5%E8%80%BB%E5%90%8E%E5%8B%87/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2019/01/29/%E7%9F%A5%E8%80%BB%E5%90%8E%E5%8B%87/</guid>
+      <guid>https://qiangua.me/post/2019/01/29/%E7%9F%A5%E8%80%BB%E5%90%8E%E5%8B%87/</guid>
       <description>知耻后勇 闻过而知礼，知耻而后勇。</description>
     </item>
     
     <item>
       <title>无题</title>
-      <link>https://qiangua.github.io/post/2018/11/25/%E6%97%A0%E9%A2%98/</link>
+      <link>https://qiangua.me/post/2018/11/25/%E6%97%A0%E9%A2%98/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/11/25/%E6%97%A0%E9%A2%98/</guid>
+      <guid>https://qiangua.me/post/2018/11/25/%E6%97%A0%E9%A2%98/</guid>
       <description> 无题 chu cao chu cao ! 加油呀！ 重新开始你的梦！
 相见时难别亦难 东风无力百花残 春蚕到死丝方尽 蜡炬成灰泪始干 晓镜但愁云鬓改 夜吟应觉夜光寒 蓬山此去无多路 青鸟殷勤为探看  </description>
     </item>
     
     <item>
       <title>Workshop</title>
-      <link>https://qiangua.github.io/post/2018/09/21/workshop/</link>
+      <link>https://qiangua.me/post/2018/09/21/workshop/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/09/21/workshop/</guid>
+      <guid>https://qiangua.me/post/2018/09/21/workshop/</guid>
       <description> Workshop In the past 3 days of this week, I joined an academic workshop in Beijing. I think it’s necessary to make a summary to record what I see and think.
 Preproparation Ticket  GO Back Underway Bicycle  Line  Meetting old friends Visit  Night Closed palce   Talker  Personal Homepage Recent papers  Sessions Posters  students Methods/Calculation Boss/Group&amp;rsquo;s situation  Communication  coffee time lunch/dinner  Questions and Suggestions  Improve your oral english Commen topics  </description>
     </item>
     
     <item>
       <title>科研工作者的计算机素养系列简介</title>
-      <link>https://qiangua.github.io/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</link>
+      <link>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
+      <guid>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
       <description>科研工作者的计算机素养系列简介 缘起 博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不少心得体会。今年暑假里，承蒙导师仁厚，小心翼翼过了个小假期，趁机又折腾优化了自己的工作流程。我在搜索过程中接触到了一个 Workshop ，专门给科研工作者介绍一些计算机技能，非常符合自己的品味。
 故而萌生写出这一系系列的念头，希望能有所得。
 主要构思 考虑完成一件科研课题的必要环节来进行抽象出来进行优化。
@@ -276,10 +276,10 @@ Preproparation Ticket  GO Back Underway Bicycle  Line  Meetting old friends Visi
     
     <item>
       <title>2018暑假小结</title>
-      <link>https://qiangua.github.io/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</link>
+      <link>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
+      <guid>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
       <description> 2018暑假小结 [TOC]
 Todo list  命令行工具（zsh、vim/neovim、spacemacs、命令行下常用快捷键） R/Julia LaTeX 书籍排版 科研工作者的计算机素养(版本管理Git、Linux基本命令及脚本、自动化Make、LaTeX编译等，可以写个小系列😀) 论文进度更新 书籍阅读 影视作品  书籍阅读  生活与命运  最先接触到这本书还是从梁文道的《一千零一夜》谈起。PS 毫无疑问《一千零一夜》是一档绝佳的良心节目。
 全书围绕的是苏联的列宁格勒保卫战，堪称20世纪的《战争与和平》。吸引去读的我的还是书中对于人性的刻画和反思。人性是我近期比较关心的主题（是不是有点不符合同龄人品味，但完全不需要去符合一个莫须有的标准，目前觉得自然随着心性很好）。人性的复杂性不是仅仅能用好坏二分来简单划分。刚刚读一小部分。将来还会写相关的阅读反思。
@@ -288,10 +288,10 @@ Todo list  命令行工具（zsh、vim/neovim、spacemacs、命令行下常用�
     
     <item>
       <title>Quotes</title>
-      <link>https://qiangua.github.io/post/2018/07/19/quotes/</link>
+      <link>https://qiangua.me/post/2018/07/19/quotes/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/07/19/quotes/</guid>
+      <guid>https://qiangua.me/post/2018/07/19/quotes/</guid>
       <description>Quotes Start from: 2017-11-12
  I&amp;rsquo;m interested in memory because it&amp;rsquo;s a filter through which we see our lives, and because it&amp;rsquo;s foggy and obscure, the opportunities for self-deception are there.—— Kazuo Ishiguro
 我喜欢回忆，是因为回忆是我们审视自己生活的过滤器。
@@ -304,19 +304,19 @@ We are whiplashed between an arrogant overestimation of ourselves and a servile 
     
     <item>
       <title>随记</title>
-      <link>https://qiangua.github.io/post/2018/07/13/%E9%9A%8F%E8%AE%B0/</link>
+      <link>https://qiangua.me/post/2018/07/13/%E9%9A%8F%E8%AE%B0/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/07/13/%E9%9A%8F%E8%AE%B0/</guid>
+      <guid>https://qiangua.me/post/2018/07/13/%E9%9A%8F%E8%AE%B0/</guid>
       <description> 小事随记  when-changed zsh，powerlevel9k theme key： ctrl+a，ctrl+e sublime 切换回 vim 模式  </description>
     </item>
     
     <item>
       <title>LaTeX  排版记录</title>
-      <link>https://qiangua.github.io/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</guid>
       <description>LaTeX 排版记录 第一次帮同学做了一次 LaTeX 排版书籍，过程中技能方面会有一些提升，这里做一个简要记录。
  文档结构  中文的话最好用 ctexbook 类型。
  主文件  保持结构清晰，包引用、格式设置分别用各自 tex 文件负责，然后 \input
@@ -326,10 +326,10 @@ We are whiplashed between an arrogant overestimation of ourselves and a servile 
     
     <item>
       <title>数据处理心得记录</title>
-      <link>https://qiangua.github.io/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</guid>
       <description>数据记录与处理「todo」 环节：
  产生
  收集
@@ -346,10 +346,10 @@ Output: eps, jpeg, pdf
     
     <item>
       <title>论文与版本管理</title>
-      <link>https://qiangua.github.io/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
+      <link>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
       <description> 论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。
 eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / 坚果云 里。
  tips  给每一个成熟的版本添加一个 tag
@@ -360,10 +360,10 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
     
     <item>
       <title>Ways of Plotting</title>
-      <link>https://qiangua.github.io/post/2018/06/06/ways-of-plotting/</link>
+      <link>https://qiangua.me/post/2018/06/06/ways-of-plotting/</link>
       <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/06/06/ways-of-plotting/</guid>
+      <guid>https://qiangua.me/post/2018/06/06/ways-of-plotting/</guid>
       <description>Ways of Plotting 作图 根据类型划分
 函数类型 有明确的解析表达式，或者数据对。
 先得到明确的数据集，即 $(x_i,y_i)$ . Dat 文件
@@ -380,10 +380,10 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
     
     <item>
       <title>小窗幽记</title>
-      <link>https://qiangua.github.io/post/2018/05/30/%E5%B0%8F%E7%AA%97%E5%B9%BD%E8%AE%B0/</link>
+      <link>https://qiangua.me/post/2018/05/30/%E5%B0%8F%E7%AA%97%E5%B9%BD%E8%AE%B0/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/30/%E5%B0%8F%E7%AA%97%E5%B9%BD%E8%AE%B0/</guid>
+      <guid>https://qiangua.me/post/2018/05/30/%E5%B0%8F%E7%AA%97%E5%B9%BD%E8%AE%B0/</guid>
       <description> 小窗幽记集情篇 无意中在「西窗烛」APP 里看到了陈继儒 的这篇小文章，甚得我心，拙笔以记之。
  ​ 情語云：當爲情死，不當爲情怨。關乎情者，原可死而不可怨者也。雖然既雲情矣，此身已爲情有，又何忍死耶？然不死終不透徹耳。君平之柳，崔護之花，漢宮之流葉，蜀女之飄梧，令後世有情之人諮嗟想慕，託之語言，寄之歌詠。而一奴一無崑崙，客無黃衫，知己無押衙，同志無虞侯，則雖盟在海棠，終是陌路蕭郎耳。
  </description>
@@ -391,19 +391,19 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
     
     <item>
       <title>寻情之作</title>
-      <link>https://qiangua.github.io/post/2018/05/23/%E5%AF%BB%E6%83%85%E4%B9%8B%E4%BD%9C/</link>
+      <link>https://qiangua.me/post/2018/05/23/%E5%AF%BB%E6%83%85%E4%B9%8B%E4%BD%9C/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/23/%E5%AF%BB%E6%83%85%E4%B9%8B%E4%BD%9C/</guid>
+      <guid>https://qiangua.me/post/2018/05/23/%E5%AF%BB%E6%83%85%E4%B9%8B%E4%BD%9C/</guid>
       <description>寻情之作 煩悶之時，一睹先人之作，以解煩憂。</description>
     </item>
     
     <item>
       <title>520日記</title>
-      <link>https://qiangua.github.io/post/2018/05/20/520%E6%97%A5%E8%A8%98/</link>
+      <link>https://qiangua.me/post/2018/05/20/520%E6%97%A5%E8%A8%98/</link>
       <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/20/520%E6%97%A5%E8%A8%98/</guid>
+      <guid>https://qiangua.me/post/2018/05/20/520%E6%97%A5%E8%A8%98/</guid>
       <description>Plot2 畫圖 Mac 生态里没有了 Origin， 另寻了一个数据画图工具 Plot2 ，下面是一个简单测试。
 主要界面 如圖：
 
@@ -419,10 +419,10 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
     
     <item>
       <title>Records Related with My Mac</title>
-      <link>https://qiangua.github.io/post/2018/05/12/records-related-with-my-mac/</link>
+      <link>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/12/records-related-with-my-mac/</guid>
+      <guid>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</guid>
       <description>Records of Mac APPs Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
  %右⇧ =&amp;gt; Capuslock
 Capuslock =&amp;gt; Ctrl
@@ -440,10 +440,10 @@ Buile Texmacs with Cmake on Mac OS 4. 浏览器 快速定位到搜索栏：⌘+L
     
     <item>
       <title>Vim 修炼成长记录</title>
-      <link>https://qiangua.github.io/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</guid>
       <description> Vim 修炼成长记录 参考书籍《Vim 实用技巧》
 基本存活技能 输入 操作 退出 问题式驱动 理想的操作是“用一键移动，另一键执行”
 执行——重复——回退
@@ -473,10 +473,10 @@ t，m 等用法对于跨行交换会快一些。
     
     <item>
       <title>格式转换</title>
-      <link>https://qiangua.github.io/post/2018/05/11/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</link>
+      <link>https://qiangua.me/post/2018/05/11/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/11/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</guid>
+      <guid>https://qiangua.me/post/2018/05/11/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</guid>
       <description>格式转换 用 LaTex 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。
 缘起 我不论在 **Windows **还是 Mac 的 Tex 文件上用的都是 UTF8 编码，这也是目前比较现代的做法，可是导师那边用的是 GBK 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。
 Solution 在 Mac 上可以直接利用 Shell 命令 iconv 来完成转换。e.g. 打开 iTerm2 进入目标文件夹
@@ -492,10 +492,10 @@ Over! 撤退
     
     <item>
       <title>The Universe in a Glass of Wine</title>
-      <link>https://qiangua.github.io/post/2018/05/08/the-universe-in-a-glass-of-wine/</link>
+      <link>https://qiangua.me/post/2018/05/08/the-universe-in-a-glass-of-wine/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/08/the-universe-in-a-glass-of-wine/</guid>
+      <guid>https://qiangua.me/post/2018/05/08/the-universe-in-a-glass-of-wine/</guid>
       <description>The Universe in a Glass of Wine  有一位诗人曾经说过：“整个世界就存在于一杯葡萄酒中。” 我们大概永远不可能知道他是在什么含义上这样说的，因为诗人的写作并不是为了被理解。但是真是的情况是，当我们十分接近地观察一杯葡萄酒时，我们可以见到整个宇宙。这里出现了一些物理学的现象：弯曲的页面，它的蒸发取决于天气和风；玻璃上的反射；而在我们的想象中又添加了原子。玻璃时地球上的岩石的净化产物，在它的成分中我们可以发现地球的年龄和星体演化的秘密。葡萄酒中所包含的种种化学制品的奇特排列是怎样的？它们是如何产生的？这里有酵素、酶基质以及它们的生成物。于是在葡萄酒中就发现了伟大的概括：整个生命就是发酵。把所有这些扔任何研究葡萄酒的化学的人也必然会像帕斯德(L.Pasteur)所做过的那样发现许多疾病的原因。红葡萄酒是多么的鲜艳！让它深深地留在人们美好的记忆中去吧！如果我们微不足道的有限智力为了某种方便将这杯葡萄酒——这个宇宙——分为几个部分：物理学、生物学、地质学、天文学、心理学，等等，那么要记住，大自然是并不知道这一切的。所以让我们掉归并在一起，并且不要忘记这杯酒最终是干什么用的，让它最后再给我们一次快乐吧！喝掉它，然后把它完全忘掉！
  以上摘自《费曼物理学讲义第一卷第三章3-7》
 从中我们可以看到，对于同样一杯葡萄酒，在物理学家眼中，可以看到常人无法触及的视角，而这也许就是物理吸引人的魅力所在吧。</description>
@@ -503,20 +503,20 @@ Over! 撤退
     
     <item>
       <title>且听风吟-1</title>
-      <link>https://qiangua.github.io/post/2018/05/04/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-1/</link>
+      <link>https://qiangua.me/post/2018/05/04/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-1/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/05/04/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-1/</guid>
+      <guid>https://qiangua.me/post/2018/05/04/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-1/</guid>
       <description>且听风吟-1 个人牢骚系列，美其名曰“且听风吟”。
  少发牢骚，多做实事。 立足自身，开拓边界。 这么一篇篇瀑布流似的文章，得想个办法分类好。 有些事情永远不可能确切地“知道”。我们的许多知识总是不确定的。而用概率来表述时，我们所能获得的知识则最多。</description>
     </item>
     
     <item>
       <title>Get data from the figure</title>
-      <link>https://qiangua.github.io/post/2018/04/11/get-data-from-the-figure/</link>
+      <link>https://qiangua.me/post/2018/04/11/get-data-from-the-figure/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/04/11/get-data-from-the-figure/</guid>
+      <guid>https://qiangua.me/post/2018/04/11/get-data-from-the-figure/</guid>
       <description>Get data from the figure in the paper Target ：Get data from the figure in paper
 Method: Using some practical softwares(only in Windows), including Get data, Photoshop(or Paint 🎨 )
 Process:
@@ -525,10 +525,10 @@ Process:
     
     <item>
       <title>修图简记</title>
-      <link>https://qiangua.github.io/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</link>
+      <link>https://qiangua.me/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</guid>
+      <guid>https://qiangua.me/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</guid>
       <description> Origin 画图格式备忘 [TOC]
 1. 大小 size 长宽比： 指的是边框的比例。
  对于2(or 4)张图并列情况  长：143.604 mm
@@ -544,10 +544,10 @@ legend： 45
     
     <item>
       <title>浪客剑心追忆篇</title>
-      <link>https://qiangua.github.io/post/2018/03/06/%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83%E8%BF%BD%E5%BF%86%E7%AF%87/</link>
+      <link>https://qiangua.me/post/2018/03/06/%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83%E8%BF%BD%E5%BF%86%E7%AF%87/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/03/06/%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83%E8%BF%BD%E5%BF%86%E7%AF%87/</guid>
+      <guid>https://qiangua.me/post/2018/03/06/%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83%E8%BF%BD%E5%BF%86%E7%AF%87/</guid>
       <description>浪客剑心追忆篇 看到了 b站 上木鱼水心的视频介绍，感觉值得一看，至少体现出人之所以为人的人性。下面这四句小诗，不知不觉就记下来了，不时闪现出来。下次补个图。
  血雨腥风成绝响
 人间不见白梅香
@@ -557,10 +557,10 @@ legend： 45
     
     <item>
       <title>Spectral Density Function</title>
-      <link>https://qiangua.github.io/post/2018/03/01/spectral-density-function/</link>
+      <link>https://qiangua.me/post/2018/03/01/spectral-density-function/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/03/01/spectral-density-function/</guid>
+      <guid>https://qiangua.me/post/2018/03/01/spectral-density-function/</guid>
       <description>谱函数截断 之 关联函数图像 [TOC]
 1.简明定义 谐振子热库的关联函数： $$ C(t) = \frac{1}{\pi} \int_0^{\infty} J(\omega)\left[ \coth \frac{\beta\omega}{2}\cos \omega t - i \sin \omega t\right] \, d\omega, $$ 谱密度函数： $$ J(\omega) = \frac{\pi}{2}\sum_j \frac{c_j^2}{\omega_j}\delta(\omega-\omega_j). $$ 这里我们只关注其指数形式： $$ J(\omega)=\frac{\pi}{2}\alpha\omega^s\omega_c^{1-s}f(\frac{\omega}{\omega_c}), $$ $f(\omega/\omega_c)$ 是截断函数，因为高频部分必然会衰减趋于零。
 2. 两种截断方式 针对谱函数做两种截断处理。
@@ -576,10 +576,10 @@ legend： 45
     
     <item>
       <title>HEOM and Linear Response</title>
-      <link>https://qiangua.github.io/post/2018/02/25/heom-and-linear-response/</link>
+      <link>https://qiangua.me/post/2018/02/25/heom-and-linear-response/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/02/25/heom-and-linear-response/</guid>
+      <guid>https://qiangua.me/post/2018/02/25/heom-and-linear-response/</guid>
       <description>Keywords
 Hamiltonian:
 SBM + Bath(Ohimc/Subohmic) + Force $$ H_{tot}(t) = \hat{H}_0 - F(t)\hat{B}_1, $$
@@ -589,10 +589,10 @@ Response function: $$ R^{(1)}(t_1) = \frac{i}{\hbar}\langle[\hat{A}(t_1),\hat{B}
     
     <item>
       <title>Linear response theory</title>
-      <link>https://qiangua.github.io/post/2018/02/25/linear-response-theory/</link>
+      <link>https://qiangua.me/post/2018/02/25/linear-response-theory/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/02/25/linear-response-theory/</guid>
+      <guid>https://qiangua.me/post/2018/02/25/linear-response-theory/</guid>
       <description> Linear response theory [TOC]
 Classical linear response theory Response function
 Correlation funtion
@@ -604,19 +604,19 @@ Quantum linear response theory </description>
     
     <item>
       <title>博客迁移</title>
-      <link>https://qiangua.github.io/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
+      <link>https://qiangua.me/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
+      <guid>https://qiangua.me/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</guid>
       <description>博客迁移 值本命年到来之际，咬牙换了台电脑，从此也进入 MBP 的领地了，用起来非常舒心。 趁着还没开学，使劲折腾了一番，今晚把 hexo 也同步到新的 Mac 上了，从此可以愉快的 hexo 了。</description>
     </item>
     
     <item>
       <title>湖心亭看雪</title>
-      <link>https://qiangua.github.io/post/2018/01/24/%E6%B9%96%E5%BF%83%E4%BA%AD%E7%9C%8B%E9%9B%AA/</link>
+      <link>https://qiangua.me/post/2018/01/24/%E6%B9%96%E5%BF%83%E4%BA%AD%E7%9C%8B%E9%9B%AA/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/01/24/%E6%B9%96%E5%BF%83%E4%BA%AD%E7%9C%8B%E9%9B%AA/</guid>
+      <guid>https://qiangua.me/post/2018/01/24/%E6%B9%96%E5%BF%83%E4%BA%AD%E7%9C%8B%E9%9B%AA/</guid>
       <description>湖心亭看雪  崇禎五年十二月， 餘在西湖。大雪三日，湖中人鳥聲俱絕。是日更定矣，餘挐一小船，擁毳衣爐火，獨往湖心亭看雪。霧凇沆碭，天與雲與水，上下一白。湖上影子，惟長堤一痕，湖心亭一點，與餘舟一芥，舟中人兩三粒而已。
 到亭上，有兩人鋪氊對坐，一童子燒酒爐正沸。見餘，大喜曰：“湖中焉得更有此人！”拉餘同飲。餘強飲三大白而別，問其姓氏，是金陵人，客此。及下船，舟子喃喃曰：“莫說相公痴，更有痴似相公者！”
 ——張岱</description>
@@ -624,10 +624,10 @@ Quantum linear response theory </description>
     
     <item>
       <title>The simulation of two dimension Ising model</title>
-      <link>https://qiangua.github.io/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
+      <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
+      <guid>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
       <description>The simulation of 2D Ising model [TOC]
  Ising model on a square lattice **Update: 2018/1/16 ** Begin:2017/10/5
  1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。
@@ -642,10 +642,10 @@ Quantum linear response theory </description>
     
     <item>
       <title>LaTexTools 实用操作记录</title>
-      <link>https://qiangua.github.io/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
       <description> LaTexTools 实用操作记录 LaTexTools 是 Sublime 的一个插件，顾名思义是用来辅助写 LaTex 文件的。本文就简单介绍一下如何使用 LaTexTools 来提高论文写作效率。当然最好亲自去看原文档说明。这里只记录自己最常用的功能。
 快捷键：
 Ctrl+l, e: 插入环境
@@ -657,10 +657,10 @@ Tips： 使用 Tab 键来跳转光标位置。
     
     <item>
       <title>AUCTEX 简明教程</title>
-      <link>https://qiangua.github.io/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</link>
+      <link>https://qiangua.me/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://qiangua.me/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</guid>
       <description>AUCTEX 简明教程 最近开始写论文了，毫无疑问要用 LaTeX 呀。最近可能会更新一些使用LaTeX
 Workflow ， 主要是编辑器和一些趁手的工具吧。 还好我机智，大二就开始自学
 LaTeX 了，现在也算是一个熟练工了吧。
@@ -673,10 +673,10 @@ Ctrl+c Ctrl+e： 插入完整环境，譬如 align、equation、figure</descript
     
     <item>
       <title>不要踏进那良夜</title>
-      <link>https://qiangua.github.io/post/2017/12/05/%E4%B8%8D%E8%A6%81%E8%B8%8F%E8%BF%9B%E9%82%A3%E8%89%AF%E5%A4%9C/</link>
+      <link>https://qiangua.me/post/2017/12/05/%E4%B8%8D%E8%A6%81%E8%B8%8F%E8%BF%9B%E9%82%A3%E8%89%AF%E5%A4%9C/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/12/05/%E4%B8%8D%E8%A6%81%E8%B8%8F%E8%BF%9B%E9%82%A3%E8%89%AF%E5%A4%9C/</guid>
+      <guid>https://qiangua.me/post/2017/12/05/%E4%B8%8D%E8%A6%81%E8%B8%8F%E8%BF%9B%E9%82%A3%E8%89%AF%E5%A4%9C/</guid>
       <description>不要踏进那良夜 还是说个事吧，最近在同时忙着课题和转博的事，今天转博的事定下来了，之后还来不及感慨，就直接转入课题的研究（处理数据，确保正确性和自洽性）。这不，老板才刚回去，我才得空过来锄锄草。
 不知不觉就向着大龄单身物理Phd转变，匆匆。
 照着这个工作强度，希望四五年后我还能活着毕业，希望看到的朋友们得空偶尔能送来一丝关怀。
@@ -692,20 +692,20 @@ Good men, the last wave by, crying how bright</description>
     
     <item>
       <title>软件选择标准</title>
-      <link>https://qiangua.github.io/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</link>
+      <link>https://qiangua.me/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</link>
       <pubDate>Tue, 28 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</guid>
+      <guid>https://qiangua.me/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</guid>
       <description> Draft『Updating』 [TOC]
 状态栏  显示当前文件路径 显示行号  语法高亮 自动备份 文件导出 其它  全屏 快捷键可自定義 帮助文件 自定义配色 外表，结构，功能，稳定性 批量處理 軟件交互 外觀簡潔，條理清晰  </description>
     </item>
     
     <item>
       <title>古文选读目录</title>
-      <link>https://qiangua.github.io/post/2017/11/18/%E5%8F%A4%E6%96%87%E9%80%89%E8%AF%BB%E7%9B%AE%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2017/11/18/%E5%8F%A4%E6%96%87%E9%80%89%E8%AF%BB%E7%9B%AE%E5%BD%95/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/18/%E5%8F%A4%E6%96%87%E9%80%89%E8%AF%BB%E7%9B%AE%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2017/11/18/%E5%8F%A4%E6%96%87%E9%80%89%E8%AF%BB%E7%9B%AE%E5%BD%95/</guid>
       <description> 古文选读目录[Updating] [TOC]
 可选一些值得欣赏的古文，使用$LaTeX$重新排版一波， 也算是一个业余项目爱好吧，弄得好还能自己出个书读读。
 先做一个目录，慢慢来， 暂时没一个逻辑顺序。
@@ -714,10 +714,10 @@ Good men, the last wave by, crying how bright</description>
     
     <item>
       <title>数据处理备忘录</title>
-      <link>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+      <link>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</link>
       <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
+      <guid>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
       <description> 数据操作[Updating] Matlab 遍历文件夹读取数据 主要处理的是ASCII的dat文件，使用dlmread来读取。
 一个小型Matlab脚本样例：
 % data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list namelist=dir([address,&#39;*.dat&#39;]); % write in the data matrix rowsize= 100000 colsize= 2 data=zeros(rowsize,colsize); dim = length(namelist); for i=1:dim filename=[address,namelist(i).name]; temp=dlmread(filename,&#39;&#39;,[0 1 rowsize-1 2]); data(:,i)=temp(:,1)-temp(:,2); end time_array=dlmread(filename,&#39;&#39;,[0 0 rowsize-1 0]); plot(time_array,data(:,1:dim))  Matlab批量拟合 之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，
@@ -728,10 +728,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>文件整理术</title>
-      <link>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
+      <link>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
+      <guid>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</guid>
       <description> 文件整理术[TODO] 粗略的设想 群分类思想
 系统论交互
 文件类型——软件 （一一对应）
@@ -754,10 +754,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>自动化蓝图</title>
-      <link>https://qiangua.github.io/post/2017/11/16/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%93%9D%E5%9B%BE/</link>
+      <link>https://qiangua.me/post/2017/11/16/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%93%9D%E5%9B%BE/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/16/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%93%9D%E5%9B%BE/</guid>
+      <guid>https://qiangua.me/post/2017/11/16/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%93%9D%E5%9B%BE/</guid>
       <description>自动化的生活 [TODO]
 [TOC]
 ** 主要思路及实现方法：**
@@ -768,10 +768,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>自我剖析</title>
-      <link>https://qiangua.github.io/post/2017/11/16/%E8%87%AA%E6%88%91%E5%89%96%E6%9E%90/</link>
+      <link>https://qiangua.me/post/2017/11/16/%E8%87%AA%E6%88%91%E5%89%96%E6%9E%90/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/16/%E8%87%AA%E6%88%91%E5%89%96%E6%9E%90/</guid>
+      <guid>https://qiangua.me/post/2017/11/16/%E8%87%AA%E6%88%91%E5%89%96%E6%9E%90/</guid>
       <description> 自我剖析  做事的系统性、条理性不足 自我要求 Motivation 做事效率 、专注度 要有解决问题的态度，而不是畏缩不前、束手束脚  这几条是相辅相成的！
  每天的自我总结！有哪些提高进步？对自己诚实！对自己提问题！！
 要有一个短期规划！一周？
@@ -785,29 +785,29 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>Flow Plot</title>
-      <link>https://qiangua.github.io/post/2017/11/03/flow-plot/</link>
+      <link>https://qiangua.me/post/2017/11/03/flow-plot/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/11/03/flow-plot/</guid>
+      <guid>https://qiangua.me/post/2017/11/03/flow-plot/</guid>
       <description>st=&amp;gt;start: Start op=&amp;gt;operation: Your Operation cond=&amp;gt;condition: Yes or No? e=&amp;gt;end st-&amp;gt;op-&amp;gt;cond cond(yes)-&amp;gt;e cond(no)-&amp;gt;op  graph LR A[Hard edge] --&amp;gt;B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two]  </description>
     </item>
     
     <item>
       <title>片语只言</title>
-      <link>https://qiangua.github.io/post/2017/10/30/%E7%89%87%E8%AF%AD%E5%8F%AA%E8%A8%80/</link>
+      <link>https://qiangua.me/post/2017/10/30/%E7%89%87%E8%AF%AD%E5%8F%AA%E8%A8%80/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/30/%E7%89%87%E8%AF%AD%E5%8F%AA%E8%A8%80/</guid>
+      <guid>https://qiangua.me/post/2017/10/30/%E7%89%87%E8%AF%AD%E5%8F%AA%E8%A8%80/</guid>
       <description>片语只言
   一旦你伤害了一个人，无论你是出于心怀不轨亦或心怀善意，都不能改变你造成了伤害这个既定实时。 你尽管走你的好了，后事我会自行处理。   </description>
     </item>
     
     <item>
       <title>重要的思想</title>
-      <link>https://qiangua.github.io/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</link>
+      <link>https://qiangua.me/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</guid>
+      <guid>https://qiangua.me/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</guid>
       <description>学术思想  从复杂的非线性情形获取线性的信息。eg:同调论、K理论
  等效的思想。 提供看待对象的不同视角，针对问题选择容易的进行操作。
   eg：Onsager&amp;rsquo;s hypothesis
@@ -818,10 +818,10 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
     
     <item>
       <title>Autosave program</title>
-      <link>https://qiangua.github.io/post/2017/10/23/autosave-program/</link>
+      <link>https://qiangua.me/post/2017/10/23/autosave-program/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/23/autosave-program/</guid>
+      <guid>https://qiangua.me/post/2017/10/23/autosave-program/</guid>
       <description> 自动保存功能  目的：
 为 目前的 HEOM Fortran 程序增加自动保存功能， 防止屡次出现因天河维护而导致几天辛辛苦苦跑的程序挂掉。为了使它具有较大的通用性，最好将它维护成一个 MODULE。
  列出一些关键点 TODO list:
@@ -841,10 +841,10 @@ ENDIF
     
     <item>
       <title>利器清单</title>
-      <link>https://qiangua.github.io/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</link>
+      <link>https://qiangua.me/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</link>
       <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://qiangua.me/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</guid>
       <description>利器清单 [TOC]
  斑斑疏影， 尽是法身；
 皎皎月华， 无非般若。
@@ -854,10 +854,10 @@ ENDIF
     
     <item>
       <title>Metropolis-Hasting algorithm</title>
-      <link>https://qiangua.github.io/post/2017/10/03/metropolis-hasting-algorithm/</link>
+      <link>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/10/03/metropolis-hasting-algorithm/</guid>
+      <guid>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</guid>
       <description>Metropolis-Hasting algorithm [TOC]
 0. 预备知识 1.Monte carlo simulation 2. Metropolis-Hasting algorithm 由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：
 $$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$
@@ -878,10 +878,10 @@ end for
     
     <item>
       <title>色彩的结构解析</title>
-      <link>https://qiangua.github.io/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</link>
+      <link>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
+      <guid>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
       <description> 色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
 1. 色彩游戏 2. 色彩的结构 线性空间
 2.1 颜色的数字表示 色度学 3. 有趣的节点 </description>
@@ -889,10 +889,10 @@ end for
     
     <item>
       <title>熵与能量</title>
-      <link>https://qiangua.github.io/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</link>
+      <link>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
+      <guid>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
       <description>熵与能量  “We are most likely to observe the most probable state”
  \[ S = k_b\ln\Omega \]
 熵最大：
@@ -902,10 +902,10 @@ end for
     
     <item>
       <title>Formula test</title>
-      <link>https://qiangua.github.io/post/2017/09/27/formula-test/</link>
+      <link>https://qiangua.me/post/2017/09/27/formula-test/</link>
       <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/27/formula-test/</guid>
+      <guid>https://qiangua.me/post/2017/09/27/formula-test/</guid>
       <description>质能公式 \[ E=mc^{2} \]
 \[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
 Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
@@ -914,29 +914,29 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
     
     <item>
       <title>杂事一则</title>
-      <link>https://qiangua.github.io/post/2017/09/23/%E6%9D%82%E4%BA%8B%E4%B8%80%E5%88%99/</link>
+      <link>https://qiangua.me/post/2017/09/23/%E6%9D%82%E4%BA%8B%E4%B8%80%E5%88%99/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/23/%E6%9D%82%E4%BA%8B%E4%B8%80%E5%88%99/</guid>
+      <guid>https://qiangua.me/post/2017/09/23/%E6%9D%82%E4%BA%8B%E4%B8%80%E5%88%99/</guid>
       <description>杂事一则 最近搞科研弄的有点烦躁，于是刚刚戴上耳机就外出随便走在。从曙光路回来的路上，迎面走来一对刚从四季酒店走出的情侣模样的XY，我也没在意，擦肩而过。哪想突然身后传来一声惨叫，饶是我这隔声效果极佳的耳机也没挡住！回头一看，“正房”模样的女子G正揪打着瘫坐在地的X，身后是带来的四五个姐妹。我看了一眼大致就明白了所生何事，无心旁观，继续前行。想起了我博客中不久前刚摘写的一段话：“爱，犹如火焰，需要不断煽动；一旦停止希望，或停止担忧，爱就寿终正寝了。”</description>
     </item>
     
     <item>
       <title>The algorithm to find the auxiliary field</title>
-      <link>https://qiangua.github.io/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</link>
+      <link>https://qiangua.me/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</guid>
+      <guid>https://qiangua.me/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</guid>
       <description> The algorithm to find the auxiliary field [TOC]
 1. The corresponding relation between Auxiliary field operator and index 2. Useful table to record the position of a specific base function 3. Algorithm to find a given ADO&amp;rsquo;s index </description>
     </item>
     
     <item>
       <title>情绪流</title>
-      <link>https://qiangua.github.io/post/2017/09/17/%E6%83%85%E7%BB%AA%E6%B5%81/</link>
+      <link>https://qiangua.me/post/2017/09/17/%E6%83%85%E7%BB%AA%E6%B5%81/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/17/%E6%83%85%E7%BB%AA%E6%B5%81/</guid>
+      <guid>https://qiangua.me/post/2017/09/17/%E6%83%85%E7%BB%AA%E6%B5%81/</guid>
       <description>情绪  此人皆意有所郁结，不得通其道，故述往事，思来者。
  不知从何时起，周末变成了一个容易感伤的日子，心里是清楚其中原因的，无非是冷眼轻瞥他人风景，“从此无心恋明月，任它明月下西楼”罢了。心中的愤懑不可堆积，故需法倾泻之。没有欢声笑语、嬉戏怒骂，更无良辰美景、知己红颜， 一切仿佛归于平淡。还好有此一隅来供余自聊。
 索性随意发挥一下吧。
@@ -945,28 +945,28 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
     
     <item>
       <title>Hexo文章简单加密访问测试</title>
-      <link>https://qiangua.github.io/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</link>
+      <link>https://qiangua.me/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://qiangua.me/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</guid>
       <description>Private test Hello！ This is my private blog.</description>
     </item>
     
     <item>
       <title>Potrait</title>
-      <link>https://qiangua.github.io/post/2017/09/16/potrait/</link>
+      <link>https://qiangua.me/post/2017/09/16/potrait/</link>
       <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/16/potrait/</guid>
+      <guid>https://qiangua.me/post/2017/09/16/potrait/</guid>
       <description>Potrait Plan Make a new category to collect the history character I have read.</description>
     </item>
     
     <item>
       <title>稼轩词引</title>
-      <link>https://qiangua.github.io/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95/</link>
+      <link>https://qiangua.me/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95/</guid>
+      <guid>https://qiangua.me/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95/</guid>
       <description>稼轩词一首 兰陵王  己未八月二十日夜，夢有人以石研屏見餉者。其色如玉，光潤可愛。中有一牛，磨角作斗狀。云：“湘潭里中有張其姓者，多力善斗，號張難敵。一日，與人搏，偶敗，忿赴河而死。居三日，其家人來視之，浮水上，則牛耳。自後並水之山往往有此石，或得之，里中輒不利。”夢中異之，爲作詩數百言，大抵階取古之怨憤變化異物等事，覺二忘其言。後三日，賦詞以識其異。
 恨之極。恨極銷磨不得。萇弘事，人道後來，其血化爲碧。鄭人緩也泣。吾父攻儒助墨。十年夢，沈痛化餘，秋柏之間既爲實。
 相思重相億。被怨結中腸，潛動精魄。望夫江上岩岩立。嗟一念中變，後期長絕。君看啓母憤所激。又俄傾爲石。難敵。最多力。甚一分沈淵，精氣爲物。依然困斗牛磨角。便影入山骨，至今雕琢。尋思人間，只合化，夢中蝶。
@@ -975,10 +975,10 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
     
     <item>
       <title>稼轩词引二</title>
-      <link>https://qiangua.github.io/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95%E4%BA%8C/</link>
+      <link>https://qiangua.me/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95%E4%BA%8C/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95%E4%BA%8C/</guid>
+      <guid>https://qiangua.me/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95%E4%BA%8C/</guid>
       <description> 賀新郎  邑中园亭，仆皆为赋此词。一日，独坐停云，水声山色，竞来相娱。意溪山欲援例者，遂作数语，庶几仿佛渊明思亲友之意云。
 甚矣吾衰矣。怅平生、交游零落，只今馀几。白发空垂三千丈，一笑人间万事。问何物、能令公喜。*我见青山多妩媚*，料青山、见我应如是。情与貌，略相似。
 一尊搔首东窗里。想渊明、停云诗就，此时风味。江左沉酣求名者，岂识浊醪妙理。回首叫、云飞风起。不恨古人吾不见，恨古人、不见吾狂耳。知我者，二三子。
@@ -987,10 +987,10 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
     
     <item>
       <title>杂记</title>
-      <link>https://qiangua.github.io/post/2017/09/10/%E6%9D%82%E8%AE%B0/</link>
+      <link>https://qiangua.me/post/2017/09/10/%E6%9D%82%E8%AE%B0/</link>
       <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/10/%E6%9D%82%E8%AE%B0/</guid>
+      <guid>https://qiangua.me/post/2017/09/10/%E6%9D%82%E8%AE%B0/</guid>
       <description>杂记  下载了谷歌地球，看看世界
  找出了没能很好收敛的原因
  鼓弄了excel的统计功能
@@ -1003,10 +1003,10 @@ Workflow 理念
     
     <item>
       <title>读书笔记2——《西方文化的衰落》</title>
-      <link>https://qiangua.github.io/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</link>
+      <link>https://qiangua.me/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</link>
       <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
+      <guid>https://qiangua.me/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
       <description>随笔  当你的生活越来越波澜不惊之时，当心！你要确保你没落入“常人的生活”，免得重蹈伊凡伊里奇的覆辙。
 ​ ——采采流水
  经历 [update 2019.06.14] 最初接触到『西衰』这本书还是在大学时候听司强老师介绍的，他当时描述说在朋友那里看到这本书一下子就被吸引住了，我也一下子就来了兴趣。拿到书后，第一反应是书的翻译真有文采呀，好奇英文原文该是如何？</description>
@@ -1014,29 +1014,29 @@ Workflow 理念
     
     <item>
       <title>读书笔记1——《西方文化的衰落》</title>
-      <link>https://qiangua.github.io/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</link>
+      <link>https://qiangua.me/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</link>
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
+      <guid>https://qiangua.me/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
       <description> 读书笔记1——《西方文化的衰落》  一时间她们陶醉在与对方天长地久的激情中， 未几， 在蝇头般的压力下， 她们的山盟海誓立刻改变了对象。其实她们爱的是被爱的感觉， 并不是对方那个人；她们爱的是激情本身，对方那个人无非是一个随意的启动装置。那些销魂爱语是一堆无意义的泡沫。法国心理学家拉罗什富科0在他1678年的作品《箴言集》(Maxims)中曾写到：“爱，犹如火焰，需要不断煽动；一旦停止希望，或停止担忧，爱就寿终正寝了。”
  </description>
     </item>
     
     <item>
       <title>Letting go</title>
-      <link>https://qiangua.github.io/post/2016/11/09/letting-go/</link>
+      <link>https://qiangua.me/post/2016/11/09/letting-go/</link>
       <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/11/09/letting-go/</guid>
+      <guid>https://qiangua.me/post/2016/11/09/letting-go/</guid>
       <description>Quatation ** Some think that holding on makes us strong; but sometimes, it&amp;rsquo;s letting go. **</description>
     </item>
     
     <item>
       <title>Continue my blog career</title>
-      <link>https://qiangua.github.io/post/2016/11/07/continue-my-blog-career/</link>
+      <link>https://qiangua.me/post/2016/11/07/continue-my-blog-career/</link>
       <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/11/07/continue-my-blog-career/</guid>
+      <guid>https://qiangua.me/post/2016/11/07/continue-my-blog-career/</guid>
       <description>稼轩词之摸鱼儿 Recently, I was a bit busy in continuing my study without any attention paid on my blog. What a pity! Now I come back again. A Li A Li! (jia you)
 辛弃疾词之摸鱼儿 更能消、几番风雨。匆匆春又归去。惜春长恨花开早，何况落红无数。春且住。见说道、天涯芳草迷归路。怨春不语。算只有殷勤，画檐蛛网，尽日惹飞絮。
 长门事，准拟佳期又误。蛾眉曾有人妒。千金纵买相如赋，脉脉此情谁诉。君莫舞。君不见、玉环飞燕皆尘土。闲愁最苦。休去倚危楼，斜阳正在，烟柳断肠处。</description>
@@ -1044,29 +1044,29 @@ Workflow 理念
     
     <item>
       <title>国庆</title>
-      <link>https://qiangua.github.io/post/2016/10/01/%E5%9B%BD%E5%BA%86/</link>
+      <link>https://qiangua.me/post/2016/10/01/%E5%9B%BD%E5%BA%86/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/10/01/%E5%9B%BD%E5%BA%86/</guid>
+      <guid>https://qiangua.me/post/2016/10/01/%E5%9B%BD%E5%BA%86/</guid>
       <description>Table of Contents  1. 国庆  1.1. 趣玩Mathmatica 1.2. 稼轩词选——《青玉案》      国庆 趣玩Mathmatica   悦 众 里 寻 她     已 衣 带 渐 宽   更 吹 落 星 雨    稼轩词选——《青玉案》 东风夜放花千树。更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一 夜鱼龙舞。 蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度，蓦然回首，那人却在灯火 阑珊处。</description>
     </item>
     
     <item>
       <title>Hexo写作话题</title>
-      <link>https://qiangua.github.io/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</link>
+      <link>https://qiangua.me/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</link>
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</guid>
+      <guid>https://qiangua.me/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</guid>
       <description> Topics 1.Physics 2. LaTex 3. Pandoc  如何转为中文pdf  4. Git/GitHub 版本控制
 5. Mathematics 6. Languages 7. Writing 8. Emacs  Org-mode (中文问题解决方法) 已初步解决（xelatex+utf8）  9. 博客美化  配色 字体 分类样式  </description>
     </item>
     
     <item>
       <title>LaTex $E=mc^{2}$</title>
-      <link>https://qiangua.github.io/post/2016/09/07/latex-emc2/</link>
+      <link>https://qiangua.me/post/2016/09/07/latex-emc2/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2016/09/07/latex-emc2/</guid>
+      <guid>https://qiangua.me/post/2016/09/07/latex-emc2/</guid>
       <description>Problem 质能公式 $$ E=mc^{2} $$
 $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
 Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$
@@ -1085,10 +1085,10 @@ $$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \
     
     <item>
       <title>量子力学常见对易关系</title>
-      <link>https://qiangua.github.io/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</link>
+      <link>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</link>
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.github.io/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
+      <guid>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
       <description>#量子力学常见对易关系及其证明
 标签（空格分隔）： Quantum Comumutor
 本文框架[TOC]
