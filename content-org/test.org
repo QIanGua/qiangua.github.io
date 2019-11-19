@@ -37,3 +37,22 @@ $$ S = k_{B}T\log\Omega $$
 With the assistance of =org-download=, it's convient to insert a figure in org file, e.g.
 #+DOWNLOADED: https://images.unsplash.com/photo-1574003887216-5d32ce5f22fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80 @ 2019-11-19 15:26:30
 [[file:Emacs/photo-1574003887216-5d32ce5f22fa_2019-11-19_15-26-30.jpeg]]
+** DONE Deploy Hugo blog on Netlify                                           :blog:netlify:
+CLOSED: [2019-11-20 Wed 00:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: Deploy Hugo blog on Netlify
+:EXPORT_DATE: 2019-11-19
+:END:
+- State "DONE"       from "TODO"       [2019-11-20 Wed 00:21]
+Genetal introduction of several problem I got during the process I deploy hugo blog on netlify.
+*** First Issure: Can't recongnize submodule's position
+CLOSED: [2019-11-20 Wed 00:15]
+The blog theme is added by using git submodule, such as =git submodule add origin url=. Remember here
+the url of theme repo to use =https= instead of =git=.
+*** Second issure: Command not found and continue publishing 
+Now that I use hugo to generate the blog publish file, so it's necessary to set GO environment in Netlify's machine.
+All you need to do is to customize deploy's setting environment:
+- Build command: hugo
+- Publish directory: publish
+More deetailes to check this link: https://docs.netlify.com/configure-builds/common-configurations/#gatsby
+

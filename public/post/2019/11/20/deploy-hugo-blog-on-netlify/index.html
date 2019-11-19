@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Deploy Hugo blog on Netlify - 采采流水</title>
+    <meta property="og:title" content="Deploy Hugo blog on Netlify - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Genetal introduction of several problem I got during the process I deploy hugo blog on netlify.
+[&amp;hellip;] The blog theme is added by using git submodule, such as git submodule add origin url. &amp;hellip;">
+      <meta property="og:description" content="Genetal introduction of several problem I got during the process I deploy hugo blog on netlify.
+[&amp;hellip;] The blog theme is added by using git submodule, such as git submodule add origin url. &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline">A Hugo theme ported from the static site generator Ivy.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Deploy Hugo blog on Netlify</h1>
+
+<h3>Qiangua
+  /  2019-11-20</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<ul>
+<li>State &ldquo;DONE&rdquo;       from &ldquo;TODO&rdquo;       <span class="timestamp-wrapper"><span class="timestamp">[2019-11-20 Wed 00:21]</span></span></li>
+</ul>
+
+<p>Genetal introduction of several problem I got during the process I deploy hugo blog on netlify.</p>
+
+<h2 id="first-issure-can-t-recongnize-submodule-s-position">First Issure: Can&rsquo;t recongnize submodule&rsquo;s position</h2>
+
+<p>The blog theme is added by using git submodule, such as <code>git submodule add origin url</code>. Remember here
+the url of theme repo to use <code>https</code> instead of <code>git</code>.</p>
+
+<h2 id="second-issure-command-not-found-and-continue-publishing">Second issure: Command not found and continue publishing</h2>
+
+<p>Now that I use hugo to generate the blog publish file, so it&rsquo;s necessary to set GO environment in Netlify&rsquo;s machine.
+All you need to do is to customize deploy&rsquo;s setting environment:</p>
+
+<ul>
+<li>Build command: hugo</li>
+<li>Publish directory: publish</li>
+</ul>
+
+<p>More deetailes to check this link: <a href="https://docs.netlify.com/configure-builds/common-configurations/#gatsby">https://docs.netlify.com/configure-builds/common-configurations/#gatsby</a></p>
+
+
+  <footer>
+  
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://github.com/qiangua">Github</a> | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+
