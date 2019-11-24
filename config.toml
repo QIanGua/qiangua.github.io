@@ -21,16 +21,16 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-[[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 3
 [[menu.main]]
     name = "Books"
     url = "/books/"
+    weight = 4
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
     weight = 5
 [[menu.main]]
     name = "Fragments"
@@ -42,7 +42,7 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = " An Essay Concerning Human Understanding"
-    footer = "&copy; [Qiangua](https://qiangua.me) 2019 | [Github](https://github.com/qiangua) | [Instagram](https://www.instagram.com/mlyqdd/)"
+    footer = "&copy; [Qiangua](https://qiangua.me) 2019 | [Instagram](https://www.instagram.com/mlyqdd/)"
 
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdn.bootcss.com"

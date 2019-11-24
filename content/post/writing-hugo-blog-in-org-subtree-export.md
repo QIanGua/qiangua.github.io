@@ -1,7 +1,7 @@
 +++
 title = "Writing Hugo blog in Org"
 date = 2019-11-19T02:10:00+08:00
-lastmod = 2019-11-20T15:32:55+08:00
+lastmod = 2019-11-20T19:35:31+08:00
 tags = ["org"]
 draft = false
 author = "Qiangua"
@@ -12,7 +12,7 @@ author = "Qiangua"
 
 ## Heading {#heading}
 
-This post will be exported ad `content/posts/writing-hugo-blog-in-org-subtree-export.md`.
+This post will be exported as `content/posts/writing-hugo-blog-in-org-subtree-export.md`.
 
 
 ## Code fragment {#code-fragment}
@@ -50,4 +50,4 @@ C = W\log\_{2} (1+\mathrm{SNR})
 
 With the assistance of `org-download`, it's convenient to insert a figure in org file, e.g.
 
-{{< figure src="/ox-hugo/photo-1574003887216-5d32ce5f22fa_2019-11-19_15-26-30.jpeg" >}}
+{{< figure src="Emacs/photo-1574003887216-5d32ce5f22fa_2019-11-19_15-26-30.jpeg" >}}
