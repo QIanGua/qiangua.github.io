@@ -6,10 +6,27 @@
     <description>Recent content on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Nov 2019 00:21:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2019 14:09:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anual Recommendation</title>
+      <link>https://qiangua.me/post/2019/11/24/anual-recommendation/</link>
+      <pubDate>Sun, 24 Nov 2019 14:09:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2019/11/24/anual-recommendation/</guid>
+      <description>  State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-24 Sun 14:09]  选择标准：“看过后在心中留下的时间长短，对自我感情的触动”。
+书籍 千面英雄 永恒的终结 音频 诗意：关于新诗的三十种注脚 故事便利店 21世纪伟大电影 电影 我是布莱克  &amp;ldquo;好难受，丹，就像掉进了沼泽里。&amp;rdquo;
+“我，丹尼尔布莱克，不是一条狗，是一个人！因此我要求夺回属于我自己的权利，要求得到对人的尊重。我，丹尼尔布莱克，是一个公民，不比谁更高贵，也不比谁低贱。”
+ 熔炉  我们一路奋战，不是为了改变世界，而是为了不让世界改变我们。
+ 野梨树 赛德克巴莱 台湾土著居民与日本殖民者之间的战争，一部关于信仰的史诗，极为震撼！
+剧集 Mr. Robot 春夜  绝佳的配乐，真实的情感，所谓爱情，就在一次次眼神、不忍、恋恋不舍之间，以及共同面对生活的勇气。
+ 软件 看理想  一个宝藏 APP, 虽为音频节目，却是五味俱全。
+ Emacs  推荐给爱折腾的 Geek
+ </description>
+    </item>
     
     <item>
       <title>Deploy Hugo blog on Netlify</title>
@@ -17,9 +34,9 @@
       <pubDate>Wed, 20 Nov 2019 00:21:00 +0800</pubDate>
       
       <guid>https://qiangua.me/post/2019/11/20/deploy-hugo-blog-on-netlify/</guid>
-      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-20 Wed 00:21]  General introduction of several problem I got during the process I deploy hugo blog on netlify.
-First Issure: Can&amp;rsquo;t recognize submodule&amp;rsquo;s position The blog theme is added by using git submodule, such as git submodule add origin url. Remember here the url of theme repo to use https instead of git.
-Second Issure: Command not found and continue publishing Now that I use hugo to generate the blog publish file, so it&amp;rsquo;s necessary to set GO environment in Netlify&amp;rsquo;s machine.</description>
+      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-20 Wed 00:21]  General introduction of several problems I got during the process I deploy hugo blog on Netlify.
+First Issue: Can&amp;rsquo;t recognize submodule&amp;rsquo;s position The blog theme is added by using git submodule, such as git submodule add origin url. Remember the url of theme repo to use https instead of git.
+Second Issue: Command not found and continue publishing Now that I use hugo to generate the blog publish file, so it&amp;rsquo;s necessary to set GO environment in Netlify&amp;rsquo;s machine.</description>
     </item>
     
     <item>
@@ -28,7 +45,7 @@ Second Issure: Command not found and continue publishing Now that I use hugo to 
       <pubDate>Tue, 19 Nov 2019 02:10:00 +0800</pubDate>
       
       <guid>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</guid>
-      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported ad content/posts/writing-hugo-blog-in-org-subtree-export.md.
+      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported as content/posts/writing-hugo-blog-in-org-subtree-export.md.
 Code fragment It&amp;rsquo;s convenient in Org to insert a code fragment use key &amp;lt;s TAB:
 \\#+BEGIN_SRC latex f=ma \\#+END_SRC Math formula Inline math This is a inline math formula \(f=ma\).
 Online math This is a online math formula,
@@ -125,36 +142,38 @@ Pulse 2 $$ \Delta_p(t) = 0,
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/fragments/</guid>
-      <description>采撷瞬间  2019-11-11
+      <description>采撷瞬间  2019-11-26
+办公室一面墙之前可能因为附近办公室起火的原因跳闸了，拖了一段时间一直都没有恢复供电，昨天报修，刚才电工小哥一来, 几句话时间找到电箱，推上电闸，空调马上就工作了，厉害了👍 之前为什么没去想过自己去找找电闸看看呢？这就是专业素养吧！
+『诗，左面是言，右面是寺，用语言来构建寺庙，那么这个寺庙供奉的是何方神圣呢？诗意』──“关于新诗的三十种注脚”
+  2019-11-22
+『你能爱上别人，也能被别人所爱』
+《城堡》的一期卷首语，出自动漫《紫罗兰永恒花园》
+《我是个怪圈》：当日食发生时，太阳四周仍有日华，围成一圈光晕。当某人逝去时，他们也在那些与他们亲近之人的灵魂里留下了一抹鲜艳的余晖。随着时光流逝，这道余晖难免渐渐褪色，乃至熄灭，但那将是多年之后的事了。 最终，当所有亲近之人都告别了人世，余烬方凉，直到此时，才真正迎来“尘归尘，土归土”。
+  2019-11-21
+偶然看到一句木心的诗“我是一个在黑暗中大雪纷飞的人哪！” 甚为触动
+滑倒跌倒，山也寂静
+  2019-11-11
 名人墓碑
 瑞士日内瓦博尔赫斯墓碑
 哥廷根大学
 英国公墓
 要为生活里感兴趣的事写作
-2019-11-11
+  2019-11-11
 emacs replace-regexp
 eg: xyz-&amp;gt;xyz^{2}
 step1: M-x query-replace-regexp
 step2: (xyz)
 step3: \1^{2}
-notice here (&amp;hellip;) is a group which can be quoated by \1,\2 2019-11-11
+notice here (&amp;hellip;) is a group which can be quoated by \1,\2
+  2019-11-11
 高效文本操作操作流分析
 查找──替换
 操作──执行──重复 vim的操作流
 输入对象（snippet）──操作对象（function）
-快速跳转 2019-11-07
+快速跳转
+  2019-11-07
 无知无觉地度过了十月，进展颇少，玩心渐升。今年一共去了两次影院，都发生在过去的一个月。 今晚刚看了电影《野梨树》，这是2019浙江国际青年电影展中的一部，时长三个多小时，无疑是意味悠长的影片，甚至有点像是一部野梨树小说（男主写的虚构自传小说）的电影版，而电影讲述的仿佛就是野梨树它本身。看完是有点震撼，什么话都不想说、说不出的那种感觉。渐渐学会了多角度去欣赏电影，会去根据画面移动推测摄影机的拍摄方向、画面人物呈现的不同位置了解他们的权力等级关系、欣赏画面的干净纯度，也会注意到一些小背景以及整体的大画面，比如墙上出现的加谬、马尔克斯的图像。
-2019-09-27
-『So we beat on, boats against the current, borne back ceaselessly into the past』──The Great Gatesby
-“那个绿灯就代表着，他的一个梦想。他常常想着这个梦想，他要达到那个方向，他要拥抱它，他一直往前伸手。绿灯很远吗？我再伸长一点，我靠不近吗？我努力游近点，划近点，但是，这个海浪，这个浪潮会不断地把我们往后推。也就是说最后这个梦想，我们最终没办法达到，我们离它还是很遥远。这样的结尾恰恰说明了，这本小说最重要的一点，就是我们所有的梦，到了最后都会抛弃我们，仍然在远方。我们被时代的浪潮，被这个社会，被不可逆转的命运，把我们往后推得非常遥远。”
-2019-09-05
-『我替你上緊了琴絃，我替你變老』──廖偉棠
-『在令人厭倦的沙漠里有一片恐怖的綠洲』──波德萊尓
-明明臨時有急事回家了，希望一切安好
-待看電影《永恆和一日》、《生命之樹》、《絕美之城》
-2019-08-29 10:44:12
-今早重新溫故了廖偉棠的《關於新詩的三十種註腳》，這次不合時宜的詩意講到了詩人阿壠。
-當他講到他在獄中遺書最後寫下，”我可以被壓碎，但絕不可能被壓服“，那一瞬間在路上的我差點淚目。</description>
+  2019-09-27</description>
     </item>
     
     <item>

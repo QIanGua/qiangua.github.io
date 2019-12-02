@@ -17,7 +17,7 @@
       <pubDate>Tue, 19 Nov 2019 02:10:00 +0800</pubDate>
       
       <guid>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</guid>
-      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported ad content/posts/writing-hugo-blog-in-org-subtree-export.md.
+      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported as content/posts/writing-hugo-blog-in-org-subtree-export.md.
 Code fragment It&amp;rsquo;s convenient in Org to insert a code fragment use key &amp;lt;s TAB:
 \\#+BEGIN_SRC latex f=ma \\#+END_SRC Math formula Inline math This is a inline math formula \(f=ma\).
 Online math This is a online math formula,

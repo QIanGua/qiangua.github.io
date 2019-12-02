@@ -3,43 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://qiangua.me/tags/blog/</loc>
-    <lastmod>2019-11-20T15:32:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/post/2019/11/20/deploy-hugo-blog-on-netlify/</loc>
-    <lastmod>2019-11-20T15:32:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/tags/netlify/</loc>
-    <lastmod>2019-11-20T15:32:57+08:00</lastmod>
+    <loc>https://qiangua.me/post/2019/11/24/anual-recommendation/</loc>
+    <lastmod>2019-11-24T14:09:53+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/post/</loc>
-    <lastmod>2019-11-20T15:32:57+08:00</lastmod>
+    <lastmod>2019-11-24T14:09:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/recommendation/</loc>
+    <lastmod>2019-11-24T14:09:53+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/tags/</loc>
-    <lastmod>2019-11-20T15:32:57+08:00</lastmod>
+    <lastmod>2019-11-24T14:09:53+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/</loc>
-    <lastmod>2019-11-20T15:32:57+08:00</lastmod>
+    <lastmod>2019-11-24T14:09:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/blog/</loc>
+    <lastmod>2019-11-23T21:33:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/post/2019/11/20/deploy-hugo-blog-on-netlify/</loc>
+    <lastmod>2019-11-23T21:33:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/netlify/</loc>
+    <lastmod>2019-11-23T21:33:52+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/tags/org/</loc>
-    <lastmod>2019-11-20T15:32:55+08:00</lastmod>
+    <lastmod>2019-11-20T19:35:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</loc>
-    <lastmod>2019-11-20T15:32:55+08:00</lastmod>
+    <lastmod>2019-11-20T19:35:31+08:00</lastmod>
   </url>
   
   <url>
@@ -258,12 +268,12 @@
   </url>
   
   <url>
-    <loc>https://qiangua.me/tags/quotes/</loc>
+    <loc>https://qiangua.me/categories/quotes/</loc>
     <lastmod>2018-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiangua.me/categories/quotes/</loc>
+    <loc>https://qiangua.me/tags/quotes/</loc>
     <lastmod>2018-07-19T00:00:00+00:00</lastmod>
   </url>
   
