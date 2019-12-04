@@ -20,18 +20,18 @@ footnotereturnlinkcontents = "↩"
     name = "About"
     url = "/about/"
     weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
+# [[menu.main]]
+#     name = "Tags"
+#     url = "/tags/"
+#     weight = 3
 [[menu.main]]
     name = "Books"
     url = "/books/"
     weight = 4
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 5
+# [[menu.main]]
+#     name = "Categories"
+#     url = "/categories/"
+#     weight = 5
 [[menu.main]]
     name = "Fragments"
     url = "/fragments/"
