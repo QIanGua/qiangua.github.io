@@ -149,7 +149,14 @@ Pulse 2 $$ \Delta_p(t) = 0,
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/fragments/</guid>
-      <description>采撷瞬间  2019-12-03
+      <description>采撷瞬间  2019-12-06
+献给阿尔吉侬的花束
+镜子，我，自我凝视，怪圈
+很多人都笑我。但他们是我的朋友我们都很快乐。
+知道我已经度过危机，感觉如释重负，我松了一口气，因为再也没有什么可以阻止我。已经没有时间害怕或假装，因为我已经不可能 再和另一个人经历这样的事。所有的障碍都已移除，我已经解开她加诸的束缚，走进迷宫的终点，而她就在那里等我。我全新全意地爱她。
+艾丽斯又一次来到门口但我说走开我不要见你。她哭了起来我也跟着哭但我不让她进来因为我不要她朝笑我。我告诉她我不在喜欢她而且 我也不要变聪明。这不是真的。我仍然爱她仍然想要变聪明但我必须这样说才能让她离开。穆尼太太告诉我艾丽斯带来了更多的钱要来照故我 并且付房租。我不要我必须去找工作。 拜托……拜托不……不要让我忘记怎么读和写……
+还有：如果你有机会请放一些花在后院的阿尔吉侬坟上。
+  2019-12-03
 当时明月在，曾照彩云归
 最是人间留不住，朱颜辞镜花辞树
   2019-12-02
@@ -159,7 +166,7 @@ Pulse 2 $$ \Delta_p(t) = 0,
 碰到任何事情，不是板着面孔就去教训孩子，而是问他：“你为什么这么做”？言外之意是你要对自己负责！生命是你自己的！
 『东京爱情故事』：我爱上一个让我奋不顾身的一个人（天黑黑）。 请以我的名字呼唤你，哀悼深处，有时候也许并不一定要去拥有，或许真的轻呼一声名字就足够了，比如东京爱情故事里赤明莉香呼唤丸子，又如电影请以你的名字呼唤我 所示。今夜，我的嗓音是一辆被截停的火车。
   2019-11-27
-电影『痛苦与荣耀』── 什么是你一生戒不掉的瘾？
+电影『痛苦与荣耀』── 什么是你一生戒不掉的瘾？ 荷叶花开时春恨生，荷叶枯时秋恨成。深知身在情常在，怅望江头江水声。
   2019-11-26
 办公室一面墙之前可能因为附近办公室起火的原因跳闸了，拖了一段时间一直都没有恢复供电，昨天报修，刚才电工小哥一来, 几句话时间找到电箱，推上电闸，空调马上就工作了，厉害了👍 之前为什么没去想过自己去找找电闸看看呢？这就是专业素养吧！
 『诗，左面是言，右面是寺，用语言来构建寺庙，那么这个寺庙供奉的是何方神圣呢？诗意』──“关于新诗的三十种注脚”
@@ -177,12 +184,7 @@ Pulse 2 $$ \Delta_p(t) = 0,
 英国公墓
 要为生活里感兴趣的事写作
   2019-11-11
-emacs replace-regexp
-eg: xyz-&amp;gt;xyz^{2}
-step1: M-x query-replace-regexp
-step2: (xyz)
-step3: \1^{2}
-notice here (&amp;hellip;) is a group which can be quoated by \1,\2</description>
+emacs replace-regexp</description>
     </item>
     
     <item>
@@ -396,10 +398,10 @@ We are whiplashed between an arrogant overestimation of ourselves and a servile 
       
       <guid>https://qiangua.me/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</guid>
       <description>LaTeX 排版记录 第一次帮同学做了一次 LaTeX 排版书籍，过程中技能方面会有一些提升，这里做一个简要记录。
- 文档结构  中文的话最好用 ctexbook 类型。
- 主文件  保持结构清晰，包引用、格式设置分别用各自 tex 文件负责，然后 \input
- 格式  主要是调用的包和自定义的命令。
- 内容  目录、章节、小结等</description>
+文档结构 中文的话最好用 ctexbook 类型。
+主文件 保持结构清晰，包引用、格式设置分别用各自 tex 文件负责，然后 \input
+格式 主要是调用的包和自定义的命令。
+内容 目录、章节、小结等</description>
     </item>
     
     <item>
@@ -501,19 +503,17 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</guid>
-      <description>Records of Mac APPs Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
+      <description>Records of Mac APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
  %右⇧ =&amp;gt; Capuslock
 Capuslock =&amp;gt; Ctrl
- ## 编程环境
-1. Fortran  brew instal. gcc
+编程环境 1. Fortran  brew instal. gcc
  gfortran XX.f90 -0 xx
 ./XX
   2. Python  Anaconda
- 3. 命令行配置 ####iTterm2
-zsh oh-my-zsh 好用插件：
- osx  ofd ：在命令行中可以打开 FInder 并进入当前目录
+ 3. 命令行配置 Alacritty iTterm2 ZSH SHELL oh-my-zsh 好用插件：
+ ofd  osx ：在命令行中可以打开 FInder 并进入当前目录
 cdf：在命令行中快速跳转到 Finder 已经打开的目录
-Buile Texmacs with Cmake on Mac OS 4. 浏览器 快速定位到搜索栏：⌘+L 或 ⌘+⌥+F</description>
+Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+L 或 ⌘+⌥+F Finder 中复制文件路径：⌘+⌥+C  5.</description>
     </item>
     
     <item>
@@ -1137,7 +1137,7 @@ Workflow 理念
       <guid>https://qiangua.me/books/</guid>
       <description>2016.09.19: 开始记录
 2019.09.22: 为了防止徒有虚名要开始记录读书笔记
-  《The Letters of Richard P.Feynman》 《Elements of the Theory of Computation 》 《枪炮、病菌和钢铁》 《小逻辑》 《辛弃疾词》 《卡拉马佐夫兄弟》 《庄子》 《爱与数学》 《西方文化的衰落——人文主义复探》 《日瓦格医生》 《生命的跃升——40亿年演化史上的十大发明》 《有限与无限的游戏》 《数学 计算 逻辑》 《伪装成独白的爱情》 《霍乱时期的爱情》 《Vim 实用技巧》 《Statistical Mechanics, Algorithms and Computations》 《Physics from Symmetry》 《Ways of Seeing》 《小窗幽记》 《单向度的人》 《通往奴役之路》 《娱乐至死》 《丈量世界》 《乡土中国》 《理与人》 《生活与命运》 《我是个怪圈》 《直覺泵和其它思考工具》 《千面英雄》 《原则》 《论重要之事》 《新教伦理资本主义精神》 《春盏──廖伟棠情诗集》 《帕佩 撒旦 阿莱佩 流动社会纪事》 《黑塞童话集》 《夏屋，以后》 《俄亥俄，温斯堡》 《为什么读经典》 《命运交织的城堡》 《如果在冬夜，一个旅人》 《康德与鸭嘴兽》 《帕佩 撒旦 阿莱佩》 《2666》 《痖弦诗集》 《老巴塔哥尼亚列车》   </description>
+  《The Letters of Richard P.Feynman》 《Elements of the Theory of Computation 》 《枪炮、病菌和钢铁》 《小逻辑》 《辛弃疾词》 《卡拉马佐夫兄弟》 《庄子》 《爱与数学》 《西方文化的衰落——人文主义复探》 《日瓦格医生》 《生命的跃升——40亿年演化史上的十大发明》 《有限与无限的游戏》 《数学 计算 逻辑》 《伪装成独白的爱情》 《霍乱时期的爱情》 《Vim 实用技巧》 《Statistical Mechanics, Algorithms and Computations》 《Physics from Symmetry》 《Ways of Seeing》 《小窗幽记》 《单向度的人》 《通往奴役之路》 《娱乐至死》 《丈量世界》 《乡土中国》 《理与人》 《生活与命运》 《我是个怪圈》 《直覺泵和其它思考工具》 《千面英雄》 《原则》 《论重要之事》 《新教伦理资本主义精神》 《春盏──廖伟棠情诗集》 《帕佩 撒旦 阿莱佩 流动社会纪事》 《黑塞童话集》 《夏屋，以后》 《俄亥俄，温斯堡》 《为什么读经典》 《命运交织的城堡》 《如果在冬夜，一个旅人》 《康德与鸭嘴兽》 《帕佩 撒旦 阿莱佩》 《2666》 《痖弦诗集》 《老巴塔哥尼亚列车》 《献给阿尔吉侬的花束》   </description>
     </item>
     
     <item>

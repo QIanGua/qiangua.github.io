@@ -6,8 +6,7 @@ categories: tools
 ---
 # Records of Mac
 
-## APPs
-
+## APP
 
 
 ## Keyboard
@@ -19,8 +18,7 @@ categories: tools
 **Capuslock => Ctrl**
 
 
-
- ## 编程环境
+## 编程环境
 
 ### 1. Fortran
 
@@ -36,27 +34,28 @@ categories: tools
 
 ### 3. 命令行配置
 
-####**iTterm2**
+#### **Alacritty**
+#### **iTterm2**
 
-#### zsh
+#### ZSH SHELL
 
 #### oh-my-zsh
 
 好用插件：
 
-- osx
+- **ofd**
 
-  **ofd** ：在命令行中可以打开 FInder 并进入当前目录
+  osx ：在命令行中可以打开 FInder 并进入当前目录
 
   **cdf**：在命令行中快速跳转到 Finder 已经打开的目录
 
 ### Buile Texmacs with Cmake on Mac OS
 
 
-
 ### 4. 浏览器
 
-快速定位到搜索栏：⌘+L  或  ⌘+⌥+F
+- 快速定位到搜索栏：⌘+L  或  ⌘+⌥+F
+- Finder 中复制文件路径：⌘+⌥+C
 
 ### 5. Dock
 
