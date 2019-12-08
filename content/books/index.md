@@ -4,10 +4,12 @@ date: 2016-09-19 17:01:11
 comments: false
 ---
 
-**2016.09.19: 开始记录**
+**2019.12.08: 文字集** [我也曾多次表白](https://github.com/QIanGua/guwenxuan)
 
 **2019.09.22: 为了防止徒有虚名要开始记录读书笔记**
  
+**2016.09.19: 开始记录**
+
 > 01. 《The Letters of Richard P.Feynman》
 > 02. 《Elements of the Theory of Computation 》
 > 03. 《枪炮、病菌和钢铁》
@@ -26,7 +28,7 @@ comments: false
 > 16. 《Vim 实用技巧》
 > 17. 《Statistical Mechanics, Algorithms and Computations》
 > 18. 《Physics from Symmetry》
-> 19. 《Ways of Seeing》
+> 19. 《Ways of Seeing》觀看之道
 > 20. 《小窗幽记》
 > 21. 《单向度的人》
 > 22. 《通往奴役之路》
@@ -54,4 +56,7 @@ comments: false
 > 44. 《2666》
 > 45. 《痖弦诗集》
 > 46. 《老巴塔哥尼亚列车》
-> 47. 《献给阿尔吉侬的花束》
+> 47. 《永恒的终结》
+> 48. 《献给阿尔吉侬的花束》
+> 49. 《沙之書》
+> 50. 《不安之書》
