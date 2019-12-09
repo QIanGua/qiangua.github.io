@@ -30,6 +30,7 @@ img {
 /* Typography */
 
 body {
+  /* line height under post */
   line-height: 1.75;
 }
 
@@ -59,7 +60,8 @@ h3, h4, h5, h6 {
 blockquote {
   margin: 1em 0;
   padding: 0 2em;
-  border-left: 3px solid #ddd;
+  border-left: 3px solid #b9dec9;
+  /* background: url('/css/imagek/blockquote.png') no-repeat; */
 }
 
 /* Code */
@@ -78,7 +80,8 @@ pre code {
 }
 
 code {
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
+  background: #b9dec9;
 }
 
 pre code {
@@ -150,9 +153,12 @@ hr {
 /* Layout */
 
 body {
+  /* left margin */
   width: 960px;
+  /* right margin */
   margin: 0 auto;
-  padding: 30px 0;
+  /* up margin */
+  padding: 30px 0; 
 }
 
 .masthead {
