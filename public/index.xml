@@ -6,26 +6,10 @@
     <description>Recent content on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2019 16:07:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2019 14:09:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>The More Loving One</title>
-      <link>https://qiangua.me/post/2019/12/09/the-more-loving-one/</link>
-      <pubDate>Mon, 09 Dec 2019 16:07:41 +0800</pubDate>
-      
-      <guid>https://qiangua.me/post/2019/12/09/the-more-loving-one/</guid>
-      <description>The More Loving One ( W. H. Auden )  Looking up at the stars, I know quite well
-That, for all they care, I can go to hell,
-But on earth indifference is the least
-We have to dread from man or beast.
-How should we like it were stars to burn
-With a passion for us we could not return?
-If equal affection cannot be,
-Let the more loving one be me.</description>
-    </item>
     
     <item>
       <title>Anual Recommendation</title>
@@ -165,7 +149,13 @@ Pulse 2 $$ \Delta_p(t) = 0,
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/fragments/</guid>
-      <description>采撷瞬间  2019-12-06
+      <description>采撷瞬间  2019-12-10
+org-mode 插图
+org-insert-link [[url]]
+step1: use snippaste to get figure and edit
+step2: use PicGo to upload Github and copy link
+step3: in org paste linK
+  2019-12-06
 献给阿尔吉侬的花束
 镜子，我，自我凝视，怪圈
 很多人都笑我。但他们是我的朋友我们都很快乐。
@@ -184,23 +174,7 @@ Pulse 2 $$ \Delta_p(t) = 0,
   2019-11-27
 电影『痛苦与荣耀』── 什么是你一生戒不掉的瘾？ 荷叶花开时春恨生，荷叶枯时秋恨成。深知身在情常在，怅望江头江水声。
   2019-11-26
-办公室一面墙之前可能因为附近办公室起火的原因跳闸了，拖了一段时间一直都没有恢复供电，昨天报修，刚才电工小哥一来, 几句话时间找到电箱，推上电闸，空调马上就工作了，厉害了👍 之前为什么没去想过自己去找找电闸看看呢？这就是专业素养吧！
-『诗，左面是言，右面是寺，用语言来构建寺庙，那么这个寺庙供奉的是何方神圣呢？诗意』──“关于新诗的三十种注脚”
-  2019-11-22
-『你能爱上别人，也能被别人所爱』
-《城堡》的一期卷首语，出自动漫《紫罗兰永恒花园》
-《我是个怪圈》：当日食发生时，太阳四周仍有日华，围成一圈光晕。当某人逝去时，他们也在那些与他们亲近之人的灵魂里留下了一抹鲜艳的余晖。随着时光流逝，这道余晖难免渐渐褪色，乃至熄灭，但那将是多年之后的事了。 最终，当所有亲近之人都告别了人世，余烬方凉，直到此时，才真正迎来“尘归尘，土归土”。
-  2019-11-21
-偶然看到一句木心的诗“我是一个在黑暗中大雪纷飞的人哪！” 甚为触动
-滑倒跌倒，山也寂静
-  2019-11-11
-名人墓碑
-瑞士日内瓦博尔赫斯墓碑
-哥廷根大学
-英国公墓
-要为生活里感兴趣的事写作
-  2019-11-11
-emacs replace-regexp</description>
+办公室一面墙之前可能因为附近办公室起火的原因跳闸了，拖了一段时间一直都没有恢复供电，昨天报修，刚才电工小哥一来, 几句话时间找到电箱，推上电闸，空调马上就工作了，厉害了👍 之前为什么没去想过自己去找找电闸看看呢？这就是专业素养吧！</description>
     </item>
     
     <item>

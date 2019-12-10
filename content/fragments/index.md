@@ -6,6 +6,23 @@ comments: false
 
 #  采撷瞬间
 
+> 2019-12-10  
+> org-mode 插图
+>
+> org-insert-link [[url]]
+>
+> step1: use snippaste to get figure and edit
+>
+> step2: use PicGo to upload Github and copy link 
+>
+> step3: in org paste linK
+>
+>
+> ![](https://raw.githubusercontent.com/QIanGua/tuchaung/master/img/20191210181937.png)
+
+-----------------------------------------------
+
+
 > 2019-12-06  
 > 献给阿尔吉侬的花束
 > 
