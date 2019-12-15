@@ -124,7 +124,7 @@ CLOSED: [2019-11-24 Sun 14:09]
 **** Emacs
 > 推荐给爱折腾的 Geek
 
-** TODO The More Loving One                                                   :poem:
+** TODO The More Loving One                                       :poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: The More Loving One
 :EXPOET_DATE: 2019-12-09
@@ -199,3 +199,35 @@ CLOSED: [2019-11-24 Sun 14:09]
 他也沒有做到絕對的超脫，而是主動去感受暗黑的莊嚴，這會花去他些許的時間，沒有說剩餘的時間而只是少許，訪佛一起達到了永恆之境。
 [2019-12-10 Tue 19:54]
 <2019-12-10 Tue>
+** TODO Encryption                                                :curious:
+:PROPERTIES:
+:EXPORT_FILE_NAME: Encryption
+:EXPOET_DATE: 2019-12-11
+:END:
+*** Symmetric Cryptography
+
+  #+BEGIN_SRC shell
+  openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt
+  openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt
+#+END_SRC
+*** Asymmetric Cryptography
+  
+**** generate private key
+  #+BEGIN_SRC shell
+  openssl genrsa -out private.pem 1024
+  #+END_SRC
+ 
+**** generate public key from private key
+  #+BEGIN_SRC shell
+  openssl rsa -in private.pem -pubout -out public.pem
+  #+END_SRC
+ 
+**** encrypt file with public key
+  #+BEGIN_SRC shell
+  openssl rsautl -encrypt -in test.org -inkey public.pem -pubin -out encrypted.inc
+  #+END_SRC
+ 
+**** decrypt file wiht private key
+  #+BEGIN_SRC shell
+  openssl rsatul -decrypt -in encrypted.inc -inkey private.pem -out decrypted.org
+  #+END_SRC
