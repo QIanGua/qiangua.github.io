@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Encryption - 采采流水</title>
+    <meta property="og:title" content="Encryption - 采采流水">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt Asymmetric Cryptography generate private key openssl &amp;hellip;">
+      <meta property="og:description" content="openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt Asymmetric Cryptography generate private key openssl &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      <h1><a href="/">采采流水</a></h1>
+
+<p class="tagline"> An Essay Concerning Human Understanding</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" />
+  <label id="menu-label" for="menu-check" class="unselectable">
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/books/">Books</a></li>
+  
+  <li><a href="/fragments/">Fragments</a></li>
+  
+  <li><a href="/index.xml">Subscribe</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Encryption</h1>
+
+<h3>Qiangua
+  /  2019-12-16</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<ul>
+<li>State &ldquo;DONE&rdquo;       from &ldquo;TODO&rdquo;       <span class="timestamp-wrapper"><span class="timestamp">[2019-12-16 Mon 00:34]</span></span></li>
+</ul>
+
+<h2 id="symmetric-cryptography">Symmetric Cryptography</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt
+openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt</code></pre></div>
+
+<h2 id="asymmetric-cryptography">Asymmetric Cryptography</h2>
+
+<h3 id="generate-private-key">generate private key</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl genrsa -out private.pem <span style="color:#ae81ff">1024</span></code></pre></div>
+
+<h3 id="generate-public-key-from-private-key">generate public key from private key</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsa -in private.pem -pubout -out public.pem</code></pre></div>
+
+<h3 id="encrypt-file-with-public-key">encrypt file with public key</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsautl -encrypt -in test.org -inkey public.pem -pubin -out encrypted.inc</code></pre></div>
+
+<h3 id="decrypt-file-wiht-private-key">decrypt file wiht private key</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsatul -decrypt -in encrypted.inc -inkey private.pem -out decrypted.org</code></pre></div>
+
+<h2 id="gnugpg">GNUGPG</h2>
+
+<p>GNUGPG is a practical terminal tool for encryption. Here are two typical commands</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --encrypt -r ID test.txt
+gpg --decrypt test.txt.gpg --out-put test.de.txt</code></pre></div>
+
+
+  <footer>
+  
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/python.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/lisp.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

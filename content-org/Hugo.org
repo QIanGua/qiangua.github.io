@@ -124,11 +124,13 @@ CLOSED: [2019-11-24 Sun 14:09]
 **** Emacs
 > 推荐给爱折腾的 Geek
 
-** TODO The More Loving One                                       :poem:
+** DONE The More Loving One                                       :poem:
+CLOSED: [2019-12-16 Mon 00:27]
 :PROPERTIES:
 :EXPORT_FILE_NAME: The More Loving One
 :EXPOET_DATE: 2019-12-09
 :END:
+- State "DONE"       from "TODO"       [2019-12-16 Mon 00:27]
 *** The More Loving One ( W. H. Auden )
 > Looking up at the stars, I know quite well  
 >
@@ -199,11 +201,13 @@ CLOSED: [2019-11-24 Sun 14:09]
 他也沒有做到絕對的超脫，而是主動去感受暗黑的莊嚴，這會花去他些許的時間，沒有說剩餘的時間而只是少許，訪佛一起達到了永恆之境。
 [2019-12-10 Tue 19:54]
 <2019-12-10 Tue>
-** TODO Encryption                                                :curious:
+** DONE Encryption                                                :curious:
+CLOSED: [2019-12-16 Mon 00:34]
 :PROPERTIES:
 :EXPORT_FILE_NAME: Encryption
 :EXPOET_DATE: 2019-12-11
 :END:
+- State "DONE"       from "TODO"       [2019-12-16 Mon 00:34]
 *** Symmetric Cryptography
 
   #+BEGIN_SRC shell
@@ -231,3 +235,9 @@ CLOSED: [2019-11-24 Sun 14:09]
   #+BEGIN_SRC shell
   openssl rsatul -decrypt -in encrypted.inc -inkey private.pem -out decrypted.org
   #+END_SRC
+*** GNUGPG
+GNUGPG is a practical terminal tool for encryption. Here are two typical commands
+#+BEGIN_SRC shell
+gpg --encrypt -r ID test.txt
+gpg --decrypt test.txt.gpg --out-put test.de.txt
+#+END_SRC

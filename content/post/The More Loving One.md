@@ -1,10 +1,14 @@
 +++
 title = "The More Loving One"
-lastmod = 2019-12-10T18:24:39+08:00
+date = 2019-12-16T00:27:00+08:00
+lastmod = 2019-12-16T00:34:42+08:00
 tags = ["poem"]
-draft = true
+draft = false
 author = "Qiangua"
 +++
+
+-   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2019-12-16 Mon 00:27]</span></span>
+
 
 ## The More Loving One ( W. H. Auden ) {#the-more-loving-one--w-dot-h-dot-auden}
 
@@ -79,5 +83,5 @@ author = "Qiangua"
 ## 我感 {#我感}
 
 讀到最後，我甚至會萌生出一種超脫釋然的感覺，儘管星辰隕滅、激情退卻，面對這虛無的天空，亦無需自怨自艾、憤懣不平，訪佛一位飽經滄桑的老人在平靜地面對着他的歸宿，他也沒有做到絕對的超脫，而是主動去感受暗黑的莊嚴，這會花去他些許的時間，沒有說剩餘的時間而只是少許，訪佛一起達到了永恆之境。
-
-{{< figure src="https://raw.githubusercontent.com/QIanGua/tuchaung/master/img/20191210181937.png" >}}
+<span class="timestamp-wrapper"><span class="timestamp">[2019-12-10 Tue 19:54]</span></span>
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2019-12-10 Tue&gt;</span></span>
