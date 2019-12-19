@@ -1,7 +1,7 @@
 +++
 title = "Encryption"
 date = 2019-12-16T00:34:00+08:00
-lastmod = 2019-12-16T00:35:39+08:00
+lastmod = 2019-12-19T14:24:16+08:00
 tags = ["curious"]
 draft = false
 author = "Qiangua"
@@ -13,8 +13,8 @@ author = "Qiangua"
 ## Symmetric Cryptography {#symmetric-cryptography}
 
 {{< highlight shell >}}
-openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt
-openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt
+openssl aes-256-cbc -a -e -in file-in.txt -inkey key.txt -out file-out.txt
+openssl aes-256-cbc -a -d -in file-in.txt -inkey key.txt -out file-out.txt
 {{< /highlight >}}
 
 

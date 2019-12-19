@@ -17,7 +17,7 @@
       <pubDate>Mon, 16 Dec 2019 00:34:00 +0800</pubDate>
       
       <guid>https://qiangua.me/post/2019/12/16/encryption/</guid>
-      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-12-16 Mon 00:34]  Symmetric Cryptography openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt Asymmetric Cryptography generate private key openssl genrsa -out private.pem 1024 generate public key from private key openssl rsa -in private.pem -pubout -out public.pem encrypt file with public key openssl rsautl -encrypt -in test.org -inkey public.pem -pubin -out encrypted.inc decrypt file wiht private key openssl rsatul -decrypt -in encrypted.</description>
+      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-12-16 Mon 00:34]  Symmetric Cryptography openssl aes-256-cbc -a -e -in file-in.txt -inkey key.txt -out file-out.txt openssl aes-256-cbc -a -d -in file-in.txt -inkey key.txt -out file-out.txt Asymmetric Cryptography generate private key openssl genrsa -out private.pem 1024 generate public key from private key openssl rsa -in private.pem -pubout -out public.pem encrypt file with public key openssl rsautl -encrypt -in test.org -inkey public.pem -pubin -out encrypted.inc decrypt file wiht private key openssl rsatul -decrypt -in encrypted.</description>
     </item>
     
     <item>
@@ -534,8 +534,8 @@ t，m 等用法对于跨行交换会快一些。
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/11/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</guid>
-      <description>格式转换 用 LaTex 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。
-缘起 我不论在 **Windows **还是 Mac 的 Tex 文件上用的都是 UTF8 编码，这也是目前比较现代的做法，可是导师那边用的是 GBK 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。
+      <description>格式转换 用 LaTeX 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。
+缘起 我不论在 **Windows **还是 Mac 的 TeX 文件上用的都是 UTF8 编码，这也是目前比较现代的做法，可是导师那边用的是 GBK 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。
 Solution 在 Mac 上可以直接利用 Shell 命令 iconv 来完成转换。e.g. 打开 iTerm2 进入目标文件夹
  iconv -c -f utf-8 -t GBK utf8.tex &amp;gt;gbk.tex
  同理可以将 GBK 转换成 UTF8，
@@ -543,7 +543,7 @@ Solution 在 Mac 上可以直接利用 Shell 命令 iconv 来完成转换。e.g.
  为了保险起见可以附加 “-c” 来跳过不能识别的编码。
 Over! 撤退
 为了以后方便，可以考虑写个自动化命令。
-进一步处理 由于这是一个长期要做的事情，所以不能每次都麻烦在命令行里输入来转换。为此，考虑利用 Auomator 来写个service 放在右键，算是高效一点吧。
+进一步处理 由于这是一个长期要做的事情，所以不能每次都麻烦在命令行里输入来转换。为此，考虑利用 Automator 来写个service 放在右键，算是高效一点吧。
 为此，直接上手 Google。学习修改后写出来的 Code 如下。直接放个截图就能说明结果。</description>
     </item>
     

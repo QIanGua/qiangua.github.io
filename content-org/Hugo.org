@@ -199,8 +199,6 @@ CLOSED: [2019-12-16 Mon 00:27]
 *** 我感
 讀到最後，我甚至會萌生出一種超脫釋然的感覺，儘管星辰隕滅、激情退卻，面對這虛無的天空，亦無需自怨自艾、憤懣不平，訪佛一位飽經滄桑的老人在平靜地面對着他的歸宿，
 他也沒有做到絕對的超脫，而是主動去感受暗黑的莊嚴，這會花去他些許的時間，沒有說剩餘的時間而只是少許，訪佛一起達到了永恆之境。
-[2019-12-10 Tue 19:54]
-<2019-12-10 Tue>
 ** DONE Encryption                                                :curious:
 CLOSED: [2019-12-16 Mon 00:34]
 :PROPERTIES:
@@ -210,9 +208,9 @@ CLOSED: [2019-12-16 Mon 00:34]
 - State "DONE"       from "TODO"       [2019-12-16 Mon 00:34]
 *** Symmetric Cryptography
 
-  #+BEGIN_SRC shell
-  openssl aes-256- -a -e -in file-in.txt -inkey key.txt -out file-out.txt
-  openssl aes-256- -a -d -in file-in.txt -inkey key.txt -out file-out.txt
+#+BEGIN_SRC shell
+    openssl aes-256-cbc -a -e -in file-in.txt -inkey key.txt -out file-out.txt
+    openssl aes-256-cbc -a -d -in file-in.txt -inkey key.txt -out file-out.txt
 #+END_SRC
 *** Asymmetric Cryptography
   
@@ -238,6 +236,6 @@ CLOSED: [2019-12-16 Mon 00:34]
 *** GNUGPG
 GNUGPG is a practical terminal tool for encryption. Here are two typical commands
 #+BEGIN_SRC shell
-gpg --encrypt -r ID test.txt
-gpg --decrypt test.txt.gpg --out-put test.de.txt
+    gpg --encrypt -r ID test.txt
+    gpg --decrypt test.txt.gpg --out-put test.de.txt
 #+END_SRC
