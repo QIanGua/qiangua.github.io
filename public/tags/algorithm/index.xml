@@ -22,7 +22,7 @@
 $$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$
 Metropolis 算法就是基於此實現抽樣的一個有效算法。
  Metropolois-Hasting Algorithm
-Initialize $x^{(0)}$ randomly
+ Initialize $x^{(0)}$ randomly
 for i=0 to N-1 do
 ​ Sample $u\sim U[0,1]$
 ​ Sample $x^*\sim U[0,1]$
@@ -32,7 +32,7 @@ for i=0 to N-1 do
 ​ $x^{(i+1)}=x^{(i)}$
 ​ end if
 end for
- 3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
+  3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
     </item>
     
     <item>
@@ -41,8 +41,8 @@ end for
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</guid>
-      <description> The algorithm to find the auxiliary field [TOC]
-1. The corresponding relation between Auxiliary field operator and index 2. Useful table to record the position of a specific base function 3. Algorithm to find a given ADO&amp;rsquo;s index </description>
+      <description>The algorithm to find the auxiliary field [TOC]
+1. The corresponding relation between Auxiliary field operator and index 2. Useful table to record the position of a specific base function 3. Algorithm to find a given ADO&#39;s index </description>
     </item>
     
   </channel>

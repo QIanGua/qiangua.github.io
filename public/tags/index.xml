@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2019 00:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2019 22:59:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>code</title>
+      <link>https://qiangua.me/tags/code/</link>
+      <pubDate>Mon, 30 Dec 2019 22:59:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/tags/code/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>curious</title>
@@ -318,7 +327,7 @@
     </item>
     
     <item>
-      <title>physics</title>
+      <title>Physics</title>
       <link>https://qiangua.me/tags/physics/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       

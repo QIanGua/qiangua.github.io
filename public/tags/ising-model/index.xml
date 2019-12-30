@@ -22,11 +22,10 @@
  1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。
 一个由$N$个固定点构成的$S$维规则磁性点阵，每个点上放置一个自旋向上或向下的粒子。整个系统的状态由序列$\mathcal{\sigma}=\left(\sigma_1,\sigma_2,\dots,\sigma_N\right)$来表征，每个自旋方向为向上或者向下： $$ \sigma_i ={1,-1} $$
 下图是用 Mathematica 作出的一个图示：
-
-系统的哈密顿量(可理解为能量)： $$ HN\left( \mathcal{\sigma} \right) = -\sum{\langle i,j\rangle}J_{ij}\sigma_i\sigmaj - \sum{i=1}^N h_i \sigmai $$ 其中，$J{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。
+系统的哈密顿量(可理解为能量)： $$ H_N\left( \mathcal{\sigma} \right) = -\sum_{\langle i,j\rangle}J_{ij}\sigma_i\sigma_j - \sum_{i=1}^N h_i \sigma_i $$ 其中，$J_{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。
 为了简化模拟过程，一般选取$J_{i,j}=J, h_i=0$。
-在正则系综情况下，系统处于某一构型的概率服从玻尔兹曼分布： $$ P\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}} $$ 其中 $\mathcal{z}$ 是配分函数， $$ \mathcal{z}=\sum{\sigma} e^{-\beta H(\sigma)} $$ 常用的物理量平均值是：
-能量 $E$： $$ E=\langle H \rangle = \sum\sigma H(\sigma)P\sigma^B $$ 平均磁化强度 $M$: $$ \langle M \rangle=\frac{1}{N} \sum_i \sigma_i $$</description>
+在正则系综情况下，系统处于某一构型的概率服从玻尔兹曼分布： $$ P_\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}} $$ 其中 $\mathcal{z}$ 是配分函数， $$ \mathcal{z}=\sum_{\sigma} e^{-\beta H(\sigma)} $$ **常用的物理量平均值是**：
+能量 $E$： $$ E=\langle H \rangle = \sum_\sigma H(\sigma)P_\sigma^B $$ 平均磁化强度 $M$: $$ \langle M \rangle=\frac{1}{N} \sum_i \sigma_i $$</description>
     </item>
     
   </channel>

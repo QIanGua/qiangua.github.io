@@ -32,17 +32,17 @@ Meanwhile, this need us to fit the real part more carefully.</description>
       
       <guid>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
       <description>Notes of Quantum Optimal Control The system Hamiltonian: $$ H = \Delta_p(t)|e\rangle\langle e| + \frac{1}{2}[\Omega_p(t)|e\rangle\langle 0 |+\Omega_s(t)|e\rangle\langle 1| + h.c.], $$
-Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),
-\Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),
-\Omega_s(t) = \Omega(t)\cos(\alpha)\sin(\theta/2)e^{-i\phi},
-\Omega(t) = \Omega_0 \sin^2(\pi t/\tau).
-\alpha=0,\theta=\pi/2,\phi=0
+Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),\
+\Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),\
+\Omega_s(t) = \Omega(t)\cos(\alpha)\sin(\theta/2)e^{-i\phi},\
+\Omega(t) = \Omega_0 \sin^2(\pi t/\tau).\
+\alpha=0,\theta=\pi/2,\phi=0\
 \tau=tmax=100 ns,\Omega_0\tau=4\pi $$
 $\alpha=0,\theta=\pi/2,\phi=0$
 $\tau=tmax=100 ns,\Omega_0\tau=4\pi$
 $dt=0.5 ns$
-Pulse 2 $$ \Delta_p(t) = 0,
-\Omega_p(t) = \Omega(t)\cos(\theta(t)),
+Pulse 2 $$ \Delta_p(t) = 0,\
+\Omega_p(t) = \Omega(t)\cos(\theta(t)),\
 \Omega_s(t) = \Omega(t)\cos(\theta(t)),\</description>
     </item>
     
@@ -80,11 +80,10 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
  1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。
 一个由$N$个固定点构成的$S$维规则磁性点阵，每个点上放置一个自旋向上或向下的粒子。整个系统的状态由序列$\mathcal{\sigma}=\left(\sigma_1,\sigma_2,\dots,\sigma_N\right)$来表征，每个自旋方向为向上或者向下： $$ \sigma_i ={1,-1} $$
 下图是用 Mathematica 作出的一个图示：
-
-系统的哈密顿量(可理解为能量)： $$ HN\left( \mathcal{\sigma} \right) = -\sum{\langle i,j\rangle}J_{ij}\sigma_i\sigmaj - \sum{i=1}^N h_i \sigmai $$ 其中，$J{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。
+系统的哈密顿量(可理解为能量)： $$ H_N\left( \mathcal{\sigma} \right) = -\sum_{\langle i,j\rangle}J_{ij}\sigma_i\sigma_j - \sum_{i=1}^N h_i \sigma_i $$ 其中，$J_{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。
 为了简化模拟过程，一般选取$J_{i,j}=J, h_i=0$。
-在正则系综情况下，系统处于某一构型的概率服从玻尔兹曼分布： $$ P\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}} $$ 其中 $\mathcal{z}$ 是配分函数， $$ \mathcal{z}=\sum{\sigma} e^{-\beta H(\sigma)} $$ 常用的物理量平均值是：
-能量 $E$： $$ E=\langle H \rangle = \sum\sigma H(\sigma)P\sigma^B $$ 平均磁化强度 $M$: $$ \langle M \rangle=\frac{1}{N} \sum_i \sigma_i $$</description>
+在正则系综情况下，系统处于某一构型的概率服从玻尔兹曼分布： $$ P_\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}} $$ 其中 $\mathcal{z}$ 是配分函数， $$ \mathcal{z}=\sum_{\sigma} e^{-\beta H(\sigma)} $$ **常用的物理量平均值是**：
+能量 $E$： $$ E=\langle H \rangle = \sum_\sigma H(\sigma)P_\sigma^B $$ 平均磁化强度 $M$: $$ \langle M \rangle=\frac{1}{N} \sum_i \sigma_i $$</description>
     </item>
     
     <item>
@@ -98,7 +97,7 @@ PS：我目前的研究方向就是考察玻色子环境对于量子比特(二�
 $$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$
 Metropolis 算法就是基於此實現抽樣的一個有效算法。
  Metropolois-Hasting Algorithm
-Initialize $x^{(0)}$ randomly
+ Initialize $x^{(0)}$ randomly
 for i=0 to N-1 do
 ​ Sample $u\sim U[0,1]$
 ​ Sample $x^*\sim U[0,1]$
@@ -108,7 +107,7 @@ for i=0 to N-1 do
 ​ $x^{(i+1)}=x^{(i)}$
 ​ end if
 end for
- 3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
+  3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
     </item>
     
     <item>
@@ -117,7 +116,7 @@ end for
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
-      <description> 色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
+      <description>色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
 1. 色彩游戏 2. 色彩的结构 线性空间
 2.1 颜色的数字表示 色度学 3. 有趣的节点 </description>
     </item>

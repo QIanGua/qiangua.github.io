@@ -18,16 +18,17 @@
       
       <guid>https://qiangua.me/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</guid>
       <description>数据记录与处理「todo」 环节：
- 产生
- 收集
-  问券调查（金数据）
- 处理
- 可视化
-  Input：dat file
+  产生
+  收集
+问券调查（金数据）
+  处理
+  可视化
+Input：dat file
 Process：Plot2，Gnuplot，Matlab, Mathematica, Python, etc
 Output: eps, jpeg, pdf
- 存储与备份  Dropbox, 坚果云，配合手机端可随时分享链接
-参考效率与工具的熟练程度
+  存储与备份
+Dropbox, 坚果云，配合手机端可随时分享链接
+  参考效率与工具的熟练程度
 备选： Matlab，origin，Mathematica，Python</description>
     </item>
     

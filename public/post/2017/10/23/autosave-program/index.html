@@ -94,20 +94,13 @@ ELSE &amp;hellip;">
 
 
 
-
-
-<h1 id="自动保存功能">自动保存功能</h1>
-
+<h1 id="heading">自动保存功能</h1>
 <blockquote>
 <p><strong>目的</strong>：</p>
-
 <p>为 目前的 HEOM Fortran 程序增加自动保存功能， 防止屡次出现因天河维护而导致几天辛辛苦苦跑的程序挂掉。为了使它具有较大的通用性，最好将它维护成一个 MODULE。</p>
 </blockquote>
-
-<h2 id="列出一些关键点">列出一些关键点</h2>
-
+<h2 id="heading-1">列出一些关键点</h2>
 <p><strong>TODO list:</strong></p>
-
 <ol>
 <li>每隔一段时间将 ADO/Connect_list 数组保存进DAT文件,将循环变量写进文件名</li>
 <li>输入部分, 设置一个开关区别正常和断掉时的读写来源</li>
@@ -116,28 +109,17 @@ ELSE &amp;hellip;">
 <li>续跑要从之前保存好的DAT文件读取，而且循环变量也要随之改变</li>
 <li>看一下读写文件的语法，弄清覆盖和续写</li>
 </ol>
-
 <blockquote>
 <p>(1) Input AUTO_save.MODULE</p>
-
 <p>(2) 读入开关</p>
-
 <p>IF(flag==1) THEN</p>
-
 <p>​    Input normally</p>
-
 <p>ELSE</p>
-
 <p>Input from the autosave dat file</p>
-
 <p>ENDIF</p>
-
 <p>(3)  每个一定步长保存一次</p>
-
 <p>IF(MOD(itime, )==0) THEN</p>
-
 <p>CAll save()</p>
-
 <p>ENDIF</p>
 </blockquote>
 
@@ -150,7 +132,7 @@ ELSE &amp;hellip;">
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

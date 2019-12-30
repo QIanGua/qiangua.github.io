@@ -17,7 +17,7 @@
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</guid>
-      <description> Vim 修炼成长记录 参考书籍《Vim 实用技巧》
+      <description>Vim 修炼成长记录 参考书籍《Vim 实用技巧》
 基本存活技能 输入 操作 退出 问题式驱动 理想的操作是“用一键移动，另一键执行”
 执行——重复——回退
 “. 范式”
@@ -40,8 +40,8 @@ t，m 等用法对于跨行交换会快一些。
  可以作用在 字母、单词、段落上。
  gU2l, gU2w, gU2p
  连续两次调用表示作用在当前行
- &amp;rsquo;&amp;gt;&amp;gt;&amp;lsquo;, &amp;lsquo;dd&amp;rsquo;, &amp;lsquo;yy&amp;rsquo;,&amp;lsquo;gUU&amp;rsquo;
- 退出插入模式 normap kj &amp;lt;esc&amp;gt;  注释 commentor </description>
+ &amp;lsquo;&amp;raquo;&amp;rsquo;, &amp;lsquo;dd&amp;rsquo;, &amp;lsquo;yy&amp;rsquo;,&amp;lsquo;gUU&amp;rsquo;
+ 退出插入模式 normap kj &amp;lt;esc&amp;gt; 注释 commentor </description>
     </item>
     
   </channel>

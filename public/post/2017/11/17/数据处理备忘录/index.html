@@ -17,10 +17,10 @@
       
       <meta property="description" content="主要处理的是ASCII的dat文件，使用dlmread来读取。
 一个小型Matlab脚本样例：
-% data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list &amp;hellip;">
+[&amp;hellip;] % data format [time rho11 rho22 .....] % file address address=&amp;#39;E:\desk\alpha0.6_calculation\converge\&amp;#39;; % file name list &amp;hellip;">
       <meta property="og:description" content="主要处理的是ASCII的dat文件，使用dlmread来读取。
 一个小型Matlab脚本样例：
-% data format [time rho11 rho22 .....] % file address address=&#39;E:\desk\alpha0.6_calculation\converge\&#39;; % file name list &amp;hellip;">
+[&amp;hellip;] % data format [time rho11 rho22 .....] % file address address=&amp;#39;E:\desk\alpha0.6_calculation\converge\&amp;#39;; % file name list &amp;hellip;">
       
     
 
@@ -89,68 +89,55 @@
 
 
 
-
-
-<h1 id="数据操作-updating">数据操作[Updating]</h1>
-
-<h2 id="matlab-遍历文件夹读取数据">Matlab 遍历文件夹读取数据</h2>
-
+<h1 id="updating">数据操作[Updating]</h1>
+<h2 id="matlab-">Matlab 遍历文件夹读取数据</h2>
 <p>主要处理的是ASCII的dat文件，使用dlmread来读取。</p>
-
 <p>一个小型Matlab脚本样例：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% data format [time rho11 rho22 .....]</span>
+<span style="color:#75715e">% file address</span>
+address=<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">E:\desk\alpha0.6_calculation\converge\&#39;</span>;
 
-<pre><code class="language-matlab">% data format [time rho11 rho22 .....]
-% file address
-address='E:\desk\alpha0.6_calculation\converge\';
+<span style="color:#75715e">% file name list</span>
+namelist=dir([address,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">*.dat&#39;</span>]);
 
-% file name list
-namelist=dir([address,'*.dat']);
-
-% write in the data matrix
-rowsize= 100000
-colsize= 2
+<span style="color:#75715e">% write in the data matrix</span>
+rowsize= <span style="color:#ae81ff">100000</span>
+colsize= <span style="color:#ae81ff">2</span>
 data=zeros(rowsize,colsize);
 
 dim = length(namelist);
-for i=1:dim
+<span style="color:#66d9ef">for</span> i=<span style="color:#ae81ff">1</span>:dim
    filename=[address,namelist(i).name];
-   temp=dlmread(filename,'',[0 1 rowsize-1 2]);
-   data(:,i)=temp(:,1)-temp(:,2);
-end
+   temp=dlmread(filename,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">1</span> rowsize<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">2</span>]);
+   data(:,i)=temp(:,<span style="color:#ae81ff">1</span>)<span style="color:#f92672">-</span>temp(:,<span style="color:#ae81ff">2</span>);
+<span style="color:#66d9ef">end</span>
 
 
-time_array=dlmread(filename,'',[0 0 rowsize-1 0]);
-plot(time_array,data(:,1:dim))
-</code></pre>
-
-<h2 id="matlab批量拟合">Matlab批量拟合</h2>
-
+time_array=dlmread(filename,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> rowsize<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">0</span>]);
+plot(time_array,data(:,<span style="color:#ae81ff">1</span>:dim))
+</code></pre></div><h2 id="matlab">Matlab批量拟合</h2>
 <p>之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，</p>
-
 <p>故此重新找一些可以进行批量拟合的方法。一个是尝试使用Python来完成， 这肯定是可以做的事情。另一个就是使用</p>
-
 <p>matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matlab开始吧。废话少说，上代码：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% multi-fitting</span>
+<span style="color:#75715e">% prediction the converge data</span>
 
-<pre><code class="language-matlab">% multi-fitting
-% prediction the converge data
-
-hier=[6:9]';
-cutoff_order = hier(end)+1;
+hier=[<span style="color:#ae81ff">6</span>:<span style="color:#ae81ff">9</span>]<span style="color:#f92672">&#39;</span>;
+cutoff_order = hier(<span style="color:#66d9ef">end</span>)<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
 
 dim_up=length(data);
-pred_arr=zeros(dim_up,1);
+pred_arr=zeros(dim_up,<span style="color:#ae81ff">1</span>);
 
 
-for posi = 1:dim_up
-    if(mod(posi,1000)==0)
-	  posi/dim_up
-    end
-    temp = data(posi,:)';
-    f=fit(hier,temp,'exp2','Robust', 'LAR');
-    pred_arr(posi,1)= f(cutoff_order);
-end
-</code></pre>
-
+<span style="color:#66d9ef">for</span> posi = <span style="color:#ae81ff">1</span>:dim_up
+    <span style="color:#66d9ef">if</span>(mod(posi,<span style="color:#ae81ff">1000</span>)<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>)
+	  posi<span style="color:#f92672">/</span>dim_up
+    <span style="color:#66d9ef">end</span>
+    temp = data(posi,:)<span style="color:#f92672">&#39;</span>;
+    f=fit(hier,temp,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">exp2&#39;</span>,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Robust&#39;</span>, <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">LAR&#39;</span>);
+    pred_arr(posi,<span style="color:#ae81ff">1</span>)= f(cutoff_order);
+<span style="color:#66d9ef">end</span>
+</code></pre></div>
 
   <footer>
   
@@ -175,7 +162,7 @@ end
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

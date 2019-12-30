@@ -19,13 +19,13 @@
 标签（空格分隔）： Quantum Comumutor
 本文框架[TOC]
 [TOC]
-[&amp;hellip;] ##1. 基本对易关系 $$ \begin{equation} [X{\alpha},P{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+[&amp;hellip;] ##1. 基本对易关系 $$ \begin{equation} [X_{\alpha},P_{\beta}]=i\hbar \label{eq:1} \end{equation} $$
 $$ \begin{equation} &amp;hellip;">
       <meta property="og:description" content="#量子力学常见对易关系及其证明
 标签（空格分隔）： Quantum Comumutor
 本文框架[TOC]
 [TOC]
-[&amp;hellip;] ##1. 基本对易关系 $$ \begin{equation} [X{\alpha},P{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+[&amp;hellip;] ##1. 基本对易关系 $$ \begin{equation} [X_{\alpha},P_{\beta}]=i\hbar \label{eq:1} \end{equation} $$
 $$ \begin{equation} &amp;hellip;">
       
     
@@ -91,32 +91,25 @@ $$ \begin{equation} &amp;hellip;">
 
 
 <p>#量子力学常见对易关系及其证明</p>
-
 <p>标签（空格分隔）：  Quantum Comumutor</p>
-
 <p>本文框架<code>[TOC]</code></p>
-
 <p>[TOC]</p>
-
-<hr />
-
+<hr>
 <p>##1. 基本对易关系
 $$
 \begin{equation}
-[X<em>{\alpha},P</em>{\beta}]=i\hbar
+[X_{\alpha},P_{\beta}]=i\hbar
 \label{eq:1}
 \end{equation}
 $$</p>
-
 <p>$$
 \begin{equation}
 [AB,C]=A[B,C]+[A,C]B
 \end{equation}
 $$</p>
-
 <p>$$
 \begin{align}
-[A,f(B)]&amp;=\frac{\partial f}{\partial B}[A,B]<br />
+[A,f(B)]&amp;=\frac{\partial f}{\partial B}[A,B]\<br>
 [f(A),B]&amp;=-\frac{\partial f}{\partial A}[A,B]
 \label{eq:2}
 \end{align}
@@ -124,52 +117,49 @@ $$
 根据\eqref{eq:2}可推出
 $$
 \begin{align}
-[X,f(P)]&amp;=-i\hbar\frac{\partial f}{\partial P}<br />
-[f(X),P]&amp;=i\hbar\frac{\partial f}{\partial X}<br />
+[X,f(P)]&amp;=-i\hbar\frac{\partial f}{\partial P}\<br>
+[f(X),P]&amp;=i\hbar\frac{\partial f}{\partial X}\<br>
 [A,B^n]&amp;=n B^{n-1} [A,B]
 \label{eq:3}
 \end{align}
 $$</p>
-
-<p>##2. 常见力学量的对易关系
-- <strong>角动量   （$J,J^2$）</strong>
-- <strong>升降算符 （$J_{\pm},a^+,a$）</strong>
-- <strong>自旋算符  ($\sigma_x,\sigma_y,\sigma_z$)</strong></p>
-
+<p>##2. 常见力学量的对易关系</p>
+<ul>
+<li><strong>角动量   （$J,J^2$）</strong></li>
+<li>**升降算符 （$J_{\pm},a^+,a$）**</li>
+<li><strong>自旋算符  ($\sigma_x,\sigma_y,\sigma_z$)</strong></li>
+</ul>
 <p><strong>角动量</strong>：
 $$
-\begin{align<em>}
-[J<em>{\alpha},X</em>{\beta}]&amp;=i\hbar\varepsilon<em>{\alpha\beta\gamma}X</em>{\gamma}<br />
-[J<em>{\alpha},P</em>{\beta}]&amp;=i\hbar\varepsilon<em>{\alpha\beta\gamma}P</em>{\gamma}<br />
-[J^{2},J_{\alpha}]&amp;=0<br />
-\end{align</em>}
+\begin{align*}
+[J_{\alpha},X_{\beta}]&amp;=i\hbar\varepsilon_{\alpha\beta\gamma}X_{\gamma}\<br>
+[J_{\alpha},P_{\beta}]&amp;=i\hbar\varepsilon_{\alpha\beta\gamma}P_{\gamma}\<br>
+[J^{2},J_{\alpha}]&amp;=0\<br>
+\end{align*}
 $$
-<strong>下面证明</strong>：
+**下面证明**：
 $$
-\begin{align<em>}
-[J<em>{z},J</em>{\pm}]&amp;=[J<em>{z},J</em>{x}\pm i J<em>{y}]<br />
-               &amp;=[J</em>{z},J<em>{x}]+[J</em>{z},\pm i J<em>{y}]<br />
-               &amp;=i\hbar J</em>{y}\pm i[J<em>{z}, J</em>{y}] <br />
-               &amp;=i\hbar J<em>{y}\pm i(-i\hbar J</em>{x}) <br />
-               &amp;=i\hbar J<em>{y}\pm\hbar J</em>{x} <br />
-               &amp;=\pm\hbar J_{\pm}
-\end{align</em>}
+\begin{align*}
+[J_{z},J_{\pm}]&amp;=[J_{z},J_{x}\pm i J_{y}]\<br>
+&amp;=[J_{z},J_{x}]+[J_{z},\pm i J_{y}]\<br>
+&amp;=i\hbar J_{y}\pm i[J_{z}, J_{y}] \<br>
+&amp;=i\hbar J_{y}\pm i(-i\hbar J_{x}) \<br>
+&amp;=i\hbar J_{y}\pm\hbar J_{x} \<br>
+&amp;=\pm\hbar J_{\pm}
+\end{align*}
 $$</p>
-
 <p><strong>升降算符</strong>：</p>
-
 <p>谐振子的哈密顿量为：
 $$
-\begin{align<em>}
-H=\hbar \omega(\frac{1}{2}+a^+a)<br />
-\end{align</em>}
+\begin{align*}
+H=\hbar \omega(\frac{1}{2}+a^+a)\<br>
+\end{align*}
 $$</p>
-
 <p>$$
-\begin{align<em>}
-a|n\rangle&amp;=\sqrt{n}|n-1\rangle<br />
+\begin{align*}
+a|n\rangle&amp;=\sqrt{n}|n-1\rangle\<br>
 a^+|n\rangle&amp;=\sqrt{n+1}|n+1\rangle
-\end{align</em>}
+\end{align*}
 \eqref{eq:1}
 $$</p>
 
@@ -182,7 +172,7 @@ $$</p>
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

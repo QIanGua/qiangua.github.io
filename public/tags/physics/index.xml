@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>physics on 采采流水</title>
+    <title>Physics on 采采流水</title>
     <link>https://qiangua.me/tags/physics/</link>
-    <description>Recent content in physics on 采采流水</description>
+    <description>Recent content in Physics on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://qiangua.me/post/2018/03/01/spectral-density-function/</guid>
       <description>谱函数截断 之 关联函数图像 [TOC]
-1.简明定义 谐振子热库的关联函数： $$ C(t) = \frac{1}{\pi} \int_0^{\infty} J(\omega)\left[ \coth \frac{\beta\omega}{2}\cos \omega t - i \sin \omega t\right] \, d\omega, $$ 谱密度函数： $$ J(\omega) = \frac{\pi}{2}\sum_j \frac{c_j^2}{\omega_j}\delta(\omega-\omega_j). $$ 这里我们只关注其指数形式： $$ J(\omega)=\frac{\pi}{2}\alpha\omega^s\omega_c^{1-s}f(\frac{\omega}{\omega_c}), $$ $f(\omega/\omega_c)$ 是截断函数，因为高频部分必然会衰减趋于零。
+1.简明定义 谐振子热库的关联函数： $$ C(t) = \frac{1}{\pi} \int_0^{\infty} J(\omega)\left[ \coth \frac{\beta\omega}{2}\cos \omega t - i \sin \omega t\right] , d\omega, $$ 谱密度函数： $$ J(\omega) = \frac{\pi}{2}\sum_j \frac{c_j^2}{\omega_j}\delta(\omega-\omega_j). $$ 这里我们只关注其指数形式： $$ J(\omega)=\frac{\pi}{2}\alpha\omega^s\omega_c^{1-s}f(\frac{\omega}{\omega_c}), $$ $f(\omega/\omega_c)$ 是截断函数，因为高频部分必然会衰减趋于零。
 2. 两种截断方式 针对谱函数做两种截断处理。
 2.1 有理分式截断 $$ f(x=\frac{\omega}{\omega_c})=\frac{1}{(1+x^2)^{-2}} $$
 2.2 指数衰减截断 $$ f(x=\frac{\omega}{\omega_c})=\mathcal{e}^{-x} $$
@@ -36,10 +36,10 @@
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/02/25/linear-response-theory/</guid>
-      <description> Linear response theory [TOC]
+      <description>Linear response theory [TOC]
 Classical linear response theory Response function
 Correlation funtion
-###Onsager&amp;rsquo;s hypothesis
+###Onsager&#39;s hypothesis
 涨落耗散定理
 ###Kubo formula
 Quantum linear response theory </description>
@@ -56,7 +56,7 @@ Quantum linear response theory </description>
 $$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$
 Metropolis 算法就是基於此實現抽樣的一個有效算法。
  Metropolois-Hasting Algorithm
-Initialize $x^{(0)}$ randomly
+ Initialize $x^{(0)}$ randomly
 for i=0 to N-1 do
 ​ Sample $u\sim U[0,1]$
 ​ Sample $x^*\sim U[0,1]$
@@ -66,7 +66,7 @@ for i=0 to N-1 do
 ​ $x^{(i+1)}=x^{(i)}$
 ​ end if
 end for
- 3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
+  3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ end for
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
-      <description> 色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
+      <description>色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
 1. 色彩游戏 2. 色彩的结构 线性空间
 2.1 颜色的数字表示 色度学 3. 有趣的节点 </description>
     </item>

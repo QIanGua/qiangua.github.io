@@ -89,60 +89,58 @@
 
 <p>In order to avoid repeat operations, I need to write a script to do the repeated word. Here is a snippet using in Matlab. This post is just as a
 backup.</p>
-
-<pre><code class="language-matlab">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Code Name: 
-% Coder: Author
-% date: 2019-10-09  %C-t
-% description:
-% Input module: 
-% Output data:
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style="color:#75715e">% Code Name: </span>
+<span style="color:#75715e">% Coder: Author</span>
+<span style="color:#75715e">% date: 2019-10-09  %C-t</span>
+<span style="color:#75715e">% description:</span>
+<span style="color:#75715e">% Input module: </span>
+<span style="color:#75715e">% Output data:</span>
+<span style="color:#75715e">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
 clear;
 clc;
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Setting the File Path
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<span style="color:#75715e">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style="color:#75715e">% Setting the File Path</span>
+<span style="color:#75715e">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-path='.../date_initial/';
-dir_dat = dir(strcat(path,'*.dat'));
+path=<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.../date_initial/&#39;</span>;
+dir_dat = dir(strcat(path,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">*.dat&#39;</span>));
 
-% cd to save directory
-cd('.../date_final');
+<span style="color:#75715e">% cd to save directory</span>
+cd(<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.../date_final&#39;</span>);
 
-% number of files
+<span style="color:#75715e">% number of files</span>
 file_number = length(dir_dat);
 
-% name list of files with string type
-file_name_arr = string ( {dir_dat.name}' );
+<span style="color:#75715e">% name list of files with string type</span>
+file_name_arr = string ( {dir_dat.name}<span style="color:#e6db74">&#39;</span><span style="color:#e6db74"> );
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+</span><span style="color:#e6db74">% Loop to read, process and save data files
+</span><span style="color:#e6db74">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">for loop_idx = 1:file_number
+</span><span style="color:#e6db74">    
+</span><span style="color:#e6db74">    % # read in data
+</span><span style="color:#e6db74">    file_address = strcat( path,  file_name_arr(loop_idx)  );
+</span><span style="color:#e6db74">    data = dlmread(  file_address );
+</span><span style="color:#e6db74">    
+</span><span style="color:#e6db74">    % # process data
+</span><span style="color:#e6db74">    
+</span><span style="color:#e6db74">    
+</span><span style="color:#e6db74">        
+</span><span style="color:#e6db74">    % # out_put data plot if necessary 
+</span><span style="color:#e6db74">    %　save data with name rule
+</span><span style="color:#e6db74">   
+</span><span style="color:#e6db74">    out_put= ;    
+</span><span style="color:#e6db74">    out_name = strcat( file_name_arr(loop_idx), &#39;</span>_susceptibility<span style="color:#f92672">&#39;</span>, <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.dat&#39;</span>)
+    save(out_name,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">out_put&#39;</span>,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">-ascii&#39;</span>,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">-double&#39;</span>); 
+<span style="color:#66d9ef">end</span>
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Loop to read, process and save data files
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-for loop_idx = 1:file_number
-    
-    % # read in data
-    file_address = strcat( path,  file_name_arr(loop_idx)  );
-    data = dlmread(  file_address );
-    
-    % # process data
-    
-    
-        
-    % # out_put data plot if necessary 
-    %　save data with name rule
-   
-    out_put= ;    
-    out_name = strcat( file_name_arr(loop_idx), '_susceptibility', '.dat')
-    save(out_name,'out_put','-ascii','-double'); 
-end
-
-</code></pre>
-
+</code></pre></div>
 
   <footer>
   
@@ -167,7 +165,7 @@ end
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

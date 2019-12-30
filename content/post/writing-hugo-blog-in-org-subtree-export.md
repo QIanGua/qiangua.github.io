@@ -1,7 +1,7 @@
 +++
 title = "Writing Hugo blog in Org"
 date = 2019-11-19T02:10:00+08:00
-lastmod = 2019-11-20T19:35:31+08:00
+lastmod = 2019-12-24T14:33:40+08:00
 tags = ["org"]
 draft = false
 author = "Qiangua"
@@ -18,12 +18,6 @@ This post will be exported as `content/posts/writing-hugo-blog-in-org-subtree-ex
 ## Code fragment {#code-fragment}
 
 It's convenient in Org to insert a code fragment use key `<s TAB`:
-
-{{< highlight latex >}}
-\\#+BEGIN_SRC latex
-  f=ma
-\\#+END_SRC
-{{< /highlight >}}
 
 
 ## Math formula {#math-formula}
@@ -50,4 +44,4 @@ C = W\log\_{2} (1+\mathrm{SNR})
 
 With the assistance of `org-download`, it's convenient to insert a figure in org file, e.g.
 
-{{< figure src="Emacs/photo-1574003887216-5d32ce5f22fa_2019-11-19_15-26-30.jpeg" >}}
+{{< figure src="https://raw.githubusercontent.com/QIanGua/tuchaung/master/img/20191219213809.png" >}}

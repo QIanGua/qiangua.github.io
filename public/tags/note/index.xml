@@ -17,13 +17,10 @@
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2019/09/09/find-in-terminal/</guid>
-      <description> Find files from terminal [TOC]
-Tools basic commonds find 目录搜索
-grep 文本搜索
-Efficient commonds fzf
-rg(ripgrep):
-&amp;gt; rg &#39;word&#39;  fd
-&amp;gt; fd &#39;file&#39;  Find files Find Word in Files </description>
+      <description>Find files from terminal [TOC]
+Several Useful Commonds 目录搜索:
+ find fd  文本搜索:
+ grep rg  Find files find &amp;gt; find root_path -name &amp;#39;*.ext&amp;#39; &amp;gt; find root_path -name &amp;#39;*pattern_1*&amp;#39; fd &amp;gt; fd &amp;#39;file&amp;#39; Find Word in Files grep &amp;gt; grep text file_name rg(ripgrep) &amp;gt; rg &amp;#39;word&amp;#39; </description>
     </item>
     
     <item>
@@ -47,17 +44,17 @@ Meanwhile, this need us to fit the real part more carefully.</description>
       
       <guid>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
       <description>Notes of Quantum Optimal Control The system Hamiltonian: $$ H = \Delta_p(t)|e\rangle\langle e| + \frac{1}{2}[\Omega_p(t)|e\rangle\langle 0 |+\Omega_s(t)|e\rangle\langle 1| + h.c.], $$
-Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),
-\Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),
-\Omega_s(t) = \Omega(t)\cos(\alpha)\sin(\theta/2)e^{-i\phi},
-\Omega(t) = \Omega_0 \sin^2(\pi t/\tau).
-\alpha=0,\theta=\pi/2,\phi=0
+Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),\
+\Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),\
+\Omega_s(t) = \Omega(t)\cos(\alpha)\sin(\theta/2)e^{-i\phi},\
+\Omega(t) = \Omega_0 \sin^2(\pi t/\tau).\
+\alpha=0,\theta=\pi/2,\phi=0\
 \tau=tmax=100 ns,\Omega_0\tau=4\pi $$
 $\alpha=0,\theta=\pi/2,\phi=0$
 $\tau=tmax=100 ns,\Omega_0\tau=4\pi$
 $dt=0.5 ns$
-Pulse 2 $$ \Delta_p(t) = 0,
-\Omega_p(t) = \Omega(t)\cos(\theta(t)),
+Pulse 2 $$ \Delta_p(t) = 0,\
+\Omega_p(t) = \Omega(t)\cos(\theta(t)),\
 \Omega_s(t) = \Omega(t)\cos(\theta(t)),\</description>
     </item>
     
@@ -87,7 +84,7 @@ Pulse 2 $$ \Delta_p(t) = 0,
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</guid>
-      <description> 读书笔记1——《西方文化的衰落》  一时间她们陶醉在与对方天长地久的激情中， 未几， 在蝇头般的压力下， 她们的山盟海誓立刻改变了对象。其实她们爱的是被爱的感觉， 并不是对方那个人；她们爱的是激情本身，对方那个人无非是一个随意的启动装置。那些销魂爱语是一堆无意义的泡沫。法国心理学家拉罗什富科0在他1678年的作品《箴言集》(Maxims)中曾写到：“爱，犹如火焰，需要不断煽动；一旦停止希望，或停止担忧，爱就寿终正寝了。”
+      <description>读书笔记1——《西方文化的衰落》  一时间她们陶醉在与对方天长地久的激情中， 未几， 在蝇头般的压力下， 她们的山盟海誓立刻改变了对象。其实她们爱的是被爱的感觉， 并不是对方那个人；她们爱的是激情本身，对方那个人无非是一个随意的启动装置。那些销魂爱语是一堆无意义的泡沫。法国心理学家拉罗什富科[^1] (Duc de la Rochefoucauld)在他1678年的作品《箴言集》(Maxims)中曾写到：“爱，犹如火焰，需要不断煽动；一旦停止希望，或停止担忧，爱就寿终正寝了。”
  </description>
     </item>
     

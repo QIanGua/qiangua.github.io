@@ -18,7 +18,7 @@
       
       <guid>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</guid>
       <description>In order to avoid repeat operations, I need to write a script to do the repeated word. Here is a snippet using in Matlab. This post is just as a backup.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Code Name: % Coder: Author % date: 2019-10-09 %C-t % description: % Input module: % Output data: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% clear; clc; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Setting the File Path %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% path=&#39;.../date_initial/&#39;; dir_dat = dir(strcat(path,&#39;*.dat&#39;)); % cd to save directory cd(&#39;.../date_final&#39;); % number of files file_number = length(dir_dat); % name list of files with string type file_name_arr = string ( {dir_dat.</description>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Code Name:  % Coder: Author % date: 2019-10-09 %C-t % description: % Input module:  % Output data: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% clear; clc; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % Setting the File Path %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% path=&amp;#39;.../date_initial/&amp;#39;; dir_dat = dir(strcat(path,&amp;#39;*.dat&amp;#39;)); % cd to save directory cd(&amp;#39;.</description>
     </item>
     
   </channel>

@@ -17,11 +17,12 @@
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
-      <description> 论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。
+      <description>论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。
 eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / 坚果云 里。
- tips  给每一个成熟的版本添加一个 tag
- 新的修改先考虑要不要新建一个 develop 分支
- .gitignore 的使用 排除与监管
+  tips
+给每一个成熟的版本添加一个 tag
+  新的修改先考虑要不要新建一个 develop 分支
+  .gitignore 的使用 排除与监管
   简明 Git 操作  新建空文件夹 初始化：git init 添加监控文件：git add xxx 从远程获取分支： git pull； 新建本地分支：git branch xxx 添加说明：git commit -m xxxx 提交远程端：git push 查看状态： git status 查看历史：git log 分支切换：git checkout master/develop 添加tag：git tags XXX 历史回退：git reset XXX 合并分支：git merge  </description>
     </item>
     

@@ -17,13 +17,10 @@
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2019/09/09/find-in-terminal/</guid>
-      <description> Find files from terminal [TOC]
-Tools basic commonds find 目录搜索
-grep 文本搜索
-Efficient commonds fzf
-rg(ripgrep):
-&amp;gt; rg &#39;word&#39;  fd
-&amp;gt; fd &#39;file&#39;  Find files Find Word in Files </description>
+      <description>Find files from terminal [TOC]
+Several Useful Commonds 目录搜索:
+ find fd  文本搜索:
+ grep rg  Find files find &amp;gt; find root_path -name &amp;#39;*.ext&amp;#39; &amp;gt; find root_path -name &amp;#39;*pattern_1*&amp;#39; fd &amp;gt; fd &amp;#39;file&amp;#39; Find Word in Files grep &amp;gt; grep text file_name rg(ripgrep) &amp;gt; rg &amp;#39;word&amp;#39; </description>
     </item>
     
   </channel>

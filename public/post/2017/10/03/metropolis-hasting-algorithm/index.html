@@ -84,56 +84,31 @@ $$ p(E_j)=\frac{\exp(-\beta &amp;hellip;">
 
 
 
-
-
 <h1 id="metropolis-hasting-algorithm">Metropolis-Hasting algorithm</h1>
-
 <p>[TOC]</p>
-
-<h2 id="0-预备知识">0. 预备知识</h2>
-
-<h2 id="1-monte-carlo-simulation">1.Monte carlo simulation</h2>
-
+<h2 id="0-">0. 预备知识</h2>
+<h2 id="1monte-carlo-simulation">1.Monte carlo simulation</h2>
 <h2 id="2-metropolis-hasting-algorithm">2. Metropolis-Hasting algorithm</h2>
-
 <p>由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：</p>
-
 <p>$$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$</p>
-
 <p>Metropolis 算法就是基於此實現抽樣的一個有效算法。</p>
-
 <blockquote>
 <p><strong>Metropolois-Hasting Algorithm</strong></p>
-
-<hr />
-
+<hr>
 <p>Initialize $x^{(0)}$ randomly</p>
-
 <p><strong>for</strong> i=0 to N-1 do</p>
-
 <p>​       Sample $u\sim U[0,1]$</p>
-
 <p>​       Sample $x^*\sim U[0,1]$</p>
-
 <p>​       <strong>if</strong>  $u&lt;A(x^\ast,x^{(i-1)})=min\left{1,\frac{p(x^\ast)q(x^{(i)}|x^\ast)}{p(x^{(i)})q(x^{(i)})}\right}$ <strong>then</strong></p>
-
 <p>​           $x^{(i+1)}=x^\ast$</p>
-
 <p>​      <strong>else</strong></p>
-
 <p>​           $x^{(i+1)}=x^{(i)}$</p>
-
 <p>​     <strong>end if</strong></p>
-
 <p><strong>end for</strong></p>
-
-<hr />
+<hr>
 </blockquote>
-
 <h2 id="3-application"><strong>3</strong>. Application</h2>
-
-<h3 id="3-1-two-dimension-ising-model">3.1 Two-Dimension Ising model</h3>
-
+<h3 id="31-two-dimension-ising-model">3.1 Two-Dimension Ising model</h3>
 <p>为了避免臃肿，还是单独另起一篇吧&gt;smile&lt;。</p>
 
 
@@ -145,7 +120,7 @@ $$ p(E_j)=\frac{\exp(-\beta &amp;hellip;">
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

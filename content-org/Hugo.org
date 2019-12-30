@@ -7,7 +7,6 @@
 # eval: (org-hugo-auto-export-mode)
 
 * Emacs
-All posts in here will have the category set to /emacs/
 ** DONE Writing Hugo blog in Org                                  :org:
 CLOSED: [2019-11-19 Tue 02:10]
 :PROPERTIES:
@@ -33,12 +32,13 @@ This is a online math formula,
 \label{eq:1}
 C = W\log_{2} (1+\mathrm{SNR})
 \end{equation}
+
 $$ S = k_{B}T\\log\\Omega $$
 
 *** Figures 
 With the assistance of =org-download=, it's convenient to insert a figure in org file, e.g.
 #+DOWNLOADED: https://images.unsplash.com/photo-1574003887216-5d32ce5f22fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80 @ 2019-11-19 15:26:30
-[[file:Emacs/photo-1574003887216-5d32ce5f22fa_2019-11-19_15-26-30.jpeg]]
+[[https://raw.githubusercontent.com/QIanGua/tuchaung/master/img/20191219213809.png]]
 ** DONE Deploy Hugo blog on Netlify                               :netlify:
 CLOSED: [2019-11-20 Wed 00:21]
 :PROPERTIES:
@@ -238,4 +238,33 @@ GNUGPG is a practical terminal tool for encryption. Here are two typical command
 #+BEGIN_SRC shell
     gpg --encrypt -r ID test.txt
     gpg --decrypt test.txt.gpg --out-put test.de.txt
+#+END_SRC
+An effective usage:
+#+BEGIN_SRC shell
+ alias gpge='gpg --encrypt -r USER_ID | $(fzf)'
+ alias gpgd='gpg --decrypt | $(fzf)'
+#+END_SRC
+** DONE Insert shebang                                            :code:
+CLOSED: [2019-12-30 Mon 22:59]
+:PROPERTIES:
+:EXPORT_FILE_NAME: Insert shebang
+:EXPOET_DATE: 2019-12-21
+:END:
+- State "DONE"       from "TODO"       [2019-12-30 Mon 22:59]
+In this post, I plan to record some shebangs I use frequently. The *insert-shabang* package is used. 
+*** shebang collections
+
+- shell
+- python
+- julia
+- r
+- wls
+- fortran(unsolved)
+
+#+BEGIN_SRC shell
+    #!/usr/local/bin/env bash
+    #!/usr/local/bin/env python3
+    #!/usr/local/bin/env julia
+    #!/usr/bin/env Rscript
+    #!/usr/bin/env wolframscript
 #+END_SRC

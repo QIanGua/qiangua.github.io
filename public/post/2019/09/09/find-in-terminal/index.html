@@ -16,18 +16,12 @@
     
       
       <meta property="description" content="[TOC]
-[&amp;hellip;] find 目录搜索
-grep 文本搜索
-[&amp;hellip;] fzf
-rg(ripgrep):
-&amp;gt; rg &#39;word&#39;  fd
+[&amp;hellip;] 目录搜索:
+[&amp;hellip;] 文本搜索:
 ">
       <meta property="og:description" content="[TOC]
-[&amp;hellip;] find 目录搜索
-grep 文本搜索
-[&amp;hellip;] fzf
-rg(ripgrep):
-&amp;gt; rg &#39;word&#39;  fd
+[&amp;hellip;] 目录搜索:
+[&amp;hellip;] 文本搜索:
 ">
       
     
@@ -97,38 +91,31 @@ rg(ripgrep):
 
 
 
-
-
 <h1 id="find-files-from-terminal">Find files from terminal</h1>
-
 <p>[TOC]</p>
-
-<h2 id="tools">Tools</h2>
-
-<h2 id="basic-commonds">basic commonds</h2>
-
-<p>find 目录搜索</p>
-
-<p>grep 文本搜索</p>
-
-<h2 id="efficient-commonds">Efficient commonds</h2>
-
-<p><strong>fzf</strong></p>
-
-<p><strong>rg(ripgrep):</strong></p>
-
-<pre><code class="language-shell">&gt; rg 'word'
-</code></pre>
-
-<p><strong>fd</strong></p>
-
-<pre><code class="language-shell">&gt; fd 'file'
-</code></pre>
-
+<h2 id="several-useful-commonds">Several Useful Commonds</h2>
+<p>目录搜索:</p>
+<ul>
+<li>find</li>
+<li>fd</li>
+</ul>
+<p>文本搜索:</p>
+<ul>
+<li>grep</li>
+<li>rg</li>
+</ul>
 <h2 id="find-files">Find files</h2>
-
-<h2 id="find-word-in-files">Find Word in Files</h2>
-
+<h3 id="find">find</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; find root_path -name <span style="color:#e6db74">&#39;*.ext&#39;</span>
+&gt; find root_path -name <span style="color:#e6db74">&#39;*pattern_1*&#39;</span>
+</code></pre></div><h3 id="fd">fd</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; fd <span style="color:#e6db74">&#39;file&#39;</span>
+</code></pre></div><h2 id="find-word-in-files">Find Word in Files</h2>
+<h3 id="grep">grep</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; grep text file_name
+</code></pre></div><h3 id="rgripgrep">rg(ripgrep)</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; rg <span style="color:#e6db74">&#39;word&#39;</span>
+</code></pre></div>
 
   <footer>
   
@@ -153,7 +140,7 @@ rg(ripgrep):
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

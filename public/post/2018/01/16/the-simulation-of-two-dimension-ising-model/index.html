@@ -28,7 +28,7 @@
 
     
     
-    <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/26717-40c92a2ca8f6d4eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+    <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/26717-e6304d07fd77f65c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
     
     
 
@@ -94,59 +94,44 @@
 
 
 
-
-
 <h1 id="the-simulation-of-2d-ising-model">The simulation of 2D Ising model</h1>
-
 <p>[TOC]</p>
-
 <blockquote>
 <h3 id="ising-model-on-a-square-lattice">Ising model on a square lattice</h3>
-
 <p>**Update: 2018/1/16 **
 <strong>Begin:2017/10/5</strong></p>
 </blockquote>
-
-<h2 id="1-模型简述">1.模型简述</h2>
-
+<h2 id="1">1.模型简述</h2>
 <p>伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。</p>
-
 <p>一个由$N$个固定点构成的$S$维规则磁性点阵，每个点上放置一个自旋向上或向下的粒子。整个系统的状态由序列$\mathcal{\sigma}=\left(\sigma_1,\sigma_2,\dots,\sigma_N\right)$来表征，每个自旋方向为向上或者向下：
 $$
 \sigma_i ={1,-1}
 $$</p>
-
 <p>下图是用 <strong>Mathematica</strong>  作出的一个图示：</p>
-
-<p><center><img src="http://upload-images.jianshu.io/upload_images/26717-40c92a2ca8f6d4eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2D Ising Model" title="二维伊辛模型示意图" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>系统的哈密顿量(可理解为能量)：
 $$
-H<em>N\left( \mathcal{\sigma} \right) = -\sum</em>{\langle i,j\rangle}J_{ij}\sigma_i\sigma<em>j - \sum</em>{i=1}^N h_i \sigma<em>i
+H_N\left( \mathcal{\sigma} \right) = -\sum_{\langle i,j\rangle}J_{ij}\sigma_i\sigma_j - \sum_{i=1}^N h_i \sigma_i
 $$
-其中，$J</em>{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。</p>
-
+其中，$J_{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。</p>
 <p>为了简化模拟过程，一般选取$J_{i,j}=J, h_i=0$。</p>
-
 <p>在正则系综情况下，系统处于某一构型的概率服从玻尔兹曼分布：
 $$
-P<em>\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}}
+P_\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}}
 $$
 其中 $\mathcal{z}$ 是配分函数，
 $$
-\mathcal{z}=\sum</em>{\sigma} e^{-\beta H(\sigma)}
+\mathcal{z}=\sum_{\sigma} e^{-\beta H(\sigma)}
 $$
-<strong>常用的物理量平均值是</strong>：</p>
-
+**常用的物理量平均值是**：</p>
 <p>能量 $E$：
 $$
-E=\langle H \rangle = \sum<em>\sigma H(\sigma)P</em>\sigma^B
+E=\langle H \rangle = \sum_\sigma H(\sigma)P_\sigma^B
 $$
 平均磁化强度 $M$:
 $$
 \langle M \rangle=\frac{1}{N} \sum_i \sigma_i
 $$</p>
-
 <p>平均磁化率 $\chi$:
 $$
 \chi=\frac{\partial \langle M \rangle}{\partial H}=\frac{N}{k_b T}[\langle M^2\rangle-\langle M \rangle^2]
@@ -155,9 +140,7 @@ $$
 $$
 C_v=\frac{d E}{d T}
 $$</p>
-
-<h2 id="2-算法流程">2.算法流程</h2>
-
+<h2 id="2">2.算法流程</h2>
 <ol>
 <li>构型初始化</li>
 <li>设置温度区间</li>
@@ -168,13 +151,9 @@ $$</p>
 <li>重复过程3-6，直至循环结束</li>
 <li>画图能量、比热、磁化率、磁化强度</li>
 </ol>
-
-<h2 id="3-编程实现">3.编程实现</h2>
-
+<h2 id="3">3.编程实现</h2>
 <p><strong>尝试使用简单热门的Python语言</strong></p>
-
 <p><strong>参数设定：</strong></p>
-
 <table>
 <thead>
 <tr>
@@ -182,210 +161,194 @@ $$</p>
 <th align="center">1</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="center">$k_b$</td>
 <td align="center">1</td>
 </tr>
-
 <tr>
 <td align="center">$T$</td>
 <td align="center">0-6</td>
 </tr>
-
 <tr>
 <td align="center">$h_i$</td>
 <td align="center">0</td>
 </tr>
 </tbody>
 </table>
-
 <p>这里为了方便取$k_b=1, J=1$. 目前已知的临界温度的解析结果是
 $$
 T_c=2/\ln(1+\sqrt{2})\approx 2.269
 $$</p>
-
-<h2 id="4-结果图示">4.结果图示</h2>
-
+<h2 id="4">4.结果图示</h2>
 <p>下图是$16\times 16$ 格子模拟的结果，结果比较理想：</p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/26717-e6304d07fd77f65c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ising15.jpg" /></p>
-
+<p><img src="http://upload-images.jianshu.io/upload_images/26717-e6304d07fd77f65c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ising15.jpg"></p>
 <p>下图是$2\times 2$ 格子模拟的结果：</p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/26717-b182b26f2af24045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ising2.png" /></p>
-
+<p><img src="http://upload-images.jianshu.io/upload_images/26717-b182b26f2af24045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ising2.png"></p>
 <p>从磁化强度和磁化率来看，$2\times 2$ 体系的模拟效果不是很理想。</p>
-
-<h2 id="5-总结提高">5.总结提高</h2>
-
+<h2 id="5">5.总结提高</h2>
 <p>模拟过程中要注意的一点是初始构型选定后，必须先让系统演化到平衡态，然后再开始进行 <strong>Metropolis</strong> 抽样， 因为在平衡态统计的框架下，系统只有到达平衡态之后各个物理量才能有确定的意义。</p>
-
 <p>在验证程序正确性的时候，先选择尺寸为 $2\times 2$ 的格点，从平均磁化率和磁化强度和温度的关系来看临界温度，发现与解析结果差别较大，而从热容来看是与理论的临界温度$T_c$ 相吻合的。初步排除过非平衡因素之后，剩下的可能原因是体系的尺寸效应有关。 一方面实际在验证过程中，逐渐加大体系尺寸，可以观察到逐渐接近理论临界温度，另一方面还可能需要考察一下热容 和 磁化率、磁化强度计算准确度对尺寸的依赖情况。</p>
-
-<h2 id="代码附录">代码附录</h2>
-
-<pre><code class="language-python">#  PROGRAM DESCRIPITION:
-# This program is  used to smimulate the 2 dimenssion Ising mdoel using
-# the metropolis algorithm.
-#
-# For simplicity, I use python langulage to finish the  program.
-#
-# PROGRAMMER: caicailiushui
-# DATE: 2017/12/25
+<h2 id="heading">代码附录</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#  PROGRAM DESCRIPITION:</span>
+<span style="color:#75715e"># This program is  used to smimulate the 2 dimenssion Ising mdoel using</span>
+<span style="color:#75715e"># the metropolis algorithm.</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e"># For simplicity, I use python langulage to finish the  program.</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e"># PROGRAMMER: caicailiushui</span>
+<span style="color:#75715e"># DATE: 2017/12/25</span>
 
 
-from __future__ import division
-import numpy as np
+<span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> division
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
 
-from numpy.random import rand    # to get the random number
-import matplotlib.pyplot as plt  # to plot
-
-
-# ------------------------------------------------------------------------------------------------
-## 1.  Define the necessary functions used in the main program
-# ------------------------------------------------------------------------------------------------
-
-## function 1: to initial the system state
-## N * N matrices
-## matrix element {-1,1}
-def initialstate(N):
-#	state = 2 * np.random.randint(2, size = (N,N)) - 1
-	state = np.ones((N,N))
-	return state
+<span style="color:#f92672">from</span> numpy.random <span style="color:#f92672">import</span> rand    <span style="color:#75715e"># to get the random number</span>
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt  <span style="color:#75715e"># to plot</span>
 
 
-## function 2: evolve to the equilibrium state
-## Monte Carlo move using the metropolis algorithm
-def mcmove(config, beta):
+<span style="color:#75715e"># ------------------------------------------------------------------------------------------------</span>
+<span style="color:#75715e">## 1.  Define the necessary functions used in the main program</span>
+<span style="color:#75715e"># ------------------------------------------------------------------------------------------------</span>
+
+<span style="color:#75715e">## function 1: to initial the system state</span>
+<span style="color:#75715e">## N * N matrices</span>
+<span style="color:#75715e">## matrix element {-1,1}</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">initialstate</span>(N):
+<span style="color:#75715e">#	state = 2 * np.random.randint(2, size = (N,N)) - 1</span>
+	state <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>ones((N,N))
+	<span style="color:#66d9ef">return</span> state
+
+
+<span style="color:#75715e">## function 2: evolve to the equilibrium state</span>
+<span style="color:#75715e">## Monte Carlo move using the metropolis algorithm</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">mcmove</span>(config, beta):
    
-   for row in range(N):
-       for col in range(N):
-               row_val = row #np.random.randint(0, N)
-               col_val = col #np.random.randint(0, N)
-               posi =  config[row_val, col_val]
-               nearspin = config[(row_val+1)%N,col_val] + config[row_val,(col_val+1)%N] + config[(row_val-1)%N,col_val] + config[row_val,(col_val-1)%N]
-               diffEnergy = 2*posi*nearspin
-               if diffEnergy &lt; 0:
-                   posi *= -1
-               elif rand() &lt; np.exp(-diffEnergy*beta):
-                   posi *= -1
-               config[row_val, col_val] = posi
-   return config
+   <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> range(N):
+       <span style="color:#66d9ef">for</span> col <span style="color:#f92672">in</span> range(N):
+               row_val <span style="color:#f92672">=</span> row <span style="color:#75715e">#np.random.randint(0, N)</span>
+               col_val <span style="color:#f92672">=</span> col <span style="color:#75715e">#np.random.randint(0, N)</span>
+               posi <span style="color:#f92672">=</span>  config[row_val, col_val]
+               nearspin <span style="color:#f92672">=</span> config[(row_val<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N,col_val] <span style="color:#f92672">+</span> config[row_val,(col_val<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N] <span style="color:#f92672">+</span> config[(row_val<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N,col_val] <span style="color:#f92672">+</span> config[row_val,(col_val<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N]
+               diffEnergy <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>posi<span style="color:#f92672">*</span>nearspin
+               <span style="color:#66d9ef">if</span> diffEnergy <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>:
+                   posi <span style="color:#f92672">*</span><span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+               <span style="color:#66d9ef">elif</span> rand() <span style="color:#f92672">&lt;</span> np<span style="color:#f92672">.</span>exp(<span style="color:#f92672">-</span>diffEnergy<span style="color:#f92672">*</span>beta):
+                   posi <span style="color:#f92672">*</span><span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+               config[row_val, col_val] <span style="color:#f92672">=</span> posi
+   <span style="color:#66d9ef">return</span> config
 
 
 
-## function 3: to calculate the energy of a given configuration
+<span style="color:#75715e">## function 3: to calculate the energy of a given configuration</span>
 
-def calcEnergy(config):
-    energy = 0.0
-    dim = len(config)
-    for row in range(dim):
-    	for col in range(dim):
-    		posi = config[row, col]
-    		# near total spin
-    		nearspin = config[(row + 1) % N, col] + config[(row - 1) % N, col] + config[row, (col + 1) % N] + config[row, (col - 1) % N]
-    		energy += -posi*nearspin
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calcEnergy</span>(config):
+    energy <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>
+    dim <span style="color:#f92672">=</span> len(config)
+    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> range(dim):
+    	<span style="color:#66d9ef">for</span> col <span style="color:#f92672">in</span> range(dim):
+    		posi <span style="color:#f92672">=</span> config[row, col]
+    		<span style="color:#75715e"># near total spin</span>
+    		nearspin <span style="color:#f92672">=</span> config[(row <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N, col] <span style="color:#f92672">+</span> config[(row <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N, col] <span style="color:#f92672">+</span> config[row, (col <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N] <span style="color:#f92672">+</span> config[row, (col <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N]
+    		energy <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#f92672">-</span>posi<span style="color:#f92672">*</span>nearspin
 
-    return energy/4.0
-
-
-## function 4 : to calculate the total spin of a given configuration or  the magnetization
-def calcMag(config):
-	mag = np.sum(config)
-
-	return mag
-
-# ------------------------------------------------------------------------------------------------
-## 2. Main code
-#------------------------------------------------------------------------------------------------
-
-# define the dimension of spin system
-
-N       = 2 #16  # size of the spin lattice, N*N
-
-# simulate parameters
-
-Nt      = 1000 # number of temperature points
-
-eqSteps = 1000 # uplimit of  the steps to equilibrium
-mcSteps = 2000 # uplimit of  the total calculation times
+    <span style="color:#66d9ef">return</span> energy<span style="color:#f92672">/</span><span style="color:#ae81ff">4.0</span>
 
 
-Tc    = 2.269
-T_arr = np.linspace(0.01, 6, Nt);   
-Nt    = np.size(T_arr) # number of temperature points
-# Initalization
+<span style="color:#75715e">## function 4 : to calculate the total spin of a given configuration or  the magnetization</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calcMag</span>(config):
+	mag <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>sum(config)
 
-Energy          = np.zeros(Nt)
-Magnetization   = np.zeros(Nt)
-SpecificHeat    = np.zeros(Nt)
-Susceptibility  = np.zeros(Nt)
+	<span style="color:#66d9ef">return</span> mag
+
+<span style="color:#75715e"># ------------------------------------------------------------------------------------------------</span>
+<span style="color:#75715e">## 2. Main code</span>
+<span style="color:#75715e">#------------------------------------------------------------------------------------------------</span>
+
+<span style="color:#75715e"># define the dimension of spin system</span>
+
+N       <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e">#16  # size of the spin lattice, N*N</span>
+
+<span style="color:#75715e"># simulate parameters</span>
+
+Nt      <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span> <span style="color:#75715e"># number of temperature points</span>
+
+eqSteps <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span> <span style="color:#75715e"># uplimit of  the steps to equilibrium</span>
+mcSteps <span style="color:#f92672">=</span> <span style="color:#ae81ff">2000</span> <span style="color:#75715e"># uplimit of  the total calculation times</span>
+
+
+Tc    <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.269</span>
+T_arr <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>linspace(<span style="color:#ae81ff">0.01</span>, <span style="color:#ae81ff">6</span>, Nt);   
+Nt    <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>size(T_arr) <span style="color:#75715e"># number of temperature points</span>
+<span style="color:#75715e"># Initalization</span>
+
+Energy          <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(Nt)
+Magnetization   <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(Nt)
+SpecificHeat    <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(Nt)
+Susceptibility  <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(Nt)
 
 
 
-# Assited qualites
+<span style="color:#75715e"># Assited qualites</span>
 
-N1, N2  = 1.0/(mcSteps*N*N), 1.0/(mcSteps*mcSteps*N*N)
+N1, N2  <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span><span style="color:#f92672">/</span>(mcSteps<span style="color:#f92672">*</span>N<span style="color:#f92672">*</span>N), <span style="color:#ae81ff">1.0</span><span style="color:#f92672">/</span>(mcSteps<span style="color:#f92672">*</span>mcSteps<span style="color:#f92672">*</span>N<span style="color:#f92672">*</span>N)
 
-# Monto Carlo simulation
+<span style="color:#75715e"># Monto Carlo simulation</span>
 
-for m in range(len(T_arr)):
-	E1 = M1 = E2 = M2 = 0
+<span style="color:#66d9ef">for</span> m <span style="color:#f92672">in</span> range(len(T_arr)):
+	E1 <span style="color:#f92672">=</span> M1 <span style="color:#f92672">=</span> E2 <span style="color:#f92672">=</span> M2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
     
-	config = initialstate(N)
+	config <span style="color:#f92672">=</span> initialstate(N)
     
-	invT   = 1.0 / T_arr[m]
-	invT2  = invT * invT
+	invT   <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span> <span style="color:#f92672">/</span> T_arr[m]
+	invT2  <span style="color:#f92672">=</span> invT <span style="color:#f92672">*</span> invT
 
-#	for i in range(eqSteps):  # equilibrate
-#		mcmove(config, invT)  # Monto Carlo moves
+<span style="color:#75715e">#	for i in range(eqSteps):  # equilibrate</span>
+<span style="color:#75715e">#		mcmove(config, invT)  # Monto Carlo moves</span>
 
-	for i in range(mcSteps):
+	<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(mcSteps):
 		mcmove(config, invT)
         
-		Ene_tem = calcEnergy(config)
-		Mag     = calcMag(config)
+		Ene_tem <span style="color:#f92672">=</span> calcEnergy(config)
+		Mag     <span style="color:#f92672">=</span> calcMag(config)
 
-		E1 += Ene_tem
-		M1 += Mag
-		M2 += Mag*Mag
-		E2 += Ene_tem*Ene_tem
+		E1 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Ene_tem
+		M1 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Mag
+		M2 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Mag<span style="color:#f92672">*</span>Mag
+		E2 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Ene_tem<span style="color:#f92672">*</span>Ene_tem
 
-		Energy[m]         = N1 * E1
-		Magnetization[m]  = N1 * M1
-		SpecificHeat[m]   = (N1*E2 - N2*E1*E1) * invT2
-		Susceptibility[m] = (N1*M2 - N2*M1*M1)*invT
-
-
-# Plot to show the final result
-fig = plt.figure(figsize=(18,10));
-
-sp  = fig.add_subplot(2, 2, 1);
-plt.plot(T_arr, Energy, 'o', color=&quot;#6699A1&quot;);
-plt.xlabel(&quot;Temperature (${T}$)&quot;, fontsize = 20);
-plt.ylabel(&quot;Energy(${E}$)&quot;, fontsize = 20);
+		Energy[m]         <span style="color:#f92672">=</span> N1 <span style="color:#f92672">*</span> E1
+		Magnetization[m]  <span style="color:#f92672">=</span> N1 <span style="color:#f92672">*</span> M1
+		SpecificHeat[m]   <span style="color:#f92672">=</span> (N1<span style="color:#f92672">*</span>E2 <span style="color:#f92672">-</span> N2<span style="color:#f92672">*</span>E1<span style="color:#f92672">*</span>E1) <span style="color:#f92672">*</span> invT2
+		Susceptibility[m] <span style="color:#f92672">=</span> (N1<span style="color:#f92672">*</span>M2 <span style="color:#f92672">-</span> N2<span style="color:#f92672">*</span>M1<span style="color:#f92672">*</span>M1)<span style="color:#f92672">*</span>invT
 
 
-sp  = fig.add_subplot(2, 2, 2);
-plt.plot(T_arr, abs(Magnetization), 'o', color=&quot;#F75C2F&quot;);
-plt.xlabel(&quot;Temperature (${T}$)&quot;, fontsize=20);
-plt.ylabel(&quot;Magnetization(${M}$) &quot;, fontsize=20);
+<span style="color:#75715e"># Plot to show the final result</span>
+fig <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">10</span>));
+
+sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, Energy, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#6699A1</span><span style="color:#e6db74">&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Energy(${E}$)</span><span style="color:#e6db74">&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
 
 
-sp  = fig.add_subplot(2, 2, 3);
-plt.plot(T_arr, SpecificHeat, 'o', color=&quot;#6699A1&quot;);
-plt.xlabel(&quot;Temperature (${T}$)&quot;, fontsize=20);
-plt.ylabel(&quot;Specific Heat(${C_v}$) &quot;, fontsize=20);
+sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, abs(Magnetization), <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#F75C2F</span><span style="color:#e6db74">&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Magnetization(${M}$) </span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 
 
-sp  = fig.add_subplot(2, 2, 4);
-plt.plot(T_arr, Susceptibility, 'o', color=&quot;#F75C2F&quot;);
-plt.xlabel(&quot;Temperature (${T}$)&quot;, fontsize=20);
-plt.ylabel(&quot;Susceptibility(${\chi}$)&quot;, fontsize=20);
-</code></pre>
+sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, SpecificHeat, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#6699A1</span><span style="color:#e6db74">&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Specific Heat(${C_v}$) </span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 
+
+sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, Susceptibility, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#F75C2F</span><span style="color:#e6db74">&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Susceptibility(${</span><span style="color:#e6db74">\</span><span style="color:#e6db74">chi}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+</code></pre></div>
 
   <footer>
   
@@ -410,7 +373,7 @@ plt.ylabel(&quot;Susceptibility(${\chi}$)&quot;, fontsize=20);
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

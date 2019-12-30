@@ -82,32 +82,21 @@
 
 
 
-
-
 <ul>
-<li>State &ldquo;DONE&rdquo;       from &ldquo;TODO&rdquo;       <span class="timestamp-wrapper"><span class="timestamp">[2019-11-20 Wed 00:21]</span></span></li>
+<li>State &ldquo;DONE&rdquo;       from &ldquo;TODO&rdquo;       <!-- raw HTML omitted --><!-- raw HTML omitted -->[2019-11-20 Wed 00:21]<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
 </ul>
-
 <p>General introduction of several problems I got during the process I deploy hugo blog on Netlify.</p>
-
-<h2 id="first-issue-can-t-recognize-submodule-s-position">First Issue: Can&rsquo;t recognize submodule&rsquo;s position</h2>
-
+<h2 id="first-issue-can-t-recognize-submodule-s-position">First Issue: Can't recognize submodule's position</h2>
 <p>The blog theme is added by using git submodule, such as <code>git submodule add origin url</code>. Remember the url of theme repo to use <code>https</code> instead of <code>git</code>.</p>
-
 <h2 id="second-issue-command-not-found-and-continue-publishing">Second Issue: Command not found and continue publishing</h2>
-
-<p>Now that I use hugo to generate the blog publish file, so it&rsquo;s necessary to set GO environment in Netlify&rsquo;s machine.
+<p>Now that I use hugo to generate the blog publish file, so it's necessary to set GO environment in Netlify's machine.
 All you need to do is to customize deployment setting environment:</p>
-
 <ul>
 <li>Build command: hugo</li>
 <li>Publish directory: publish</li>
 </ul>
-
 <p>More details to check this link: <a href="https://docs.netlify.com/configure-builds/common-configurations/#gatsby">https://docs.netlify.com/configure-builds/common-configurations/#gatsby</a></p>
-
 <h2 id="third-issue-clear-the-cache-and-redeploy">Third Issue: Clear the cache and redeploy</h2>
-
 <p>If everything seems fine, but your blog is still not display normally. Maybe you need to clear out the cache and redeploy on the Netlify.</p>
 
 
@@ -119,7 +108,7 @@ All you need to do is to customize deployment setting environment:</p>
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
+  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
   
   </footer>
   </article>

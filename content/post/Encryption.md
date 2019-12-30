@@ -1,7 +1,7 @@
 +++
 title = "Encryption"
 date = 2019-12-16T00:34:00+08:00
-lastmod = 2019-12-19T14:24:16+08:00
+lastmod = 2019-12-22T22:36:01+08:00
 tags = ["curious"]
 draft = false
 author = "Qiangua"
@@ -56,4 +56,11 @@ GNUGPG is a practical terminal tool for encryption. Here are two typical command
 {{< highlight shell >}}
 gpg --encrypt -r ID test.txt
 gpg --decrypt test.txt.gpg --out-put test.de.txt
+{{< /highlight >}}
+
+An effective usage:
+
+{{< highlight shell >}}
+alias gpge='gpg --encrypt -r USER_ID | $(fzf)'
+alias gpgd='gpg --decrypt | $(fzf)'
 {{< /highlight >}}

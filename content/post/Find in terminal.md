@@ -9,35 +9,41 @@ categories: efficiency
 
 [TOC]
 
-## Tools
+## Several Useful Commonds
 
-## basic commonds
+目录搜索:
+- find
+- fd
 
-find 目录搜索
+文本搜索:
+- grep
+- rg
 
-grep 文本搜索
-
-## Efficient commonds
-
-**fzf**
-
-**rg(ripgrep):**
-
+## Find files 
+### find
 ```shell
-> rg 'word'
+> find root_path -name '*.ext'
+> find root_path -name '*pattern_1*'
 ```
-
-**fd**
+### fd
 
 ```shell
 > fd 'file'
 ```
 
-
-
-## Find files 
-
-
-
 ## Find Word in Files
+
+### grep
+
+```shell
+> grep text file_name
+```
+
+### rg(ripgrep)
+
+```shell
+> rg 'word'
+```
+
+
 

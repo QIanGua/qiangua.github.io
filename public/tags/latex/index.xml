@@ -30,7 +30,7 @@
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
-      <description> LaTexTools 实用操作记录 LaTexTools 是 Sublime 的一个插件，顾名思义是用来辅助写 LaTex 文件的。本文就简单介绍一下如何使用 LaTexTools 来提高论文写作效率。当然最好亲自去看原文档说明。这里只记录自己最常用的功能。
+      <description>LaTexTools 实用操作记录 LaTexTools 是 Sublime 的一个插件，顾名思义是用来辅助写 LaTex 文件的。本文就简单介绍一下如何使用 LaTexTools 来提高论文写作效率。当然最好亲自去看原文档说明。这里只记录自己最常用的功能。
 快捷键：
 Ctrl+l, e: 插入环境
 Ctrl+l, c: 插入命令
@@ -57,20 +57,21 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2016/09/07/latex-emc2/</guid>
-      <description>Problem 质能公式 $$ E=mc^{2} $$
+      <description>Problem  质能公式 $$ E=mc^{2} $$
 $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
 Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$
-Solution $$ \begin{align} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigmaz\phi} &amp;amp;=e^{i\sigma{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])
-&amp;amp;=\sigmay+e^{i\sigma{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]
-&amp;amp;=\sigmay+e^{i\sigma{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]
-&amp;amp;=\sigmay-i sin(\phi) e^{i\sigma{z}\phi}[\sigma_y,\sigma_z]
-&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y
-&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)
-&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y
-&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align} $$
-$$ \begin{align} x &amp;amp;= \sqrt{4^2-1^2} &amp;amp;= \sqrt{15}. \end{align}$$ $$
-$$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \
-\dot{y} &amp;amp; = &amp;amp;\rho x - y - xz \</description>
+Solution $$ \begin{align*} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi} &amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\
+&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\
+&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\
+&amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\
+&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\
+&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\
+&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\
+&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align*} $$
+$$ \begin{align*} x &amp;amp;= \sqrt{4^2-1^2} \
+&amp;amp;= \sqrt{15}. \end{align*}$$ $$
+$$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \\
+\dot{y} &amp;amp; = &amp;amp;\rho x - y - xz \\</description>
     </item>
     
   </channel>

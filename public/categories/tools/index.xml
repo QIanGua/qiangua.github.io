@@ -19,12 +19,8 @@
       <guid>https://qiangua.me/post/2018/05/20/520%E6%97%A5%E8%A8%98/</guid>
       <description>Plot2 畫圖 Mac 生态里没有了 Origin， 另寻了一个数据画图工具 Plot2 ，下面是一个简单测试。
 主要界面 如圖：
-
-
 注意 Buffer 的概念，每個數據表格都在一個 Buffer 裡。
 效果测试圖：
-
-
 幾個法律概念 法人： 法律上擬定的人，與自然人相對的概念。 通常是代表組織，非指特定的個人。
 法人代表： 法人的授權代表，取決於法人的授權。 對於大學來講，通常是校長。
 法定代表人：《民法通則》規定“依據法律或者法人組織章程規定，代表法人行使職權的負責人，是法人的法定達標人。” 代表人的行為超出法人授予的權力範圍，法人就可能為其承擔責任。</description>
@@ -44,9 +40,10 @@ Capuslock =&amp;gt; Ctrl
 ./XX
   2. Python  Anaconda
  3. 命令行配置 Alacritty iTterm2 ZSH SHELL oh-my-zsh 好用插件：
- ofd  osx ：在命令行中可以打开 FInder 并进入当前目录
+  ofd
+osx ：在命令行中可以打开 FInder 并进入当前目录
 cdf：在命令行中快速跳转到 Finder 已经打开的目录
-Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+L 或 ⌘+⌥+F Finder 中复制文件路径：⌘+⌥+C  5.</description>
+  Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+L 或 ⌘+⌥+F Finder 中复制文件路径：⌘+⌥+C  5.</description>
     </item>
     
     <item>
@@ -55,7 +52,7 @@ Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</guid>
-      <description> Vim 修炼成长记录 参考书籍《Vim 实用技巧》
+      <description>Vim 修炼成长记录 参考书籍《Vim 实用技巧》
 基本存活技能 输入 操作 退出 问题式驱动 理想的操作是“用一键移动，另一键执行”
 执行——重复——回退
 “. 范式”
@@ -78,8 +75,8 @@ t，m 等用法对于跨行交换会快一些。
  可以作用在 字母、单词、段落上。
  gU2l, gU2w, gU2p
  连续两次调用表示作用在当前行
- &amp;rsquo;&amp;gt;&amp;gt;&amp;lsquo;, &amp;lsquo;dd&amp;rsquo;, &amp;lsquo;yy&amp;rsquo;,&amp;lsquo;gUU&amp;rsquo;
- 退出插入模式 normap kj &amp;lt;esc&amp;gt;  注释 commentor </description>
+ &amp;lsquo;&amp;raquo;&amp;rsquo;, &amp;lsquo;dd&amp;rsquo;, &amp;lsquo;yy&amp;rsquo;,&amp;lsquo;gUU&amp;rsquo;
+ 退出插入模式 normap kj &amp;lt;esc&amp;gt; 注释 commentor </description>
     </item>
     
     <item>
@@ -107,13 +104,15 @@ Over! 撤退
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</guid>
-      <description> Origin 画图格式备忘 [TOC]
+      <description>Origin 画图格式备忘 [TOC]
 1. 大小 size 长宽比： 指的是边框的比例。
- 对于2(or 4)张图并列情况  长：143.604 mm
+  对于2(or 4)张图并列情况
+长：143.604 mm
 宽：144.963 mm
- 对于8张图并列情况  长：143.604 mm
+  对于8张图并列情况
+长：143.604 mm
 宽：120 mm
-2. 边框粗细 设为 6
+  2. 边框粗细 设为 6
 3. 字体及大小 字体用默认的 Arial
 title 大小： 53
 legend： 45
@@ -126,7 +125,7 @@ legend： 45
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
-      <description> LaTexTools 实用操作记录 LaTexTools 是 Sublime 的一个插件，顾名思义是用来辅助写 LaTex 文件的。本文就简单介绍一下如何使用 LaTexTools 来提高论文写作效率。当然最好亲自去看原文档说明。这里只记录自己最常用的功能。
+      <description>LaTexTools 实用操作记录 LaTexTools 是 Sublime 的一个插件，顾名思义是用来辅助写 LaTex 文件的。本文就简单介绍一下如何使用 LaTexTools 来提高论文写作效率。当然最好亲自去看原文档说明。这里只记录自己最常用的功能。
 快捷键：
 Ctrl+l, e: 插入环境
 Ctrl+l, c: 插入命令
