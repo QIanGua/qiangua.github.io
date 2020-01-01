@@ -1,7 +1,7 @@
 +++
-title = "Encrypt A Subtree"
+title = "Encrypting The Subtree of An Org File"
 author = ["Qiangua"]
-lastmod = 2019-12-30T22:41:14+08:00
+lastmod = 2020-01-01T23:31:36+08:00
 tags = ["encrypt"]
 draft = true
 +++
