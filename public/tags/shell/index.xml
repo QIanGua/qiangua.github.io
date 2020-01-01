@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on 采采流水</title>
+    <link>https://qiangua.me/tags/shell/</link>
+    <description>Recent content in shell on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 23:46:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://qiangua.me/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Favourite Terminal Skills</title>
+      <link>https://qiangua.me/post/2020/01/01/my-favourite-terminal-skills/</link>
+      <pubDate>Wed, 01 Jan 2020 23:46:16 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/01/my-favourite-terminal-skills/</guid>
+      <description>&lt;p&gt;In this post, I will introduce some effective terminal skills.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

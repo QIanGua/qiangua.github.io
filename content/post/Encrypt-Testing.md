@@ -1,9 +1,9 @@
 +++
 title = "Encrypting The Subtree of An Org File"
 author = ["Qiangua"]
-lastmod = 2020-01-01T23:31:36+08:00
+lastmod = 2020-01-01T23:45:36+08:00
 tags = ["encrypt"]
-draft = true
+draft = false
 +++
 
 This is a test to encrypt part of a whole org file.
