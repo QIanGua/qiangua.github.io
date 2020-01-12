@@ -10,6 +10,9 @@ comments: false
 > "A rose by any other name would still smell as sweet."
 >
 > 不断去寻求新的可能性 
+>
+>"The ultimate measure of a man is not where he stands in moments of comfort and convince, but where he stands at times of challenge and controversy"
+>
 
 - 我的性格：溫和、敏感、理性、好奇、自尊(靦腆愛面子)
 - 擅長的事：獨處散步
@@ -25,7 +28,7 @@ comments: false
 - 喜歡的作品：生活與命運、2666
 - 喜歡的電影：愛在三部曲、熔爐、出租車司機、布達佩斯大飯店、野梨树、痛苦与荣耀
 - 喜歡的演員：宋康昊、孔侑、全度妍、伊桑霍克、安藤櫻
-- 喜歡的導演：小津安二郎、樣德昌、是枝裕和
+- 喜歡的導演：Ken Loach 肯·洛奇、小津安二郎、樣德昌、是枝裕和
 - 喜歡的動漫：火影忍者、海賊王、有頂天家族
 - 喜歡的開源軟件：Emacs
 - 厭惡的事：誤解、背叛、孤立、強加壓力、失控、停止思考

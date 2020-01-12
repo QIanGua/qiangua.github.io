@@ -5,9 +5,9 @@ date: 2018-05-12
 categories: tools
 ---
 # Records of Mac
+update: 2019-01-03
 
 ## APP
-
 
 ## Keyboard
 
@@ -37,25 +37,44 @@ categories: tools
 #### **Alacritty**
 #### **iTterm2**
 
-#### ZSH SHELL
+#### ZSH SHELL with oh-my-zsh
 
-#### oh-my-zsh
+Some efficient plugins：
 
-好用插件：
-
-- **ofd**
-
-  osx ：在命令行中可以打开 FInder 并进入当前目录
-
-  **cdf**：在命令行中快速跳转到 Finder 已经打开的目录
+######  osx 
+**ofd** ：在命令行中可以打开 Finder 并进入当前目录
+**cdf**：在命令行中快速跳转到 Finder 已经打开的目录
 
 ### Buile Texmacs with Cmake on Mac OS
+
+Awesome terminal tools list(under Mac):
+- fzf
+- rg-ripgrep
+- fasd 
+- choose
+- ranger
+- fd 
+- z.lua 
+- git
+- ncdu 
+- gooey
+- exa 
+- Pandoc
+- tmux
+- watchexec
+
+Others to be tested:
+- icdiff 
+- peco 
+- visidata 
+- tokei: count your code 
 
 
 ### 4. 浏览器
 
 - 快速定位到搜索栏：⌘+L  或  ⌘+⌥+F
 - Finder 中复制文件路径：⌘+⌥+C
+
 
 ### 5. Dock
 
