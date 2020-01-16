@@ -32,18 +32,17 @@
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</guid>
-      <description>Records of Mac APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
+      <description>Records of Mac update: 2019-01-03
+APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
  %右⇧ =&amp;gt; Capuslock
 Capuslock =&amp;gt; Ctrl
 编程环境 1. Fortran  brew instal. gcc
  gfortran XX.f90 -0 xx
 ./XX
   2. Python  Anaconda
- 3. 命令行配置 Alacritty iTterm2 ZSH SHELL oh-my-zsh 好用插件：
-  ofd
-osx ：在命令行中可以打开 FInder 并进入当前目录
-cdf：在命令行中快速跳转到 Finder 已经打开的目录
-  Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+L 或 ⌘+⌥+F Finder 中复制文件路径：⌘+⌥+C  5.</description>
+ 3. 命令行配置 Alacritty iTterm2 ZSH SHELL with oh-my-zsh Some efficient plugins：
+osx ofd ：在命令行中可以打开 Finder 并进入当前目录 cdf：在命令行中快速跳转到 Finder 已经打开的目录
+Buile Texmacs with Cmake on Mac OS Awesome terminal tools list(under Mac):</description>
     </item>
     
   </channel>

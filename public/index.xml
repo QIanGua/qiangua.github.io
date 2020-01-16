@@ -6,10 +6,41 @@
     <description>Recent content on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 23:46:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Notes about How the Economic Machine Works</title>
+      <link>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;After watching  Dalio&#39;s video &amp;ldquo;How the Economic Machine Works&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Encrypting The Subtree of An Org File</title>
+      <link>https://qiangua.me/post/2020/01/09/encrypting-the-subtree-of-an-org-file/</link>
+      <pubDate>Thu, 09 Jan 2020 20:49:38 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/09/encrypting-the-subtree-of-an-org-file/</guid>
+      <description>&lt;p&gt;This is a test to encrypt part of a whole org file.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>无题</title>
+      <link>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;乙亥年腊月十二日，下午游于西子湖畔曲院风荷，遂记之。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>My Favourite Terminal Skills</title>
@@ -18,15 +49,6 @@
       
       <guid>https://qiangua.me/post/2020/01/01/my-favourite-terminal-skills/</guid>
       <description>&lt;p&gt;In this post, I will introduce some effective terminal skills.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Encrypting The Subtree of An Org File</title>
-      <link>https://qiangua.me/post/2020/01/01/encrypting-the-subtree-of-an-org-file/</link>
-      <pubDate>Wed, 01 Jan 2020 23:45:36 +0800</pubDate>
-      
-      <guid>https://qiangua.me/post/2020/01/01/encrypting-the-subtree-of-an-org-file/</guid>
-      <description>&lt;p&gt;This is a test to encrypt part of a whole org file.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -197,30 +219,47 @@ Pulse 2 $$ \Delta_p(t) = 0,\
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/fragments/</guid>
-      <description>采撷瞬间  2020-01-01
+      <description>采撷瞬间  2020-01-16
+致叶树
+永远感谢，夜里的树
+你们黑暗中手挽着手，那么安详
+你们要去哪里呢，能否把我也带上？
+永远慰藉，黑中之黑。
+你用蓝黑墨水在我的身体绘画一切，
+花绽、虫飞，但我不在此身上。
+永远美丽，抚摸着新月。
+你们相爱而不相防，婆娑着相忘，
+人世间何事，第一万个夏天临漾。
+   2020-01-12
+谁在远方哭泣呀
+为什么那么伤心呀
+骑上金马看看去
+那是昔日
+谁在远方哭泣呀
+为什么那么伤心呀
+骑上灰马看看去
+那是明日
+谁在远方哭泣呀
+为什么那么伤心呀
+骑上白马看看去
+那是恋
+谁在远方哭泣呀
+为什么那么伤心呀
+骑上黑马看看去
+那是死
+   2020-01-11
+思考，是忽略差异，是概括归纳，是进行抽象。在富内斯那水泄不通、充塞喧嚣的世界中，有的只是细节，触手可及的细节。
+《如歌的行板》、《给青年诗人的十封信》
+什么是你生命中的必要 Must
+   2020-01-02
+寂寞的游戏 袁哲生 司马光的故事 听百年孤独，失眠症、失忆症，联想到语言，记忆，遗忘，假若一个人对周遭所有物品都失忆（有部电影） 他还可以剩下什么？ 倘若星辰终将陨灭或消失无踪 稀缺、信任
+   2020-01-01
 新的一年，预感到会是变化极大的一年
 人世间何事， 第一万个夏天临漾
    2019-12-12
 好的教学是把严谨的理论论证用通俗的隐喻表达出来
    2019-12-10
-org-mode 插图
-org-insert-link [[url]]
-step1: use snippaste to get figure and edit
-step2: use PicGo to upload Github and copy link
-step3: in org paste linK
-   2019-12-06
-献给阿尔吉侬的花束
-镜子，我，自我凝视，怪圈
-很多人都笑我。但他们是我的朋友我们都很快乐。
-知道我已经度过危机，感觉如释重负，我松了一口气，因为再也没有什么可以阻止我。已经没有时间害怕或假装，因为我已经不可能 再和另一个人经历这样的事。所有的障碍都已移除，我已经解开她加诸的束缚，走进迷宫的终点，而她就在那里等我。我全新全意地爱她。
-艾丽斯又一次来到门口但我说走开我不要见你。她哭了起来我也跟着哭但我不让她进来因为我不要她朝笑我。我告诉她我不在喜欢她而且 我也不要变聪明。这不是真的。我仍然爱她仍然想要变聪明但我必须这样说才能让她离开。穆尼太太告诉我艾丽斯带来了更多的钱要来照故我 并且付房租。我不要我必须去找工作。 拜托……拜托不……不要让我忘记怎么读和写……
-还有：如果你有机会请放一些花在后院的阿尔吉侬坟上。
-   2019-12-03
-当时明月在，曾照彩云归
-最是人间留不住，朱颜辞镜花辞树
-   2019-12-02
-“他们可以从别人那里受伤，允许别人做自己。通过受伤，他们开放自己。通过开放自己，他们懂得了别人，也懂得了他们自己。”
-   2019-12-01</description>
+org-mode 插图</description>
     </item>
     
     <item>
@@ -535,18 +574,17 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</guid>
-      <description>Records of Mac APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
+      <description>Records of Mac update: 2019-01-03
+APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
  %右⇧ =&amp;gt; Capuslock
 Capuslock =&amp;gt; Ctrl
 编程环境 1. Fortran  brew instal. gcc
  gfortran XX.f90 -0 xx
 ./XX
   2. Python  Anaconda
- 3. 命令行配置 Alacritty iTterm2 ZSH SHELL oh-my-zsh 好用插件：
-  ofd
-osx ：在命令行中可以打开 FInder 并进入当前目录
-cdf：在命令行中快速跳转到 Finder 已经打开的目录
-  Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+L 或 ⌘+⌥+F Finder 中复制文件路径：⌘+⌥+C  5.</description>
+ 3. 命令行配置 Alacritty iTterm2 ZSH SHELL with oh-my-zsh Some efficient plugins：
+osx ofd ：在命令行中可以打开 Finder 并进入当前目录 cdf：在命令行中快速跳转到 Finder 已经打开的目录
+Buile Texmacs with Cmake on Mac OS Awesome terminal tools list(under Mac):</description>
     </item>
     
     <item>
@@ -1172,10 +1210,10 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
       <pubDate>Mon, 19 Sep 2016 17:01:11 +0000</pubDate>
       
       <guid>https://qiangua.me/books/</guid>
-      <description>2019.12.08: 文字集 我也曾多次表白
+      <description>2019.12.08: 我整理的文字集 我也曾多次表白
 2019.09.22: 为了防止徒有虚名要开始记录读书笔记
 2016.09.19: 开始记录
-  [已读]《The Letters of Richard P.Feynman》 [已读]《Elements of the Theory of Computation 》 [已读]《枪炮、病菌和钢铁》 [在读]《小逻辑》 [在读]《辛弃疾词》 [在读]《卡拉马佐夫兄弟》 [在读]《庄子》 [已读]《爱与数学》 [已读]《西方文化的衰落——人文主义复探》 [待读]《日瓦格医生》 [待读]《生命的跃升——40亿年演化史上的十大发明》 [在读]《有限与无限的游戏》 [在读]《数学 计算 逻辑》 [已读]《伪装成独白的爱情》 [已读]《霍乱时期的爱情》 [已读]《Vim 实用技巧》 [已读]《Statistical Mechanics, Algorithms and Computations》 [已读]《Physics from Symmetry》 [已读]《Ways of Seeing》觀看之道 [在读]《小窗幽记》 [已读]《单向度的人》 [在读]《通往奴役之路》 [已读]《娱乐至死》 [已读]《丈量世界》 [待读]《乡土中国》 [已读]《理与人》 [在读]《生活与命运》 [已读]《我是个怪圈》 [在读]《直覺泵和其它思考工具》 [在读]《千面英雄》 [在读]《原则》 [在读]《论重要之事》 [在读]《新教伦理资本主义精神》 [在读]《春盏──廖伟棠情诗集》 [在读]《帕佩 撒旦 阿莱佩 流动社会纪事》 [在读]《黑塞童话集》 [在读]《夏屋，以后》 [在读]《俄亥俄，温斯堡》 [在读]《为什么读经典》 [在读]《命运交织的城堡》 [在读]《如果在冬夜，一个旅人》 [在读]《康德与鸭嘴兽》 [在读]《帕佩 撒旦 阿莱佩》 [在读]《2666》 [在读]《痖弦诗集》 [在读]《老巴塔哥尼亚列车》 [已读]《永恒的终结》 [已读]《献给阿尔吉侬的花束》 [在读]《沙之書》 [在读]《不安之書》 [待读]《牛津通识读本 福柯》 [待读]《捍卫想象》 [待读]《初夏荷花时期的爱情》 [待读]《恋人絮语》 [待读]《蓝色小药丸》 [待读]《只是孩子》 [待读]《蓝色小药丸》 [待读]《地球上最聪明的小子》 [在读]《沙之书》 [待读]《微观部分 经济学》 [待读]《宏观部分 经济学》 [待读]《宽忍的黑色黎明》 [待读]《阿垅诗文集》 [待读]《中国历代政治得失》 [待读]《波丽娜》 [待读]《荒野侦探》   </description>
+  [已读]《The Letters of Richard P.Feynman》⭐️⭐️⭐️⭐️⭐️ [已读]《Elements of the Theory of Computation 》⭐️⭐️⭐️⭐️️ [已读]《枪炮、病菌和钢铁》⭐️⭐️⭐️⭐️⭐️ [在读]《小逻辑》⭐️⭐️⭐️⭐️⭐️ [在读]《辛弃疾词》⭐️⭐️⭐️⭐️⭐️ [在读]《卡拉马佐夫兄弟》⭐️⭐️⭐️⭐️⭐️ [在读]《庄子》⭐️⭐️⭐️⭐️⭐️ [已读]《爱与数学》⭐️⭐️⭐️⭐️️ [已读]《西方文化的衰落——人文主义复探》⭐️⭐️⭐️⭐️⭐️ [待读]《日瓦格医生》⭐️⭐️⭐️⭐️⭐️ [待读]《生命的跃升——40亿年演化史上的十大发明》️⭐️⭐️⭐️⭐️ [在读]《有限与无限的游戏》⭐️⭐️⭐️⭐️⭐️ [在读]《数学 计算 逻辑》⭐️⭐️⭐️⭐️⭐️ [已读]《伪装成独白的爱情》⭐️⭐️⭐️⭐️⭐️ [已读]《霍乱时期的爱情》⭐️⭐️⭐️⭐️⭐️ [已读]《Vim 实用技巧》⭐️⭐️⭐️⭐️️ [已读]《Statistical Mechanics, Algorithms and Computations》⭐️⭐️⭐️⭐️️ [已读]《Physics from Symmetry》⭐️⭐️⭐️⭐️⭐️ [已读]《Ways of Seeing》觀看之道⭐️⭐️⭐️⭐️⭐️ [在读]《小窗幽记》⭐️⭐️⭐️⭐️️ [已读]《单向度的人》⭐️⭐️⭐️️⭐️ [在读]《通往奴役之路》⭐️⭐️️⭐️⭐️ [已读]《娱乐至死》⭐️⭐️⭐️⭐️️ [已读]《丈量世界》⭐️⭐️⭐️⭐️️ [待读]《乡土中国》⭐️⭐️⭐️⭐️️ [已读]《理与人》⭐️⭐️⭐️⭐️⭐️ [在读]《生活与命运》⭐️⭐️⭐️⭐️⭐️ [已读]《我是个怪圈》⭐️⭐️⭐️⭐️⭐️ [在读]《直覺泵和其它思考工具》⭐️⭐️⭐️⭐️⭐️ [在读]《千面英雄》⭐️⭐️⭐️⭐️⭐️ [在读]《原则》⭐️⭐️⭐️⭐️⭐️ [在读]《论重要之事》⭐️⭐️⭐️⭐️⭐️ [在读]《新教伦理资本主义精神》⭐️⭐️⭐️⭐️⭐️ [在读]《春盏──廖伟棠情诗集》⭐️⭐️️⭐️⭐️ [在读]《帕佩 撒旦 阿莱佩 流动社会纪事》️⭐️⭐️⭐️ [在读]《黑塞童话集》⭐️⭐️⭐️⭐️️ [在读]《夏屋，以后》⭐️⭐️⭐️⭐️️️️ [在读]《俄亥俄，温斯堡》⭐️⭐️⭐️⭐️⭐️ [在读]《为什么读经典》⭐️⭐️⭐️️⭐️ [在读]《命运交织的城堡》⭐️⭐️️⭐️⭐️ [在读]《如果在冬夜，一个旅人》⭐️️⭐️⭐️⭐️ [在读]《康德与鸭嘴兽》⭐️⭐️⭐️⭐️️ [在读]《帕佩 撒旦 阿莱佩》⭐️️⭐️⭐️ [在读]《2666》⭐️⭐️⭐️⭐️⭐️ [在读]《痖弦诗集》⭐️⭐️⭐️⭐️⭐️ [在读]《老巴塔哥尼亚列车》⭐️️⭐️⭐️⭐️ [已读]《永恒的终结》⭐️⭐️⭐️⭐️⭐️ [已读]《献给阿尔吉侬的花束》⭐️⭐️⭐️⭐️⭐️ [在读]《沙之書》⭐️⭐️⭐️⭐️️ [在读]《不安之書》⭐️⭐️⭐️⭐️⭐️ [已读]《牛津通识读本 福柯》⭐️️⭐️⭐️⭐️ [待读]《捍卫想象》⭐️⭐️⭐️⭐️️ [待读]《初夏荷花时期的爱情》⭐️⭐️⭐️⭐️⭐️ [待读]《恋人絮语》⭐️⭐️⭐️⭐️⭐️ [待读]《蓝色小药丸》⭐️⭐️⭐️⭐️⭐️ [待读]《只是孩子》⭐️⭐️⭐️⭐️️ [待读]《强风吹佛》⭐️⭐️⭐️⭐️️ [待读]《地球上最聪明的小子》⭐️⭐️⭐️⭐️⭐️ [在读]《沙之书》⭐️⭐️⭐️⭐️⭐️ [待读]《微观部分 经济学》⭐️⭐️⭐️⭐️⭐️ [待读]《宏观部分 经济学》⭐️⭐️⭐️⭐️⭐️ [待读]《宽忍的黑色黎明》⭐️⭐️️⭐️⭐️ [已读]《阿垅诗文集》⭐️⭐️⭐️⭐️⭐️ [待读]《中国历代政治得失》⭐️⭐️⭐️⭐️⭐️ [已读]《波丽娜》⭐️⭐️⭐️⭐️⭐️ [待读]《荒野侦探》⭐️⭐️⭐️⭐️⭐️ [在读]《社会学的想象力》⭐️⭐️⭐️⭐️⭐️ [在读]《中国历代政治得失》⭐️⭐️⭐️⭐️⭐️ [待读]《罪与罚》⭐️⭐️⭐️⭐️⭐️ [待读]《死于黎明》⭐️⭐️⭐️⭐️⭐️ [已读]《致D》⭐️⭐️⭐️⭐️⭐️   </description>
     </item>
     
     <item>
@@ -1187,8 +1225,8 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
       <description>關於博客 “采采流水” 取自司徒空《二十四詩品》之纖穠篇中“采采流水，蓬蓬遠春”。
 Who am I?  &amp;ldquo;A rose by any other name would still smell as sweet.&amp;rdquo;
 不断去寻求新的可能性
-  我的性格：溫和、敏感、理性、好奇、自尊(靦腆愛面子) 擅長的事：獨處散步 喜歡的運動：羽毛球 想嘗試的運動：滑板、滑雪、-攀巖- 對幸福的理解：相處舒服、相愛相忘、支持理解、共同探索 對不幸的理解：戰爭、肮賍、喪失自我、理所當然、無人問津 喜歡的優點：善良、和善、坦蕩、同理心、敬畏、感恩 喜歡的物理學家：費曼、費米、狄拉克、愛因斯坦 喜歡的數學家：高斯、黎曼、伽羅華、格羅騰迪克、龐加萊、佩雷爾曼 喜歡的詩人：瘂弦、阿垅、奧登、里尓克 喜歡的作家：博爾赫斯、卡爾維諾、波拉尼奧、托爾斯泰、陀思妥耶夫斯基 喜歡的作品：生活與命運、2666 喜歡的電影：愛在三部曲、熔爐、出租車司機、布達佩斯大飯店、野梨树、痛苦与荣耀 喜歡的演員：宋康昊、孔侑、全度妍、伊桑霍克、安藤櫻 喜歡的導演：小津安二郎、樣德昌、是枝裕和 喜歡的動漫：火影忍者、海賊王、有頂天家族 喜歡的開源軟件：Emacs 厭惡的事：誤解、背叛、孤立、強加壓力、失控、停止思考  聯繫方式 caicailiushui@protonmail.com
-圖片集結 Instagram</description>
+&amp;quot;The ultimate measure of a man is not where he stands in moments of comfort and convince, but where he stands at times of challenge and controversy&amp;rdquo;
+  我的性格：溫和、敏感、理性、好奇、自尊(靦腆) 擅長的事：獨處散步观察周遭、自由看书(最近喜欢看现代诗、短篇小说集、长篇小说)、折腾各种效率工具、喜欢开源 Linux 系统、 喜歡的運動：羽毛球、网球 想嘗試的運動：滑板、滑雪、-攀巖-、跳舞、 對幸福的理解：相處舒服、相愛而不相防、支持理解、共同探索 對不幸的理解：戰爭、肮賍、沉沦、平庸之恶、喪失自我、理所當然、無人問津 喜歡的優點：善良、和善、坦蕩、同理心、敬畏、感恩 喜歡的物理學家：費曼、費米、狄拉克、愛因斯坦、朗道、泡利、杨振宁、李政道、薛定谔、牛顿、麦克斯韦 喜歡的數學家：高斯、黎曼、伽羅華、格羅騰迪克、龐加萊、佩雷爾曼 喜歡的詩人：瘂弦、阿垅、奧登、里尓克 喜歡的作家：博爾赫斯、卡爾維諾、波拉尼奧、托爾斯泰、陀思妥耶夫斯基 喜歡的作品：生活與命運、2666、西方文化的衰落 喜歡的電影：愛在三部曲、熔爐、出租車司機（韩国）、布達佩斯大飯店、野梨树、痛苦与荣耀、云图 Atlas 喜歡的演員：宋康昊、孔侑、全度妍、伊桑霍克、安藤櫻 喜歡的導演：Ken Loach 肯·洛奇、小津安二郎、樣德昌、是枝裕和 喜歡的動漫：有頂天家族、紫罗兰永恒花园、冰菓 ps: 全都沒看完過 喜歡的開源軟件：Emacs、Neovim、LaTeX、Pandoc 厭惡的事：誤解、背叛、孤立、強加壓力、失控、停止思考 一般不主动去吃的食材：雪菜、梅干菜、生蛤 接触过的程序语言: C++、Fortran、Maple、Mathematica、Matlab、Python、R、Julia、Lisp、JavaScipt、Shell  聯繫方式 caicailiushui@protonmail.</description>
     </item>
     
     <item>

@@ -4,7 +4,7 @@ date: 2016-09-19 17:01:11
 comments: false
 ---
 
-**2019.12.08: 文字集** [我也曾多次表白](https://github.com/QIanGua/guwenxuan)
+**2019.12.08: 我整理的文字集** [我也曾多次表白](https://github.com/QIanGua/guwenxuan)
 
 **2019.09.22: 为了防止徒有虚名要开始记录读书笔记**
  

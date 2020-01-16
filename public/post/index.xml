@@ -6,10 +6,41 @@
     <description>Recent content in Posts on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 23:46:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Notes about How the Economic Machine Works</title>
+      <link>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;After watching  Dalio&#39;s video &amp;ldquo;How the Economic Machine Works&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Encrypting The Subtree of An Org File</title>
+      <link>https://qiangua.me/post/2020/01/09/encrypting-the-subtree-of-an-org-file/</link>
+      <pubDate>Thu, 09 Jan 2020 20:49:38 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/09/encrypting-the-subtree-of-an-org-file/</guid>
+      <description>&lt;p&gt;This is a test to encrypt part of a whole org file.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>无题</title>
+      <link>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;乙亥年腊月十二日，下午游于西子湖畔曲院风荷，遂记之。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>My Favourite Terminal Skills</title>
@@ -18,15 +49,6 @@
       
       <guid>https://qiangua.me/post/2020/01/01/my-favourite-terminal-skills/</guid>
       <description>&lt;p&gt;In this post, I will introduce some effective terminal skills.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Encrypting The Subtree of An Org File</title>
-      <link>https://qiangua.me/post/2020/01/01/encrypting-the-subtree-of-an-org-file/</link>
-      <pubDate>Wed, 01 Jan 2020 23:45:36 +0800</pubDate>
-      
-      <guid>https://qiangua.me/post/2020/01/01/encrypting-the-subtree-of-an-org-file/</guid>
-      <description>&lt;p&gt;This is a test to encrypt part of a whole org file.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -503,18 +525,17 @@ eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / �
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</guid>
-      <description>Records of Mac APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
+      <description>Records of Mac update: 2019-01-03
+APP Keyboard  英文状态下 Ctrl + ⌘ + Space 调出符号板
  %右⇧ =&amp;gt; Capuslock
 Capuslock =&amp;gt; Ctrl
 编程环境 1. Fortran  brew instal. gcc
  gfortran XX.f90 -0 xx
 ./XX
   2. Python  Anaconda
- 3. 命令行配置 Alacritty iTterm2 ZSH SHELL oh-my-zsh 好用插件：
-  ofd
-osx ：在命令行中可以打开 FInder 并进入当前目录
-cdf：在命令行中快速跳转到 Finder 已经打开的目录
-  Buile Texmacs with Cmake on Mac OS 4. 浏览器  快速定位到搜索栏：⌘+L 或 ⌘+⌥+F Finder 中复制文件路径：⌘+⌥+C  5.</description>
+ 3. 命令行配置 Alacritty iTterm2 ZSH SHELL with oh-my-zsh Some efficient plugins：
+osx ofd ：在命令行中可以打开 Finder 并进入当前目录 cdf：在命令行中快速跳转到 Finder 已经打开的目录
+Buile Texmacs with Cmake on Mac OS Awesome terminal tools list(under Mac):</description>
     </item>
     
     <item>
