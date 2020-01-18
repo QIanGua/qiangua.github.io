@@ -101,7 +101,7 @@
 <p>**Update: 2018/1/16 **
 <strong>Begin:2017/10/5</strong></p>
 </blockquote>
-<h2 id="1">1.模型简述</h2>
+<h2 id="1模型简述">1.模型简述</h2>
 <p>伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。</p>
 <p>一个由$N$个固定点构成的$S$维规则磁性点阵，每个点上放置一个自旋向上或向下的粒子。整个系统的状态由序列$\mathcal{\sigma}=\left(\sigma_1,\sigma_2,\dots,\sigma_N\right)$来表征，每个自旋方向为向上或者向下：
 $$
@@ -140,7 +140,7 @@ $$
 $$
 C_v=\frac{d E}{d T}
 $$</p>
-<h2 id="2">2.算法流程</h2>
+<h2 id="2算法流程">2.算法流程</h2>
 <ol>
 <li>构型初始化</li>
 <li>设置温度区间</li>
@@ -151,7 +151,7 @@ $$</p>
 <li>重复过程3-6，直至循环结束</li>
 <li>画图能量、比热、磁化率、磁化强度</li>
 </ol>
-<h2 id="3">3.编程实现</h2>
+<h2 id="3编程实现">3.编程实现</h2>
 <p><strong>尝试使用简单热门的Python语言</strong></p>
 <p><strong>参数设定：</strong></p>
 <table>
@@ -180,16 +180,16 @@ $$</p>
 $$
 T_c=2/\ln(1+\sqrt{2})\approx 2.269
 $$</p>
-<h2 id="4">4.结果图示</h2>
+<h2 id="4结果图示">4.结果图示</h2>
 <p>下图是$16\times 16$ 格子模拟的结果，结果比较理想：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/26717-e6304d07fd77f65c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ising15.jpg"></p>
 <p>下图是$2\times 2$ 格子模拟的结果：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/26717-b182b26f2af24045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ising2.png"></p>
 <p>从磁化强度和磁化率来看，$2\times 2$ 体系的模拟效果不是很理想。</p>
-<h2 id="5">5.总结提高</h2>
+<h2 id="5总结提高">5.总结提高</h2>
 <p>模拟过程中要注意的一点是初始构型选定后，必须先让系统演化到平衡态，然后再开始进行 <strong>Metropolis</strong> 抽样， 因为在平衡态统计的框架下，系统只有到达平衡态之后各个物理量才能有确定的意义。</p>
 <p>在验证程序正确性的时候，先选择尺寸为 $2\times 2$ 的格点，从平均磁化率和磁化强度和温度的关系来看临界温度，发现与解析结果差别较大，而从热容来看是与理论的临界温度$T_c$ 相吻合的。初步排除过非平衡因素之后，剩下的可能原因是体系的尺寸效应有关。 一方面实际在验证过程中，逐渐加大体系尺寸，可以观察到逐渐接近理论临界温度，另一方面还可能需要考察一下热容 和 磁化率、磁化强度计算准确度对尺寸的依赖情况。</p>
-<h2 id="heading">代码附录</h2>
+<h2 id="代码附录">代码附录</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#  PROGRAM DESCRIPITION:</span>
 <span style="color:#75715e"># This program is  used to smimulate the 2 dimenssion Ising mdoel using</span>
 <span style="color:#75715e"># the metropolis algorithm.</span>
