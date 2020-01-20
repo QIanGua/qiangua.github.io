@@ -949,11 +949,18 @@ ENDIF
       <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</guid>
-      <description>利器清单 [TOC]
+      <description>利器清单 update:2020-01-20 [TOC]
  斑斑疏影， 尽是法身；
 皎皎月华， 无非般若。
 你内心肯定有着某种火焰，能把你和其他人区别开来。
- 效率提升  Everything —— 文件快速搜索 Listary —— 软件快速启动 Clover —— 文件标签页 Phraseexpress —— 快捷输入常用语句 Autohotkey —— 包罗万象，比如设置快捷键 Chrome &amp;amp; Firefox —— 支持Vim 浏览， Chrome典雅， Firefox自由度更大 Zotero —— 文献管理、搜集 WGestures —— 鼠标手势 Snipaste —— 好用的截图贴图软件 Total Commander—— 多功能文件管理器  写作  Typora —— 极简优雅的Markdown编辑器，支持Tex，即时预览。本文就是用完成的。 TeXmacs —— 主要用来写数学公式较多的笔记，也是一个神器，插入表格、图片都小菜一碟。 LaTex —— 用来写比较正式的Paper，也写过挺多的实验报告。用Texiteasy 或 Emacs 的Auctex 来写比较快。  编程  Sublime ——平时编程的主力，配色、插件、快捷键用起来很舒服。 Emacs—— 大名鼎鼎，不用过多介绍了吧。 主要用Orgmode 和 Auctex。 Mathematica—— 符号公式推导，专业必备，帮助文档很好。 Matlab—— 用来做一些计算量小程序，可视化效果很好。 Python—— 近年来很火，刚自学不久，还不太熟。  画图  Origin—— 据说是SCI 画图必备 Python—— Matplotlib Graphviz—— 适用于画各种流程图  其它  f.</description>
+ 效率提升  火绒安全中心 &amp;ndash; 干净的安全软件，还有禁止弹窗的小工具可以安装。https://www.huorong.cn/person5.html process explorer 查找弹窗进程并杀掉https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer Everything —— 文件快速搜索，可以快速通过文件名关键词搜索那些你忘记了存在哪里的文件，也可避免通过打开一个个文件夹，层层之后才找到文件 https://www.voidtools.com/zh-cn/ Listary —— 软件快速启动，一大功能是通过双击ctrl 呼出输入框，然后输入关键字词即可打开软件，避免用鼠标双击去打开软件的低效操作 https://www.listary.com/download GeekUninstall &amp;ndash; 软件彻底卸载工具 https://geekuninstaller.com/geek.zip dism++ &amp;ndash; 系统优化工具，不懂选项保持默认即可 http://www.chuyu.me/zh-Hans/index.html  其它建议：
+  安装习惯。安装软件的时候最好不要采用安装在C盘的默认操作，不然以后C盘系统盘很容易空间不足。可以专门在D或E盘中安装，或在D/E盘建一个专门来安装软件的文件夹 。
+  电脑遇到不明情况，不要惊慌以及轻易放过，重启下敷衍了事，最好记录下症状，查找解决方案或咨询大佬，找到病因，不然容易复发。
+  针对广告等无良弹窗，火绒安全工具里可以安装弹窗拦截插件，如果还有漏网之鱼可以打开 process explorer，按住望远镜图标右侧的 Find window&#39;s process 按钮来直接找到是哪个流氓软件的弹窗，顺便右击杀掉这个弹窗进程
+  Clover —— 文件标签页
+  Phraseexpress —— 快捷输入常用语句
+  Autohotkey —— 包罗万象，比如设置快捷键
+  Chrome &amp;amp; Firefox —— 支持Vim 浏览， Chrome典雅， Firefox自由度更大</description>
     </item>
     
     <item>
