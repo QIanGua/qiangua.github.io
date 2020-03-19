@@ -95,10 +95,10 @@
 <p>一个小型Matlab脚本样例：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% data format [time rho11 rho22 .....]</span>
 <span style="color:#75715e">% file address</span>
-address=<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">E:\desk\alpha0.6_calculation\converge\&#39;</span>;
+address=<span style="color:#e6db74">&#39;E:\desk\alpha0.6_calculation\converge\&#39;</span>;
 
 <span style="color:#75715e">% file name list</span>
-namelist=dir([address,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">*.dat&#39;</span>]);
+namelist=dir([address,<span style="color:#e6db74">&#39;*.dat&#39;</span>]);
 
 <span style="color:#75715e">% write in the data matrix</span>
 rowsize= <span style="color:#ae81ff">100000</span>
@@ -108,12 +108,12 @@ data=zeros(rowsize,colsize);
 dim = length(namelist);
 <span style="color:#66d9ef">for</span> i=<span style="color:#ae81ff">1</span>:dim
    filename=[address,namelist(i).name];
-   temp=dlmread(filename,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">1</span> rowsize<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">2</span>]);
+   temp=dlmread(filename,<span style="color:#e6db74">&#39;&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">1</span> rowsize<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">2</span>]);
    data(:,i)=temp(:,<span style="color:#ae81ff">1</span>)<span style="color:#f92672">-</span>temp(:,<span style="color:#ae81ff">2</span>);
 <span style="color:#66d9ef">end</span>
 
 
-time_array=dlmread(filename,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> rowsize<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">0</span>]);
+time_array=dlmread(filename,<span style="color:#e6db74">&#39;&#39;</span>,[<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> rowsize<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">0</span>]);
 plot(time_array,data(:,<span style="color:#ae81ff">1</span>:dim))
 </code></pre></div><h2 id="matlab批量拟合">Matlab批量拟合</h2>
 <p>之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，</p>
@@ -134,7 +134,7 @@ pred_arr=zeros(dim_up,<span style="color:#ae81ff">1</span>);
 	  posi<span style="color:#f92672">/</span>dim_up
     <span style="color:#66d9ef">end</span>
     temp = data(posi,:)<span style="color:#f92672">&#39;</span>;
-    f=fit(hier,temp,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">exp2&#39;</span>,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Robust&#39;</span>, <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">LAR&#39;</span>);
+    f=fit(hier,temp,<span style="color:#e6db74">&#39;exp2&#39;</span>,<span style="color:#e6db74">&#39;Robust&#39;</span>, <span style="color:#e6db74">&#39;LAR&#39;</span>);
     pred_arr(posi,<span style="color:#ae81ff">1</span>)= f(cutoff_order);
 <span style="color:#66d9ef">end</span>
 </code></pre></div>

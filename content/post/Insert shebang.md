@@ -1,7 +1,7 @@
 +++
 title = "Insert shebang"
 date = 2019-12-30T22:59:00+08:00
-lastmod = 2019-12-30T22:59:30+08:00
+lastmod = 2020-03-10T10:20:14+08:00
 tags = ["code"]
 draft = false
 author = "Qiangua"

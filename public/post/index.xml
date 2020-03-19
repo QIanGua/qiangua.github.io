@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rmarkdown 多图测试</title>
+      <link>https://qiangua.me/post/2020/03/19/rmarkdown-%E5%A4%9A%E5%9B%BE%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/03/19/rmarkdown-%E5%A4%9A%E5%9B%BE%E6%B5%8B%E8%AF%95/</guid>
+      <description>section plot(mtcars)   plot(pressure)   </description>
+    </item>
     
     <item>
       <title>Notes about How the Economic Machine Works</title>
@@ -18,7 +27,7 @@
       
       <guid>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;After watching  Dalio&#39;s video &amp;ldquo;How the Economic Machine Works&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;After watching  Dalio&amp;rsquo;s video &amp;ldquo;How the Economic Machine Works&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -115,8 +124,8 @@ With a passion for us we could not return?</description>
       
       <guid>https://qiangua.me/post/2019/11/20/deploy-hugo-blog-on-netlify/</guid>
       <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-20 Wed 00:21]  General introduction of several problems I got during the process I deploy hugo blog on Netlify.
-First Issue: Can&#39;t recognize submodule&#39;s position The blog theme is added by using git submodule, such as git submodule add origin url. Remember the url of theme repo to use https instead of git.
-Second Issue: Command not found and continue publishing Now that I use hugo to generate the blog publish file, so it&#39;s necessary to set GO environment in Netlify&#39;s machine.</description>
+First Issue: Can&amp;rsquo;t recognize submodule&amp;rsquo;s position The blog theme is added by using git submodule, such as git submodule add origin url. Remember the url of theme repo to use https instead of git.
+Second Issue: Command not found and continue publishing Now that I use hugo to generate the blog publish file, so it&amp;rsquo;s necessary to set GO environment in Netlify&amp;rsquo;s machine.</description>
     </item>
     
     <item>
@@ -126,12 +135,12 @@ Second Issue: Command not found and continue publishing Now that I use hugo to g
       
       <guid>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</guid>
       <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2019-11-19 Tue 02:10]  Heading This post will be exported as content/posts/writing-hugo-blog-in-org-subtree-export.md.
-Code fragment It&#39;s convenient in Org to insert a code fragment use key &amp;lt;s TAB:
+Code fragment It&amp;rsquo;s convenient in Org to insert a code fragment use key &amp;lt;s TAB:
 Math formula Inline math This is a inline math formula \(f=ma\).
 Online math This is a online math formula,
 \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation}
 \[ S = k_{B}T\log\Omega \]
-Figures With the assistance of org-download, it&#39;s convenient to insert a figure in org file, e.</description>
+Figures With the assistance of org-download, it&amp;rsquo;s convenient to insert a figure in org file, e.</description>
     </item>
     
     <item>
@@ -277,16 +286,17 @@ Pulse 2 $$ \Delta_p(t) = 0,\
 什么是『计算』？ 『计算』是一种机械化的信息处理方式。计算过程需要物理实体来承载，所谓机械化指的是计算结果不依赖于计算载体，你可以用手指算，可以用算盘，可以用计算机。阿兰・图灵深得计算本质，提出了图灵机的构想来作为通用计算模型。整个计算的历史堪称一部惊心动魄的史诗，各种人物不时从历史长河中的涌现。这里要提一下，19世纪查尔斯・巴贝奇制造的『差分机』，其它暂且不表。
 经典计算 比特是目前通用的最小信息单位。1比特有两种可能状态，通常用0，1来编码，比如可以用0来代表硬币向下，1代表向上。两个经典比特共有 \(2^2=4\) 种可能状态\(\{00,01,10,11\}\)，但实际两个给定的比特只能表示出其中的一种。物理上可以用高电压、低电压来实现 0，1两种状态的表示。
 数字0、1与比特的对应，天然给出了数字编码的方式。原则上任意一个数我们都可以通过二进制来编码，从而可以让计算机识别。比特承载了数字的表示，而数字的运算则由各种逻辑门电路来操控（数字电路忘的差不多了就此打住😅）。
- 量子计算 计算主义者的世界观：宇宙是台量子计算机，它的算法就是物理学。
+量子计算 计算主义者的世界观：宇宙是台量子计算机，它的算法就是物理学。
 量子计算利用量子比特来进行信息处理。不同于经典比特每次只能编码一个数字（0或1），表征一个确定的状态，单个的量子比特可以同时表征两种状态，同时编码0、1两个数字(\(0 \rightarrow |0\rangle, 1\rightarrow |1\rangle\))，这是由量子相干性来保证的。
 学过线性代数的话我们都知道选定一组线性无关的基组之后，任意一个矢量都可以表示为基矢量的线性组合。同样在量子力学中，系统的状态用态矢量 \(|\psi\rangle\) 来描述，任何一个态矢量都可以写为基矢量的线性叠加。
 对于单个的量子比特，为了方便通常选取基矢量为\(|0\rangle、|1\rangle\)，从而任意一个态矢量可以写为基矢量的线性组和即：
 \[ |\psi\rangle = \alpha |0\rangle + \beta|1\rangle. \]
 单个量子比特的状态空间是复空间 \(\mathrm{C}^2\) ，布满了整个布洛赫球面，每个状态对应球面上的一个点。而经典量子比特只有{0,1}两个状态。但要注意的是每次对量子比特测量后仍然只能塌缩得到 0 或 1 两个本征状态。
 所谓量子计算即对量子比特进行操作，但是这种操作是受到限制的，这是由于量子态演化必须服从薛定谔方程，所以必须是保证信息不变的幺正变换。对单个量子比特进行一个运算相当于把 Qubit 从一个状态变成另一个状态，将球面上的一个点变成另一个点。
- \[ |\psi\rangle=\alpha|0\rangle+\beta|1\rangle. \] 两个 Qubit 的话就可以存储4个状态: \[ |\psi_1\psi_2\rangle = c_{00}|00\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{11}|11\rangle=\sum_{i,j=0}^1c_{ij}|ij\rangle. \] 描述 \(n\) 个 Quibt 需要 \(2^n\) 个数字，这是一个快速的指数增长。例如 \(n=10\) ，那就需要大约1024个数来描述所有可能状态。而宇宙中所有原子的总个数也不过是 \(10^{80}\) 左右的量级，由此可见多个量子比特具有了强大的数字表征能力。
+\[ |\psi\rangle=\alpha|0\rangle+\beta|1\rangle. \] 两个 Qubit 的话就可以存储4个状态: \[ |\psi_1\psi_2\rangle = c_{00}|00\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{11}|11\rangle=\sum_{i,j=0}^1c_{ij}|ij\rangle. \] 描述 \(n\) 个 Quibt 需要 \(2^n\) 个数字，这是一个快速的指数增长。例如 \(n=10\) ，那就需要大约1024个数来描述所有可能状态。而宇宙中所有原子的总个数也不过是 \(10^{80}\) 左右的量级，由此可见多个量子比特具有了强大的数字表征能力。
 对于量子计算机，数字的操作任务是由量子门来实现的。通过量子门的幺正变换能够对于叠加态的所有分量同时进行，这就是量子计算机的天然优势──量子并行性。每一次的量子门操作是同时处理 \(2^n\) 个数字，而传统计算机每次只能处理一个数字。此外经典比特之间是互相独立的，而量子比特之间还可以存在量子纠缠等特性，这里也就不多做涉及了。
-任意两态量子体系都可成为量子比特的载体，如二能级原子、分子或离子，光子偏振态或其它等效的自旋\(1/2\)的粒子。在量子计算中，因为 Qubit 是由原子或者其他微观粒子所构成，很容易受到外部环境的干扰，导致量子态之间纠缠关联的缺失，从而导致计算错误，因此要实现量子计算必须克服量子态之间关联的缺失即相干性的消失，我们称之为退相干。</description>
+任意两态量子体系都可成为量子比特的载体，如二能级原子、分子或离子，光子偏振态或其它等效的自旋\(1/2\)的粒子。在量子计算中，因为 Qubit 是由原子或者其他微观粒子所构成，很容易受到外部环境的干扰，导致量子态之间纠缠关联的缺失，从而导致计算错误，因此要实现量子计算必须克服量子态之间关联的缺失即相干性的消失，我们称之为退相干。
+PS：我目前的研究方向就是考察玻色子环境对于量子比特(二能级系统)的影响。此时二能级系统两态之间会有量子隧穿作用，这是让系统演化倾向于量子相干的。此外二能级系统自旋与环境玻色子之间的耦合之后会有一个量子耗散作用，这会使系统倾向于让退相干作用。这两种作用之间存在互相竞争的关系，从而对于这一简单的系统也会存在有趣丰富的物理行为。</description>
     </item>
     
     <item>
@@ -355,7 +365,7 @@ Pulse 2 $$ \Delta_p(t) = 0,\
       
       <guid>https://qiangua.me/post/2018/09/21/workshop/</guid>
       <description>Workshop In the past 3 days of this week, I joined an academic workshop in Beijing. I think it’s necessary to make a summary to record what I see and think.
-Preproparation Ticket  GO Back Underway Bicycle  Line  Meetting old friends Visit  Night Closed palce    Talker  Personal Homepage Recent papers  Sessions Posters  students Methods/Calculation Boss/Group&#39;s situation  Communication  coffee time lunch/dinner  Questions and Suggestions  Improve your oral english Commen topics  </description>
+Preproparation Ticket  GO Back Underway Bicycle  Line  Meetting old friends Visit  Night Closed palce    Talker  Personal Homepage Recent papers  Sessions Posters  students Methods/Calculation Boss/Group&amp;rsquo;s situation  Communication  coffee time lunch/dinner  Questions and Suggestions  Improve your oral english Commen topics  </description>
     </item>
     
     <item>
@@ -396,11 +406,11 @@ Todo list  命令行工具（zsh、vim/neovim、spacemacs、命令行下常用�
       
       <guid>https://qiangua.me/post/2018/07/19/quotes/</guid>
       <description>Quotes Start from: 2017-11-12
- I&#39;m interested in memory because it&#39;s a filter through which we see our lives, and because it&#39;s foggy and obscure, the opportunities for self-deception are there.—— Kazuo Ishiguro
+ I&amp;rsquo;m interested in memory because it&amp;rsquo;s a filter through which we see our lives, and because it&amp;rsquo;s foggy and obscure, the opportunities for self-deception are there.—— Kazuo Ishiguro
 我喜欢回忆，是因为回忆是我们审视自己生活的过滤器。
 回忆模糊不清，给自我欺骗提供了机会。——石黑一雄
-  There are no ambitions noble enough to justify breaking someone&#39;s heart. ——The Thorn Birds 没有任何理想会崇高到成为伤一个人心的正当理由。——《荆棘鸟》
-  There is a crack in everything. That&#39;s how the light gets in.
+  There are no ambitions noble enough to justify breaking someone&amp;rsquo;s heart. ——The Thorn Birds 没有任何理想会崇高到成为伤一个人心的正当理由。——《荆棘鸟》
+  There is a crack in everything. That&amp;rsquo;s how the light gets in.
 万物皆有裂痕，那是光进来的地方。
   We are whiplashed between an arrogant overestimation of ourselves and a servile underestimation of ourselves.</description>
     </item>
@@ -698,7 +708,7 @@ Response function: $$ R^{(1)}(t_1) = \frac{i}{\hbar}\langle[\hat{A}(t_1),\hat{B}
       <description>Linear response theory [TOC]
 Classical linear response theory Response function
 Correlation funtion
-###Onsager&#39;s hypothesis
+###Onsager&amp;rsquo;s hypothesis
 涨落耗散定理
 ###Kubo formula
 Quantum linear response theory </description>
@@ -912,7 +922,7 @@ matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matla
       <guid>https://qiangua.me/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</guid>
       <description>学术思想   从复杂的非线性情形获取线性的信息。eg:同调论、K理论
   等效的思想。 提供看待对象的不同视角，针对问题选择容易的进行操作。
-eg：Onsager&#39;s hypothesis
+eg：Onsager&amp;rsquo;s hypothesis
   线性响应理论
   Metropolis 重要性抽样
 ​
@@ -955,7 +965,7 @@ ENDIF
  效率提升  火绒安全中心 &amp;ndash; 干净的安全软件，还有禁止弹窗的小工具可以安装。https://www.huorong.cn/person5.html process explorer 查找弹窗进程并杀掉https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer Everything —— 文件快速搜索，可以快速通过文件名关键词搜索那些你忘记了存在哪里的文件，也可避免通过打开一个个文件夹，层层之后才找到文件 https://www.voidtools.com/zh-cn/ Listary —— 软件快速启动，一大功能是通过双击ctrl 呼出输入框，然后输入关键字词即可打开软件，避免用鼠标双击去打开软件的低效操作 https://www.listary.com/download GeekUninstall &amp;ndash; 软件彻底卸载工具 https://geekuninstaller.com/geek.zip dism++ &amp;ndash; 系统优化工具，不懂选项保持默认即可 http://www.chuyu.me/zh-Hans/index.html  其它建议：
   安装习惯。安装软件的时候最好不要采用安装在C盘的默认操作，不然以后C盘系统盘很容易空间不足。可以专门在D或E盘中安装，或在D/E盘建一个专门来安装软件的文件夹 。
   电脑遇到不明情况，不要惊慌以及轻易放过，重启下敷衍了事，最好记录下症状，查找解决方案或咨询大佬，找到病因，不然容易复发。
-  针对广告等无良弹窗，火绒安全工具里可以安装弹窗拦截插件，如果还有漏网之鱼可以打开 process explorer，按住望远镜图标右侧的 Find window&#39;s process 按钮来直接找到是哪个流氓软件的弹窗，顺便右击杀掉这个弹窗进程
+  针对广告等无良弹窗，火绒安全工具里可以安装弹窗拦截插件，如果还有漏网之鱼可以打开 process explorer，按住望远镜图标右侧的 Find window&amp;rsquo;s process 按钮来直接找到是哪个流氓软件的弹窗，顺便右击杀掉这个弹窗进程
   win 上常用快捷键：Alt+tab 快速切换到上一个窗口，再按tab可以继续切换；win+e 打开文件资源管理器；win+d 快速显示和隐藏桌面
   Clover —— 文件标签页
   Phraseexpress —— 快捷输入常用语句</description>
@@ -1002,7 +1012,7 @@ end for
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
-      <description>熵与能量  &amp;quot;We are most likely to observe the most probable state&amp;quot;
+      <description>熵与能量  “We are most likely to observe the most probable state”
  \[ S = k_b\ln\Omega \]
 熵最大：
 能量最低原理：
@@ -1018,7 +1028,7 @@ end for
       <description>质能公式 \[ E=mc^{2} \]
 \[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
 Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
-插图测试  </description>
+插图测试 </description>
     </item>
     
     <item>
@@ -1037,7 +1047,7 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
       
       <guid>https://qiangua.me/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</guid>
       <description>The algorithm to find the auxiliary field [TOC]
-1. The corresponding relation between Auxiliary field operator and index 2. Useful table to record the position of a specific base function 3. Algorithm to find a given ADO&#39;s index </description>
+1. The corresponding relation between Auxiliary field operator and index 2. Useful table to record the position of a specific base function 3. Algorithm to find a given ADO&amp;rsquo;s index </description>
     </item>
     
     <item>
@@ -1137,7 +1147,7 @@ Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_
       <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2016/11/09/letting-go/</guid>
-      <description>Quatation ** Some think that holding on makes us strong; but sometimes, it&#39;s letting go. **</description>
+      <description>Quatation ** Some think that holding on makes us strong; but sometimes, it&amp;rsquo;s letting go. **</description>
     </item>
     
     <item>

@@ -162,7 +162,7 @@ Ctrl+c Ctrl+e： 插入完整环境，譬如 align、equation、figure</descript
  效率提升  火绒安全中心 &amp;ndash; 干净的安全软件，还有禁止弹窗的小工具可以安装。https://www.huorong.cn/person5.html process explorer 查找弹窗进程并杀掉https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer Everything —— 文件快速搜索，可以快速通过文件名关键词搜索那些你忘记了存在哪里的文件，也可避免通过打开一个个文件夹，层层之后才找到文件 https://www.voidtools.com/zh-cn/ Listary —— 软件快速启动，一大功能是通过双击ctrl 呼出输入框，然后输入关键字词即可打开软件，避免用鼠标双击去打开软件的低效操作 https://www.listary.com/download GeekUninstall &amp;ndash; 软件彻底卸载工具 https://geekuninstaller.com/geek.zip dism++ &amp;ndash; 系统优化工具，不懂选项保持默认即可 http://www.chuyu.me/zh-Hans/index.html  其它建议：
   安装习惯。安装软件的时候最好不要采用安装在C盘的默认操作，不然以后C盘系统盘很容易空间不足。可以专门在D或E盘中安装，或在D/E盘建一个专门来安装软件的文件夹 。
   电脑遇到不明情况，不要惊慌以及轻易放过，重启下敷衍了事，最好记录下症状，查找解决方案或咨询大佬，找到病因，不然容易复发。
-  针对广告等无良弹窗，火绒安全工具里可以安装弹窗拦截插件，如果还有漏网之鱼可以打开 process explorer，按住望远镜图标右侧的 Find window&#39;s process 按钮来直接找到是哪个流氓软件的弹窗，顺便右击杀掉这个弹窗进程
+  针对广告等无良弹窗，火绒安全工具里可以安装弹窗拦截插件，如果还有漏网之鱼可以打开 process explorer，按住望远镜图标右侧的 Find window&amp;rsquo;s process 按钮来直接找到是哪个流氓软件的弹窗，顺便右击杀掉这个弹窗进程
   win 上常用快捷键：Alt+tab 快速切换到上一个窗口，再按tab可以继续切换；win+e 打开文件资源管理器；win+d 快速显示和隐藏桌面
   Clover —— 文件标签页
   Phraseexpress —— 快捷输入常用语句</description>

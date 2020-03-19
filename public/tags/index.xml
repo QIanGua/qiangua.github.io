@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://qiangua.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rmarkdown</title>
+      <link>https://qiangua.me/tags/rmarkdown/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.me/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Note</title>
@@ -318,6 +327,15 @@
     </item>
     
     <item>
+      <title>tool</title>
+      <link>https://qiangua.me/tags/tool/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.me/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tools</title>
       <link>https://qiangua.me/tags/tools/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
@@ -345,15 +363,6 @@
     </item>
     
     <item>
-      <title>tool</title>
-      <link>https://qiangua.me/tags/tool/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/tags/tool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>修图</title>
       <link>https://qiangua.me/tags/%E4%BF%AE%E5%9B%BE/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
@@ -372,7 +381,7 @@
     </item>
     
     <item>
-      <title>physics</title>
+      <title>Physics</title>
       <link>https://qiangua.me/tags/physics/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       

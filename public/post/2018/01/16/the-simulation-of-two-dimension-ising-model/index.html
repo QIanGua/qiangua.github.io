@@ -232,9 +232,9 @@ $$</p>
                nearspin <span style="color:#f92672">=</span> config[(row_val<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N,col_val] <span style="color:#f92672">+</span> config[row_val,(col_val<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N] <span style="color:#f92672">+</span> config[(row_val<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N,col_val] <span style="color:#f92672">+</span> config[row_val,(col_val<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>N]
                diffEnergy <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>posi<span style="color:#f92672">*</span>nearspin
                <span style="color:#66d9ef">if</span> diffEnergy <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>:
-                   posi <span style="color:#f92672">*</span><span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+                   posi <span style="color:#f92672">*=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
                <span style="color:#66d9ef">elif</span> rand() <span style="color:#f92672">&lt;</span> np<span style="color:#f92672">.</span>exp(<span style="color:#f92672">-</span>diffEnergy<span style="color:#f92672">*</span>beta):
-                   posi <span style="color:#f92672">*</span><span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+                   posi <span style="color:#f92672">*=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
                config[row_val, col_val] <span style="color:#f92672">=</span> posi
    <span style="color:#66d9ef">return</span> config
 
@@ -250,7 +250,7 @@ $$</p>
     		posi <span style="color:#f92672">=</span> config[row, col]
     		<span style="color:#75715e"># near total spin</span>
     		nearspin <span style="color:#f92672">=</span> config[(row <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N, col] <span style="color:#f92672">+</span> config[(row <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N, col] <span style="color:#f92672">+</span> config[row, (col <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N] <span style="color:#f92672">+</span> config[row, (col <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> N]
-    		energy <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#f92672">-</span>posi<span style="color:#f92672">*</span>nearspin
+    		energy <span style="color:#f92672">+=</span> <span style="color:#f92672">-</span>posi<span style="color:#f92672">*</span>nearspin
 
     <span style="color:#66d9ef">return</span> energy<span style="color:#f92672">/</span><span style="color:#ae81ff">4.0</span>
 
@@ -312,10 +312,10 @@ N1, N2  <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</sp
 		Ene_tem <span style="color:#f92672">=</span> calcEnergy(config)
 		Mag     <span style="color:#f92672">=</span> calcMag(config)
 
-		E1 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Ene_tem
-		M1 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Mag
-		M2 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Mag<span style="color:#f92672">*</span>Mag
-		E2 <span style="color:#f92672">+</span><span style="color:#f92672">=</span> Ene_tem<span style="color:#f92672">*</span>Ene_tem
+		E1 <span style="color:#f92672">+=</span> Ene_tem
+		M1 <span style="color:#f92672">+=</span> Mag
+		M2 <span style="color:#f92672">+=</span> Mag<span style="color:#f92672">*</span>Mag
+		E2 <span style="color:#f92672">+=</span> Ene_tem<span style="color:#f92672">*</span>Ene_tem
 
 		Energy[m]         <span style="color:#f92672">=</span> N1 <span style="color:#f92672">*</span> E1
 		Magnetization[m]  <span style="color:#f92672">=</span> N1 <span style="color:#f92672">*</span> M1
@@ -327,27 +327,27 @@ N1, N2  <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</sp
 fig <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">10</span>));
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>);
-plt<span style="color:#f92672">.</span>plot(T_arr, Energy, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#6699A1</span><span style="color:#e6db74">&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Energy(${E}$)</span><span style="color:#e6db74">&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, Energy, <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#6699A1&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Energy(${E}$)&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
 
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>);
-plt<span style="color:#f92672">.</span>plot(T_arr, abs(Magnetization), <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#F75C2F</span><span style="color:#e6db74">&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Magnetization(${M}$) </span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, abs(Magnetization), <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#F75C2F&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Magnetization(${M}$) &#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>);
-plt<span style="color:#f92672">.</span>plot(T_arr, SpecificHeat, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#6699A1</span><span style="color:#e6db74">&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Specific Heat(${C_v}$) </span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, SpecificHeat, <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#6699A1&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Specific Heat(${C_v}$) &#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>);
-plt<span style="color:#f92672">.</span>plot(T_arr, Susceptibility, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#F75C2F</span><span style="color:#e6db74">&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Temperature (${T}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Susceptibility(${</span><span style="color:#e6db74">\</span><span style="color:#e6db74">chi}$)</span><span style="color:#e6db74">&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>plot(T_arr, Susceptibility, <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#F75C2F&#34;</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Susceptibility(${\chi}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 </code></pre></div>
 
   <footer>

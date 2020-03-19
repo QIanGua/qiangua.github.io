@@ -1,0 +1,29 @@
+---
+title: "Rmarkdown 多图测试"
+author: "Qiangua"
+date: "2020-03-19"
+# date: "`r gsub(pattern = "^([0-9]*[0-9]) [A-Z]*$", "\\1", Sys.time())`"
+tags:
+    - Rmarkdown
+---
+
+
+## section
+
+```{r init, include=F}
+library(knitr)
+opts_chunk$set(message=FALSE, warning=FALSE, eval=TRUE, echo=TRUE, cache=FALSE, fig.path="../static/ox-hugo/", dpi = 300)
+options(digits=3)
+options(max.print=200)
+#.ex <- 1 # Track ex numbers w/ hidden var. Increment each ex: `r .ex``r .ex=.ex+1`
+```
+
+
+```{r 2020-03-19-mtcars}
+plot(mtcars)
+```
+
+```{r 2020-03-19-pressure}
+plot(pressure)
+```
+

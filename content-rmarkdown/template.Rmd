@@ -1,0 +1,18 @@
+---
+title: "title"
+author: "Qiangua"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+tags:
+    - Rmarkdown
+---
+
+```{r init, include=F}
+library(knitr)
+opts_chunk$set(message=FALSE, warning=FALSE, eval=TRUE, echo=TRUE, cache=FALSE, fig.path="../static/ox-hugo/", dpi = 300)
+options(digits=3)
+options(max.print=200)
+#.ex <- 1 # Track ex numbers w/ hidden var. Increment each ex: `r .ex``r .ex=.ex+1`
+```
+
+
+## section

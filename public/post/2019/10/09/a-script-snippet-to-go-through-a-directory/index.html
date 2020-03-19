@@ -105,17 +105,17 @@ clc;
 <span style="color:#75715e">% Setting the File Path</span>
 <span style="color:#75715e">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-path=<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.../date_initial/&#39;</span>;
-dir_dat = dir(strcat(path,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">*.dat&#39;</span>));
+path=<span style="color:#e6db74">&#39;.../date_initial/&#39;</span>;
+dir_dat = dir(strcat(path,<span style="color:#e6db74">&#39;*.dat&#39;</span>));
 
 <span style="color:#75715e">% cd to save directory</span>
-cd(<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.../date_final&#39;</span>);
+cd(<span style="color:#e6db74">&#39;.../date_final&#39;</span>);
 
 <span style="color:#75715e">% number of files</span>
 file_number = length(dir_dat);
 
 <span style="color:#75715e">% name list of files with string type</span>
-file_name_arr = string ( {dir_dat.name}<span style="color:#e6db74">&#39;</span><span style="color:#e6db74"> );
+file_name_arr = string ( {dir_dat.name}<span style="color:#e6db74">&#39; );
 </span><span style="color:#e6db74">
 </span><span style="color:#e6db74">
 </span><span style="color:#e6db74">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,8 +136,8 @@ file_name_arr = string ( {dir_dat.name}<span style="color:#e6db74">&#39;</span><
 </span><span style="color:#e6db74">    %　save data with name rule
 </span><span style="color:#e6db74">   
 </span><span style="color:#e6db74">    out_put= ;    
-</span><span style="color:#e6db74">    out_name = strcat( file_name_arr(loop_idx), &#39;</span>_susceptibility<span style="color:#f92672">&#39;</span>, <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.dat&#39;</span>)
-    save(out_name,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">out_put&#39;</span>,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">-ascii&#39;</span>,<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">-double&#39;</span>); 
+</span><span style="color:#e6db74">    out_name = strcat( file_name_arr(loop_idx), &#39;</span>_susceptibility<span style="color:#f92672">&#39;</span>, <span style="color:#e6db74">&#39;.dat&#39;</span>)
+    save(out_name,<span style="color:#e6db74">&#39;out_put&#39;</span>,<span style="color:#e6db74">&#39;-ascii&#39;</span>,<span style="color:#e6db74">&#39;-double&#39;</span>); 
 <span style="color:#66d9ef">end</span>
 
 </code></pre></div>
