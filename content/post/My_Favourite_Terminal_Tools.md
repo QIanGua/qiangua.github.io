@@ -35,6 +35,8 @@ In this post, I will introduce some effective terminal skills.
 ## Watch {#watch}
 
 -   when-changed
+-   organize
 
 
 ## Statiscal {#statiscal}
+- tokei
