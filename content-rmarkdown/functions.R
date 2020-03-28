@@ -21,6 +21,7 @@ new_rmd_post <- function(post_name=NULL,
     fl_content   <- readLines(input_file)
     writeLines(fl_content, out_file)
     print("New Rmarkdown post creat successfully!")
+
 }
 
 fix_fig_format <- function(md_in){
@@ -64,3 +65,5 @@ plan <- drake::drake_plan(
     new_md_post(),
     mv_md_to_post()
 )
+
+

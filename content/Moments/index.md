@@ -22,6 +22,26 @@ comments: false
 > ![](https://raw.githubusercontent.com/QIanGua/tuchaung/master/img/20200326063356.jpg)
 -----------------------------------------------
 
+> 2020-03-25
+> 王维 终南别业
+> 中岁颇好道，晚家南山陲。
+>
+> 兴来每独往，胜事空自知。
+>
+> 行到水穷处，坐看云起时。
+>
+> 偶然值林叟，谈笑无还期。
+>
+> 『兴来每独往，胜事空自知』, 对待独处的态度。关于两种孤独
+>
+> loneliness: 表示孤单并希望去和别人交流
+>
+> solitude: 表示享受孤独并不想被打扰
+>
+> 告别喧嚣之后，什么是你生命中的必要？
+
+
+-----------------------------------------------
 
 > 2020-03-19  
 > Side Project: Bulld the drake system to convert Rmarkdown to markdown for Hugo

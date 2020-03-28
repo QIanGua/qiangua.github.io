@@ -1,9 +1,9 @@
 +++
 title = "Notes about useful packages and functions in R Language"
 author = ["Qiangua"]
-lastmod = 2020-03-16T21:45:21+08:00
+lastmod = 2020-03-28T17:29:26+08:00
 tags = ["R"]
-draft = true
+draft = false
 +++
 
 In this post, I will record some common R's packages and functions.
@@ -49,7 +49,38 @@ In this post, I will record some common R's packages and functions.
 10. diagnose(): return the full context of a build, including errors, warnings, and messages
 
 
+### janitor {#janitor}
+
+-   comment style
+
+
+### httr {#httr}
+
+Use GET() function to connect with website and get data from it.
+
+
 ## Tips {#tips}
+
+
+### never use these two commands in the head of R script {#never-use-these-two-commands-in-the-head-of-r-script}
+
+-   first (inseted use here::here())
+
+<!--listend-->
+
+```r
+setwd("**/**/**")
+```
+
+-   second
+
+<!--listend-->
+
+```r
+rm(list = ls())
+```
+
+Don't try to change the .Rprofile and affect the data
 
 
 ### check the loaded packages {#check-the-loaded-packages}
@@ -66,3 +97,31 @@ setwd()
 ```
 
 I custom the shortcuting in R with ****Cmd+Shift+H****.
+
+
+### tidy code's formatation {#tidy-code-s-formatation}
+
+Here I just introduce the tidy method in RStudio.
+
+1.  select the region, e.g. ****Cmd + A****
+2.  print shortcuting ****Cmd + Shift + A**** to format the code or run ****style active file**** in addin
+
+
+### get file's path {#get-file-s-path}
+
+```R
+full_path <- normalizePath(file_eg)
+dir_name<-dirname()
+file_name<-basename()
+```
+
+
+## Run R Code {#run-r-code}
+
+<a id="code-snippet--R code block"></a>
+```R
+library("ggplot2")
+ggplot(mpg) + geom_point(aes(x = displ, y = hwy, colour = cty, size = cty))
+```
+
+{{< figure src="/ox-hugo/test2.png" >}}

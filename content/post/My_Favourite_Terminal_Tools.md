@@ -37,6 +37,8 @@ In this post, I will introduce some effective terminal skills.
 -   when-changed
 -   organize
 
+## File 
+- jq
 
-## Statiscal {#statiscal}
+## Statistical {#statistical}
 - tokei
