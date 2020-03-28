@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on 采采流水</title>
+    <link>https://qiangua.me/tags/r/</link>
+    <description>Recent content in R on 采采流水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Mar 2020 17:29:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://qiangua.me/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes about useful packages and functions in R Language</title>
+      <link>https://qiangua.me/post/2020/03/28/notes-about-useful-packages-and-functions-in-r-language/</link>
+      <pubDate>Sat, 28 Mar 2020 17:29:26 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/03/28/notes-about-useful-packages-and-functions-in-r-language/</guid>
+      <description>&lt;p&gt;In this post, I will record some common R&amp;rsquo;s packages and functions.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

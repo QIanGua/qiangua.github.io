@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://qiangua.me/post/2020/03/28/notes-about-useful-packages-and-functions-in-r-language/</loc>
+    <lastmod>2020-03-28T17:29:26+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/</loc>
-    <lastmod>2020-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-28T17:29:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/r/</loc>
+    <lastmod>2020-03-28T17:29:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/</loc>
+    <lastmod>2020-03-28T17:29:26+08:00</lastmod>
   </url>
   
   <url>
@@ -14,11 +29,6 @@
   
   <url>
     <loc>https://qiangua.me/post/2020/03/19/rmarkdown-%E5%A4%9A%E5%9B%BE%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/tags/</loc>
     <lastmod>2020-03-19T00:00:00+00:00</lastmod>
   </url>
   
