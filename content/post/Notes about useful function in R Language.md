@@ -1,7 +1,7 @@
 +++
 title = "Notes about useful packages and functions in R Language"
 author = ["Qiangua"]
-lastmod = 2020-03-28T17:29:26+08:00
+lastmod = 2020-03-29T09:39:49+08:00
 tags = ["R"]
 draft = false
 +++
@@ -12,6 +12,9 @@ In this post, I will record some common R's packages and functions.
 
 
 ## Packages {#packages}
+
+
+### ggplot2 {#ggplot2}
 
 
 ### data.table {#data-dot-table}
@@ -64,7 +67,7 @@ Use GET() function to connect with website and get data from it.
 
 ### never use these two commands in the head of R script {#never-use-these-two-commands-in-the-head-of-r-script}
 
--   first (inseted use here::here())
+-   first (instead use here::here())
 
 <!--listend-->
 
@@ -117,6 +120,8 @@ file_name<-basename()
 
 
 ## Run R Code {#run-r-code}
+
+\\[f=ma\\]
 
 <a id="code-snippet--R code block"></a>
 ```R
