@@ -2,7 +2,7 @@
 title: "Rmarkdown 多图测试"
 author: "Qiangua"
 date: "2020-03-19"
-# date: "2020-03-19 21:00:56"
+# date: "2020-03-29 23:37:25"
 tags:
     - Rmarkdown
 ---
@@ -26,4 +26,5 @@ plot(pressure)
 ```
 
 {{< figure src="/ox-hugo/2020-03-19-pressure-1.png" >}}
+
 
