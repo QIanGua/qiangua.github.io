@@ -4,6 +4,7 @@ author: "Qiangua"
 date: "2020-03-29"
 tags:
     - Rmarkdown
+markup: pandoc
 ---
 
 

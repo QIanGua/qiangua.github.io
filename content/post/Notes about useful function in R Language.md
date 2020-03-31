@@ -1,7 +1,7 @@
 +++
 title = "Notes about useful packages and functions in R Language"
 author = ["Qiangua"]
-lastmod = 2020-03-29T09:39:49+08:00
+lastmod = 2020-03-29
 tags = ["R"]
 draft = false
 +++

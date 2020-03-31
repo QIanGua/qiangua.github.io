@@ -1,12 +1,12 @@
 +++
-title = "My Favourite Terminal Skills"
+title = "My Favourite Terminal Tools"
 author = ["Qiangua"]
-lastmod = 2020-01-01T23:46:16+08:00
+lastmod = 2020-01-01
 tags = ["shell", "terminal", "efficiency"]
 draft = false
 +++
 
-In this post, I will introduce some effective terminal skills.
+In this post, I will introduce some effective terminal tools.
 
 <!--more-->
 
@@ -30,6 +30,7 @@ In this post, I will introduce some effective terminal skills.
 ## Batch {#batch}
 
 -   rename
+-   xargs
 
 
 ## Watch {#watch}
@@ -37,8 +38,29 @@ In this post, I will introduce some effective terminal skills.
 -   when-changed
 -   organize
 
-## File 
-- jq
 
-## Statistical {#statistical}
-- tokei
+## Download {#download}
+
+-   youtube-dl
+-   curl
+-   wget
+
+
+## Statiscal {#statiscal}
+
+-   tokei
+
+
+## Data Manipulation {#data-manipulation}
+
+
+### view {#view}
+
+-   head/tail/cat/bat
+-   rg
+
+
+### process {#process}
+
+-   csvkit
+-   grep/awk

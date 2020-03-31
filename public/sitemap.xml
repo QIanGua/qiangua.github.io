@@ -3,23 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</loc>
-    <lastmod>2020-03-29T09:39:49+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://qiangua.me/post/</loc>
-    <lastmod>2020-03-29T09:39:49+08:00</lastmod>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/tags/r/</loc>
-    <lastmod>2020-03-29T09:39:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/tags/</loc>
-    <lastmod>2020-03-29T09:39:49+08:00</lastmod>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,8 +18,18 @@
   </url>
   
   <url>
+    <loc>https://qiangua.me/tags/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</loc>
+    <lastmod>2020-03-29T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -69,22 +69,22 @@
   
   <url>
     <loc>https://qiangua.me/tags/efficiency/</loc>
-    <lastmod>2020-01-01T23:46:16+08:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiangua.me/post/2020/01/01/my-favourite-terminal-skills/</loc>
-    <lastmod>2020-01-01T23:46:16+08:00</lastmod>
+    <loc>https://qiangua.me/post/2020/01/01/my-favourite-terminal-tools/</loc>
+    <lastmod>2020-01-01T00:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/tags/shell/</loc>
-    <lastmod>2020-01-01T23:46:16+08:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/tags/terminal/</loc>
-    <lastmod>2020-01-01T23:46:16+08:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+08:00</lastmod>
   </url>
   
   <url>

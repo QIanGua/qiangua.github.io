@@ -4,6 +4,7 @@ author: "Qiangua"
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 tags:
     - Rmarkdown
+markup: pandoc
 ---
 
 ```{r init, include=F}
