@@ -14,6 +14,9 @@ comments: false
 > 而是來自我們與他人的對話反思中。
 >
 > 所以我们需要把自己和一個更寬擴的世界聯繫起来，保持與他人的對話，並在對話中展開反思。
+>
+>![](https://raw.githubusercontent.com/QIanGua/tuchuang/master/img/20200403103610.jpg) 
+>![](https://raw.githubusercontent.com/QIanGua/tuchuang/master/img/20200403105625.png) 
 
 
 -----------------------------------------------
