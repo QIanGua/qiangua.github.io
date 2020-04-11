@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://qiangua.me/tags/poem/</loc>
+    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/</loc>
-    <lastmod>2020-04-02T23:31:59+08:00</lastmod>
+    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiangua.me/tags/</loc>
-    <lastmod>2020-04-02T23:31:59+08:00</lastmod>
+    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/post/2020/04/11/the-invitation/</loc>
+    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
   </url>
   
   <url>
@@ -115,11 +125,6 @@
   <url>
     <loc>https://qiangua.me/post/2019/12/16/encryption/</loc>
     <lastmod>2019-12-22T22:36:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/tags/poem/</loc>
-    <lastmod>2019-12-19T14:23:36+08:00</lastmod>
   </url>
   
   <url>
