@@ -86,7 +86,11 @@ end for
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
-      <description># 熵与能量  &#34;We are most likely to observe the most probable state&#34;  $$ S = k_b\ln\Omega $$ 熵最大： 能量最低原理： 亥姆霍兹自由能： $$ F=E-TS $$ </description>
+      <description>熵与能量  “We are most likely to observe the most probable state”
+ \[ S = k_b\ln\Omega \]
+熵最大：
+能量最低原理：
+亥姆霍兹自由能： \[ F=E-TS \]</description>
     </item>
     
   </channel>

@@ -15,6 +15,17 @@
 
     
       
+      <meta property="description" content="一个随机量可能是 \(1\),也可能是 \(‐1\)。两个值的几率都是 \(1/2\)。现进行 \(1000\) 次实验,每次实验进行 \(100\) 次随机量测试。模拟这个实验, 验证中心极限定理。
+Sloution:
+Definition:
+number of observations: \(N_{observations} = 1000\),
+number of trials: &amp;hellip;">
+      <meta property="og:description" content="一个随机量可能是 \(1\),也可能是 \(‐1\)。两个值的几率都是 \(1/2\)。现进行 \(1000\) 次实验,每次实验进行 \(100\) 次随机量测试。模拟这个实验, 验证中心极限定理。
+Sloution:
+Definition:
+number of observations: \(N_{observations} = 1000\),
+number of trials: &amp;hellip;">
+      
     
 
     
@@ -24,6 +35,11 @@
 
     
     
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
@@ -77,68 +93,50 @@
 
 
 
-
-
-
-
-## Question 
-
-**一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极限定理。**
-
-**Sloution:**
-
-Definition:
-
-number of observations: $N_{observations} = 1000$,
-
-number of trials: $N_{trials} = 100$,
-
-probability of success on each trial: $X_i(i=1,N_{observations})$,
-
-mean vale of $X_i$: $\overline{X}$
-
-
-```r
-library(ggplot2)
-library(magrittr)
-set.seed(2020)
-number_observation <- 1000
-number_trial <- 100
-p_val <- 0.5
-
-trial_mean <- rep(0, number_observation)
-trial_std <- rep(0, number_observation)
-
-for (idx in 1:number_observation) {
-  trial = rbinom(number_trial, 1, p_val)
-  trial_mean[idx] <- mean(trial)
-  trial_std[idx] <- (sum(trial) - number_trial*p_val) / sqrt(number_trial*p_val*(1-p_val)) 
-}
-
-df <- data.frame(heads = 1:number_observation,
-                 trial_mean = trial_mean,
-                 trial_std = trial_std)
-
-mean_X1 <- df$trial_mean %>% mean()
-sd_X1 <- df$trial_mean %>% sd()
-
-mean_X2 <- df$trial_std %>% mean()
-sd_X2 <- df$trial_std %>% sd()
-
-ggplot(df,aes(x = trial_std)) +
-  geom_histogram(bins = 30, aes(y=..density..),color = "black", size = 0.5, fill = "gray") +
-  stat_function(fun = dnorm, args = list(mean = mean_X2 , sd = sd_X2), colour = "red", size=1) + 
-  scale_x_continuous(breaks=seq(-3,+3,1), limits=c(-3,+3)) + 
-  scale_y_continuous(breaks=seq(0,0.5,0.1),limits = c(0,0.5)) +
-  xlab("means") + 
-  ylab("density")
-```
-
+<h2 id="question">Question</h2>
+<p><strong>一个随机量可能是 <span class="math inline">\(1\)</span>,也可能是 <span class="math inline">\(‐1\)</span>。两个值的几率都是 <span class="math inline">\(1/2\)</span>。现进行 <span class="math inline">\(1000\)</span> 次实验,每次实验进行 <span class="math inline">\(100\)</span> 次随机量测试。模拟这个实验, 验证中心极限定理。</strong></p>
+<p><strong>Sloution:</strong></p>
+<p>Definition:</p>
+<p>number of observations: <span class="math inline">\(N_{observations} = 1000\)</span>,</p>
+<p>number of trials: <span class="math inline">\(N_{trials} = 100\)</span>,</p>
+<p>probability of success on each trial: <span class="math inline">\(X_i(i=1,N_{observations})\)</span>,</p>
+<p>mean vale of <span class="math inline">\(X_i\)</span>: <span class="math inline">\(\overline{X}\)</span></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">library</span>(magrittr)</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">set.seed</span>(<span class="dv">2020</span>)</span>
+<span id="cb1-4"><a href="#cb1-4"></a>number_observation &lt;-<span class="st"> </span><span class="dv">1000</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>number_trial &lt;-<span class="st"> </span><span class="dv">100</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>p_val &lt;-<span class="st"> </span><span class="fl">0.5</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a>trial_mean &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="dv">0</span>, number_observation)</span>
+<span id="cb1-9"><a href="#cb1-9"></a>trial_std &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="dv">0</span>, number_observation)</span>
+<span id="cb1-10"><a href="#cb1-10"></a></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="cf">for</span> (idx <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>number_observation) {</span>
+<span id="cb1-12"><a href="#cb1-12"></a>  trial =<span class="st"> </span><span class="kw">rbinom</span>(number_trial, <span class="dv">1</span>, p_val)</span>
+<span id="cb1-13"><a href="#cb1-13"></a>  trial_mean[idx] &lt;-<span class="st"> </span><span class="kw">mean</span>(trial)</span>
+<span id="cb1-14"><a href="#cb1-14"></a>  trial_std[idx] &lt;-<span class="st"> </span>(<span class="kw">sum</span>(trial) <span class="op">-</span><span class="st"> </span>number_trial<span class="op">*</span>p_val) <span class="op">/</span><span class="st"> </span><span class="kw">sqrt</span>(number_trial<span class="op">*</span>p_val<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>p_val)) </span>
+<span id="cb1-15"><a href="#cb1-15"></a>}</span>
+<span id="cb1-16"><a href="#cb1-16"></a></span>
+<span id="cb1-17"><a href="#cb1-17"></a>df &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">heads =</span> <span class="dv">1</span><span class="op">:</span>number_observation,</span>
+<span id="cb1-18"><a href="#cb1-18"></a>                 <span class="dt">trial_mean =</span> trial_mean,</span>
+<span id="cb1-19"><a href="#cb1-19"></a>                 <span class="dt">trial_std =</span> trial_std)</span>
+<span id="cb1-20"><a href="#cb1-20"></a></span>
+<span id="cb1-21"><a href="#cb1-21"></a>mean_X1 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_mean <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mean</span>()</span>
+<span id="cb1-22"><a href="#cb1-22"></a>sd_X1 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_mean <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">sd</span>()</span>
+<span id="cb1-23"><a href="#cb1-23"></a></span>
+<span id="cb1-24"><a href="#cb1-24"></a>mean_X2 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_std <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mean</span>()</span>
+<span id="cb1-25"><a href="#cb1-25"></a>sd_X2 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_std <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">sd</span>()</span>
+<span id="cb1-26"><a href="#cb1-26"></a></span>
+<span id="cb1-27"><a href="#cb1-27"></a><span class="kw">ggplot</span>(df,<span class="kw">aes</span>(<span class="dt">x =</span> trial_std)) <span class="op">+</span></span>
+<span id="cb1-28"><a href="#cb1-28"></a><span class="st">  </span><span class="kw">geom_histogram</span>(<span class="dt">bins =</span> <span class="dv">30</span>, <span class="kw">aes</span>(<span class="dt">y=</span>..density..),<span class="dt">color =</span> <span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="fl">0.5</span>, <span class="dt">fill =</span> <span class="st">&quot;gray&quot;</span>) <span class="op">+</span></span>
+<span id="cb1-29"><a href="#cb1-29"></a><span class="st">  </span><span class="kw">stat_function</span>(<span class="dt">fun =</span> dnorm, <span class="dt">args =</span> <span class="kw">list</span>(<span class="dt">mean =</span> mean_X2 , <span class="dt">sd =</span> sd_X2), <span class="dt">colour =</span> <span class="st">&quot;red&quot;</span>, <span class="dt">size=</span><span class="dv">1</span>) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb1-30"><a href="#cb1-30"></a><span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">breaks=</span><span class="kw">seq</span>(<span class="op">-</span><span class="dv">3</span>,<span class="op">+</span><span class="dv">3</span>,<span class="dv">1</span>), <span class="dt">limits=</span><span class="kw">c</span>(<span class="op">-</span><span class="dv">3</span>,<span class="op">+</span><span class="dv">3</span>)) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb1-31"><a href="#cb1-31"></a><span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks=</span><span class="kw">seq</span>(<span class="dv">0</span>,<span class="fl">0.5</span>,<span class="fl">0.1</span>),<span class="dt">limits =</span> <span class="kw">c</span>(<span class="dv">0</span>,<span class="fl">0.5</span>)) <span class="op">+</span></span>
+<span id="cb1-32"><a href="#cb1-32"></a><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;means&quot;</span>) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb1-33"><a href="#cb1-33"></a><span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;density&quot;</span>)</span></code></pre></div>
 <figure>
     <img src="/ox-hugo/unnamed-chunk-1-1.png"/> 
 </figure>
-
-
 
 
 
@@ -147,6 +145,21 @@ ggplot(df,aes(x = trial_std)) +
   <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
   
   
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/python.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/lisp.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
   
   <hr>
