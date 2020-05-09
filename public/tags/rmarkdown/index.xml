@@ -17,7 +17,14 @@
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</guid>
-      <description>## Question **一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极限定理。** **Sloution:** Definition: number of observations: $N_{observations} = 1000$, number of trials: $N_{trials} = 100$, probability of success on each trial: $X_i(i=1,N_{observations})$, mean vale of $X_i$: $\overline{X}$ ```r library(ggplot2) library(magrittr) set.seed(2020) number_observation % mean() sd_X1 % sd() mean_X2 % mean() sd_X2 % sd() ggplot(df,aes(x = trial_std)) + geom_histogram(bins = 30, aes(y=..density..),color = &#34;black&#34;, size = 0.5, fill = &#34;gray&#34;) + stat_function(fun = dnorm, args = list(mean = mean_X2 , sd = sd_X2), colour = &#34;</description>
+      <description>Question 一个随机量可能是 \(1\),也可能是 \(‐1\)。两个值的几率都是 \(1/2\)。现进行 \(1000\) 次实验,每次实验进行 \(100\) 次随机量测试。模拟这个实验, 验证中心极限定理。
+Sloution:
+Definition:
+number of observations: \(N_{observations} = 1000\),
+number of trials: \(N_{trials} = 100\),
+probability of success on each trial: \(X_i(i=1,N_{observations})\),
+mean vale of \(X_i\): \(\overline{X}\)
+library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-1000 number_trial &amp;lt;-100 p_val &amp;lt;-0.5  trial_mean &amp;lt;-rep(0, number_observation) trial_std &amp;lt;-rep(0, number_observation)  for (idx in 1:number_observation) {  trial =rbinom(number_trial, 1, p_val)  trial_mean[idx] &amp;lt;-mean(trial)  trial_std[idx] &amp;lt;-(sum(trial) -number_trial*p_val) /sqrt(number_trial*p_val*(1-p_val))  }  df &amp;lt;-data.</description>
     </item>
     
     <item>
