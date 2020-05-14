@@ -278,6 +278,7 @@ Pulse 2 $$ \Delta_p(t) = 0,\
 哪有什么勇气，只不过是做好了承担后果的觉悟罢了。
 被迫尝试了下从宿舍到办公室的五百米冲刺跑，感觉还可以，我还能……能……好吧，跑不动了。
 3P: Positive，Patient，Persistent
+前端业余时间一直想培养的爱好是是 generative artist，以后靠买画赚外快？
    2020-05-13
 嗯，果然是安静的度过这一天的生日
 要说有意思的事情吧，就是和李老师约了明天面基，不做预期，尽量轻松一些, 自己不要太紧张，定位好自己
@@ -299,8 +300,7 @@ XXX，你能帮我算一下 我喜欢你条件下你也喜欢我的概率吗？
 事件B: Bob 喜欢 Alic，概率 P(B)
 假定是Alice向Bob表白，则默认有如下条件：Alice喜欢Bob条件下( P(A)=1 )，如果Bob也喜欢Alice，则Aice一定喜欢Bob，即 P(A|B)=1
 求Alice喜欢Bob条件下，Bob也喜欢Alice的概率 P(B|A)?
-P(B|A) = P(A|B)*P(B)/P(A) = P(B)
-可见 P(B|A)=P(B) 完全取决于 Bob 本人对 Alice 的喜欢程度，主动权在被表白者身上。</description>
+P(B|A) = P(A|B)*P(B)/P(A) = P(B)</description>
     </item>
     
     <item>
