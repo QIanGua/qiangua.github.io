@@ -274,7 +274,9 @@ Pulse 2 $$ \Delta_p(t) = 0,\
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/moments/</guid>
-      <description>采撷瞬间  2020-05-13
+      <description>采撷瞬间  2020-05-14
+哪有什么勇气，只不过是做好了承担后果的觉悟罢了。
+   2020-05-13
 嗯，果然是安静的度过这一天的生日
 要说有意思的事情吧，就是和李老师约了明天面基，不做预期，尽量轻松一些, 自己不要太紧张，定位好自己
 晚上忙完后还是想找点事情做，就翻了手机相册，这几年下来也是攒了挺多照片的呐, 发现自己好久没去修过图了。
@@ -296,8 +298,7 @@ XXX，你能帮我算一下 我喜欢你条件下你也喜欢我的概率吗？
 假定是Alice向Bob表白，则默认有如下条件：Alice喜欢Bob条件下( P(A)=1 )，如果Bob也喜欢Alice，则Aice一定喜欢Bob，即 P(A|B)=1
 求Alice喜欢Bob条件下，Bob也喜欢Alice的概率 P(B|A)?
 P(B|A) = P(A|B)*P(B)/P(A) = P(B)
-可见 P(B|A)=P(B) 完全取决于 Bob 本人对 Alice 的喜欢程度，主动权在被表白者身上。
-   2020-05-03</description>
+可见 P(B|A)=P(B) 完全取决于 Bob 本人对 Alice 的喜欢程度，主动权在被表白者身上。</description>
     </item>
     
     <item>
