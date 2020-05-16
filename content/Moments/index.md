@@ -3,8 +3,41 @@ title: 瞬间
 date: 2019-07-10
 comments: false
 ---
+#  须臾之所得
 
-#  采撷瞬间
+> 2020-05-16  
+> 发生问题后解决冲突的能力可作为衡量一个人成熟程度的标准
+> 
+> 换言之也就是主动和好的能力，联想到『爱在午夜降临前』里男主与妻子爆发冲突的那段:
+>
+> 妻子愤怒离门而去，男主平息后追到河边，编了一个时空穿越的桥段，努力去与女主和好，女主还是有点不饶人，
+>
+> 这时候男主说，他已经尽了全力，正在想办法努力把事情挽回，他已经在无条件的爱她了，不能期望他能像只狗一样，
+>
+> 总会回来找她。如果想要真爱，这就是真爱，这就是真实的生活不完美却异常真实。如果你还不愿意看到这些，那男主也没辙了。
+>
+> 两人沉寂许久，女主也认识到对面这个人是真心爱她，于是心理也互相开始谅解。
+>
+> 这可能就是解决冲突的最重要的点。
+>
+> 温故了下男主伊桑霍克主动编故事来示好但女主仍旧不依不饶后男主的这段精彩对话：
+>
+> "Oh,fuck it, you know something?"
+>
+> "You're just like the little girls and everybody else you want to live inside some fairy tale, alright?"
+>
+> "I'm just try to make things better here, alright?"
+>
+> "I tell you that I love you unconditionally, I tell you that you're beautiful, I tell you that your ass looks
+> great when you're 80. I'm trying to make you laugh."
+>
+> "I've put up with plenty of your shit, and if you think I'm just some dog who's gonna keep coming back, then you're
+> wrong. But if you want true love then this is it. This is real life. It's not perfect but it's real, and if you can
+> not see it then you're blind. Alright? I give up"
+
+-----------------------------------------------
+
+
 
 > 2020-05-14  
 > 哪有什么勇气，只不过是做好了承担后果的觉悟罢了。
@@ -14,6 +47,7 @@ comments: false
 > 3P: Positive，Patient，Persistent
 >
 > 前端业余时间一直想培养的爱好是是 generative artist，以后靠买画赚外快？
+>
 
 
 -----------------------------------------------
