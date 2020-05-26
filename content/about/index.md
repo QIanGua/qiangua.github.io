@@ -33,7 +33,7 @@ comments: false
 - 欣赏的軟件：Emacs、Neovim、LaTeX、Pandoc、Alfred、Keyboard Maestro
 - 厭惡的事：誤解、背叛、孤立、強加壓力、失控、停止思考
 - 一般不主动去吃的食材：雪菜、梅干菜、生蛤
-- 接触过的程序语言: C++、Fortran、Maple、Mathematica、Matlab、Python、R、Julia、Lisp、JavaScipt、Shell
+- 接触过的程序语言: C++、Fortran、Maple、Mathematica、Matlab、Python、R、Julia、Lisp、JavaScipt、Shell（贪多务得，细大不捐）
 
 # 聯繫方式
 
