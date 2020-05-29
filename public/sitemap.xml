@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://qiangua.me/</loc>
+    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/%E6%80%9D%E8%BE%A8/</loc>
     <lastmod>2020-04-02T23:31:59+08:00</lastmod>
   </url>
@@ -30,11 +35,6 @@
   <url>
     <loc>https://qiangua.me/post/2020/04/02/%E7%90%86%E6%80%A7%E7%9A%84%E5%B1%80%E9%99%90-%E4%B8%80%E4%B8%AA%E7%A4%BE%E6%9C%83%E5%AD%B8%E7%9A%84%E8%A7%86%E8%A7%92draft/</loc>
     <lastmod>2020-04-02T23:31:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/tags/r/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,6 +49,11 @@
   
   <url>
     <loc>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</loc>
+    <lastmod>2020-03-29T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/r/</loc>
     <lastmod>2020-03-29T00:00:00+08:00</lastmod>
   </url>
   
@@ -244,11 +249,6 @@
   
   <url>
     <loc>https://qiangua.me/moments/</loc>
-    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiangua.me/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -503,11 +503,6 @@
   </url>
   
   <url>
-    <loc>https://qiangua.me/tags/tool/</loc>
-    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://qiangua.me/tags/tools/</loc>
     <lastmod>2018-05-11T00:00:00+00:00</lastmod>
   </url>
@@ -549,6 +544,11 @@
   
   <url>
     <loc>https://qiangua.me/post/2018/04/11/get-data-from-the-figure/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/tool/</loc>
     <lastmod>2018-04-11T00:00:00+00:00</lastmod>
   </url>
   

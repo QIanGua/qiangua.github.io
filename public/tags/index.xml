@@ -30,20 +30,20 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>https://qiangua.me/tags/r/</link>
-      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Rmarkdown</title>
       <link>https://qiangua.me/tags/rmarkdown/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://qiangua.me/tags/r/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qiangua.me/tags/r/</guid>
       <description></description>
     </item>
     
@@ -345,15 +345,6 @@
     </item>
     
     <item>
-      <title>tool</title>
-      <link>https://qiangua.me/tags/tool/</link>
-      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/tags/tool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tools</title>
       <link>https://qiangua.me/tags/tools/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
@@ -377,6 +368,15 @@
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://qiangua.me/tags/tool/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.me/tags/tool/</guid>
       <description></description>
     </item>
     
