@@ -6,7 +6,7 @@ tags = ["shell", "terminal", "efficiency"]
 draft = false
 +++
 
-In this post, I will introduce some effective terminal tools.
+In this post, I will introduce some efficient terminal tools.
 
 <!--more-->
 
@@ -31,12 +31,13 @@ In this post, I will introduce some effective terminal tools.
 
 -   rename
 -   xargs
-
+-   parallel
 
 ## Watch {#watch}
 
 -   when-changed
 -   organize
+-   fswatch
 
 
 ## Download {#download}
