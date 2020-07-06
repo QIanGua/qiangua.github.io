@@ -32,10 +32,12 @@ footnotereturnlinkcontents = "↩"
 #     name = "Categories"
 #     url = "/categories/"
 #     weight = 5
-[[menu.main]]
-    name = "Moments"
-    url = "/Moments/"
-    weight = 6
+
+# [[menu.main]]
+#     name = "Moments"
+#     url = "/Moments/"
+#     weight = 6
+
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
