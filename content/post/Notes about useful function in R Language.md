@@ -11,34 +11,34 @@ In this post, I will record some common R's packages and functions.
 <!--more-->
 
 
-## Packages {#packages}
+## <span class="section-num">1</span> Packages {#packages}
 
 
-### ggplot2 {#ggplot2}
+### <span class="section-num">1.1</span> ggplot2 {#ggplot2}
 
 
-### data.table {#data-dot-table}
+### <span class="section-num">1.2</span> data.table {#data-dot-table}
 
 
-### tidyverse {#tidyverse}
+### <span class="section-num">1.3</span> tidyverse {#tidyverse}
 
 
-### magritter {#magritter}
+### <span class="section-num">1.4</span> magritter {#magritter}
 
 
-### patchwork {#patchwork}
+### <span class="section-num">1.5</span> patchwork {#patchwork}
 
 
-### fs {#fs}
+### <span class="section-num">1.6</span> fs {#fs}
 
 
-### rvest {#rvest}
+### <span class="section-num">1.7</span> rvest {#rvest}
 
 
-### purr {#purr}
+### <span class="section-num">1.8</span> purr {#purr}
 
 
-### drake {#drake}
+### <span class="section-num">1.9</span> drake {#drake}
 
 1.  drake\_plan(): create a workflow data frame
 2.  make(): build your project
@@ -52,20 +52,23 @@ In this post, I will record some common R's packages and functions.
 10. diagnose(): return the full context of a build, including errors, warnings, and messages
 
 
-### janitor {#janitor}
+### <span class="section-num">1.10</span> janitor {#janitor}
 
 -   comment style
 
 
-### httr {#httr}
+### <span class="section-num">1.11</span> httr {#httr}
 
 Use GET() function to connect with website and get data from it.
 
 
-## Tips {#tips}
+### <span class="section-num">1.12</span> V8 {#v8}
 
 
-### never use these two commands in the head of R script {#never-use-these-two-commands-in-the-head-of-r-script}
+## <span class="section-num">2</span> Tips {#tips}
+
+
+### <span class="section-num">2.1</span> never use these two commands in the head of R script {#never-use-these-two-commands-in-the-head-of-r-script}
 
 -   first (instead use here::here())
 
@@ -86,14 +89,14 @@ rm(list = ls())
 Don't try to change the .Rprofile and affect the data
 
 
-### check the loaded packages {#check-the-loaded-packages}
+### <span class="section-num">2.2</span> check the loaded packages {#check-the-loaded-packages}
 
 ```R
 (.packages())
 ```
 
 
-### set the working directory {#set-the-working-directory}
+### <span class="section-num">2.3</span> set the working directory {#set-the-working-directory}
 
 ```R
 setwd()
@@ -102,7 +105,7 @@ setwd()
 I custom the shortcuting in R with ****Cmd+Shift+H****.
 
 
-### tidy code's formatation {#tidy-code-s-formatation}
+### <span class="section-num">2.4</span> tidy code's formatation {#tidy-code-s-formatation}
 
 Here I just introduce the tidy method in RStudio.
 
@@ -110,7 +113,7 @@ Here I just introduce the tidy method in RStudio.
 2.  print shortcuting ****Cmd + Shift + A**** to format the code or run ****style active file**** in addin
 
 
-### get file's path {#get-file-s-path}
+### <span class="section-num">2.5</span> get file's path {#get-file-s-path}
 
 ```R
 full_path <- normalizePath(file_eg)
@@ -119,7 +122,13 @@ file_name<-basename()
 ```
 
 
-## Run R Code {#run-r-code}
+### <span class="section-num">2.6</span> insert and run R chunck in Rmarkdown {#insert-and-run-r-chunck-in-rmarkdown}
+
+insert: ****Cmd+Opt+i****
+run: ****Cmd+Shift+enter****
+
+
+## <span class="section-num">3</span> Run R Code {#run-r-code}
 
 \\[f=ma\\]
 
