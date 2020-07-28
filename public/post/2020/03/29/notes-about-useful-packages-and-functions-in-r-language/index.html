@@ -88,16 +88,16 @@
 
 
 <p>In this post, I will record some common R&rsquo;s packages and functions.</p>
-<h2 id="packages">Packages</h2>
-<h3 id="ggplot2">ggplot2</h3>
-<h3 id="data-dot-table">data.table</h3>
-<h3 id="tidyverse">tidyverse</h3>
-<h3 id="magritter">magritter</h3>
-<h3 id="patchwork">patchwork</h3>
-<h3 id="fs">fs</h3>
-<h3 id="rvest">rvest</h3>
-<h3 id="purr">purr</h3>
-<h3 id="drake">drake</h3>
+<h2 id="packages"><!-- raw HTML omitted -->1<!-- raw HTML omitted --> Packages</h2>
+<h3 id="ggplot2"><!-- raw HTML omitted -->1.1<!-- raw HTML omitted --> ggplot2</h3>
+<h3 id="data-dot-table"><!-- raw HTML omitted -->1.2<!-- raw HTML omitted --> data.table</h3>
+<h3 id="tidyverse"><!-- raw HTML omitted -->1.3<!-- raw HTML omitted --> tidyverse</h3>
+<h3 id="magritter"><!-- raw HTML omitted -->1.4<!-- raw HTML omitted --> magritter</h3>
+<h3 id="patchwork"><!-- raw HTML omitted -->1.5<!-- raw HTML omitted --> patchwork</h3>
+<h3 id="fs"><!-- raw HTML omitted -->1.6<!-- raw HTML omitted --> fs</h3>
+<h3 id="rvest"><!-- raw HTML omitted -->1.7<!-- raw HTML omitted --> rvest</h3>
+<h3 id="purr"><!-- raw HTML omitted -->1.8<!-- raw HTML omitted --> purr</h3>
+<h3 id="drake"><!-- raw HTML omitted -->1.9<!-- raw HTML omitted --> drake</h3>
 <ol>
 <li>drake_plan(): create a workflow data frame</li>
 <li>make(): build your project</li>
@@ -110,14 +110,15 @@
 <li>failed(): list the targets that failed to build in the last make()</li>
 <li>diagnose(): return the full context of a build, including errors, warnings, and messages</li>
 </ol>
-<h3 id="janitor">janitor</h3>
+<h3 id="janitor"><!-- raw HTML omitted -->1.10<!-- raw HTML omitted --> janitor</h3>
 <ul>
 <li>comment style</li>
 </ul>
-<h3 id="httr">httr</h3>
+<h3 id="httr"><!-- raw HTML omitted -->1.11<!-- raw HTML omitted --> httr</h3>
 <p>Use GET() function to connect with website and get data from it.</p>
-<h2 id="tips">Tips</h2>
-<h3 id="never-use-these-two-commands-in-the-head-of-r-script">never use these two commands in the head of R script</h3>
+<h3 id="v8"><!-- raw HTML omitted -->1.12<!-- raw HTML omitted --> V8</h3>
+<h2 id="tips"><!-- raw HTML omitted -->2<!-- raw HTML omitted --> Tips</h2>
+<h3 id="never-use-these-two-commands-in-the-head-of-r-script"><!-- raw HTML omitted -->2.1<!-- raw HTML omitted --> never use these two commands in the head of R script</h3>
 <ul>
 <li>first (instead use here::here())</li>
 </ul>
@@ -129,22 +130,25 @@
 <!-- raw HTML omitted -->
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">rm</span>(list <span style="color:#f92672">=</span> <span style="color:#a6e22e">ls</span>())
 </code></pre></div><p>Don&rsquo;t try to change the .Rprofile and affect the data</p>
-<h3 id="check-the-loaded-packages">check the loaded packages</h3>
+<h3 id="check-the-loaded-packages"><!-- raw HTML omitted -->2.2<!-- raw HTML omitted --> check the loaded packages</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R">(<span style="color:#a6e22e">.packages</span>())
-</code></pre></div><h3 id="set-the-working-directory">set the working directory</h3>
+</code></pre></div><h3 id="set-the-working-directory"><!-- raw HTML omitted -->2.3<!-- raw HTML omitted --> set the working directory</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">setwd</span>()
 </code></pre></div><p>I custom the shortcuting in R with <strong><strong>Cmd+Shift+H</strong></strong>.</p>
-<h3 id="tidy-code-s-formatation">tidy code&rsquo;s formatation</h3>
+<h3 id="tidy-code-s-formatation"><!-- raw HTML omitted -->2.4<!-- raw HTML omitted --> tidy code&rsquo;s formatation</h3>
 <p>Here I just introduce the tidy method in RStudio.</p>
 <ol>
 <li>select the region, e.g. <strong><strong>Cmd + A</strong></strong></li>
 <li>print shortcuting <strong><strong>Cmd + Shift + A</strong></strong> to format the code or run <strong><strong>style active file</strong></strong> in addin</li>
 </ol>
-<h3 id="get-file-s-path">get file&rsquo;s path</h3>
+<h3 id="get-file-s-path"><!-- raw HTML omitted -->2.5<!-- raw HTML omitted --> get file&rsquo;s path</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R">full_path <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">normalizePath</span>(file_eg)
 dir_name<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">dirname</span>()
 file_name<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">basename</span>()
-</code></pre></div><h2 id="run-r-code">Run R Code</h2>
+</code></pre></div><h3 id="insert-and-run-r-chunck-in-rmarkdown"><!-- raw HTML omitted -->2.6<!-- raw HTML omitted --> insert and run R chunck in Rmarkdown</h3>
+<p>insert: <strong><strong>Cmd+Opt+i</strong></strong>
+run: <strong><strong>Cmd+Shift+enter</strong></strong></p>
+<h2 id="run-r-code"><!-- raw HTML omitted -->3<!-- raw HTML omitted --> Run R Code</h2>
 <p>\[f=ma\]</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">library</span>(<span style="color:#e6db74">&#34;ggplot2&#34;</span>)

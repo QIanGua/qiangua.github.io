@@ -24,7 +24,7 @@ number of observations: \(N_{observations} = 1000\),
 number of trials: \(N_{trials} = 100\),
 probability of success on each trial: \(X_i(i=1,N_{observations})\),
 mean vale of \(X_i\): \(\overline{X}\)
-library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-1000 number_trial &amp;lt;-100 p_val &amp;lt;-0.5  trial_mean &amp;lt;-rep(0, number_observation) trial_std &amp;lt;-rep(0, number_observation)  for (idx in 1:number_observation) {  trial =rbinom(number_trial, 1, p_val)  trial_mean[idx] &amp;lt;-mean(trial)  trial_std[idx] &amp;lt;-(sum(trial) -number_trial*p_val) /sqrt(number_trial*p_val*(1-p_val))  }  df &amp;lt;-data.</description>
+library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-1000 number_trial &amp;lt;-100 p_val &amp;lt;-0.5  trial_mean &amp;lt;-rep(0, number_observation) trial_std &amp;lt;-rep(0, number_observation)  for (idx in 1:number_observation) { trial =rbinom(number_trial, 1, p_val) trial_mean[idx] &amp;lt;-mean(trial) trial_std[idx] &amp;lt;-(sum(trial) -number_trial*p_val) /sqrt(number_trial*p_val*(1-p_val))  }  df &amp;lt;-data.</description>
     </item>
     
     <item>

@@ -45,7 +45,7 @@ number of observations: \(N_{observations} = 1000\),
 number of trials: \(N_{trials} = 100\),
 probability of success on each trial: \(X_i(i=1,N_{observations})\),
 mean vale of \(X_i\): \(\overline{X}\)
-library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-1000 number_trial &amp;lt;-100 p_val &amp;lt;-0.5  trial_mean &amp;lt;-rep(0, number_observation) trial_std &amp;lt;-rep(0, number_observation)  for (idx in 1:number_observation) {  trial =rbinom(number_trial, 1, p_val)  trial_mean[idx] &amp;lt;-mean(trial)  trial_std[idx] &amp;lt;-(sum(trial) -number_trial*p_val) /sqrt(number_trial*p_val*(1-p_val))  }  df &amp;lt;-data.</description>
+library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-1000 number_trial &amp;lt;-100 p_val &amp;lt;-0.5  trial_mean &amp;lt;-rep(0, number_observation) trial_std &amp;lt;-rep(0, number_observation)  for (idx in 1:number_observation) { trial =rbinom(number_trial, 1, p_val) trial_mean[idx] &amp;lt;-mean(trial) trial_std[idx] &amp;lt;-(sum(trial) -number_trial*p_val) /sqrt(number_trial*p_val*(1-p_val))  }  df &amp;lt;-data.</description>
     </item>
     
     <item>
@@ -274,7 +274,13 @@ Pulse 2 $$ \Delta_p(t) = 0,\
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/moments/</guid>
-      <description>须臾之所得  2020-06-29
+      <description>须臾之所得  2020-07-28
+努力使人变形，畸人 按照真理生活，抓住真理 奔腾的心海中凝结出一稔念珠
+   2020-07-20
+ 当星火奔溅的列车驶入疫瘴的沼泽 哦，车上底人啊 是继续沉溺于梦的红丸，驶向雪域荒原 亦或静心苦思，合力去筑起一条银河铁道
+冷冷的夜幕已经拉开 一团萤火在天边飘荡
+贪恋了文明的曙光太久
+    2020-06-29
 过程与结果： 可以稳定重复的事情，结果比较重要，虽然过程可能比较low，但只要最后能实际带给人们益处，就不能凭自己好恶去否定它。 不可以重复的事情，比如随机事件，结果不是那么重要，看重过程，尽人事，听天命。
    2020-06-23
 #你赠我一口无弦琴，我馈你一曲布鲁斯# 一个脑洞，最近冒出了想学一下口琴的念头，但是偏偏不想自己去买（怪没意思的）。有没有哪位 朋友想要赠我一把？作为回报我会先学一段你欣赏的音乐，届时回馈给你。 当然你有什么想学的东西的话也可以回赠给你，只要别太贵。 也算是『从心所欲，稍稍逾矩』的尝试吧，让生活有趣一些。 （手头上有2&amp;amp;3阶魔方和一堆书可以随时互赠） #君非海明威此一起码认识之必要#
@@ -284,13 +290,7 @@ set deffault engine as xetex: TeX-engine,xetex C-c,C-a to call TeX-command-run-a
 yapf 格式化py代码
 Reading: To explain the world
 希腊物理学最早针对万物的本质只是做像诗歌似的思考，没想过如何实证
-   2020-06-10
-平淡如水的一天
-《小镇畸人》第一篇《手》读过后立马联想到电影《狩猎》，主题惊人的相似。语言作为一把武器，不能轻易使用造谣他人。 小孩子并非天生善良，实际上可能还未分化出善恶观念,容易被歪曲利诱。普通大众不分青红皂白，就认为飞翼比尔德鲍姆是性骚扰孩童之人，尽情站在道德高处 谴责这一位无辜之人，仅仅因为孩子口无遮拦说出的离奇可怕的污蔑之词，整个世界都站在了他的对立面。
-   2020-05-31
-看完了《普通人》，意犹未尽，后劲袭人。 感想： 联想第七集结尾 Connel 向 Marianne 坦白说出内心的想法，他搞不清楚为何会变成那种结果，这一幕让我联想到了海边的曼彻斯特里最后男主和前妻在 街头相遇的场景，让人不禁潸然泪下。
-有些人悄然步入你的内心，播撒下一道美丽心灵的永恒阳光，离开之后却把灯忘了关。
-   2020-05-29</description>
+   2020-06-10</description>
     </item>
     
     <item>
@@ -1357,21 +1357,22 @@ $$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \\
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
-      <description>#量子力学常见对易关系及其证明
-标签（空格分隔）： Quantum Comumutor
-本文框架[TOC]
+      <description>量子力学常见对易关系及其证明 标签（空格分隔）： Quantum Comumutor
 [TOC]
- ##1. 基本对易关系 $$ \begin{equation} [X_{\alpha},P_{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+ 基本对易关系 $$ \begin{equation} [X_{\alpha},P_{\beta}]=i\hbar \label{eq:1} \end{equation} $$
 $$ \begin{equation} [AB,C]=A[B,C]+[A,C]B \end{equation} $$
 $$ \begin{align} [A,f(B)]&amp;amp;=\frac{\partial f}{\partial B}[A,B]\
-[f(A),B]&amp;amp;=-\frac{\partial f}{\partial A}[A,B] \label{eq:2} \end{align} $$ 根据\eqref{eq:2}可推出 $$ \begin{align} [X,f(P)]&amp;amp;=-i\hbar\frac{\partial f}{\partial P}\
+[f(A),B]&amp;amp;=-\frac{\partial f}{\partial A}[A,B] \label{eq:2} \end{align} $$
+根据 Eq.~(2) 可推出
+$$ \begin{align} [X,f(P)]&amp;amp;=-i\hbar\frac{\partial f}{\partial P}\
 [f(X),P]&amp;amp;=i\hbar\frac{\partial f}{\partial X}\
 [A,B^n]&amp;amp;=n B^{n-1} [A,B] \label{eq:3} \end{align} $$
-##2. 常见力学量的对易关系
- 角动量 （$J,J^2$） **升降算符 （$J_{\pm},a^+,a$）** 自旋算符 ($\sigma_x,\sigma_y,\sigma_z$)  角动量： $$ \begin{align*} [J_{\alpha},X_{\beta}]&amp;amp;=i\hbar\varepsilon_{\alpha\beta\gamma}X_{\gamma}\
+常见力学量的对易关系  角动量 （$J,J^2$） 升降算符 （$J_{\pm},a^+,a$） 自旋算符 ($\sigma_x,\sigma_y,\sigma_z$)  角动量：
+$$ \begin{align*} [J_{\alpha},X_{\beta}]&amp;amp;=i\hbar\varepsilon_{\alpha\beta\gamma}X_{\gamma}\
 [J_{\alpha},P_{\beta}]&amp;amp;=i\hbar\varepsilon_{\alpha\beta\gamma}P_{\gamma}\
 [J^{2},J_{\alpha}]&amp;amp;=0\
-\end{align*} $$ **下面证明**： $$ \begin{align*} [J_{z},J_{\pm}]&amp;amp;=[J_{z},J_{x}\pm i J_{y}]\</description>
+\end{align*} $$
+下面证明： $$ \begin{align*} [J_{z},J_{\pm}]&amp;amp;= [J_{z},J_{x}\pm i J_{y}] \</description>
     </item>
     
   </channel>

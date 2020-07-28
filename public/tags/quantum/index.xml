@@ -52,21 +52,22 @@ $$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \\
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</guid>
-      <description>#量子力学常见对易关系及其证明
-标签（空格分隔）： Quantum Comumutor
-本文框架[TOC]
+      <description>量子力学常见对易关系及其证明 标签（空格分隔）： Quantum Comumutor
 [TOC]
- ##1. 基本对易关系 $$ \begin{equation} [X_{\alpha},P_{\beta}]=i\hbar \label{eq:1} \end{equation} $$
+ 基本对易关系 $$ \begin{equation} [X_{\alpha},P_{\beta}]=i\hbar \label{eq:1} \end{equation} $$
 $$ \begin{equation} [AB,C]=A[B,C]+[A,C]B \end{equation} $$
 $$ \begin{align} [A,f(B)]&amp;amp;=\frac{\partial f}{\partial B}[A,B]\
-[f(A),B]&amp;amp;=-\frac{\partial f}{\partial A}[A,B] \label{eq:2} \end{align} $$ 根据\eqref{eq:2}可推出 $$ \begin{align} [X,f(P)]&amp;amp;=-i\hbar\frac{\partial f}{\partial P}\
+[f(A),B]&amp;amp;=-\frac{\partial f}{\partial A}[A,B] \label{eq:2} \end{align} $$
+根据 Eq.~(2) 可推出
+$$ \begin{align} [X,f(P)]&amp;amp;=-i\hbar\frac{\partial f}{\partial P}\
 [f(X),P]&amp;amp;=i\hbar\frac{\partial f}{\partial X}\
 [A,B^n]&amp;amp;=n B^{n-1} [A,B] \label{eq:3} \end{align} $$
-##2. 常见力学量的对易关系
- 角动量 （$J,J^2$） **升降算符 （$J_{\pm},a^+,a$）** 自旋算符 ($\sigma_x,\sigma_y,\sigma_z$)  角动量： $$ \begin{align*} [J_{\alpha},X_{\beta}]&amp;amp;=i\hbar\varepsilon_{\alpha\beta\gamma}X_{\gamma}\
+常见力学量的对易关系  角动量 （$J,J^2$） 升降算符 （$J_{\pm},a^+,a$） 自旋算符 ($\sigma_x,\sigma_y,\sigma_z$)  角动量：
+$$ \begin{align*} [J_{\alpha},X_{\beta}]&amp;amp;=i\hbar\varepsilon_{\alpha\beta\gamma}X_{\gamma}\
 [J_{\alpha},P_{\beta}]&amp;amp;=i\hbar\varepsilon_{\alpha\beta\gamma}P_{\gamma}\
 [J^{2},J_{\alpha}]&amp;amp;=0\
-\end{align*} $$ **下面证明**： $$ \begin{align*} [J_{z},J_{\pm}]&amp;amp;=[J_{z},J_{x}\pm i J_{y}]\</description>
+\end{align*} $$
+下面证明： $$ \begin{align*} [J_{z},J_{\pm}]&amp;amp;= [J_{z},J_{x}\pm i J_{y}] \</description>
     </item>
     
   </channel>
