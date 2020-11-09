@@ -6,11 +6,7 @@
     <description>Recent content in script on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://qiangua.me/categories/script/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/categories/script/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Script Snippet to Go Through A Directory</title>
       <link>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</link>

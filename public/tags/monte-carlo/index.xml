@@ -6,11 +6,7 @@
     <description>Recent content in Monte carlo on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://qiangua.me/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The simulation of two dimension Ising model</title>
       <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>

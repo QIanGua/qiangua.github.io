@@ -6,11 +6,7 @@
     <description>Recent content in tools on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://qiangua.me/categories/tools/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>520日記</title>
       <link>https://qiangua.me/post/2018/05/20/520%E6%97%A5%E8%A8%98/</link>
@@ -66,7 +62,7 @@ Buile Texmacs with Cmake on Mac OS Awesome terminal tools list(under Mac):</desc
 多行操作 搜索操作 查找替换 多标签 交换 行交换 思路1，先删除再复制。实际就是用寄存器来当转运站
  yyp
  同理还有词交换，字母交换，句子交换等。同样的道理是：
-现选中目标A，然后删除，标记位置 ‘mm’ 方便返回，再选中目标B ‘vne&amp;rsquo;，再粘贴覆盖，然后返回标记位置‘ `m ’， 粘贴P。
+现选中目标A，然后删除，标记位置 ‘mm’ 方便返回，再选中目标B ‘vne&#39;，再粘贴覆盖，然后返回标记位置‘ `m ’， 粘贴P。
 其他还有类似
 t，m 等用法对于跨行交换会快一些。
 ####　大小写
