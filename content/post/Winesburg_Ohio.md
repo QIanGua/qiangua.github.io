@@ -12,6 +12,4 @@ draft = true
 
 正文
 
-{{< figure src="/ox-hugo/1_2020-03-18_21-02-51.png" >}}
-
-{{< figure src="/ox-hugo/1_2020-03-18_21-02-52.png" >}}
+<!-- {{< figure src="/ox-hugo/test.png" >}} -->

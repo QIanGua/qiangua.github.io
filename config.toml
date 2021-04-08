@@ -2,6 +2,7 @@ baseurl = "https://qiangua.me"
 languageCode = "en-us"
 title = "采采流水"
 theme = "hugo-ivy"
+# theme = "the-roots-home"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
