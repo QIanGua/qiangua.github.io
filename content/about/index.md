@@ -14,7 +14,7 @@ comments: false
 >"The ultimate measure of a man is not where he stands in moments of comfort and convince, but where he stands at times of challenge and controversy"
 >
 
-- 我的性格：溫和、敏感、理性、好奇、自尊(靦腆)
+- 我的性格：--溫和--（不是）、敏感、--理性--（不是）、好奇、自尊(靦腆)
 <!-- - 擅長的事：獨處散步观察周遭、自由看书(最近喜欢看现代诗、短篇小说集、长篇小说)、折腾有趣/小而美的工具 -->
 - 擅長的事：獨處散步观察周遭、自由看书、折腾有趣/小而美的工具
 - 喜歡的運動：羽毛球、-网球- 、爬山
