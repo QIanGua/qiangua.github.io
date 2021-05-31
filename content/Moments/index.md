@@ -9,6 +9,8 @@ comments: false
 > 我们可以有无数个理由去放弃、沮丧、伤心，但还是努力活到了现在。
 >
 > What a wonderful world！
+>
+> ![](https://raw.githubusercontent.com/QIanGua/tuchuang/master/img/20210531095813.png)
 
 -----------------------------------------------
 
