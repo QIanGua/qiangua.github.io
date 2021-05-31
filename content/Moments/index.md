@@ -10,6 +10,7 @@ comments: false
 >
 > What a wonderful world！
 >
+> 浏览时发现一张便条，记录一下
 > ![](https://raw.githubusercontent.com/QIanGua/tuchuang/master/img/20210531095813.png)
 
 -----------------------------------------------
