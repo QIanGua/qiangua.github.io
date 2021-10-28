@@ -16,30 +16,30 @@
       <description>质能公式 \[ E=mc^{2} \]
 \[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
 Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
-插图测试 </description>
+插图测试  </description>
     </item>
     
     <item>
-      <title>LaTex $E=mc^{2}$</title>
-      <link>https://qiangua.me/post/2016/09/07/latex-emc2/</link>
+      <title>LaTeX</title>
+      <link>https://qiangua.me/post/2016/09/07/latex/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/post/2016/09/07/latex-emc2/</guid>
+      <guid>https://qiangua.me/post/2016/09/07/latex/</guid>
       <description>Problem  质能公式 $$ E=mc^{2} $$
 $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
 Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$
-Solution $$ \begin{align*} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi} &amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\
-&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\
-&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\
-&amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\
-&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\
-&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\
-&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\
-&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align*} $$
-$$ \begin{align*} x &amp;amp;= \sqrt{4^2-1^2} \
-&amp;amp;= \sqrt{15}. \end{align*}$$ $$
-$$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \\
-\dot{y} &amp;amp; = &amp;amp;\rho x - y - xz \\</description>
+Solution $$ \begin{align} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi} &amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\\
+&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\\
+&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\\
+&amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\\
+&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\\
+&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\\
+&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\\
+&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align} $$
+$$ \begin{align} x &amp;amp;= \sqrt{4^2-1^2} \\
+&amp;amp;= \sqrt{15}. \end{align} $$
+Lorenz Attractor $$ \begin{align} \dot{x} &amp;amp; = \sigma(y-x) \\
+\dot{y} &amp;amp; = \rho x - y - xz \\</description>
     </item>
     
     <item>

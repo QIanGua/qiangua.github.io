@@ -41,7 +41,7 @@ number of observations: \(N_{observations} = 1000\),
 number of trials: \(N_{trials} = 100\),
 probability of success on each trial: \(X_i(i=1,N_{observations})\),
 mean vale of \(X_i\): \(\overline{X}\)
-library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;- 1000 number_trial &amp;lt;- 100 p_val &amp;lt;- 0.5  trial_mean &amp;lt;- rep(0, number_observation) trial_std &amp;lt;- rep(0, number_observation)  for (idx in 1:number_observation) {  trial = rbinom(number_trial, 1, p_val)  trial_mean[idx] &amp;lt;- mean(trial)  trial_std[idx] &amp;lt;- (sum(trial) - number_trial*p_val) / sqrt(number_trial*p_val*(1-p_val))  }  df &amp;lt;- data.</description>
+library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-1000 number_trial &amp;lt;-100 p_val &amp;lt;-0.5 trial_mean &amp;lt;-rep(0, number_observation) trial_std &amp;lt;-rep(0, number_observation) for (idx in 1:number_observation) { trial =rbinom(number_trial, 1, p_val) trial_mean[idx] &amp;lt;-mean(trial) trial_std[idx] &amp;lt;-(sum(trial) -number_trial*p_val) /sqrt(number_trial*p_val*(1-p_val)) } df &amp;lt;-data.frame(heads = 1:number_observation, trial_mean = trial_mean, trial_std = trial_std) mean_X1 &amp;lt;-df$trial_mean %&amp;gt;%mean() sd_X1 &amp;lt;-df$trial_mean %&amp;gt;%sd() mean_X2 &amp;lt;-df$trial_std %&amp;gt;%mean() sd_X2 &amp;lt;-df$trial_std %&amp;gt;%sd() ggplot(df,aes(x = trial_std)) + geom_histogram(bins = 30, aes(y=.</description>
     </item>
     
     <item>
@@ -361,17 +361,16 @@ What a wonderful world！
 什么是『计算』？ 『计算』是一种机械化的信息处理方式。计算过程需要物理实体来承载，所谓机械化指的是计算结果不依赖于计算载体，你可以用手指算，可以用算盘，可以用计算机。阿兰・图灵深得计算本质，提出了图灵机的构想来作为通用计算模型。整个计算的历史堪称一部惊心动魄的史诗，各种人物不时从历史长河中的涌现。这里要提一下，19世纪查尔斯・巴贝奇制造的『差分机』，其它暂且不表。
 经典计算 比特是目前通用的最小信息单位。1比特有两种可能状态，通常用0，1来编码，比如可以用0来代表硬币向下，1代表向上。两个经典比特共有 \(2^2=4\) 种可能状态\(\{00,01,10,11\}\)，但实际两个给定的比特只能表示出其中的一种。物理上可以用高电压、低电压来实现 0，1两种状态的表示。
 数字0、1与比特的对应，天然给出了数字编码的方式。原则上任意一个数我们都可以通过二进制来编码，从而可以让计算机识别。比特承载了数字的表示，而数字的运算则由各种逻辑门电路来操控（数字电路忘的差不多了就此打住😅）。
-量子计算 计算主义者的世界观：宇宙是台量子计算机，它的算法就是物理学。
+ 量子计算 计算主义者的世界观：宇宙是台量子计算机，它的算法就是物理学。
 量子计算利用量子比特来进行信息处理。不同于经典比特每次只能编码一个数字（0或1），表征一个确定的状态，单个的量子比特可以同时表征两种状态，同时编码0、1两个数字(\(0 \rightarrow |0\rangle, 1\rightarrow |1\rangle\))，这是由量子相干性来保证的。
 学过线性代数的话我们都知道选定一组线性无关的基组之后，任意一个矢量都可以表示为基矢量的线性组合。同样在量子力学中，系统的状态用态矢量 \(|\psi\rangle\) 来描述，任何一个态矢量都可以写为基矢量的线性叠加。
 对于单个的量子比特，为了方便通常选取基矢量为\(|0\rangle、|1\rangle\)，从而任意一个态矢量可以写为基矢量的线性组和即：
 \[ |\psi\rangle = \alpha |0\rangle + \beta|1\rangle. \]
 单个量子比特的状态空间是复空间 \(\mathrm{C}^2\) ，布满了整个布洛赫球面，每个状态对应球面上的一个点。而经典量子比特只有{0,1}两个状态。但要注意的是每次对量子比特测量后仍然只能塌缩得到 0 或 1 两个本征状态。
 所谓量子计算即对量子比特进行操作，但是这种操作是受到限制的，这是由于量子态演化必须服从薛定谔方程，所以必须是保证信息不变的幺正变换。对单个量子比特进行一个运算相当于把 Qubit 从一个状态变成另一个状态，将球面上的一个点变成另一个点。
-\[ |\psi\rangle=\alpha|0\rangle+\beta|1\rangle. \] 两个 Qubit 的话就可以存储4个状态: \[ |\psi_1\psi_2\rangle = c_{00}|00\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{11}|11\rangle=\sum_{i,j=0}^1c_{ij}|ij\rangle. \] 描述 \(n\) 个 Quibt 需要 \(2^n\) 个数字，这是一个快速的指数增长。例如 \(n=10\) ，那就需要大约1024个数来描述所有可能状态。而宇宙中所有原子的总个数也不过是 \(10^{80}\) 左右的量级，由此可见多个量子比特具有了强大的数字表征能力。
+ \[ |\psi\rangle=\alpha|0\rangle+\beta|1\rangle. \] 两个 Qubit 的话就可以存储4个状态: \[ |\psi_1\psi_2\rangle = c_{00}|00\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{11}|11\rangle=\sum_{i,j=0}^1c_{ij}|ij\rangle. \] 描述 \(n\) 个 Quibt 需要 \(2^n\) 个数字，这是一个快速的指数增长。例如 \(n=10\) ，那就需要大约1024个数来描述所有可能状态。而宇宙中所有原子的总个数也不过是 \(10^{80}\) 左右的量级，由此可见多个量子比特具有了强大的数字表征能力。
 对于量子计算机，数字的操作任务是由量子门来实现的。通过量子门的幺正变换能够对于叠加态的所有分量同时进行，这就是量子计算机的天然优势──量子并行性。每一次的量子门操作是同时处理 \(2^n\) 个数字，而传统计算机每次只能处理一个数字。此外经典比特之间是互相独立的，而量子比特之间还可以存在量子纠缠等特性，这里也就不多做涉及了。
-任意两态量子体系都可成为量子比特的载体，如二能级原子、分子或离子，光子偏振态或其它等效的自旋\(1/2\)的粒子。在量子计算中，因为 Qubit 是由原子或者其他微观粒子所构成，很容易受到外部环境的干扰，导致量子态之间纠缠关联的缺失，从而导致计算错误，因此要实现量子计算必须克服量子态之间关联的缺失即相干性的消失，我们称之为退相干。
-PS：我目前的研究方向就是考察玻色子环境对于量子比特(二能级系统)的影响。此时二能级系统两态之间会有量子隧穿作用，这是让系统演化倾向于量子相干的。此外二能级系统自旋与环境玻色子之间的耦合之后会有一个量子耗散作用，这会使系统倾向于让退相干作用。这两种作用之间存在互相竞争的关系，从而对于这一简单的系统也会存在有趣丰富的物理行为。</description>
+任意两态量子体系都可成为量子比特的载体，如二能级原子、分子或离子，光子偏振态或其它等效的自旋\(1/2\)的粒子。在量子计算中，因为 Qubit 是由原子或者其他微观粒子所构成，很容易受到外部环境的干扰，导致量子态之间纠缠关联的缺失，从而导致计算错误，因此要实现量子计算必须克服量子态之间关联的缺失即相干性的消失，我们称之为退相干。</description>
     </item>
     
     <item>
@@ -1087,7 +1086,7 @@ end for
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
-      <description>熵与能量  “We are most likely to observe the most probable state”
+      <description>熵与能量  &amp;quot;We are most likely to observe the most probable state&amp;quot;
  \[ S = k_b\ln\Omega \]
 熵最大：
 能量最低原理：
@@ -1103,7 +1102,7 @@ end for
       <description>质能公式 \[ E=mc^{2} \]
 \[ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) \]
 Proof \[ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y \]
-插图测试 </description>
+插图测试  </description>
     </item>
     
     <item>
@@ -1333,26 +1332,26 @@ Who am I?  &amp;ldquo;A rose by any other name would still smell as sweet.&amp;r
     </item>
     
     <item>
-      <title>LaTex $E=mc^{2}$</title>
-      <link>https://qiangua.me/post/2016/09/07/latex-emc2/</link>
+      <title>LaTeX</title>
+      <link>https://qiangua.me/post/2016/09/07/latex/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/post/2016/09/07/latex-emc2/</guid>
+      <guid>https://qiangua.me/post/2016/09/07/latex/</guid>
       <description>Problem  质能公式 $$ E=mc^{2} $$
 $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$
 Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$
-Solution $$ \begin{align*} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi} &amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\
-&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\
-&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\
-&amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\
-&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\
-&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\
-&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\
-&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align*} $$
-$$ \begin{align*} x &amp;amp;= \sqrt{4^2-1^2} \
-&amp;amp;= \sqrt{15}. \end{align*}$$ $$
-$$ \begin{align} \dot{x} &amp;amp; = &amp;amp; \sigma(y-x) \\
-\dot{y} &amp;amp; = &amp;amp;\rho x - y - xz \\</description>
+Solution $$ \begin{align} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi} &amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\\
+&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\\
+&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\\
+&amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\\
+&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\\
+&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\\
+&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\\
+&amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align} $$
+$$ \begin{align} x &amp;amp;= \sqrt{4^2-1^2} \\
+&amp;amp;= \sqrt{15}. \end{align} $$
+Lorenz Attractor $$ \begin{align} \dot{x} &amp;amp; = \sigma(y-x) \\
+\dot{y} &amp;amp; = \rho x - y - xz \\</description>
     </item>
     
     <item>
