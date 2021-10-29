@@ -44,7 +44,8 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
-    description = " An Essay Concerning Human Understanding"
+    # description = " An Essay Concerning Human Understanding"
+    description = "IT'S A GOOD LIFE IF YOU DON'T WEAKEN"
     footer = "&copy; [Qiangua](https://qiangua.me) 2019 | [Instagram](https://www.instagram.com/mlyqdd/)"
 
   highlightjsVersion = "9.12.0"
