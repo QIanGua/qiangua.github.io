@@ -6,7 +6,16 @@
     <description>Recent content in Tags on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2020 22:53:28 +0800</lastBuildDate><atom:link href="https://qiangua.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Nov 2021 12:13:10 +0800</lastBuildDate><atom:link href="https://qiangua.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs</title>
+      <link>https://qiangua.me/tags/emacs/</link>
+      <pubDate>Sun, 07 Nov 2021 12:13:10 +0800</pubDate>
+      
+      <guid>https://qiangua.me/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>poem</title>
       <link>https://qiangua.me/tags/poem/</link>
@@ -26,6 +35,15 @@
     </item>
     
     <item>
+      <title>R</title>
+      <link>https://qiangua.me/tags/r/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.me/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rmarkdown</title>
       <link>https://qiangua.me/tags/rmarkdown/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
@@ -35,36 +53,18 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>https://qiangua.me/tags/r/</link>
-      <pubDate>Sun, 29 Mar 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qiangua.me/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Note</title>
       <link>https://qiangua.me/tags/note/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/note/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>encrypt</title>
-      <link>https://qiangua.me/tags/encrypt/</link>
-      <pubDate>Thu, 09 Jan 2020 20:49:38 +0800</pubDate>
-      
-      <guid>https://qiangua.me/tags/encrypt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Feeling</title>
       <link>https://qiangua.me/tags/feeling/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/feeling/</guid>
       <description></description>
@@ -73,7 +73,7 @@
     <item>
       <title>efficiency</title>
       <link>https://qiangua.me/tags/efficiency/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/efficiency/</guid>
       <description></description>
@@ -82,7 +82,7 @@
     <item>
       <title>shell</title>
       <link>https://qiangua.me/tags/shell/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/shell/</guid>
       <description></description>
@@ -91,7 +91,7 @@
     <item>
       <title>terminal</title>
       <link>https://qiangua.me/tags/terminal/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/terminal/</guid>
       <description></description>
@@ -445,15 +445,6 @@
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/tags/monte-carlo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>https://qiangua.me/tags/emacs/</link>
-      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/tags/emacs/</guid>
       <description></description>
     </item>
     

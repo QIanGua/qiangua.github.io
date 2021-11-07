@@ -87,23 +87,23 @@
 <li>State &ldquo;DONE&rdquo;       from &ldquo;TODO&rdquo;       <!-- raw HTML omitted --><!-- raw HTML omitted -->[2019-12-16 Mon 00:34]<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
 </ul>
 <h2 id="symmetric-cryptography">Symmetric Cryptography</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl aes-256-cbc -a -e -in file-in.txt -inkey key.txt -out file-out.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl aes-256-cbc -a -e -in file-in.txt -inkey key.txt -out file-out.txt
 openssl aes-256-cbc -a -d -in file-in.txt -inkey key.txt -out file-out.txt</code></pre></div>
 <h2 id="asymmetric-cryptography">Asymmetric Cryptography</h2>
 <h3 id="generate-private-key">generate private key</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl genrsa -out private.pem <span style="color:#ae81ff">1024</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl genrsa -out private.pem <span style="color:#ae81ff">1024</span></code></pre></div>
 <h3 id="generate-public-key-from-private-key">generate public key from private key</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsa -in private.pem -pubout -out public.pem</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsa -in private.pem -pubout -out public.pem</code></pre></div>
 <h3 id="encrypt-file-with-public-key">encrypt file with public key</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsautl -encrypt -in test.org -inkey public.pem -pubin -out encrypted.inc</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsautl -encrypt -in test.org -inkey public.pem -pubin -out encrypted.inc</code></pre></div>
 <h3 id="decrypt-file-wiht-private-key">decrypt file wiht private key</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsatul -decrypt -in encrypted.inc -inkey private.pem -out decrypted.org</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsatul -decrypt -in encrypted.inc -inkey private.pem -out decrypted.org</code></pre></div>
 <h2 id="gnugpg">GNUGPG</h2>
 <p>GNUGPG is a practical terminal tool for encryption. Here are two typical commands</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --encrypt -r ID test.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --encrypt -r ID test.txt
 gpg --decrypt test.txt.gpg --out-put test.de.txt</code></pre></div>
 <p>An effective usage:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias gpge<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gpg --encrypt -r USER_ID | $(fzf)&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias gpge<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gpg --encrypt -r USER_ID | $(fzf)&#39;</span>
 alias gpgd<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gpg --decrypt | $(fzf)&#39;</span></code></pre></div>
 
 

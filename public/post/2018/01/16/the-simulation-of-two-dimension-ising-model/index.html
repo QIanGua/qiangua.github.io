@@ -188,7 +188,7 @@ $$</p>
 <p>模拟过程中要注意的一点是初始构型选定后，必须先让系统演化到平衡态，然后再开始进行 <strong>Metropolis</strong> 抽样， 因为在平衡态统计的框架下，系统只有到达平衡态之后各个物理量才能有确定的意义。</p>
 <p>在验证程序正确性的时候，先选择尺寸为 $2\times 2$ 的格点，从平均磁化率和磁化强度和温度的关系来看临界温度，发现与解析结果差别较大，而从热容来看是与理论的临界温度$T_c$ 相吻合的。初步排除过非平衡因素之后，剩下的可能原因是体系的尺寸效应有关。 一方面实际在验证过程中，逐渐加大体系尺寸，可以观察到逐渐接近理论临界温度，另一方面还可能需要考察一下热容 和 磁化率、磁化强度计算准确度对尺寸的依赖情况。</p>
 <h2 id="代码附录">代码附录</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#  PROGRAM DESCRIPITION:</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#  PROGRAM DESCRIPITION:</span>
 <span style="color:#75715e"># This program is  used to smimulate the 2 dimenssion Ising mdoel using</span>
 <span style="color:#75715e"># the metropolis algorithm.</span>
 <span style="color:#75715e">#</span>
@@ -199,10 +199,10 @@ $$</p>
 
 
 <span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> division
-<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
 
 <span style="color:#f92672">from</span> numpy.random <span style="color:#f92672">import</span> rand    <span style="color:#75715e"># to get the random number</span>
-<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt  <span style="color:#75715e"># to plot</span>
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt  <span style="color:#75715e"># to plot</span>
 
 
 <span style="color:#75715e"># ------------------------------------------------------------------------------------------------</span>
@@ -326,25 +326,25 @@ fig <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>);
 plt<span style="color:#f92672">.</span>plot(T_arr, Energy, <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#6699A1&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Energy(${E}$)&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature ($</span><span style="color:#e6db74">{T}</span><span style="color:#e6db74">$)&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Energy($</span><span style="color:#e6db74">{E}</span><span style="color:#e6db74">$)&#34;</span>, fontsize <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>);
 
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>);
 plt<span style="color:#f92672">.</span>plot(T_arr, abs(Magnetization), <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#F75C2F&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Magnetization(${M}$) &#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature ($</span><span style="color:#e6db74">{T}</span><span style="color:#e6db74">$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Magnetization($</span><span style="color:#e6db74">{M}</span><span style="color:#e6db74">$) &#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>);
 plt<span style="color:#f92672">.</span>plot(T_arr, SpecificHeat, <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#6699A1&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
-plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Specific Heat(${C_v}$) &#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature ($</span><span style="color:#e6db74">{T}</span><span style="color:#e6db74">$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Specific Heat($</span><span style="color:#e6db74">{C_v}</span><span style="color:#e6db74">$) &#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 
 
 sp  <span style="color:#f92672">=</span> fig<span style="color:#f92672">.</span>add_subplot(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>);
 plt<span style="color:#f92672">.</span>plot(T_arr, Susceptibility, <span style="color:#e6db74">&#39;o&#39;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#F75C2F&#34;</span>);
-plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature (${T}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Temperature ($</span><span style="color:#e6db74">{T}</span><span style="color:#e6db74">$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Susceptibility(${\chi}$)&#34;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>);
 </code></pre></div>
 

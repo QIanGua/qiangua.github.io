@@ -6,7 +6,16 @@
     <description>Recent content on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2020 22:53:28 +0800</lastBuildDate><atom:link href="https://qiangua.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Nov 2021 12:13:10 +0800</lastBuildDate><atom:link href="https://qiangua.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypting The Subtree of An Org File</title>
+      <link>https://qiangua.me/post/2021/11/07/encrypting-the-subtree-of-an-org-file/</link>
+      <pubDate>Sun, 07 Nov 2021 12:13:10 +0800</pubDate>
+      
+      <guid>https://qiangua.me/post/2021/11/07/encrypting-the-subtree-of-an-org-file/</guid>
+      <description>&lt;p&gt;This is a test to encrypt part of a whole org file.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>The Invitation</title>
       <link>https://qiangua.me/post/2020/04/11/the-invitation/</link>
@@ -29,6 +38,15 @@
     </item>
     
     <item>
+      <title>Notes about useful packages and functions in R Language</title>
+      <link>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</guid>
+      <description>&lt;p&gt;In this post, I will record some common R&amp;rsquo;s packages and functions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Verifying Central Limit Theorem with R Language</title>
       <link>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
@@ -45,27 +63,18 @@ library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-10
     </item>
     
     <item>
-      <title>Notes about useful packages and functions in R Language</title>
-      <link>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</link>
-      <pubDate>Sun, 29 Mar 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</guid>
-      <description>&lt;p&gt;In this post, I will record some common R&amp;rsquo;s packages and functions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Rmarkdown 多图测试</title>
       <link>https://qiangua.me/post/2020/03/19/rmarkdown-%E5%A4%9A%E5%9B%BE%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2020/03/19/rmarkdown-%E5%A4%9A%E5%9B%BE%E6%B5%8B%E8%AF%95/</guid>
-      <description>section plot(mtcars)   plot(pressure)   </description>
+      <description>section plot(mtcars)  plot(pressure)  </description>
     </item>
     
     <item>
       <title>Notes about How the Economic Machine Works</title>
       <link>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</guid>
       <description>&lt;blockquote&gt;
@@ -74,18 +83,9 @@ library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-10
     </item>
     
     <item>
-      <title>Encrypting The Subtree of An Org File</title>
-      <link>https://qiangua.me/post/2020/01/09/encrypting-the-subtree-of-an-org-file/</link>
-      <pubDate>Thu, 09 Jan 2020 20:49:38 +0800</pubDate>
-      
-      <guid>https://qiangua.me/post/2020/01/09/encrypting-the-subtree-of-an-org-file/</guid>
-      <description>&lt;p&gt;This is a test to encrypt part of a whole org file.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>无题</title>
       <link>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;
@@ -96,7 +96,7 @@ library(ggplot2) library(magrittr) set.seed(2020) number_observation &amp;lt;-10
     <item>
       <title>My Favourite Terminal Tools</title>
       <link>https://qiangua.me/post/2020/01/01/my-favourite-terminal-tools/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2020/01/01/my-favourite-terminal-tools/</guid>
       <description>&lt;p&gt;In this post, I will introduce some efficient terminal tools.&lt;/p&gt;</description>

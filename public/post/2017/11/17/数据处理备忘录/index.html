@@ -91,7 +91,7 @@
 <h2 id="matlab-遍历文件夹读取数据">Matlab 遍历文件夹读取数据</h2>
 <p>主要处理的是ASCII的dat文件，使用dlmread来读取。</p>
 <p>一个小型Matlab脚本样例：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% data format [time rho11 rho22 .....]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% data format [time rho11 rho22 .....]</span>
 <span style="color:#75715e">% file address</span>
 address=<span style="color:#e6db74">&#39;E:\desk\alpha0.6_calculation\converge\&#39;</span>;
 
@@ -117,7 +117,7 @@ plot(time_array,data(:,<span style="color:#ae81ff">1</span>:dim))
 <p>之前一直使用Matlab的cftool 拟合工具箱来完成拟合工作，但是它只适用于单次拟合，不适和一次性进行批量拟合，</p>
 <p>故此重新找一些可以进行批量拟合的方法。一个是尝试使用Python来完成， 这肯定是可以做的事情。另一个就是使用</p>
 <p>matlab 的fit 函数，这个相对来说所需更少的精力， 就先从matlab开始吧。废话少说，上代码：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% multi-fitting</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-matlab" data-lang="matlab"><span style="color:#75715e">% multi-fitting</span>
 <span style="color:#75715e">% prediction the converge data</span>
 
 hier=[<span style="color:#ae81ff">6</span>:<span style="color:#ae81ff">9</span>]<span style="color:#f92672">&#39;</span>;

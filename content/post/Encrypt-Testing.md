@@ -1,8 +1,8 @@
 +++
 title = "Encrypting The Subtree of An Org File"
 author = ["Qiangua"]
-lastmod = 2020-01-09T20:49:38+08:00
-tags = ["encrypt"]
+lastmod = 2021-11-07T12:13:10+08:00
+tags = ["emacs"]
 draft = false
 +++
 
@@ -11,7 +11,7 @@ This is a test to encrypt part of a whole org file.
 <!--more-->
 
 
-## Public Subtree {#public-subtree}
+## <span class="section-num">1</span> Public Subtree {#public-subtree}
 
 > Looking up at the stars, I know quite well
 >
@@ -46,20 +46,20 @@ This is a test to encrypt part of a whole org file.
 > Though this might take me a little time.
 
 
-## Private Subtree {#private-subtree}
+## <span class="section-num">2</span> Private Subtree {#private-subtree}
+
+In Emacs, select the region then run **epa-encrypt-region**
 
 -----BEGIN PGP MESSAGE-----
-
-jA0EBwMC/WtB0aaTBurn0sDgAdSZ/Aao5rOlTDm3VJtMtQ18xWa52v8QfNTfYaym
-vqcxdpVtNHepzBPx16iaFP3Ws0vza8nzgZi1VwAyhqNc0bWpIidzaalp5pUSbjdD
-rYqDWwEmD3jgpWj3XkcYVmmqIBNnMRz0JZ/1Qj88Co1TRvSDmy3Nn8T6QCgMUjnN
-cNZY9/sp1bJgy9bO/phD48lGcSsR8Y46ORi0ol4tO10KKPjfXoQrc743EMFDeOgQ
-5zNq7+EMUpE6TFgfHi0TX0FYBw7/dv6QgvKG7TTzyUPRjWgnxZDBNInIAEw6EWAt
-ft4Oi4wVKsyLzHjCeN/P/7fbhvYFGi2ALQCkDn9iPsSIRyGxd2vCCsH0JhabsuSG
-5OUQiHxwu5XZk/wZpV3lgbYEXLfrqJQWi/JT7JTaxLQCr4rzAb+ZayVLQCGYzA54
-1e46JkNr8brKzSCFdqIL0me0BXnDkXtw0I/9XbOuMLIJ0gSwxyC80xlA6nG14qv4
-48rSbyQCGN6982XMUQFnWLz1XdKe9VuaPiDWkUKj4ZXjKrpyaitHW134KmijnKuW
-9kQ=
-=2Nr2
-
+jA0ECQMCK4MMiXzaF4bx0sDjAaN0o5/IS9PL0JIUkKMMdx1UoR6hZJ+XoZJiV4q5
+LknHfBYCHkX0YS6JB/4pjGADGE/y0R4DLsIRUAJdG6EJ2bxxUV1WYXC8KRhn63ak
+4NIiu74uE2PZ2u2DymeGVkRlQhAArOPdXKrj/apQ8kivolgDGHPIpwjpKPULnqTc
+wPXuKZA7wv4M0vleEpFD+houGEVkop3Kq7dU5zlHz9zlhgSDHq9tpt0i7TlK+WrV
+cwerWAhUb9p73KgNLqK5kZoLVNhx/5lPtGgIkpq2QcavpNxQEWdcH1TXXCND+rZs
+sw/GvztPCKNDEOH2CEI4w1W+jMELYuORt5GmNGcSJQkdf5pzIKdYHRqzKYONuTjy
+YJ5cEhQmymoRvvM6dE8FyB24PFiHpKU8Y8KkHGQbX2QnLuWk6kvNKXmz3b65MBgU
+5+ewMEbrqLhhWweIKgQ/ZR00Rny1Tp9uH5kPPC5Pqi3hNesiUi8yWm6eBvQJZwE0
+ud2fkuyByxijUedmiTBpTCvKN8pLnKhYNesGF2qpVvKYU2Myw0acoBXYFZ29l3Q/
+ZXz9HSg=
+=cxTF
 -----END PGP MESSAGE-----
