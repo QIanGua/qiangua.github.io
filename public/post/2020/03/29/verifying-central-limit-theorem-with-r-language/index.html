@@ -1,170 +1,373 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Verifying Central Limit Theorem with R Language - 采采流水</title>
-    <meta property="og:title" content="Verifying Central Limit Theorem with R Language - 采采流水">
-    
-    <meta name="twitter:card" content="summary">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Verifying Central Limit Theorem with R Language - 采采流水</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-    
-      
-    
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    
-      
-      <meta property="description" content="一个随机量可能是 \(1\),也可能是 \(‐1\)。两个值的几率都是 \(1/2\)。现进行 \(1000\) 次实验,每次实验进行 \(100\) 次随机量测试。模拟这个实验, 验证中心极限定理。
-Sloution:
-Definition:
-number of observations: \(N_{observations} = 1000\),
-number of trials: &amp;hellip;">
-      <meta property="og:description" content="一个随机量可能是 \(1\),也可能是 \(‐1\)。两个值的几率都是 \(1/2\)。现进行 \(1000\) 次实验,每次实验进行 \(100\) 次随机量测试。模拟这个实验, 验证中心极限定理。
-Sloution:
-Definition:
-number of observations: \(N_{observations} = 1000\),
-number of trials: &amp;hellip;">
-      
-    
-
-    
-    
-
-    
-
-    
-    
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+<meta name="author" content="Qiangua" /><meta name="description" content="Question 一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    
-  </head>
+
+
+
+<meta name="generator" content="Hugo 0.102.3 with theme even" />
+
+
+<link rel="canonical" href="https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Verifying Central Limit Theorem with R Language" />
+<meta property="og:description" content="Question 一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-03-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-29T00:00:00+00:00" />
+
+<meta itemprop="name" content="Verifying Central Limit Theorem with R Language">
+<meta itemprop="description" content="Question 一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极"><meta itemprop="datePublished" content="2020-03-29T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-03-29T00:00:00+00:00" />
+<meta itemprop="wordCount" content="259">
+<meta itemprop="keywords" content="Rmarkdown," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Verifying Central Limit Theorem with R Language"/>
+<meta name="twitter:description" content="Question 一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Even</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a><a href="/books/">
+        <li class="mobile-menu-item">Books</li>
+      </a><a href="/index.xml">
+        <li class="mobile-menu-item">Subscribe</li>
+      </a>
+  </ul>
 
   
-  <body class="post">
-    <header class="masthead">
-      <h1><a href="/">采采流水</a></h1>
 
-<p class="tagline">IT&#39;S A GOOD LIFE IF YOU DON&#39;T WEAKEN</p>
 
-      <nav class="menu">
-  <input id="menu-check" type="checkbox" />
-  <label id="menu-label" for="menu-check" class="unselectable">
-    <span class="icon close-icon">✕</span>
-    <span class="icon open-icon">☰</span>
-    <span class="text">Menu</span>
-  </label>
-  <ul>
-  
-  
-  <li><a href="/">Home</a></li>
-  
-  <li><a href="/about/">About</a></li>
-  
-  <li><a href="/books/">Books</a></li>
-  
-  <li><a href="/index.xml">Subscribe</a></li>
-  
-  
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Even</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/books/">Books</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/index.xml">Subscribe</a>
+      </li>
   </ul>
 </nav>
 
     </header>
 
-    <article class="main">
-      <header class="title">
-      
-<h1>Verifying Central Limit Theorem with R Language</h1>
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Verifying Central Limit Theorem with R Language</h1>
 
-<h3>Qiangua
-  /  2020-03-29</h3>
-<hr>
+      <div class="post-meta">
+        <span class="post-time"> 2020-03-29 </span>
+        
+          <span class="more-meta"> 259 words </span>
+          <span class="more-meta"> 1 min read </span>
+        
+      </div>
+    </header>
 
-
-      </header>
-
-
-
-<h2 id="question">Question</h2>
-<p><strong>一个随机量可能是 <span class="math inline">\(1\)</span>,也可能是 <span class="math inline">\(‐1\)</span>。两个值的几率都是 <span class="math inline">\(1/2\)</span>。现进行 <span class="math inline">\(1000\)</span> 次实验,每次实验进行 <span class="math inline">\(100\)</span> 次随机量测试。模拟这个实验, 验证中心极限定理。</strong></p>
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#question">Question</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="question">Question</h2>
+<p><strong>一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极限定理。</strong></p>
 <p><strong>Sloution:</strong></p>
 <p>Definition:</p>
-<p>number of observations: <span class="math inline">\(N_{observations} = 1000\)</span>,</p>
-<p>number of trials: <span class="math inline">\(N_{trials} = 100\)</span>,</p>
-<p>probability of success on each trial: <span class="math inline">\(X_i(i=1,N_{observations})\)</span>,</p>
-<p>mean vale of <span class="math inline">\(X_i\)</span>: <span class="math inline">\(\overline{X}\)</span></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
-<span class="kw">library</span>(magrittr)
-<span class="kw">set.seed</span>(<span class="dv">2020</span>)
-number_observation &lt;-<span class="st"> </span><span class="dv">1000</span>
-number_trial &lt;-<span class="st"> </span><span class="dv">100</span>
-p_val &lt;-<span class="st"> </span><span class="fl">0.5</span>
-
-trial_mean &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="dv">0</span>, number_observation)
-trial_std &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="dv">0</span>, number_observation)
-
-<span class="cf">for</span> (idx <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>number_observation) {
-  trial =<span class="st"> </span><span class="kw">rbinom</span>(number_trial, <span class="dv">1</span>, p_val)
-  trial_mean[idx] &lt;-<span class="st"> </span><span class="kw">mean</span>(trial)
-  trial_std[idx] &lt;-<span class="st"> </span>(<span class="kw">sum</span>(trial) <span class="op">-</span><span class="st"> </span>number_trial<span class="op">*</span>p_val) <span class="op">/</span><span class="st"> </span><span class="kw">sqrt</span>(number_trial<span class="op">*</span>p_val<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>p_val)) 
-}
-
-df &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">heads =</span> <span class="dv">1</span><span class="op">:</span>number_observation,
-                 <span class="dt">trial_mean =</span> trial_mean,
-                 <span class="dt">trial_std =</span> trial_std)
-
-mean_X1 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_mean <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mean</span>()
-sd_X1 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_mean <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">sd</span>()
-
-mean_X2 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_std <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mean</span>()
-sd_X2 &lt;-<span class="st"> </span>df<span class="op">$</span>trial_std <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">sd</span>()
-
-<span class="kw">ggplot</span>(df,<span class="kw">aes</span>(<span class="dt">x =</span> trial_std)) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="dt">bins =</span> <span class="dv">30</span>, <span class="kw">aes</span>(<span class="dt">y=</span>..density..),<span class="dt">color =</span> <span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="fl">0.5</span>, <span class="dt">fill =</span> <span class="st">&quot;gray&quot;</span>) <span class="op">+</span>
-<span class="st">  </span><span class="kw">stat_function</span>(<span class="dt">fun =</span> dnorm, <span class="dt">args =</span> <span class="kw">list</span>(<span class="dt">mean =</span> mean_X2 , <span class="dt">sd =</span> sd_X2), <span class="dt">colour =</span> <span class="st">&quot;red&quot;</span>, <span class="dt">size=</span><span class="dv">1</span>) <span class="op">+</span><span class="st"> </span>
-<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">breaks=</span><span class="kw">seq</span>(<span class="op">-</span><span class="dv">3</span>,<span class="op">+</span><span class="dv">3</span>,<span class="dv">1</span>), <span class="dt">limits=</span><span class="kw">c</span>(<span class="op">-</span><span class="dv">3</span>,<span class="op">+</span><span class="dv">3</span>)) <span class="op">+</span><span class="st"> </span>
-<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks=</span><span class="kw">seq</span>(<span class="dv">0</span>,<span class="fl">0.5</span>,<span class="fl">0.1</span>),<span class="dt">limits =</span> <span class="kw">c</span>(<span class="dv">0</span>,<span class="fl">0.5</span>)) <span class="op">+</span>
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;means&quot;</span>) <span class="op">+</span><span class="st"> </span>
-<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;density&quot;</span>)</code></pre></div>
-<figure><img src="/ox-hugo/unnamed-chunk-1-1.png"/>
+<p>number of observations: $N_{observations} = 1000$,</p>
+<p>number of trials: $ N_{trials} = 100 $,</p>
+<p>probability of success on each trial: $ X_i(i=1,N_{observations}) $,</p>
+<p>mean vale of $X_i$: $ \overline{X} $</p>
+<p>$$
+F=ma
+$$</p>
+<p>$E=mc^2$</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">magrittr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">set.seed</span><span class="p">(</span><span class="m">2020</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">number_observation</span> <span class="o">&lt;-</span> <span class="m">1000</span>
+</span></span><span class="line"><span class="cl"><span class="n">number_trial</span> <span class="o">&lt;-</span> <span class="m">100</span>
+</span></span><span class="line"><span class="cl"><span class="n">p_val</span> <span class="o">&lt;-</span> <span class="m">0.5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">trial_mean</span> <span class="o">&lt;-</span> <span class="nf">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">number_observation</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">trial_std</span> <span class="o">&lt;-</span> <span class="nf">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">number_observation</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">for </span><span class="p">(</span><span class="n">idx</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="n">number_observation</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">trial</span> <span class="o">=</span> <span class="nf">rbinom</span><span class="p">(</span><span class="n">number_trial</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">p_val</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">trial_mean[idx]</span> <span class="o">&lt;-</span> <span class="nf">mean</span><span class="p">(</span><span class="n">trial</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">trial_std[idx]</span> <span class="o">&lt;-</span> <span class="p">(</span><span class="nf">sum</span><span class="p">(</span><span class="n">trial</span><span class="p">)</span> <span class="o">-</span> <span class="n">number_trial</span><span class="o">*</span><span class="n">p_val</span><span class="p">)</span> <span class="o">/</span> <span class="nf">sqrt</span><span class="p">(</span><span class="n">number_trial</span><span class="o">*</span><span class="n">p_val</span><span class="o">*</span><span class="p">(</span><span class="m">1</span><span class="o">-</span><span class="n">p_val</span><span class="p">))</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">df</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">heads</span> <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="n">number_observation</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                 <span class="n">trial_mean</span> <span class="o">=</span> <span class="n">trial_mean</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                 <span class="n">trial_std</span> <span class="o">=</span> <span class="n">trial_std</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mean_X1</span> <span class="o">&lt;-</span> <span class="n">df</span><span class="o">$</span><span class="n">trial_mean</span> <span class="o">%&gt;%</span> <span class="nf">mean</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">sd_X1</span> <span class="o">&lt;-</span> <span class="n">df</span><span class="o">$</span><span class="n">trial_mean</span> <span class="o">%&gt;%</span> <span class="nf">sd</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mean_X2</span> <span class="o">&lt;-</span> <span class="n">df</span><span class="o">$</span><span class="n">trial_std</span> <span class="o">%&gt;%</span> <span class="nf">mean</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">sd_X2</span> <span class="o">&lt;-</span> <span class="n">df</span><span class="o">$</span><span class="n">trial_std</span> <span class="o">%&gt;%</span> <span class="nf">sd</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">trial_std</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_histogram</span><span class="p">(</span><span class="n">bins</span> <span class="o">=</span> <span class="m">30</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">..density..</span><span class="p">),</span><span class="n">color</span> <span class="o">=</span> <span class="s">&#34;black&#34;</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="m">0.5</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="s">&#34;gray&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">stat_function</span><span class="p">(</span><span class="n">fun</span> <span class="o">=</span> <span class="n">dnorm</span><span class="p">,</span> <span class="n">args</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">mean</span> <span class="o">=</span> <span class="n">mean_X2</span> <span class="p">,</span> <span class="n">sd</span> <span class="o">=</span> <span class="n">sd_X2</span><span class="p">),</span> <span class="n">colour</span> <span class="o">=</span> <span class="s">&#34;red&#34;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="m">1</span><span class="p">)</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">scale_x_continuous</span><span class="p">(</span><span class="n">breaks</span><span class="o">=</span><span class="nf">seq</span><span class="p">(</span><span class="m">-3</span><span class="p">,</span><span class="m">+3</span><span class="p">,</span><span class="m">1</span><span class="p">),</span> <span class="n">limits</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">-3</span><span class="p">,</span><span class="m">+3</span><span class="p">))</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">scale_y_continuous</span><span class="p">(</span><span class="n">breaks</span><span class="o">=</span><span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0.5</span><span class="p">,</span><span class="m">0.1</span><span class="p">),</span><span class="n">limits</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0.5</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">xlab</span><span class="p">(</span><span class="s">&#34;means&#34;</span><span class="p">)</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ylab</span><span class="p">(</span><span class="s">&#34;density&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><figure><img src="/ox-hugo/unnamed-chunk-1-1.png"/>
 </figure>
 
 
+    </div>
 
-  <footer>
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Qiangua</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2020-03-29
+        
+    </span>
+  </p>
   
-  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
   
-  
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/python.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/lisp.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
-
-  
-  <hr>
-  <div class="copyright">© <a href="https://qiangua.me">Qiangua</a> 2019 | <a href="https://www.instagram.com/mlyqdd/">Instagram</a></div>
-  
-  </footer>
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/rmarkdown/">Rmarkdown</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/2019/11/24/anual-recommendation/">
+            <span class="next-text nav-default">Anual Recommendation</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
   </article>
-  
-  </body>
-</html>
+        </div>
+        
 
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://stackoverflow.com/users/7522764/peace-wang" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://www.instagram.com/mlyqdd/" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="https://qiangua.me/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>QianGua</span>
+  </span>
+</div>
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams',
+        }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,5 +1,5 @@
-#!/usr/local/bin/zsh
-/usr/local/bin/hugo
+#!/usr/bin/zsh
+/opt/homebrew/bin/hugo
 git add --all
 git commit -a -m "deploy from Alfred"
 git push -u origin master

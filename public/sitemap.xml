@@ -1,578 +1,207 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="https://qiangua.me/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
   <url>
-    <loc>https://qiangua.me/tags/emacs/</loc>
-    <lastmod>2021-11-07T12:13:10+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2021/11/07/encrypting-the-subtree-of-an-org-file/</loc>
-    <lastmod>2021-11-07T12:13:10+08:00</lastmod>
-  </url><url>
     <loc>https://qiangua.me/post/</loc>
-    <lastmod>2021-11-07T12:13:10+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/</loc>
-    <lastmod>2021-11-07T12:13:10+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/</loc>
-    <lastmod>2021-11-07T12:13:10+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/poem/</loc>
-    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/04/11/the-invitation/</loc>
-    <lastmod>2020-04-11T22:53:28+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E6%80%9D%E8%BE%A8/</loc>
-    <lastmod>2020-04-02T23:31:59+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/04/02/%E7%90%86%E6%80%A7%E7%9A%84%E5%B1%80%E9%99%90-%E4%B8%80%E4%B8%AA%E7%A4%BE%E6%9C%83%E5%AD%B8%E7%9A%84%E8%A7%86%E8%A7%92draft/</loc>
-    <lastmod>2020-04-02T23:31:59+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/03/29/notes-about-useful-packages-and-functions-in-r-language/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/r/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/rmarkdown/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/03/19/rmarkdown-%E5%A4%9A%E5%9B%BE%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/note/</loc>
-    <lastmod>2020-01-12T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/01/12/notes-about-how-the-economic-machine-works/</loc>
-    <lastmod>2020-01-12T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/feeling/</loc>
-    <lastmod>2020-03-13T07:58:59+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/01/06/%E6%97%A0%E9%A2%98/</loc>
-    <lastmod>2020-03-13T07:58:59+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/efficiency/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2020/01/01/my-favourite-terminal-tools/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/shell/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/terminal/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/code/</loc>
-    <lastmod>2020-03-10T10:20:14+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/12/30/insert-shebang/</loc>
-    <lastmod>2020-03-10T10:20:14+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/curious/</loc>
-    <lastmod>2019-12-22T22:36:01+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/12/16/encryption/</loc>
-    <lastmod>2019-12-22T22:36:01+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/12/16/the-more-loving-one/</loc>
-    <lastmod>2019-12-19T14:23:36+08:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2019/11/24/anual-recommendation/</loc>
     <lastmod>2019-12-04T14:26:33+08:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/recommendation/</loc>
     <lastmod>2019-12-04T14:26:33+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/blog/</loc>
-    <lastmod>2019-11-23T21:33:52+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/11/20/deploy-hugo-blog-on-netlify/</loc>
-    <lastmod>2019-11-23T21:33:52+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/netlify/</loc>
-    <lastmod>2019-11-23T21:33:52+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/org/</loc>
-    <lastmod>2019-12-24T14:33:40+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/11/19/writing-hugo-blog-in-org/</loc>
-    <lastmod>2019-12-24T14:33:40+08:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/memory/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/portrait/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/10/11/%E6%88%91%E7%9A%84%E7%88%B7%E7%88%B7%E8%AE%B0%E5%BF%86%E9%97%AA%E5%9B%9E/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/fitting/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/10/10/fitting-function-of-susceptibility/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/try/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/10/09/a-script-snippet-to-go-through-a-directory/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/matlab/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/script/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/efficiency/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/09/09/find-in-terminal/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/physics/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</loc>
-    <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/moments/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/language/</loc>
-    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E6%BC%AB%E6%B8%B8/</loc>
-    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</loc>
     <lastmod>2019-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/japanese/</loc>
-    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/qubit/</loc>
-    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/06/17/%E6%97%A5%E6%96%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</loc>
-    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/05/20/rss-%E7%AE%80%E6%98%8E%E6%B6%88%E6%81%AF%E8%AE%A2%E9%98%85/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/thinking/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/private/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/05/19/%E7%9F%AD%E6%9C%9F%E8%AE%A1%E5%88%92/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/04/15/basical-softwares/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/computer/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/software/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/ky/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/ky/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2019/01/29/%E7%9F%A5%E8%80%BB%E5%90%8E%E5%8B%87/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E6%97%A0%E9%A2%98/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/11/25/%E6%97%A0%E9%A2%98/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/study/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/summary/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/09/21/workshop/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/categories/</loc>
+    <lastmod>2018-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/cs/</loc>
     <lastmod>2018-09-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/categories/technique/</loc>
     <lastmod>2018-09-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</loc>
     <lastmod>2018-09-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</loc>
     <lastmod>2018-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/quotes/</loc>
-    <lastmod>2018-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/quotes/</loc>
-    <lastmod>2018-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/07/19/quotes/</loc>
-    <lastmod>2018-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/random/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/07/13/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/latex/</loc>
-    <lastmod>2018-07-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/07/11/latex-%E6%8E%92%E7%89%88%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-07-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/data/</loc>
-    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/summary/</loc>
+    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/git/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/paper/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/plot/</loc>
-    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/06/06/ways-of-plotting/</loc>
-    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/daily/</loc>
-    <lastmod>2018-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E5%85%B4%E8%A7%82%E7%BE%A4%E6%80%A8/</loc>
-    <lastmod>2018-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/30/%E5%B0%8F%E7%AA%97%E5%B9%BD%E8%AE%B0/</loc>
-    <lastmod>2018-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/book/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/23/%E5%AF%BB%E6%83%85%E4%B9%8B%E4%BD%9C/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E6%80%A1%E6%83%85/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/20/520%E6%97%A5%E8%A8%98/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/record/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/tools/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/12/records-related-with-my-mac/</loc>
-    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/post/2018/05/11/mac-%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</loc>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/tools/</loc>
     <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/updating/</loc>
-    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/vim/</loc>
-    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/11/vim-%E4%BF%AE%E7%82%BC%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/11/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</loc>
-    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/08/the-universe-in-a-glass-of-wine/</loc>
-    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E6%9D%82/</loc>
-    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/05/04/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-1/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/04/11/get-data-from-the-figure/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/tool/</loc>
-    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E4%BF%AE%E5%9B%BE/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/03/15/%E4%BF%AE%E5%9B%BE%E7%AE%80%E8%AE%B0/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/relax/</loc>
-    <lastmod>2018-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/03/06/%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83%E8%BF%BD%E5%BF%86%E7%AF%87/</loc>
-    <lastmod>2018-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/physics/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/03/01/spectral-density-function/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/heom/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/02/25/heom-and-linear-response/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/02/25/linear-response-theory/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/lr/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/pyhsics/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/summary/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/02/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/01/24/%E6%B9%96%E5%BF%83%E4%BA%AD%E7%9C%8B%E9%9B%AA/</loc>
-    <lastmod>2018-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E8%97%9D%E6%96%87/</loc>
-    <lastmod>2018-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E9%9A%A8%E7%AD%86/</loc>
-    <lastmod>2018-01-24T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/ising-model/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/tags/monte-carlo/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/categories/physics/</loc>
+    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2018/01/02/latextools-%E5%AE%9E%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/12/27/auctex-%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2017-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/tex/</loc>
-    <lastmod>2017-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/life/</loc>
-    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/12/05/%E4%B8%8D%E8%A6%81%E8%B8%8F%E8%BF%9B%E9%82%A3%E8%89%AF%E5%A4%9C/</loc>
-    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/28/%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E6%A0%87%E5%87%86/</loc>
-    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E5%8F%A4%E6%96%87/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/18/%E5%8F%A4%E6%96%87%E9%80%89%E8%AF%BB%E7%9B%AE%E5%BD%95/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E7%B2%BE%E8%AF%BB/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/orgranization/</loc>
-    <lastmod>2017-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/17/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
-    <lastmod>2017-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/auto/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E6%80%A7%E6%A0%BC/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/16/%E6%96%87%E4%BB%B6%E6%95%B4%E7%90%86%E6%9C%AF/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E6%9C%AC%E6%88%91/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/16/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%93%9D%E5%9B%BE/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/16/%E8%87%AA%E6%88%91%E5%89%96%E6%9E%90/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/11/03/flow-plot/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/thinking/</loc>
-    <lastmod>2017-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/10/30/%E7%89%87%E8%AF%AD%E5%8F%AA%E8%A8%80/</loc>
-    <lastmod>2017-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/idea/</loc>
-    <lastmod>2017-10-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/10/24/%E9%87%8D%E8%A6%81%E7%9A%84%E6%80%9D%E6%83%B3/</loc>
-    <lastmod>2017-10-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/10/23/autosave-program/</loc>
-    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/fortran/</loc>
-    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/heom/</loc>
-    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/10/21/%E5%88%A9%E5%99%A8%E6%B8%85%E5%8D%95/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/algorithm/</loc>
-    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</loc>
-    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/27/formula-test/</loc>
-    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/quantum/</loc>
-    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/23/%E6%9D%82%E4%BA%8B%E4%B8%80%E5%88%99/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E7%90%90%E4%BA%8B/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/22/the-algorithm-to-find-the-auxiliary-field/</loc>
-    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/hexo/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E6%83%85%E7%BB%AA/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/17/%E6%83%85%E7%BB%AA%E6%B5%81/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/16/hexo%E6%96%87%E7%AB%A0%E7%AE%80%E5%8D%95%E5%8A%A0%E5%AF%86%E8%AE%BF%E9%97%AE%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/16/potrait/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/potrait/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/todo/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E5%BC%83%E7%96%BE%E8%AF%8D/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/15/%E7%A8%BC%E8%BD%A9%E8%AF%8D%E5%BC%95%E4%BA%8C/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/10/%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/reading/</loc>
-    <lastmod>2017-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</loc>
-    <lastmod>2017-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2017/09/08/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01%E8%A5%BF%E6%96%B9%E6%96%87%E5%8C%96%E7%9A%84%E8%A1%B0%E8%90%BD/</loc>
-    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2016/11/09/letting-go/</loc>
-    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2016/11/07/continue-my-blog-career/</loc>
-    <lastmod>2016-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E8%BE%9B%E5%BC%83%E7%96%BE%E8%AF%8D/</loc>
-    <lastmod>2016-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2016/10/01/%E5%9B%BD%E5%BA%86/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/tags/%E7%A8%BC%E8%BD%A9%E8%AF%8D/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/books/</loc>
     <lastmod>2016-09-19T17:01:11+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/about/</loc>
     <lastmod>2016-09-14T20:16:09+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/categories/hexo/</loc>
-    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2016/09/13/hexo%E5%86%99%E4%BD%9C%E8%AF%9D%E9%A2%98/</loc>
-    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/latex/</loc>
+    <lastmod>2016-09-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qiangua.me/post/2016/09/07/latex/</loc>
     <lastmod>2016-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiangua.me/post/2015/09/16/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%B8%B8%E8%A7%81%E5%AF%B9%E6%98%93%E5%85%B3%E7%B3%BB/</loc>
-    <lastmod>2015-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
+  
+  <url>
+    <loc>https://qiangua.me/tags/quantum/</loc>
+    <lastmod>2016-09-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>

@@ -13,17 +13,7 @@
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
-      <description>科研工作者的计算机素养系列简介 缘起 博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不少心得体会。今年暑假里，承蒙导师仁厚，小心翼翼过了个小假期，趁机又折腾优化了自己的工作流程。我在搜索过程中接触到了一个 Workshop ，专门给科研工作者介绍一些计算机技能，非常符合自己的品味。
-故而萌生写出这一系系列的念头，希望能有所得。
-主要构思 考虑完成一件科研课题的必要环节来进行抽象出来进行优化。
-一般的科研课题包含以下几个环节：
- 文献搜集 阅读文献 笔记推导 编程计算 数据处理 数据可视化 撰写论文  每个环节都根据自己的经验，配备了相应的软件来处理。这里重点挑几处来仔细说明一下。
-  对于文献搜集阶段，配合 Zotero 的浏览器插件，很方便的可以把文献收集在 Zotero 的文献库里。更进一步还可以配合 Alfred 的插件来搜索，可以算是比较方便了。
-  文献阅读无非是电子 PDF 阅读和打印下来阅读，单纯 PDF 的话可以用 Mac 上的 Skim，可以进行一些高亮、图框、文字标注等操作。如果是电子书的话，建议用 PDF Expert 来阅读，可以方便显示目录等。
-  笔记的整理最后统一用扫描工具（如 扫描全能王）来保存在个人云盘上。Mathematica 比较适合符号、计算理论推导，而且也可以把它的文档导出为 PDF。
-  编程计算需要根据编程语言选择一个合适趁手的代码编辑器，个人目前对 Sublime 比较满意，同时也欣赏 Neovim 的效率和 VS Code 的活力。对代码编辑器要进行基本的自定义设置，基本的行号显示、语法高亮、自动补全结构跳转等刚需必须得能满足。
-  数据处理的话要统一保存好数据文件格式，目前我就用二进制的 Dat 文件。用 Matlab 进行拟合、插值、数值变换等处理。
-  数据可视化方面， Origin 是常用的画图软件，缺点是需要手动点点点。 Gnuplot 是命令行下的开源画图软件，需要根据文档掌握各个参数的含义，然后提炼出一个能满足自己画图需求的代码即可，方便以后重复使用。</description>
+      <description>科研工作者的计算机素养系列简介 缘起 博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不</description>
     </item>
     
     <item>
@@ -32,31 +22,7 @@
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
-      <description>2018暑假小结 [TOC]
-Todo list  命令行工具（zsh、vim/neovim、spacemacs、命令行下常用快捷键） R/Julia LaTeX 书籍排版 科研工作者的计算机素养(版本管理Git、Linux基本命令及脚本、自动化Make、LaTeX编译等，可以写个小系列😀) 论文进度更新 书籍阅读 影视作品  书籍阅读  生活与命运  最先接触到这本书还是从梁文道的《一千零一夜》谈起。PS 毫无疑问《一千零一夜》是一档绝佳的良心节目。
-全书围绕的是苏联的列宁格勒保卫战，堪称20世纪的《战争与和平》。吸引去读的我的还是书中对于人性的刻画和反思。人性是我近期比较关心的主题（是不是有点不符合同龄人品味，但完全不需要去符合一个莫须有的标准，目前觉得自然随着心性很好）。人性的复杂性不是仅仅能用好坏二分来简单划分。刚刚读一小部分。将来还会写相关的阅读反思。
-影视作品  邪不压正 喜剧之王 小偷家族 美剧 秃鹰 完美陌生人 爱在三部曲（Before sunrise/sunset/midnight）  </description>
-    </item>
-    
-    <item>
-      <title>数据处理心得记录</title>
-      <link>https://qiangua.me/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2018/06/08/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</guid>
-      <description>数据记录与处理「todo」 环节：
-  产生
-  收集
-问券调查（金数据）
-  处理
-  可视化
-Input：dat file
-Process：Plot2，Gnuplot，Matlab, Mathematica, Python, etc
-Output: eps, jpeg, pdf
-  存储与备份
-Dropbox, 坚果云，配合手机端可随时分享链接
-  参考效率与工具的熟练程度
-备选： Matlab，origin，Mathematica，Python</description>
+      <description>2018暑假小结 [TOC] Todo list 命令行工具（zsh、vim/neovim、spacemacs、命令行下常用快捷键） R/Julia LaTeX 书籍排版 科研工作者的计算机素养(</description>
     </item>
     
     <item>
@@ -65,25 +31,7 @@ Dropbox, 坚果云，配合手机端可随时分享链接
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
-      <description>论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。
-eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / 坚果云 里。
-  tips
-给每一个成熟的版本添加一个 tag
-  新的修改先考虑要不要新建一个 develop 分支
-  .gitignore 的使用 排除与监管
-  简明 Git 操作  新建空文件夹 初始化：git init 添加监控文件：git add xxx 从远程获取分支： git pull； 新建本地分支：git branch xxx 添加说明：git commit -m xxxx 提交远程端：git push 查看状态： git status 查看历史：git log 分支切换：git checkout master/develop 添加tag：git tags XXX 历史回退：git reset XXX 合并分支：git merge  </description>
-    </item>
-    
-    <item>
-      <title>Get data from the figure</title>
-      <link>https://qiangua.me/post/2018/04/11/get-data-from-the-figure/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2018/04/11/get-data-from-the-figure/</guid>
-      <description>Get data from the figure in the paper Target ：Get data from the figure in paper
-Method: Using some practical softwares(only in Windows), including Get data, Photoshop(or Paint 🎨 )
-Process:
- Capture the figure from the paper Use PS to erase the irrelevant lines(as clear as possible &amp;amp; save the figure) Open the Get data Graph digitalization Input your revised figure in step 2 Set the scale from the operation in the menu Use auto trace line, digitize area or point capture mode to get the data Use reorder tool to put the data in the order  A useful link to download the get data software : http://www.</description>
+      <description>论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。 eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / 坚果云 里。 tips 给每一个成熟的</description>
     </item>
     
   </channel>

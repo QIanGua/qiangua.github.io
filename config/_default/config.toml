@@ -1,0 +1,104 @@
+baseurl = "https://qiangua.me"
+languageCode = "en-us"
+title = "采采流水"
+# theme = "hugo-ivy"
+theme = "even"
+# theme = "the-roots-home"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+# [[menu.main]]
+#     name = "Tags"
+#     url = "/tags/"
+#     weight = 3
+[[menu.main]]
+    name = "Books"
+    url = "/books/"
+    weight = 4
+# [[menu.main]]
+#     name = "Categories"
+#     url = "/categories/"
+#     weight = 5
+
+# [[menu.main]]
+#     name = "Moments"
+#     url = "/Moments/"
+#     weight = 6
+
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    # description = " An Essay Concerning Human Understanding"
+    description = "IT'S A GOOD LIFE IF YOU DON'T WEAKEN"
+    footer = "&copy; [Qiangua](https://qiangua.me) 2019 | [Instagram](https://www.instagram.com/mlyqdd/)"
+
+  highlightjsVersion = "9.12.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "tex","python","lisp"]
+  highlightjsTheme = "github"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

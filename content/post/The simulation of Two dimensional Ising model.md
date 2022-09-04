@@ -1,21 +1,9 @@
 ---
 title: The simulation of two dimension Ising model
 date: 2018-01-16
-tags: [Monte carlo, Ising model]
-categories: Physics
+tags: ["Monte carlo", "Ising model"]
+categories: ["Physics"]
 ---
-
-# The simulation of 2D Ising model
-
-[TOC]
-
-> ### Ising model on a square lattice
-> **Update: 2018/1/16 **
-> **Begin:2017/10/5**
-
-
-
-
 
 ## 1.模型简述
 
@@ -85,11 +73,11 @@ $$
 
 **参数设定：**
 
-|  $J$  |  1   |
-| :---: | :--: |
-| $k_b$ |  1   |
-|  $T$  | 0-6  |
-| $h_i$ |  0   |
+|  $J$  |   1   |
+| :---: | :---: |
+| $k_b$ |   1   |
+|  $T$  |  0-6  |
+| $h_i$ |   0   |
 
 
 

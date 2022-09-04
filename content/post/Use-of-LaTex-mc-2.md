@@ -1,24 +1,23 @@
 ---
-title: 'LaTeX'
+title: "LaTeX"
 date: 2016-09-07 
-tags:  [LaTex, Quantum]
----
-# Problem #
+tags:  ["LaTex", "Quantum"]
 ---
 
-# 质能公式 #
+
+## 质能公式 
 $$ E=mc^{2} $$
 
 $$
 \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
 $$
-# Proof #
+
+# Proof 
 $$
 e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y
 $$
 
-# Solution #
-
+## Solution 
 
 
 $$
@@ -42,7 +41,7 @@ x &= \sqrt{4^2-1^2} \\\\
 \end{align} 
 $$
 
-# Lorenz Attractor #
+## Lorenz Attractor 
 $$
 \begin{align}
 \dot{x} & =  \sigma(y-x) \\\\
@@ -51,7 +50,7 @@ $$
 \end{align} 
 $$
 
-# Maxwell Equation #
+## Maxwell Equation 
 $$
 \begin{align}
 \nabla\cdot\vec{E} &= \frac{\rho}{\epsilon_0} \\\\
@@ -61,7 +60,7 @@ $$
 \end{align}
 $$
 
-# Useful formulas #
+## Useful formulas 
 $$
 \begin{align}
 \hat{A}\hat{B}\hat{C}&=\hat{A}(\hat{C}\hat{B}+[\hat{B},\hat{C}])\\\\
@@ -72,7 +71,4 @@ e^{i\sigma\_z\phi}&=cos(\sigma\_z\phi)+isin(\sigma\_z\phi)\\\\
 \sigma\_i\sigma_j&=i\varepsilon_{ijk}\sigma_k
 \end{align}
 $$
-
-
-
 

@@ -6,127 +6,14 @@
     <description>Recent content in Physics on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/categories/physics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Short Summary of Recent Calculation</title>
-      <link>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</link>
-      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2019/08/23/a-short-summary-of-recent-calculation/</guid>
-      <description>Time correlation function In this calculation, the bath spectrum used include Ohmic bath with exponential cutoff funciton and the Debye bath.
-Temperature high temperature, $\beta=0.25$ low temperature,$\beta=10,50$ $\beta=1/k_BT=0.25,1,5,10,50$
-Scaling limit $\omega_c/\Delta=0.25,2,2.5,5$
-Debye Spectrum The imaginary part of C(t) can be replaced by a single exponential function
-$$C_I(t)=-\lambda\omega_c \exp(-\omega_c t).$$
-Meanwhile, this need us to fit the real part more carefully.</description>
-    </item>
-    
-    <item>
-      <title>Notes of Quantum Optimal Control</title>
-      <link>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</link>
-      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2019/08/20/notes-of-quantum-optimal-control/</guid>
-      <description>Notes of Quantum Optimal Control The system Hamiltonian: $$ H = \Delta_p(t)|e\rangle\langle e| + \frac{1}{2}[\Omega_p(t)|e\rangle\langle 0 |+\Omega_s(t)|e\rangle\langle 1| + h.c.], $$
-Pulse 1 $$ \Delta_p(t) = \Omega(t)\sin(\alpha),\
-\Omega_p(t) = \Omega(t)\cos(\alpha)\cos(\theta/2),\
-\Omega_s(t) = \Omega(t)\cos(\alpha)\sin(\theta/2)e^{-i\phi},\
-\Omega(t) = \Omega_0 \sin^2(\pi t/\tau).\
-\alpha=0,\theta=\pi/2,\phi=0\
-\tau=tmax=100 ns,\Omega_0\tau=4\pi $$
-$\alpha=0,\theta=\pi/2,\phi=0$
-$\tau=tmax=100 ns,\Omega_0\tau=4\pi$
-$dt=0.5 ns$
-Pulse 2 $$ \Delta_p(t) = 0,\
-\Omega_p(t) = \Omega(t)\cos(\theta(t)),\
-\Omega_s(t) = \Omega(t)\cos(\theta(t)),\</description>
-    </item>
-    
-    <item>
-      <title>量子计算管窥</title>
-      <link>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</link>
-      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2019/06/17/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E7%AE%A1%E7%AA%A5/</guid>
-      <description>量子计算管窥 组成这个“世界”的运动无数的复杂排列有点像是天神们所下的一盘伟大的国际象棋，我们则是这盘棋的观众。我们不知道弈棋的规则，所有能做的事就是观看这场比赛。当然，假如我们观看了足够长的时间，总归能看出几条规则来 \(\cdots\cdots\) 如果我们知道了这些规则，就认为『理解』了世界。
-什么是『计算』？ 『计算』是一种机械化的信息处理方式。计算过程需要物理实体来承载，所谓机械化指的是计算结果不依赖于计算载体，你可以用手指算，可以用算盘，可以用计算机。阿兰・图灵深得计算本质，提出了图灵机的构想来作为通用计算模型。整个计算的历史堪称一部惊心动魄的史诗，各种人物不时从历史长河中的涌现。这里要提一下，19世纪查尔斯・巴贝奇制造的『差分机』，其它暂且不表。
-经典计算 比特是目前通用的最小信息单位。1比特有两种可能状态，通常用0，1来编码，比如可以用0来代表硬币向下，1代表向上。两个经典比特共有 \(2^2=4\) 种可能状态\(\{00,01,10,11\}\)，但实际两个给定的比特只能表示出其中的一种。物理上可以用高电压、低电压来实现 0，1两种状态的表示。
-数字0、1与比特的对应，天然给出了数字编码的方式。原则上任意一个数我们都可以通过二进制来编码，从而可以让计算机识别。比特承载了数字的表示，而数字的运算则由各种逻辑门电路来操控（数字电路忘的差不多了就此打住😅）。
- 量子计算 计算主义者的世界观：宇宙是台量子计算机，它的算法就是物理学。
-量子计算利用量子比特来进行信息处理。不同于经典比特每次只能编码一个数字（0或1），表征一个确定的状态，单个的量子比特可以同时表征两种状态，同时编码0、1两个数字(\(0 \rightarrow |0\rangle, 1\rightarrow |1\rangle\))，这是由量子相干性来保证的。
-学过线性代数的话我们都知道选定一组线性无关的基组之后，任意一个矢量都可以表示为基矢量的线性组合。同样在量子力学中，系统的状态用态矢量 \(|\psi\rangle\) 来描述，任何一个态矢量都可以写为基矢量的线性叠加。
-对于单个的量子比特，为了方便通常选取基矢量为\(|0\rangle、|1\rangle\)，从而任意一个态矢量可以写为基矢量的线性组和即：
-\[ |\psi\rangle = \alpha |0\rangle + \beta|1\rangle. \]
-单个量子比特的状态空间是复空间 \(\mathrm{C}^2\) ，布满了整个布洛赫球面，每个状态对应球面上的一个点。而经典量子比特只有{0,1}两个状态。但要注意的是每次对量子比特测量后仍然只能塌缩得到 0 或 1 两个本征状态。
-所谓量子计算即对量子比特进行操作，但是这种操作是受到限制的，这是由于量子态演化必须服从薛定谔方程，所以必须是保证信息不变的幺正变换。对单个量子比特进行一个运算相当于把 Qubit 从一个状态变成另一个状态，将球面上的一个点变成另一个点。
- \[ |\psi\rangle=\alpha|0\rangle+\beta|1\rangle. \] 两个 Qubit 的话就可以存储4个状态: \[ |\psi_1\psi_2\rangle = c_{00}|00\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{11}|11\rangle=\sum_{i,j=0}^1c_{ij}|ij\rangle. \] 描述 \(n\) 个 Quibt 需要 \(2^n\) 个数字，这是一个快速的指数增长。例如 \(n=10\) ，那就需要大约1024个数来描述所有可能状态。而宇宙中所有原子的总个数也不过是 \(10^{80}\) 左右的量级，由此可见多个量子比特具有了强大的数字表征能力。
-对于量子计算机，数字的操作任务是由量子门来实现的。通过量子门的幺正变换能够对于叠加态的所有分量同时进行，这就是量子计算机的天然优势──量子并行性。每一次的量子门操作是同时处理 \(2^n\) 个数字，而传统计算机每次只能处理一个数字。此外经典比特之间是互相独立的，而量子比特之间还可以存在量子纠缠等特性，这里也就不多做涉及了。
-任意两态量子体系都可成为量子比特的载体，如二能级原子、分子或离子，光子偏振态或其它等效的自旋\(1/2\)的粒子。在量子计算中，因为 Qubit 是由原子或者其他微观粒子所构成，很容易受到外部环境的干扰，导致量子态之间纠缠关联的缺失，从而导致计算错误，因此要实现量子计算必须克服量子态之间关联的缺失即相干性的消失，我们称之为退相干。</description>
-    </item>
-    
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/categories/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The simulation of two dimension Ising model</title>
       <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
-      <description>The simulation of 2D Ising model [TOC]
- Ising model on a square lattice **Update: 2018/1/16 ** Begin:2017/10/5
- 1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。
-一个由$N$个固定点构成的$S$维规则磁性点阵，每个点上放置一个自旋向上或向下的粒子。整个系统的状态由序列$\mathcal{\sigma}=\left(\sigma_1,\sigma_2,\dots,\sigma_N\right)$来表征，每个自旋方向为向上或者向下： $$ \sigma_i ={1,-1} $$
-下图是用 Mathematica 作出的一个图示：
-系统的哈密顿量(可理解为能量)： $$ H_N\left( \mathcal{\sigma} \right) = -\sum_{\langle i,j\rangle}J_{ij}\sigma_i\sigma_j - \sum_{i=1}^N h_i \sigma_i $$ 其中，$J_{ij}$为耦合常数， 表示$\sigma_i$ 和$\sigma_j$ 之间的耦合强度，$h_i$ 是外磁场强度。
-为了简化模拟过程，一般选取$J_{i,j}=J, h_i=0$。
-在正则系综情况下，系统处于某一构型的概率服从玻尔兹曼分布： $$ P_\sigma^{B}=\frac{\exp(-H(\sigma)\beta)}{\mathcal{Z}} $$ 其中 $\mathcal{z}$ 是配分函数， $$ \mathcal{z}=\sum_{\sigma} e^{-\beta H(\sigma)} $$ **常用的物理量平均值是**：
-能量 $E$： $$ E=\langle H \rangle = \sum_\sigma H(\sigma)P_\sigma^B $$ 平均磁化强度 $M$: $$ \langle M \rangle=\frac{1}{N} \sum_i \sigma_i $$</description>
-    </item>
-    
-    <item>
-      <title>Metropolis-Hasting algorithm</title>
-      <link>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2017/10/03/metropolis-hasting-algorithm/</guid>
-      <description>Metropolis-Hasting algorithm [TOC]
-0. 预备知识 1.Monte carlo simulation 2. Metropolis-Hasting algorithm 由於簡單抽樣存在效率低、在構象空間以等概率遍歷抽樣的缺點，重要性抽樣是針對此進行改進的抽樣方法。從物理圖像來想，系統的構型空間雖然很大，但是處於各個能量狀態的概率是不同的，對於正則系綜，系統處於各個能量狀態的概率分佈遵循玻尓兹曼分佈，處於能量低的狀態具有更大的概率：
-$$ p(E_j)=\frac{\exp(-\beta E_j)}{\sum_j\exp(-\beta E_j)}=\frac{1}{\mathcal{Z}}\exp(-\beta E_j)$$
-Metropolis 算法就是基於此實現抽樣的一個有效算法。
- Metropolois-Hasting Algorithm
- Initialize $x^{(0)}$ randomly
-for i=0 to N-1 do
-​ Sample $u\sim U[0,1]$
-​ Sample $x^*\sim U[0,1]$
-​ if $u&amp;lt;A(x^\ast,x^{(i-1)})=min\left{1,\frac{p(x^\ast)q(x^{(i)}|x^\ast)}{p(x^{(i)})q(x^{(i)})}\right}$ then
-​ $x^{(i+1)}=x^\ast$
-​ else
-​ $x^{(i+1)}=x^{(i)}$
-​ end if
-end for
-  3. Application 3.1 Two-Dimension Ising model 为了避免臃肿，还是单独另起一篇吧&amp;gt;smile&amp;lt;。</description>
-    </item>
-    
-    <item>
-      <title>色彩的结构解析</title>
-      <link>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</link>
-      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2017/09/30/%E8%89%B2%E5%BD%A9%E7%9A%84%E7%BB%93%E6%9E%84%E8%A7%A3%E6%9E%90/</guid>
-      <description>色彩的结构解析 &amp;hellip; 不知何时能把这个坑填完 |+&amp;gt;&amp;lt;+|, 突然间打出一个直积态?表情，投影算符总不会错吧，哈哈哈&amp;hellip;
-1. 色彩游戏 2. 色彩的结构 线性空间
-2.1 颜色的数字表示 色度学 3. 有趣的节点 </description>
-    </item>
-    
-    <item>
-      <title>熵与能量</title>
-      <link>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiangua.me/post/2017/09/28/%E7%86%B5%E4%B8%8E%E8%83%BD%E9%87%8F/</guid>
-      <description>熵与能量  &amp;quot;We are most likely to observe the most probable state&amp;quot;
- \[ S = k_b\ln\Omega \]
-熵最大：
-能量最低原理：
-亥姆霍兹自由能： \[ F=E-TS \]</description>
+      <description>1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理</description>
     </item>
     
   </channel>
