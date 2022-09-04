@@ -16,7 +16,7 @@ $$
 
 下图是用 **Mathematica**  作出的一个图示：
 
-<center>![2D Ising Model](http://upload-images.jianshu.io/upload_images/26717-40c92a2ca8f6d4eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 "二维伊辛模型示意图")</center>
+![2D Ising Model](https://media.cleanshot.cloud/media/36070/kJmB9ZJ3R8BgNy1nGFtjq1OgT0HQgMx2oe2HNlv8.jpeg?Expires=1662314247&Signature=hgVKr~6t6UYoNIOcl0DWpObZa9YlKO6GiKBjW3U1eXYI739CST~3rBpt1dMmdqW0YbZIYYHg79WycASuduSSxkOxjC3yILZ8SFjzxrE9If2wmPp3rwZEsBJ2Nwf5~WrRqPSx-GsPsf5YF9RL8Td0nB2~WHUvOth44bDQTmwSgESfhXhCNSUQYoIb8hvxRTLZXHAFLE~QISD3CLqb5Gl9fBg1hMF51WrHeLUiE28OGscfsqN899K~-zayjBSoCQU44~lK8FFqMkU3FewT4EHGJhvKEc~p~dRU0sw83z~HAnPpS74FWXuwhS8VsfjgKXIgM9s~BRoDNz9VIQe4FnAPZQ__&Key-Pair-Id=K269JMAT9ZF4GZ)
 
 系统的哈密顿量(可理解为能量)：
 $$
@@ -90,13 +90,13 @@ $$
 
 下图是$16\times 16$ 格子模拟的结果，结果比较理想：
 
-![ising15.jpg](https://share.cleanshot.com/4PECa5)
+![ising15.jpg](https://media.cleanshot.cloud/media/36070/lKI2aFqEL2IYvE6SwiwE0PDGs8VoFj73qGjIhsIn.jpeg?Expires=1662322881&Signature=jysyFUlv72LNE4HjhCtH3lSCMC4iz6FwsjvBYUpz9p3khqus0K6dGgOGaBb-qhROaidWJXedhKIasT9kNtwL5eQ9A~XxyPSMk8qO2IRw~zet6He7StWE4UATptaP~GqyaozGRRkqnG-Xd~bxf8QPsDqnotyCvncX9H-EFwbO5GmvqfPlMd177EEOn~egon8KCn~~XMTuDTzTuiUpteCfm8LpStSUM4NgbwdLSQcr1MXiy4h5i9DmM-R16owpwGSfc7CSYM0czNHy7~WDLxpZ-0YuEuJF7e-GCzKssRRS7WYBnhevMZyIXOjtbr9Eubnrim50gC630KUiWYRHFICmUg__&Key-Pair-Id=K269JMAT9ZF4GZ)
 
 
 
 下图是$2\times 2$ 格子模拟的结果：
 
-![ising2.png](https://share.cleanshot.com/2lqG5v)
+![ising2.png](https://media.cleanshot.cloud/media/36070/iHuRBICzIvd9tfFhYNZkuviIpKUW4hnJUNUVIpdd.jpeg?Expires=1662322845&Signature=SoI0NOUQ64SrJNu7o3~Vi7V3bH-HHB97xrfObHSR0zFyEkwe7dVe7Au7wz6WpY~MH0aGq0lrx5Tj0NZIdsgssHmRLBChcSHZPDEmVu8pHwpgmFTmG9Pe4ckeEdbGuuM7iOPIAfYx8VBNQI01UFP7ioSz4nRdY5RRw5Kccepnzi~6ZR3gKSsQWOwKlHQMiJJAl0pk-kC~b5LF7OPwFXADTSEf1cAfgaz7mHw24XrWIEBKMe06GHMi8xJNmSxGdKyrgsic48yRkrhITmxESxCP6PSZgm-GpmWYgugnbapjjzZJO4alM6n0p0Habkhy0SLxz50~o0Uw4bl9pLd7Hh77WQ__&Key-Pair-Id=K269JMAT9ZF4GZ)
 
 
 
