@@ -90,13 +90,13 @@ $$
 
 下图是$16\times 16$ 格子模拟的结果，结果比较理想：
 
-![ising15.jpg](http://upload-images.jianshu.io/upload_images/26717-e6304d07fd77f65c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ising15.jpg](https://share.cleanshot.com/4PECa5)
 
 
 
 下图是$2\times 2$ 格子模拟的结果：
 
-![ising2.png](http://upload-images.jianshu.io/upload_images/26717-b182b26f2af24045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ising2.png](https://share.cleanshot.com/2lqG5v)
 
 
 
