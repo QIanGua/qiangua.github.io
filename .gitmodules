@@ -3,4 +3,4 @@
     url = https://github.com/QIanGua/hugo-ivy.git
 [submodule "themes/hugo-theme-even"]
 	path = themes/hugo-theme-even
-	url = https://github.com/olOwOlo/hugo-theme-even
+	url = https://github.com/olOwOlo/hugo-theme-even.git
