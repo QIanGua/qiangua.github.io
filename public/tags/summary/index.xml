@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>summary on 采采流水</title>
-    <link>https://qiangua.me/tags/summary/</link>
+    <link>http://localhost:1313/tags/summary/</link>
     <description>Recent content in summary on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/summary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2018暑假小结</title>
-      <link>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</link>
+      <link>http://localhost:1313/post/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
+      <guid>http://localhost:1313/post/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
       <description>2018暑假小结 [TOC] Todo list 命令行工具（zsh、vim/neovim、spacemacs、命令行下常用快捷键） R/Julia LaTeX 书籍排版 科研工作者的计算机素养(</description>
     </item>
     

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 采采流水</title>
-    <link>https://qiangua.me/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>technique</title>
-      <link>https://qiangua.me/categories/technique/</link>
+      <link>http://localhost:1313/categories/technique/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/categories/technique/</guid>
+      <guid>http://localhost:1313/categories/technique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics</title>
-      <link>https://qiangua.me/categories/physics/</link>
+      <link>http://localhost:1313/categories/physics/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/categories/physics/</guid>
+      <guid>http://localhost:1313/categories/physics/</guid>
       <description></description>
     </item>
     

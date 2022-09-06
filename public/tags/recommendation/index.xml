@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>recommendation on 采采流水</title>
-    <link>https://qiangua.me/tags/recommendation/</link>
+    <link>http://localhost:1313/tags/recommendation/</link>
     <description>Recent content in recommendation on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2019 14:09:00 +0800</lastBuildDate><atom:link href="https://qiangua.me/tags/recommendation/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Nov 2019 14:09:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/recommendation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anual Recommendation</title>
-      <link>https://qiangua.me/post/2019/11/24/anual-recommendation/</link>
+      <link>http://localhost:1313/post/%E5%B9%B4%E5%BA%A6%E7%A7%81%E4%BA%BA%E6%8E%A8%E8%8D%90/</link>
       <pubDate>Sun, 24 Nov 2019 14:09:00 +0800</pubDate>
       
-      <guid>https://qiangua.me/post/2019/11/24/anual-recommendation/</guid>
+      <guid>http://localhost:1313/post/%E5%B9%B4%E5%BA%A6%E7%A7%81%E4%BA%BA%E6%8E%A8%E8%8D%90/</guid>
       <description>选择标准：“看过后在心中留下的时间长短，对自我感情的触动”。 书籍 有限与无限的世界 规则，游戏视角 千面英雄 神话不过是影射人自身 我是个怪圈 对“我”</description>
     </item>
     

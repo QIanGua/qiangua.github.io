@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monte carlo on 采采流水</title>
-    <link>https://qiangua.me/tags/monte-carlo/</link>
+    <link>http://localhost:1313/tags/monte-carlo/</link>
     <description>Recent content in Monte carlo on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The simulation of two dimension Ising model</title>
-      <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
+      <link>http://localhost:1313/post/the-simulation-of-two-dimensional-ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
+      <guid>http://localhost:1313/post/the-simulation-of-two-dimensional-ising-model/</guid>
       <description>1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理</description>
     </item>
     

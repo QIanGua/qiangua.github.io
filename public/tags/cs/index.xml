@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cs on 采采流水</title>
-    <link>https://qiangua.me/tags/cs/</link>
+    <link>http://localhost:1313/tags/cs/</link>
     <description>Recent content in cs on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>科研工作者的计算机素养系列简介</title>
-      <link>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</link>
+      <link>http://localhost:1313/post/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
-      <description>科研工作者的计算机素养系列简介 缘起 博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不</description>
+      <guid>http://localhost:1313/post/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
+      <description>缘起 博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不少心得体会。今年暑假里，承蒙导</description>
     </item>
     
   </channel>

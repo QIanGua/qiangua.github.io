@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 采采流水</title>
-    <link>https://qiangua.me/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rmarkdown</title>
-      <link>https://qiangua.me/tags/rmarkdown/</link>
+      <link>http://localhost:1313/tags/rmarkdown/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/rmarkdown/</guid>
+      <guid>http://localhost:1313/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recommendation</title>
-      <link>https://qiangua.me/tags/recommendation/</link>
+      <link>http://localhost:1313/tags/recommendation/</link>
       <pubDate>Sun, 24 Nov 2019 14:09:00 +0800</pubDate>
       
-      <guid>https://qiangua.me/tags/recommendation/</guid>
+      <guid>http://localhost:1313/tags/recommendation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cs</title>
-      <link>https://qiangua.me/tags/cs/</link>
+      <link>http://localhost:1313/tags/cs/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/cs/</guid>
+      <guid>http://localhost:1313/tags/cs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>summary</title>
-      <link>https://qiangua.me/tags/summary/</link>
+      <link>http://localhost:1313/tags/summary/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/summary/</guid>
+      <guid>http://localhost:1313/tags/summary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://qiangua.me/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/git/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>paper</title>
-      <link>https://qiangua.me/tags/paper/</link>
+      <link>http://localhost:1313/tags/paper/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/paper/</guid>
+      <guid>http://localhost:1313/tags/paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tools</title>
-      <link>https://qiangua.me/tags/tools/</link>
+      <link>http://localhost:1313/tags/tools/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/tools/</guid>
+      <guid>http://localhost:1313/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ising model</title>
-      <link>https://qiangua.me/tags/ising-model/</link>
+      <link>http://localhost:1313/tags/ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/ising-model/</guid>
+      <guid>http://localhost:1313/tags/ising-model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Monte carlo</title>
-      <link>https://qiangua.me/tags/monte-carlo/</link>
+      <link>http://localhost:1313/tags/monte-carlo/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/monte-carlo/</guid>
+      <guid>http://localhost:1313/tags/monte-carlo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LaTex</title>
-      <link>https://qiangua.me/tags/latex/</link>
+      <link>http://localhost:1313/tags/latex/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/latex/</guid>
+      <guid>http://localhost:1313/tags/latex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantum</title>
-      <link>https://qiangua.me/tags/quantum/</link>
+      <link>http://localhost:1313/tags/quantum/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/tags/quantum/</guid>
+      <guid>http://localhost:1313/tags/quantum/</guid>
       <description></description>
     </item>
     

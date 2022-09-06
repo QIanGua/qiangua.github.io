@@ -19,17 +19,12 @@ Definition:
 
 number of observations: $N_{observations} = 1000$,
 
-number of trials: $ N_{trials} = 100 $,
+number of trials: $N_{trials} = 100$,
 
-probability of success on each trial: $ X_i(i=1,N_{observations}) $,
+probability of success on each trial: $X_i(i=1,N_{observations})$,
 
-mean vale of $X_i$: $ \overline{X} $
+mean vale of $X_i$: $\overline{X}$
 
-$$
-F=ma
-$$
-
-$E=mc^2$
 ```r
 library(ggplot2)
 library(magrittr)

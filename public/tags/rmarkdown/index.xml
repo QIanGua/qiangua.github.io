@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rmarkdown on 采采流水</title>
-    <link>https://qiangua.me/tags/rmarkdown/</link>
+    <link>http://localhost:1313/tags/rmarkdown/</link>
     <description>Recent content in Rmarkdown on 采采流水</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qiangua.me/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Verifying Central Limit Theorem with R Language</title>
-      <link>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</link>
+      <link>http://localhost:1313/post/2020-03-29-verify-clt_fromrmd/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</guid>
+      <guid>http://localhost:1313/post/2020-03-29-verify-clt_fromrmd/</guid>
       <description>Question 一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极</description>
     </item>
     
