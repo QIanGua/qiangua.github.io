@@ -1,4 +1,15 @@
-content-org/
+# Generated files by Hugo
+resources/_gen/
+
+# Theme (add as submodule if needed)
+themes/hugo-ivy
+
+#TM|content-org/
+#TY|content-rmarkdown/
+#ZJ|.Rproj.user
+#ZV|.DS_Store
+#QQ|.obsidian
+#XN|themes/even
 content-rmarkdown/
 .Rproj.user
 .DS_Store
