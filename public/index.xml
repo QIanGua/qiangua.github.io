@@ -2,118 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>采采流水</title>
-    <link>http://localhost:1313/</link>
+    <link>https://qiangua.me/</link>
     <description>Recent content on 采采流水</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Feb 2026 14:26:33 +0800</lastBuildDate>
+    <atom:link href="https://qiangua.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>模型的艺术：策略性遗忘</title>
+      <link>https://qiangua.me/post/2026/02/26/%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%89%BA%E6%9C%AF%E7%AD%96%E7%95%A5%E6%80%A7%E9%81%97%E5%BF%98/</link>
+      <pubDate>Thu, 26 Feb 2026 14:09:00 +0800</pubDate>
+      <guid>https://qiangua.me/post/2026/02/26/%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%89%BA%E6%9C%AF%E7%AD%96%E7%95%A5%E6%80%A7%E9%81%97%E5%BF%98/</guid>
+      <description>&lt;p&gt;阿根廷作家博尔赫斯曾写过一个寓言：一个帝国的制图师追求极致精确，最终画出了一张与国土等大的地图。这张地图完美复刻了每一寸土地、每一块石头、每一棵树木。然而，它完全无用，最终被丢弃在沙漠里腐烂。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Verifying Central Limit Theorem with R Language</title>
-      <link>http://localhost:1313/post/2020-03-29-verify-clt_fromrmd/</link>
+      <link>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/2020-03-29-verify-clt_fromrmd/</guid>
-      <description>Question 一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极</description>
+      <guid>https://qiangua.me/post/2020/03/29/verifying-central-limit-theorem-with-r-language/</guid>
+      <description>&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;一个随机量可能是 $1$,也可能是 $‐1$。两个值的几率都是 $1/2$。现进行 $1000$ 次实验,每次实验进行 $100$ 次随机量测试。模拟这个实验, 验证中心极限定理。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Anual Recommendation</title>
-      <link>http://localhost:1313/post/%E5%B9%B4%E5%BA%A6%E7%A7%81%E4%BA%BA%E6%8E%A8%E8%8D%90/</link>
+      <link>https://qiangua.me/post/2019/11/24/anual-recommendation/</link>
       <pubDate>Sun, 24 Nov 2019 14:09:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E5%B9%B4%E5%BA%A6%E7%A7%81%E4%BA%BA%E6%8E%A8%E8%8D%90/</guid>
-      <description>选择标准：“看过后在心中留下的时间长短，对自我感情的触动”。 书籍 有限与无限的世界 规则，游戏视角 千面英雄 神话不过是影射人自身 我是个怪圈 对“我”</description>
+      <guid>https://qiangua.me/post/2019/11/24/anual-recommendation/</guid>
+      <description>&lt;p&gt;&lt;code&gt;选择标准：“看过后在心中留下的时间长短，对自我感情的触动”。&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;书籍&#34;&gt;书籍&lt;/h2&gt;&#xA;&lt;h3 id=&#34;有限与无限的世界&#34;&gt;有限与无限的世界&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;规则，游戏视角&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;千面英雄&#34;&gt;千面英雄&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;神话不过是影射人自身&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;我是个怪圈&#34;&gt;我是个怪圈&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;对“我”本身的追问&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;永恒的终结&#34;&gt;永恒的终结&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;阿西莫夫，科幻，如果可以控制未来？&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>瞬间</title>
-      <link>http://localhost:1313/moments/</link>
+      <link>https://qiangua.me/moments/</link>
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/moments/</guid>
-      <description>须臾之所得 2021-12-07 我有一个 snippet, 名为 dz ，断章 午饭归来路上，又想到了存在与信息的关系。 人存在于环境之中，无法单独孤立出来，从而必然无时无刻在与环境相互作</description>
+      <guid>https://qiangua.me/moments/</guid>
+      <description>&lt;h1 id=&#34;须臾之所得&#34;&gt;须臾之所得&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;2021-12-07&lt;br&gt;&#xA;我有一个 snippet, 名为 dz ，断章&lt;/p&gt;&#xA;&lt;p&gt;午饭归来路上，又想到了存在与信息的关系。&#xA;人存在于环境之中，无法单独孤立出来，从而必然无时无刻在与环境相互作用，耗散无法消除。&#xA;这是实物存在的基本形式。存在就是被大自然感知，被一部分敏锐的人感知的潜力。&#xA;假如存在而无法被大自然感知，那和房间中喷火的龙有什麽区别呢？&#xA;被感知就是被测量到，即使神秘如中微子、Higgs 玻色子，也终究无法完全遁形。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>趁昼长夜短，收拾好平生故事，落草为寇</title>
-      <link>http://localhost:1313/post/%E8%B6%81%E8%BF%98%E8%AE%B0%E5%BE%97/</link>
+      <link>https://qiangua.me/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E8%B6%81%E8%BF%98%E8%AE%B0%E5%BE%97/</guid>
-      <description>今天听阿郎老师讲到了2004年的爱情电影《美丽心灵中的永恒阳光》，又意译为《暖暖内含光》。 阿郎老师讲述地分外动人。爱情剧如今层出不穷，各种类</description>
+      <guid>https://qiangua.me/post/2019/06/19/%E8%B6%81%E6%98%BC%E9%95%BF%E5%A4%9C%E7%9F%AD%E6%94%B6%E6%8B%BE%E5%A5%BD%E5%B9%B3%E7%94%9F%E6%95%85%E4%BA%8B%E8%90%BD%E8%8D%89%E4%B8%BA%E5%AF%87/</guid>
+      <description>&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=330 height=86 src=&#34;//music.163.com/outchain/player?type=2&amp;id=19963154&amp;auto=1&amp;height=66&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;今天听阿郎老师讲到了2004年的爱情电影《美丽心灵中的永恒阳光》，又意译为《暖暖内含光》。&#xA;阿郎老师讲述地分外动人。爱情剧如今层出不穷，各种类型题材都有涉及，可以说是最大的俗套剧。此前最喜欢爱情电影是无疑是爱在三部曲了，&#xA;而《暖暖》无疑又玩出了新高度，通过记忆删除的情节，追溯到了近乎爱情的本源。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>科研工作者的计算机素养系列简介</title>
-      <link>http://localhost:1313/post/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</link>
+      <link>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
-      <description>缘起 博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不少心得体会。今年暑假里，承蒙导</description>
+      <guid>https://qiangua.me/post/2018/09/08/%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E8%80%85%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B4%A0%E5%85%BB%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B/</guid>
+      <description>&lt;h1 id=&#34;科研工作者的计算机素养系列简介&#34;&gt;科研工作者的计算机素养系列简介&lt;/h1&gt;&#xA;&lt;h1 id=&#34;缘起&#34;&gt;缘起&lt;/h1&gt;&#xA;&lt;p&gt;博主在科研之余经常试用一些软件，企图来提高自己的工作效率。近些年来，零零星星的也用了一大波软件，也算是有不少心得体会。今年暑假里，承蒙导师仁厚，小心翼翼过了个小假期，趁机又折腾优化了自己的工作流程。我在搜索过程中接触到了一个 &lt;a href=&#34;https://cquic.github.io/summer17-computing-workshop/&#34;&gt;Workshop&lt;/a&gt; ，专门给科研工作者介绍一些计算机技能，非常符合自己的品味。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2018暑假小结</title>
-      <link>http://localhost:1313/post/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</link>
+      <link>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
-      <description>2018暑假小结 [TOC] Todo list 命令行工具（zsh、vim/neovim、spacemacs、命令行下常用快捷键） R/Julia LaTeX 书籍排版 科研工作者的计算机素养(</description>
+      <guid>https://qiangua.me/post/2018/09/07/2018%E6%9A%91%E5%81%87%E5%B0%8F%E7%BB%93/</guid>
+      <description>&lt;h1 id=&#34;2018暑假小结&#34;&gt;2018暑假小结&lt;/h1&gt;&#xA;&lt;p&gt;[TOC]&lt;/p&gt;&#xA;&lt;h2 id=&#34;todo-list&#34;&gt;Todo list&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;命令行工具（zsh、vim/neovim、spacemacs、命令行下常用快捷键）&lt;/li&gt;&#xA;&lt;li&gt;R/Julia&lt;/li&gt;&#xA;&lt;li&gt;LaTeX 书籍排版&lt;/li&gt;&#xA;&lt;li&gt;科研工作者的计算机素养(版本管理Git、Linux基本命令及脚本、自动化Make、LaTeX编译等，可以写个小系列😀)&lt;/li&gt;&#xA;&lt;li&gt;论文进度更新&lt;/li&gt;&#xA;&lt;li&gt;书籍阅读&lt;/li&gt;&#xA;&lt;li&gt;影视作品&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;书籍阅读&#34;&gt;书籍阅读&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;生活与命运&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;最先接触到这本书还是从梁文道的《一千零一夜》谈起。PS 毫无疑问《一千零一夜》是一档绝佳的良心节目。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>论文与版本管理</title>
-      <link>http://localhost:1313/post/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
+      <link>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
-      <description>论文与版本管理「todo」 使用 Git 进行版本管理。 主要管理的是 tex 文件。 eps 图片 基本不需要太多修改，考虑整个文件夹放在 Dropbox / 坚果云 里。 tips 给每一个成熟的</description>
+      <guid>https://qiangua.me/post/2018/06/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
+      <description>&lt;h1 id=&#34;论文与版本管理todo&#34;&gt;论文与版本管理「todo」&lt;/h1&gt;&#xA;&lt;p&gt;使用 &lt;strong&gt;Git&lt;/strong&gt; 进行版本管理。 主要管理的是 &lt;strong&gt;tex&lt;/strong&gt; 文件。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;eps&lt;/strong&gt; 图片 基本不需要太多修改，考虑整个文件夹放在 &lt;strong&gt;Dropbox&lt;/strong&gt; / &lt;strong&gt;坚果云&lt;/strong&gt; 里。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;tips&lt;/p&gt;&#xA;&lt;p&gt;给每一个成熟的版本添加一个 &lt;strong&gt;tag&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;新的修改先考虑要不要新建一个 &lt;strong&gt;develop&lt;/strong&gt; 分支&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mac 编码格式转换</title>
-      <link>http://localhost:1313/post/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</link>
+      <link>https://qiangua.me/post/2018/05/11/mac-%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</guid>
-      <description>用 LaTeX 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。 缘起 我不论在 **Windows **还是 Mac 的 TeX 文件上用的都是 UTF8 编码，这也是目前比较现代的做法，</description>
+      <guid>https://qiangua.me/post/2018/05/11/mac-%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</guid>
+      <description>&lt;p&gt;用 &lt;strong&gt;LaTeX&lt;/strong&gt; 以来一直有一个困扰，昨天集中爆发出来了，这才把它彻底解决掉。&lt;/p&gt;&#xA;&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;&#xA;&lt;p&gt;我不论在 **Windows **还是 &lt;strong&gt;Mac&lt;/strong&gt; 的 &lt;strong&gt;TeX&lt;/strong&gt; 文件上用的都是 &lt;strong&gt;UTF8&lt;/strong&gt; 编码，这也是目前比较现代的做法，可是导师那边用的是 &lt;strong&gt;GBK&lt;/strong&gt; 编码，所以必须要转换过去才能顺利编译中文部分（还是纯英文方便）。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The simulation of two dimension Ising model</title>
-      <link>http://localhost:1313/post/the-simulation-of-two-dimensional-ising-model/</link>
+      <link>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/the-simulation-of-two-dimensional-ising-model/</guid>
-      <description>1.模型简述 伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理</description>
+      <guid>https://qiangua.me/post/2018/01/16/the-simulation-of-two-dimension-ising-model/</guid>
+      <description>&lt;h2 id=&#34;1模型简述&#34;&gt;1.模型简述&lt;/h2&gt;&#xA;&lt;p&gt;伊辛模型是用来研究固体磁性最为重要的模型之一，而昂萨格(Onsager)于1944年对二维伊辛模型的解析解的发现则标志着统计物理的新篇章。&lt;/p&gt;&#xA;&lt;p&gt;一个由$N$个固定点构成的$S$维规则磁性点阵，每个点上放置一个自旋向上或向下的粒子。整个系统的状态由序列$\mathcal{\sigma}=\left(\sigma_1,\sigma_2,\dots,\sigma_N\right)$来表征，每个自旋方向为向上或者向下：&#xA;$$&#xA;\sigma_i ={1,-1}&#xA;$$&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>書單</title>
-      <link>http://localhost:1313/books/</link>
+      <link>https://qiangua.me/books/</link>
       <pubDate>Mon, 19 Sep 2016 17:01:11 +0000</pubDate>
-      
-      <guid>http://localhost:1313/books/</guid>
-      <description>2020.02.06: 列表顺序从上到下表示读的时间从近期到早期 2019.12.08: 我整理的文字集 我也曾多次表白 2019.09.22: 为了防止徒有虚名要开始记录读书笔记 2016.09.19: 开始记录 [已读]《情感化设计》</description>
+      <guid>https://qiangua.me/books/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;2020.02.06: 列表顺序从上到下表示读的时间从近期到早期&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2019.12.08: 我整理的文字集&lt;/strong&gt; &lt;a href=&#34;https://github.com/QIanGua/guwenxuan&#34;&gt;我也曾多次表白&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2019.09.22: 为了防止徒有虚名要开始记录读书笔记&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2016.09.19: 开始记录&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>關於</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://qiangua.me/about/</link>
       <pubDate>Wed, 14 Sep 2016 20:16:09 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>關於博客 “采采流水” 取自司徒空《二十四詩品》之纖穠篇中“采采流水，蓬蓬遠春”。 Who am I? &amp;ldquo;A rose by any other name would still smell as sweet.&amp;rdquo; 不断去寻求新的可能性 &amp;ldquo;The ultimate measure of a man is</description>
+      <guid>https://qiangua.me/about/</guid>
+      <description>&lt;h1 id=&#34;關於博客&#34;&gt;關於博客&lt;/h1&gt;&#xA;&lt;p&gt;“采采流水” 取自司徒空《二十四詩品》之纖穠篇中“采采流水，蓬蓬遠春”。&lt;/p&gt;&#xA;&lt;h1 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;A rose by any other name would still smell as sweet.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;不断去寻求新的可能性&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;The ultimate measure of a man is not where he stands in moments of comfort and convince, but where he stands at times of challenge and controversy&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>LaTeX</title>
-      <link>http://localhost:1313/post/use-of-latex-mc-2/</link>
+      <link>https://qiangua.me/post/2016/09/07/latex/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/use-of-latex-mc-2/</guid>
-      <description>质能公式 $$ E=mc^{2} $$ $$ \frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right) $$ Proof $$ e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y $$ Solution $$ \begin{align} e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi} &amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\\ &amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\\ &amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\\ &amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\\ &amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\\ &amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\\ &amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\\ &amp;amp;=e^{2i\sigma_z\phi}\sigma_y \end{align} $$ $$ \begin{align} x &amp;amp;= \sqrt{4^2-1^2} \\ &amp;amp;= \sqrt{15}. \end{align} $$ Lorenz Attractor $$ \begin{align} \dot{x} &amp;amp; = \sigma(y-x) \\ \dot{y} &amp;amp; =</description>
+      <guid>https://qiangua.me/post/2016/09/07/latex/</guid>
+      <description>&lt;h2 id=&#34;质能公式&#34;&gt;质能公式&lt;/h2&gt;&#xA;&lt;p&gt;$$ E=mc^{2} $$&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)&#xA;$$&lt;/p&gt;&#xA;&lt;h1 id=&#34;proof&#34;&gt;Proof&lt;/h1&gt;&#xA;&lt;p&gt;$$&#xA;e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}=e^{2i\sigma_z\phi}\sigma_y&#xA;$$&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;$$&#xA;\begin{align}&#xA;e^{i\sigma_{z}\phi}\sigma_ye^{-i\sigma_z\phi}&#xA;&amp;amp;=e^{i\sigma_{z}\phi}(e^{-i\sigma_z\phi}\sigma_y+[\sigma_y,e^{-i\sigma_z\phi}])\\&#xA;&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,cos(\phi)-i sin(\sigma_z\phi)]\\&#xA;&amp;amp;=\sigma_y+e^{i\sigma_{z}\phi}[\sigma_y,-i\sigma_zsin(\phi)]\\&#xA;&amp;amp;=\sigma_y-i sin(\phi) e^{i\sigma_{z}\phi}[\sigma_y,\sigma_z]\\&#xA;&amp;amp;=\sigma_y+2isin(\phi) e^{i\sigma_z\phi}\sigma_z\sigma_y\\&#xA;&amp;amp;=e^{i\sigma_z\phi}(e^{-i\sigma_z\phi}\sigma_y+2i\sigma_zsin(\phi)\sigma_z\sigma_y)\\&#xA;&amp;amp;=e^{i\sigma_z\phi}(cos(\sigma_z\phi)+i\sigma_zsin(\phi))\sigma_y\\&#xA;&amp;amp;=e^{2i\sigma_z\phi}\sigma_y&#xA;\end{align}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\begin{align}&#xA;x &amp;amp;= \sqrt{4^2-1^2} \\&#xA;&amp;amp;= \sqrt{15}.&#xA;\end{align}&#xA;$$&lt;/p&gt;&#xA;&lt;h2 id=&#34;lorenz-attractor&#34;&gt;Lorenz Attractor&lt;/h2&gt;&#xA;&lt;p&gt;$$&#xA;\begin{align}&#xA;\dot{x} &amp;amp; =  \sigma(y-x) \\&#xA;\dot{y} &amp;amp; = \rho x - y - xz \\&#xA;\dot{z} &amp;amp; = -\beta z + xy&#xA;\end{align}&#xA;$$&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>https://qiangua.me/post/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qiangua.me/post/1/01/01/</guid>
+      <description>&lt;h1 id=&#34;lazygit-自定义命令集成-claude-code-实践指南&#34;&gt;Lazygit 自定义命令集成 Claude Code 实践指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;&#xA;&lt;p&gt;在日常开发中，我使用 Lazygit 作为 Git 的 TUI 工具，同时使用 Claude Code 作为 AI 编程助手。为了提升工作流效率，我希望在 Lazygit 中直接通过快捷键切换分支并启动 Claude Code，避免手动操作。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
